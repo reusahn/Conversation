@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "updated_date": "2026-10-26",
+  "research_protocol": "v2.1",
+  "all_personas_100": false,
+  "score_type": "fictional_advisory_review_not_external_peer_review",
+  "scores": [
+    {
+      "persona": "A",
+      "role": "HCI 교수",
+      "latest_completed_protocol": "v2",
+      "score": 90,
+      "max": 100,
+      "history": [
+        {
+          "protocol": "v1",
+          "score": 76
+        },
+        {
+          "protocol": "v2",
+          "score": 90
+        }
+      ],
+      "remaining": [
+        "실제 품질 허용폭 δ",
+        "과제 분류 기준",
+        "지표별 분석 규칙",
+        "자원·모집·최종 표본 계획"
+      ]
+    },
+    {
+      "persona": "B",
+      "role": "HCI 논문 포닥",
+      "latest_completed_protocol": "v2",
+      "score": 62.5,
+      "max": 100,
+      "history": [
+        {
+          "protocol": "v1",
+          "score": 51.25
+        },
+        {
+          "protocol": "v2",
+          "score": 62.5
+        }
+      ],
+      "remaining": [
+        "실제 모델·장비·비용·계측 경로",
+        "최종 과제·δ",
+        "실제 UI와 로그",
+        "독립 예비자료·검정력"
+      ],
+      "readiness_blocker": true
+    },
+    {
+      "persona": "C",
+      "role": "AI 교수",
+      "latest_completed_protocol": "v2",
+      "score": 95,
+      "max": 100,
+      "history": [
+        {
+          "protocol": "v1",
+          "score": 70
+        },
+        {
+          "protocol": "v2",
+          "score": 95
+        }
+      ],
+      "remaining": [
+        "v2.1 자원 상한·중단 관문의 재심사"
+      ],
+      "latest_attempt": {
+        "protocol": "v2.1",
+        "status": "usage_limit_no_new_score"
+      }
+    },
+    {
+      "persona": "D",
+      "role": "AI 데이터센터 CEO",
+      "latest_completed_protocol": "v2",
+      "score": 70,
+      "max": 100,
+      "history": [
+        {
+          "protocol": "v1",
+          "score": 64
+        },
+        {
+          "protocol": "v2",
+          "score": 70
+        }
+      ],
+      "remaining": [
+        "확인된 장비와 센서 지원",
+        "실측 원시값과 오차·변동",
+        "실제 두 예산 작동",
+        "자원·δ·표본 계획"
+      ]
+    },
+    {
+      "persona": "E",
+      "role": "AI 데이터센터 개발자",
+      "latest_completed_protocol": "v1",
+      "design_score": 86,
+      "execution_evidence_score": 0,
+      "max_each": 100,
+      "history": [
+        {
+          "protocol": "v1",
+          "design_score": 86,
+          "execution_evidence_score": 0
+        }
+      ],
+      "latest_attempt": {
+        "protocol": "v2",
+        "status": "usage_limit_no_new_score",
+        "independent_file_access": "failed"
+      },
+      "note": "v1의 실행 0점을 v2의 최신 재평가로 해석하지 않는다."
+    }
+  ],
+  "completed_validation": {
+    "kind": "synthetic_engineering_only",
+    "checks": 42,
+    "passed": 42,
+    "device_energy_measurement": false,
+    "actual_llm_inference": false,
+    "human_participants": false,
+    "external_peer_review": false
+  },
+  "blocking_facts": [
+    "연구자 사용 장비의 OS·GPU·메모리·센서 지원",
+    "시간·지출 상한",
+    "실제 모델 예산 제어와 계측 오차",
+    "효과를 보기 전 정할 실용적 δ",
+    "독립 예비자료로 정할 표본 수"
+  ],
+  "policy": "고정 기준을 낮추거나 미완료 재심사 점수를 추정해서 만점으로 만들지 않는다."
+}

@@ -1,0 +1,56 @@
+{
+  "validation_kind": "synthetic_engineering_only",
+  "checks": 42,
+  "passed": 42,
+  "failed": [],
+  "tasks": [
+    {
+      "id": "T01",
+      "name": "sumFiniteNumbers",
+      "cases": 6,
+      "referencePassed": 6,
+      "buggyRejected": 3,
+      "note": "Engineering fixture only; no LLM output or participant performance was measured."
+    },
+    {
+      "id": "T02",
+      "name": "normalizeTags",
+      "cases": 6,
+      "referencePassed": 6,
+      "buggyRejected": 5,
+      "note": "Engineering fixture only; no LLM output or participant performance was measured."
+    },
+    {
+      "id": "T03",
+      "name": "mergeIntervals",
+      "cases": 6,
+      "referencePassed": 6,
+      "buggyRejected": 4,
+      "note": "Engineering fixture only; no LLM output or participant performance was measured."
+    },
+    {
+      "id": "T04",
+      "name": "maxReward",
+      "cases": 6,
+      "referencePassed": 6,
+      "buggyRejected": 1,
+      "note": "Engineering fixture only; no LLM output or participant performance was measured."
+    }
+  ],
+  "retry_fixture_summary": {
+    "attempts": 2,
+    "input_tokens": 20,
+    "output_tokens": 10,
+    "known_energy_j": 12,
+    "total_energy_j": 12,
+    "measurement_valid": true,
+    "issues": [],
+    "final_status": "success",
+    "notice": "All energy values in this validation are synthetic fixture values, never device measurements."
+  },
+  "implementation_limits": [
+    "No UI/browser, model inference, GPU sensor, wall meter, participant, or environmental reduction was tested.",
+    "These four tasks are candidates. They are not empirically validated easy/hard strata.",
+    "Production configuration hashing, clock alignment, final event state machine and user-code sandboxing are not implemented by this proof-of-concept."
+  ]
+}

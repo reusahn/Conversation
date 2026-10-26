@@ -1,0 +1,27 @@
+{
+  "family_alpha": 0.05,
+  "comparisons": 2,
+  "per_comparison_two_sided_alpha": 0.025,
+  "power": 0.8,
+  "assumptions": "independent first binary choice only; not final study N or energy/quality noninferiority power",
+  "rows": [
+    {
+      "baseline": 0.3,
+      "comparison": 0.4,
+      "n_per_arm": 432,
+      "three_arm_total": 1296
+    },
+    {
+      "baseline": 0.3,
+      "comparison": 0.44999999999999996,
+      "n_per_arm": 197,
+      "three_arm_total": 591
+    },
+    {
+      "baseline": 0.3,
+      "comparison": 0.5,
+      "n_per_arm": 113,
+      "three_arm_total": 339
+    }
+  ]
+}

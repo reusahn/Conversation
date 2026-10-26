@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "archive_date": "2026-10-26",
+  "project": "eco-mode",
+  "repository": "reusahn/Conversation",
+  "scope": "사용자에게 보이는 이 Eco 연구 대화 및 접근 가능한 가상 자문 결과",
+  "native_account_export": false,
+  "complete_raw_transcript": false,
+  "chat": {
+    "records": 33,
+    "format": "보존된 대화 내용의 전사·복원 기록",
+    "normalizations": [
+      "Markdown 강조·표·인용 위젯의 일부 정규화",
+      "현재 접근 가능한 내용으로 문장 및 요지 복원"
+    ],
+    "original_message_timestamps_available": false,
+    "sequence_note": "archive sequence, not official ChatGPT message IDs"
+  },
+  "personas": {
+    "roles": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "record_types": [
+      "retained_text / retained_text_transcription: 보존 문장의 전사, native export 아님",
+      "reconstructed_review_summary: 검토 요지 복원, 직접 인용 아님",
+      "tool_status_summary: 실행·호출 상태 요약"
+    ],
+    "all_cross_messages_recovered": false
+  },
+  "coverage_gaps": [
+    "초기 세 역할 자문의 전체 원문",
+    "일부 페르소나 사이 교차 메시지 전문",
+    "원래 인용 위젯·Markdown 배치·공식 메시지 ID·각 메시지 시각",
+    "이 세션에 제공되지 않은 다른 ChatGPT 채팅"
+  ],
+  "excluded": [
+    "비공개 추론과 시스템·개발자 메시지",
+    "기계가 보낸 실행환경 상태 메시지",
+    "관계없는 개인 정보와 다른 연구"
+  ],
+  "corrections": [
+    "A의 보존 발언 중 ‘E의 42/42’는 부모 실행환경에서 수행한 검사 보고를 가리킨다. E의 독립 재실행이나 최종 재심사 완료를 뜻하지 않는다.",
+    "과제 미시작의 호출·토큰 0과 전용 세션에 남는 유휴 에너지를 구분한다. 누락 에너지는 0이 아니다."
+  ],
+  "future_updates": {
+    "within_this_task": "접근 가능한 새 사용자·도우미·페르소나 기록을 각 응답 종료 전에 커밋",
+    "cross_chat_automatic_trigger_configured": false,
+    "limits": "다른 대화 감지 이벤트가 현재 연결에 없으며, 연결·내용이 제공되지 않으면 자동 기록 불가"
+  }
+}
