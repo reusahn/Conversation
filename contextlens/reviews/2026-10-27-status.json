@@ -2,7 +2,7 @@
   "project": "ContextLens",
   "date": "2026-10-27",
   "timezone": "America/Los_Angeles",
-  "product_stage": "design_only",
+  "product_stage": "deployed_browser_prototype",
   "latest_product_proposal": "plans/2026-10-27-product-proposal-v3.md",
   "collaboration_plan": "plans/2026-10-27-collaboration-plan.md",
   "discussion": {
@@ -178,13 +178,13 @@
     "achieved_100": false
   },
   "evidence": {
-    "application_build": "not_run_or_not_established",
+    "application_build": "static_browser_prototype_implemented_and_deployed",
     "meta_api_execution": "not_run_or_not_established",
-    "held_out_matching": "not_run_or_not_established",
+    "held_out_matching": "three_demo_clips_one_newly_cut_local_clip_and_one_unknown_pattern_checked_not_formal_frozen_suite",
     "semantic_support_audit": "not_run_or_not_established",
     "baseline_advantage": "not_run_or_not_established",
     "recipient_usability": "not_run_or_not_established",
-    "operational_measurements": "not_run_or_not_established",
+    "operational_measurements": "browser_matching_timing_and_actual_video_export_observed_no_model_cost_measurement",
     "social_impact": "not_run_or_not_established",
     "organizer_eligibility": "not_run_or_not_established"
   },
@@ -203,5 +203,29 @@
   ],
   "open_disagreement": "Ivan proposed evidence access as primary; facilitator adopted Sinan evidence-answer endpoint for v3. No post-revision unanimous evaluation claimed.",
   "github_archive": "reusahn/Conversation/contextlens",
-  "automatic_cross_chat_collection": false
+  "automatic_cross_chat_collection": false,
+  "prototype": {
+    "project_id": "appgprj_6ae12b3d03a08191b644d841b8a542c7",
+    "url": "https://contextlens-workbench.reusahn.chatgpt.site",
+    "audience": "owner_private",
+    "source_commit": "f42cf58a16b7f552415f756b83e3985ae06ab7fb",
+    "version_id": "appgprj_6ae12b3d03a08191b644d841b8a542c7~appgver_cb73e9842cec8191abd5ed8ebdc8974f",
+    "deployment_id": "appgdep_6ae13115087c8191a8924aa5b0f85d8e",
+    "deployment_status": "succeeded",
+    "checkout_path": "/workspace/sites/contextlens-workbench-20261027",
+    "reference_collection": "Sintel official trailer, one reference, approximately 52 seconds",
+    "model_api_connected": false,
+    "internet_search_connected": false,
+    "instagram_connected": false,
+    "matching_method": "local RGB block descriptor baseline, 8 fps source index",
+    "verified_checks": [
+      "3 demo variants connected to same source",
+      "unseen uploaded clip expected 28.5s matched about 28.38s",
+      "unrelated pattern video returned unknown",
+      "shared demo URL restored comparison",
+      "actual MP4 container exported with source audio"
+    ],
+    "formal_acceptance_suite_run": false,
+    "new_persona_score_run": false
+  }
 }

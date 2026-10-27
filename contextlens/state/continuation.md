@@ -2,27 +2,46 @@
 
 Updated 27 October 2026 in California time.
 
-## Read first
+## Current working prototype
 
-- ../plans/2026-10-27-product-proposal-v3.md
-- ../plans/2026-10-27-collaboration-plan.md
-- ../reviews/2026-10-27-status.json
-- ../sessions/2026-10-27-persona-dialogue.md
+https://contextlens-workbench.reusahn.chatgpt.site
 
-## Current decision
+A browser prototype is now deployed, owner-private. Preserve this audience unless the user requests a sharing change. The production URL presents ChatGPT sign-in to visitors. Native deployment succeeded; browser feature checks were conducted on the matching local preview, not an authenticated production session.
 
-Build a file-first viewer workflow: exact clip and caption, question button, actual source interval match, relevant evidence, account-free recipient replay and manual sharing. First pilot collection is disclosed. Comments optional; Instagram integration conditional and outside the critical path.
+Site project ID: appgprj_6ae12b3d03a08191b644d841b8a542c7
+
+Source checkout: /workspace/sites/contextlens-workbench-20261027
+
+Pushed source commit: f42cf58a16b7f552415f756b83e3985ae06ab7fb
+
+Deployment ID: appgdep_6ae13115087c8191a8924aa5b0f85d8e
+
+Saved version: appgprj_6ae12b3d03a08191b644d841b8a542c7~appgver_cb73e9842cec8191abd5ed8ebdc8974f
+
+Use the Sites source workflow to reopen and modify this same project if the local checkout is unavailable. Never create another Site merely because a checkout or credential expired.
+
+## What works
+
+Three transformed demo MP4s and local uploads are decoded and compared with a one-video Sintel reference index. Matched intervals, surrounding context, original audio and comparison playback work. A three-clip view computes actual source relationships. Demonstration captions, record-based questions and comments use explicit rules, not a connected model. Demo result URLs restore the query/question state. Local uploaded files are not shared by URL. Browser export produced an actual MP4 container with source audio during Chrome testing.
+
+## Evidence limits
+
+No Spark / Meta API request, internet original search or Instagram access is implemented. The earlier frozen 20-query suite, model-baseline comparison, independent semantic audit and recipient study remain unrun. Existing speculative persona scores are unchanged and refer to the planning review; do not promote them to implementation or award scores.
 
 ## Next work
 
-1. Agree the proposed division with the real collaborator; inspect usable permitted originals and typed records.
-2. Build and test the first 48-hour path: new query, real match, actual source player, unknown control and actual Meta API call.
-3. Freeze the evaluation manifest and primary endpoint before final testing. Never turn secondary cost savings into an evidence-answer win after a failed primary result.
+1. Let the user inspect the interaction and revise scope or visual design.
+2. Integrate a real Meta model server-side with explicit secret handling when credentials are available; do not put keys in browser code.
+3. Expand rights-cleared source coverage and run a fresh, frozen evaluation. Prototype examples do not establish production accuracy or social impact.
+4. If the user asks to let a friend open the Site, use the Sites access workflow; do not silently make it public.
 
-## What has and has not happened
+## Records
 
-Fifteen English public persona turns, two product proposal snapshots and a two-person English plan have been authored. The plan was rendered and visually reviewed as a four-page Word document. There is no actual application build, matching performance, Meta model run or human result yet. Concept scores 84 to 87 are speculative and refer to v2; v3 incorporates final amendments without a new independent round.
+- ../prototype/2026-10-27-implementation.md
+- ../reviews/2026-10-27-status.json
+- ../plans/2026-10-27-product-proposal-v3.md (historical proposal, not all implemented)
+- ../plans/2026-10-27-collaboration-plan.md
+- ../sessions/2026-10-27-persona-dialogue.md
+- ../sessions/2026-10-27-conversation.md
 
-## Recording
-
-Record subsequent visible user/assistant project messages and actual public persona deliverables when repository access and content are available. Use new dated records or append clearly marked exchanges; preserve earlier originals. Prior summaries are not verbatim transcripts. Never claim this repository automatically collects all chats. Save and verify GitHub writes before reporting success. Keep project work separate from other repository folders.
+Record later visible messages and actual deliverables in this project folder when repository access is available. The repository does not automatically capture unrelated chats. Keep historical public persona turns and scores unchanged unless a new actual review occurs.

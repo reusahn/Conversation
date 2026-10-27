@@ -161,3 +161,49 @@ Record note: These are proposed demo and interaction candidates, not implemented
 Record note: This is a new proposed extension, not an implemented feature, an adopted v4 contract or a newly scored persona consensus. Multi-version alignment and rights-cleared MP4 export extend the v3 scope. All matching, evidence selection, audio/frame correspondence and rendering need real execution tests. Visual similarity does not establish a copying chain, AI generation or factual truth. The referenced vPDQ README describes similarity and subsequence matching; its bag-of-hashes comparison is not itself proof of temporal alignment.
 
 Primary source checked this turn: https://github.com/facebook/ThreatExchange/blob/main/vpdq/README.md . An attempt to retrieve FFmpeg filters documentation timed out; no successful project rendering or new implementation is claimed.
+
+## Building the browser prototype
+
+### User
+
+프로토타입만들어 웹에서되는
+
+### Assistant progress 1
+
+브라우저에서 직접 눌러볼 수 있는 프로토타입을 만들게. 영상별 설명을 비교하고, 원본 맥락을 펼쳐 보고, 공유할 결과를 확인하는 흐름으로 구성할게. 실제 원본 검색이 연결되기 전까지는 데모 결과를 분명히 표시하겠어.
+
+### Assistant progress 2
+
+Sites로 웹에서 열리는 작업 화면을 만들고 있어. 실제로 재생되는 샘플 영상을 넣고, 로컬 영상 업로드와 원본 비교, 댓글 질문 선택, 근거 영상 내보내기까지 이어지는 구성을 잡았어.
+
+### Assistant progress 3
+
+샘플 영상은 출처와 이용 조건을 확인할 수 있는 Blender의 「Sintel」 트레일러로 잡았어. 지금은 클립과 원본의 프레임을 실제로 비교하도록 연결하고 있어. 같은 장면에 설명을 달리 붙인 세 사례를 눌러볼 수 있게 만들고 있어.
+
+### Assistant progress 4
+
+준비한 세 샘플은 실제 프레임 대조로 원본 구간을 찾았어. 이제 버튼에 없는 새 클립도 업로드해 확인하고, 원본에 없는 영상에서 ‘미확인’이 나오는지와 근거 영상 파일이 실제로 저장되는지를 테스트할게.
+
+### Assistant progress 5
+
+새로 잘라낸 클립도 데모 버튼 없이 원본 구간을 찾았고, 관계없는 영상은 ‘미확인’으로 남겼어. 브라우저에서 근거 비교 MP4가 실제로 저장되는 것도 확인했어. 세 데모 클립이 같은 원본으로 연결되는 화면을 마저 붙인 뒤 웹 주소로 열 수 있게 마무리할게.
+
+### Assistant progress 6
+
+세 클립이 같은 원본으로 연결되는 화면과 공유 링크 복원까지 확인했어. 지금 웹에 배포하고 있어. 이번 버전은 샘플 원본 1개를 대상으로 실제 비교·재생·영상 내보내기를 할 수 있고, Spark와 인터넷 원본 검색은 아직 연결하지 않은 상태야.
+
+### Assistant final
+
+**[웹 프로토타입 열기](https://contextlens-workbench.reusahn.chatgpt.site)**
+
+들어가서 **‘데모부터 시작하기’**를 눌러봐.
+
+- 세 클립을 실제로 비교해 같은 원본으로 연결
+- 내 영상 업로드, 원본 앞뒤 재생, 댓글 질문 선택
+- 근거 페이지 공유와 MP4/WebM 내보내기
+
+현재는 **샘플 원본 1개 기준**이고, **Spark·인터넷 검색은 아직 미연결**이야. 본인 ChatGPT 계정으로 로그인해서 열 수 있어.
+
+![ContextLens 웹 프로토타입](sandbox:/workspace/scratch/contextlens-prototype-full-20261027.jpg)
+
+Record note: Publication was verified by a successful native Sites deployment. Browser QA ran against its matching local source preview. Production navigation showed the expected ChatGPT sign-in gate; a signed-in production session was not completed by the agent. The owner-private audience was preserved. No Meta key or credential is included in this record.
