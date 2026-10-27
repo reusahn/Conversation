@@ -5,6 +5,7 @@ Jonghoon Ahn의 연구 대화와 가상 자문 검토 기록입니다.
 ## 연구별 기록
 
 - [Eco 모드와 LLM 자원 사용 연구](eco-mode/README.md)
+- [ContextLens 바이럴 영상 근거 공유 프로젝트](contextlens/README.md)
 
 ## 기록 원칙
 
