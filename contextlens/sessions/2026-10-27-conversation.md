@@ -123,3 +123,41 @@ Keep the same source match; show earlier publication evidence when it exists. Do
 나는 **1번을 메인 와우로 잡고, 3번으로 기술을 증명하고, 2번은 핵심 기능이 완성되면 추가**하겠어. 특히 네 영화·편집 경험을 가장 잘 살릴 수 있는 건 1번이야.
 
 Record note: These are proposed demo and interaction candidates, not implemented features or a newly scored v4. Wider crop matching must be tested within supported transformations; the public conversation does not amend the frozen final test after results. No new independent persona round was run.
+
+## Follow up proposing stronger demo output
+
+### User
+
+더 와우포인트가 있어야하지않나
+
+### Assistant progress
+
+맞아. 앞뒤 장면을 펼치는 것만으로는 네가 원하는 강도에 부족해. 이번에는 영상이 퍼지는 동안 의미가 어떻게 바뀌었는지, 그 변화를 화면에서 직접 보여주는 쪽으로 더 밀어볼게.
+
+### Assistant final
+
+맞아. **지금보다 강한 와우를 만들려면, 결과물이 ‘설명 페이지’에서 한 단계 더 나아가야 해.** 내가 밀고 싶은 건 **같은 장면이 서로 다른 이야기로 유통되는 과정을 보여주고, 근거를 담은 공유용 영상까지 만들어주는 기능**이야.
+
+**데모를 이렇게 바꾸자.**
+
+**① 서로 다른 영상 세 개가 하나의 원본으로 연결된다.**
+
+하나는 영화 요약, 하나는 ‘오늘 실제로 벌어진 일’, 하나는 ‘AI가 만든 영상’이라는 설명이 붙어 있어. 세 개를 넣으면 화면에서 같은 장면끼리 정렬되면서 **동일한 원본 구간을 사용했다는 관계**가 드러나. 누가 누구 것을 베꼈다는 유포 경로는 확인된 기록이 있을 때만 표시해.
+
+**② 무엇이 달라졌는지 직접 켜고 끈다.**
+
+각 버전의 자막, 덧붙인 내레이션, 잘라낸 화면을 원본과 비교해. ‘원음 듣기’, ‘전체 화면 보기’, ‘앞뒤 장면 보기’를 누르면 **같은 장면에 어떤 설명과 편집이 더해졌는지** 눈과 귀로 확인하는 거야. AI 제작 여부는 제작 기록이 없으면 미확인으로 남겨.
+
+**③ ‘근거와 함께 공유’를 누르면 짧은 영상 파일이 완성된다.**
+
+받았던 클립과 근거 장면을 나란히 재생하고, 확인된 사실·출처·미확인 사항을 붙인 **공유용 MP4**를 만드는 거야. 전체 원본을 확인할 수 있는 링크도 함께 제공해. 받는 사람은 영상을 재생하면서 근거를 바로 볼 수 있어. 재편집과 배포가 허용된 자료에서 제공하는 기능으로 잡자.
+
+여기서 새로 추가할 가장 큰 와우는 **③의 실제 영상 출력**이야. Spark가 질문에 필요한 근거를 고르고, 우리가 만든 편집 도구가 그 구간을 연결해 결과물을 만드는 흐름이지.
+
+영상 유사성·부분영상 매칭에는 Meta의 공개 vPDQ 같은 기술을 검토할 수 있어. 정확한 시간 정렬, 설명과 근거의 대조, 영상 출력은 별도로 구현하고 검증해야 해. genui{"citation":{"ref":"turn102view0"}}
+
+10일 데모는 **허가된 원본 1~2개와 변형본 3~5개**로 범위를 잡고, 실제 매칭부터 MP4 출력까지 완성하는 걸 목표로 하자. 내가 노릴 장면은 **서로 다르게 보이던 영상들이 한 원본으로 연결되고, 그 근거가 담긴 영상이 실제로 완성되는 순간**이야.
+
+Record note: This is a new proposed extension, not an implemented feature, an adopted v4 contract or a newly scored persona consensus. Multi-version alignment and rights-cleared MP4 export extend the v3 scope. All matching, evidence selection, audio/frame correspondence and rendering need real execution tests. Visual similarity does not establish a copying chain, AI generation or factual truth. The referenced vPDQ README describes similarity and subsequence matching; its bag-of-hashes comparison is not itself proof of temporal alignment.
+
+Primary source checked this turn: https://github.com/facebook/ThreatExchange/blob/main/vpdq/README.md . An attempt to retrieve FFmpeg filters documentation timed out; no successful project rendering or new implementation is claimed.
