@@ -1,0 +1,710 @@
+{
+  "notice": "Entirely synthetic engineering data, no people or sensors.",
+  "reports": [
+    {
+      "schema_version": 2,
+      "session_id": "synthetic-session-Low-0",
+      "participant_id": "synthetic-person-Low-0",
+      "assigned_arm": "Low",
+      "frozen_backend_hash": "4ed846149d50d9fd786123f7af0373f59035e7de90edc44c58bc0e4b754688d0",
+      "measurement_boundary": {
+        "source": "fixture",
+        "device": "synthetic-device",
+        "scope": "gpu",
+        "unit": "mJ"
+      },
+      "measurement_kind": "synthetic",
+      "assigned_task_ids": [
+        "T01",
+        "T02"
+      ],
+      "raw_first_submitted_mode": "low",
+      "reported_outcomes": {
+        "T01": "success",
+        "T02": "abandoned"
+      },
+      "protocol_observation_valid": true,
+      "first_choice": "low",
+      "outcomes": {
+        "T01": "success",
+        "T02": "abandoned"
+      },
+      "attempts": 2,
+      "requests": 2,
+      "additional_requests": 1,
+      "mode_switches": 1,
+      "event_log_complete": true,
+      "energy_valid": true,
+      "measured_total_energy_j": null,
+      "synthetic_total_energy_j": 22.0,
+      "raw_session_counter_delta_j": 22.0,
+      "secondary_active_energy_j": 17.0,
+      "secondary_residual_energy_j": 5.0,
+      "known_floor_j": 17.0,
+      "missing_energy_upper_j": null,
+      "timing_uncertainty_known": false,
+      "epoch_evidence": "fixture assumption only, no real sensor",
+      "sensor_evidence_independently_verified": false,
+      "close_reason": "abandoned",
+      "audit_passed": true,
+      "issues": [],
+      "confirmatory_ready": false,
+      "notice": "Input provenance is declared, not independently authenticated. Synthetic values are not sensor measurements."
+    },
+    {
+      "schema_version": 2,
+      "session_id": "synthetic-session-Low-1",
+      "participant_id": "synthetic-person-Low-1",
+      "assigned_arm": "Low",
+      "frozen_backend_hash": "4ed846149d50d9fd786123f7af0373f59035e7de90edc44c58bc0e4b754688d0",
+      "measurement_boundary": {
+        "source": "fixture",
+        "device": "synthetic-device",
+        "scope": "gpu",
+        "unit": "mJ"
+      },
+      "measurement_kind": "synthetic",
+      "assigned_task_ids": [
+        "T01",
+        "T02"
+      ],
+      "raw_first_submitted_mode": "low",
+      "reported_outcomes": {
+        "T01": "success",
+        "T02": "abandoned"
+      },
+      "protocol_observation_valid": true,
+      "first_choice": "low",
+      "outcomes": {
+        "T01": "success",
+        "T02": "abandoned"
+      },
+      "attempts": 2,
+      "requests": 2,
+      "additional_requests": 1,
+      "mode_switches": 1,
+      "event_log_complete": true,
+      "energy_valid": true,
+      "measured_total_energy_j": null,
+      "synthetic_total_energy_j": 23.0,
+      "raw_session_counter_delta_j": 23.0,
+      "secondary_active_energy_j": 17.0,
+      "secondary_residual_energy_j": 6.0,
+      "known_floor_j": 17.0,
+      "missing_energy_upper_j": null,
+      "timing_uncertainty_known": false,
+      "epoch_evidence": "fixture assumption only, no real sensor",
+      "sensor_evidence_independently_verified": false,
+      "close_reason": "abandoned",
+      "audit_passed": true,
+      "issues": [],
+      "confirmatory_ready": false,
+      "notice": "Input provenance is declared, not independently authenticated. Synthetic values are not sensor measurements."
+    },
+    {
+      "schema_version": 2,
+      "session_id": "synthetic-session-Low-2",
+      "participant_id": "synthetic-person-Low-2",
+      "assigned_arm": "Low",
+      "frozen_backend_hash": "4ed846149d50d9fd786123f7af0373f59035e7de90edc44c58bc0e4b754688d0",
+      "measurement_boundary": {
+        "source": "fixture",
+        "device": "synthetic-device",
+        "scope": "gpu",
+        "unit": "mJ"
+      },
+      "measurement_kind": "synthetic",
+      "assigned_task_ids": [
+        "T01",
+        "T02"
+      ],
+      "raw_first_submitted_mode": "low",
+      "reported_outcomes": {
+        "T01": "success",
+        "T02": "abandoned"
+      },
+      "protocol_observation_valid": true,
+      "first_choice": "low",
+      "outcomes": {
+        "T01": "success",
+        "T02": "abandoned"
+      },
+      "attempts": 2,
+      "requests": 2,
+      "additional_requests": 1,
+      "mode_switches": 1,
+      "event_log_complete": true,
+      "energy_valid": true,
+      "measured_total_energy_j": null,
+      "synthetic_total_energy_j": 24.0,
+      "raw_session_counter_delta_j": 24.0,
+      "secondary_active_energy_j": 17.0,
+      "secondary_residual_energy_j": 7.0,
+      "known_floor_j": 17.0,
+      "missing_energy_upper_j": null,
+      "timing_uncertainty_known": false,
+      "epoch_evidence": "fixture assumption only, no real sensor",
+      "sensor_evidence_independently_verified": false,
+      "close_reason": "abandoned",
+      "audit_passed": true,
+      "issues": [],
+      "confirmatory_ready": false,
+      "notice": "Input provenance is declared, not independently authenticated. Synthetic values are not sensor measurements."
+    },
+    {
+      "schema_version": 2,
+      "session_id": "synthetic-session-Low-3",
+      "participant_id": "synthetic-person-Low-3",
+      "assigned_arm": "Low",
+      "frozen_backend_hash": "4ed846149d50d9fd786123f7af0373f59035e7de90edc44c58bc0e4b754688d0",
+      "measurement_boundary": {
+        "source": "fixture",
+        "device": "synthetic-device",
+        "scope": "gpu",
+        "unit": "mJ"
+      },
+      "measurement_kind": "synthetic",
+      "assigned_task_ids": [
+        "T01",
+        "T02"
+      ],
+      "raw_first_submitted_mode": "low",
+      "reported_outcomes": {
+        "T01": "success",
+        "T02": "abandoned"
+      },
+      "protocol_observation_valid": true,
+      "first_choice": "low",
+      "outcomes": {
+        "T01": "success",
+        "T02": "abandoned"
+      },
+      "attempts": 2,
+      "requests": 2,
+      "additional_requests": 1,
+      "mode_switches": 1,
+      "event_log_complete": true,
+      "energy_valid": true,
+      "measured_total_energy_j": null,
+      "synthetic_total_energy_j": 25.0,
+      "raw_session_counter_delta_j": 25.0,
+      "secondary_active_energy_j": 17.0,
+      "secondary_residual_energy_j": 8.0,
+      "known_floor_j": 17.0,
+      "missing_energy_upper_j": null,
+      "timing_uncertainty_known": false,
+      "epoch_evidence": "fixture assumption only, no real sensor",
+      "sensor_evidence_independently_verified": false,
+      "close_reason": "abandoned",
+      "audit_passed": true,
+      "issues": [],
+      "confirmatory_ready": false,
+      "notice": "Input provenance is declared, not independently authenticated. Synthetic values are not sensor measurements."
+    },
+    {
+      "schema_version": 2,
+      "session_id": "synthetic-session-Fast-0",
+      "participant_id": "synthetic-person-Fast-0",
+      "assigned_arm": "Fast",
+      "frozen_backend_hash": "4ed846149d50d9fd786123f7af0373f59035e7de90edc44c58bc0e4b754688d0",
+      "measurement_boundary": {
+        "source": "fixture",
+        "device": "synthetic-device",
+        "scope": "gpu",
+        "unit": "mJ"
+      },
+      "measurement_kind": "synthetic",
+      "assigned_task_ids": [
+        "T01",
+        "T02"
+      ],
+      "raw_first_submitted_mode": "low",
+      "reported_outcomes": {
+        "T01": "success",
+        "T02": "abandoned"
+      },
+      "protocol_observation_valid": true,
+      "first_choice": "low",
+      "outcomes": {
+        "T01": "success",
+        "T02": "abandoned"
+      },
+      "attempts": 2,
+      "requests": 2,
+      "additional_requests": 1,
+      "mode_switches": 1,
+      "event_log_complete": true,
+      "energy_valid": true,
+      "measured_total_energy_j": null,
+      "synthetic_total_energy_j": 22.0,
+      "raw_session_counter_delta_j": 22.0,
+      "secondary_active_energy_j": 17.0,
+      "secondary_residual_energy_j": 5.0,
+      "known_floor_j": 17.0,
+      "missing_energy_upper_j": null,
+      "timing_uncertainty_known": false,
+      "epoch_evidence": "fixture assumption only, no real sensor",
+      "sensor_evidence_independently_verified": false,
+      "close_reason": "abandoned",
+      "audit_passed": true,
+      "issues": [],
+      "confirmatory_ready": false,
+      "notice": "Input provenance is declared, not independently authenticated. Synthetic values are not sensor measurements."
+    },
+    {
+      "schema_version": 2,
+      "session_id": "synthetic-session-Fast-1",
+      "participant_id": "synthetic-person-Fast-1",
+      "assigned_arm": "Fast",
+      "frozen_backend_hash": "4ed846149d50d9fd786123f7af0373f59035e7de90edc44c58bc0e4b754688d0",
+      "measurement_boundary": {
+        "source": "fixture",
+        "device": "synthetic-device",
+        "scope": "gpu",
+        "unit": "mJ"
+      },
+      "measurement_kind": "synthetic",
+      "assigned_task_ids": [
+        "T01",
+        "T02"
+      ],
+      "raw_first_submitted_mode": "low",
+      "reported_outcomes": {
+        "T01": "success",
+        "T02": "abandoned"
+      },
+      "protocol_observation_valid": true,
+      "first_choice": "low",
+      "outcomes": {
+        "T01": "success",
+        "T02": "abandoned"
+      },
+      "attempts": 2,
+      "requests": 2,
+      "additional_requests": 1,
+      "mode_switches": 1,
+      "event_log_complete": true,
+      "energy_valid": true,
+      "measured_total_energy_j": null,
+      "synthetic_total_energy_j": 23.0,
+      "raw_session_counter_delta_j": 23.0,
+      "secondary_active_energy_j": 17.0,
+      "secondary_residual_energy_j": 6.0,
+      "known_floor_j": 17.0,
+      "missing_energy_upper_j": null,
+      "timing_uncertainty_known": false,
+      "epoch_evidence": "fixture assumption only, no real sensor",
+      "sensor_evidence_independently_verified": false,
+      "close_reason": "abandoned",
+      "audit_passed": true,
+      "issues": [],
+      "confirmatory_ready": false,
+      "notice": "Input provenance is declared, not independently authenticated. Synthetic values are not sensor measurements."
+    },
+    {
+      "schema_version": 2,
+      "session_id": "synthetic-session-Fast-2",
+      "participant_id": "synthetic-person-Fast-2",
+      "assigned_arm": "Fast",
+      "frozen_backend_hash": "4ed846149d50d9fd786123f7af0373f59035e7de90edc44c58bc0e4b754688d0",
+      "measurement_boundary": {
+        "source": "fixture",
+        "device": "synthetic-device",
+        "scope": "gpu",
+        "unit": "mJ"
+      },
+      "measurement_kind": "synthetic",
+      "assigned_task_ids": [
+        "T01",
+        "T02"
+      ],
+      "raw_first_submitted_mode": "low",
+      "reported_outcomes": {
+        "T01": "success",
+        "T02": "abandoned"
+      },
+      "protocol_observation_valid": true,
+      "first_choice": "low",
+      "outcomes": {
+        "T01": "success",
+        "T02": "abandoned"
+      },
+      "attempts": 2,
+      "requests": 2,
+      "additional_requests": 1,
+      "mode_switches": 1,
+      "event_log_complete": true,
+      "energy_valid": true,
+      "measured_total_energy_j": null,
+      "synthetic_total_energy_j": 24.0,
+      "raw_session_counter_delta_j": 24.0,
+      "secondary_active_energy_j": 17.0,
+      "secondary_residual_energy_j": 7.0,
+      "known_floor_j": 17.0,
+      "missing_energy_upper_j": null,
+      "timing_uncertainty_known": false,
+      "epoch_evidence": "fixture assumption only, no real sensor",
+      "sensor_evidence_independently_verified": false,
+      "close_reason": "abandoned",
+      "audit_passed": true,
+      "issues": [],
+      "confirmatory_ready": false,
+      "notice": "Input provenance is declared, not independently authenticated. Synthetic values are not sensor measurements."
+    },
+    {
+      "schema_version": 2,
+      "session_id": "synthetic-session-Fast-3",
+      "participant_id": "synthetic-person-Fast-3",
+      "assigned_arm": "Fast",
+      "frozen_backend_hash": "4ed846149d50d9fd786123f7af0373f59035e7de90edc44c58bc0e4b754688d0",
+      "measurement_boundary": {
+        "source": "fixture",
+        "device": "synthetic-device",
+        "scope": "gpu",
+        "unit": "mJ"
+      },
+      "measurement_kind": "synthetic",
+      "assigned_task_ids": [
+        "T01",
+        "T02"
+      ],
+      "raw_first_submitted_mode": "low",
+      "reported_outcomes": {
+        "T01": "success",
+        "T02": "abandoned"
+      },
+      "protocol_observation_valid": true,
+      "first_choice": "low",
+      "outcomes": {
+        "T01": "success",
+        "T02": "abandoned"
+      },
+      "attempts": 2,
+      "requests": 2,
+      "additional_requests": 1,
+      "mode_switches": 1,
+      "event_log_complete": true,
+      "energy_valid": true,
+      "measured_total_energy_j": null,
+      "synthetic_total_energy_j": 25.0,
+      "raw_session_counter_delta_j": 25.0,
+      "secondary_active_energy_j": 17.0,
+      "secondary_residual_energy_j": 8.0,
+      "known_floor_j": 17.0,
+      "missing_energy_upper_j": null,
+      "timing_uncertainty_known": false,
+      "epoch_evidence": "fixture assumption only, no real sensor",
+      "sensor_evidence_independently_verified": false,
+      "close_reason": "abandoned",
+      "audit_passed": true,
+      "issues": [],
+      "confirmatory_ready": false,
+      "notice": "Input provenance is declared, not independently authenticated. Synthetic values are not sensor measurements."
+    },
+    {
+      "schema_version": 2,
+      "session_id": "synthetic-session-Eco-0",
+      "participant_id": "synthetic-person-Eco-0",
+      "assigned_arm": "Eco",
+      "frozen_backend_hash": "4ed846149d50d9fd786123f7af0373f59035e7de90edc44c58bc0e4b754688d0",
+      "measurement_boundary": {
+        "source": "fixture",
+        "device": "synthetic-device",
+        "scope": "gpu",
+        "unit": "mJ"
+      },
+      "measurement_kind": "synthetic",
+      "assigned_task_ids": [
+        "T01",
+        "T02"
+      ],
+      "raw_first_submitted_mode": "low",
+      "reported_outcomes": {
+        "T01": "success",
+        "T02": "abandoned"
+      },
+      "protocol_observation_valid": true,
+      "first_choice": "low",
+      "outcomes": {
+        "T01": "success",
+        "T02": "abandoned"
+      },
+      "attempts": 2,
+      "requests": 2,
+      "additional_requests": 1,
+      "mode_switches": 1,
+      "event_log_complete": true,
+      "energy_valid": true,
+      "measured_total_energy_j": null,
+      "synthetic_total_energy_j": 22.0,
+      "raw_session_counter_delta_j": 22.0,
+      "secondary_active_energy_j": 17.0,
+      "secondary_residual_energy_j": 5.0,
+      "known_floor_j": 17.0,
+      "missing_energy_upper_j": null,
+      "timing_uncertainty_known": false,
+      "epoch_evidence": "fixture assumption only, no real sensor",
+      "sensor_evidence_independently_verified": false,
+      "close_reason": "abandoned",
+      "audit_passed": true,
+      "issues": [],
+      "confirmatory_ready": false,
+      "notice": "Input provenance is declared, not independently authenticated. Synthetic values are not sensor measurements."
+    },
+    {
+      "schema_version": 2,
+      "session_id": "synthetic-session-Eco-1",
+      "participant_id": "synthetic-person-Eco-1",
+      "assigned_arm": "Eco",
+      "frozen_backend_hash": "4ed846149d50d9fd786123f7af0373f59035e7de90edc44c58bc0e4b754688d0",
+      "measurement_boundary": {
+        "source": "fixture",
+        "device": "synthetic-device",
+        "scope": "gpu",
+        "unit": "mJ"
+      },
+      "measurement_kind": "synthetic",
+      "assigned_task_ids": [
+        "T01",
+        "T02"
+      ],
+      "raw_first_submitted_mode": "low",
+      "reported_outcomes": {
+        "T01": "success",
+        "T02": "abandoned"
+      },
+      "protocol_observation_valid": true,
+      "first_choice": "low",
+      "outcomes": {
+        "T01": "success",
+        "T02": "abandoned"
+      },
+      "attempts": 2,
+      "requests": 2,
+      "additional_requests": 1,
+      "mode_switches": 1,
+      "event_log_complete": true,
+      "energy_valid": true,
+      "measured_total_energy_j": null,
+      "synthetic_total_energy_j": 23.0,
+      "raw_session_counter_delta_j": 23.0,
+      "secondary_active_energy_j": 17.0,
+      "secondary_residual_energy_j": 6.0,
+      "known_floor_j": 17.0,
+      "missing_energy_upper_j": null,
+      "timing_uncertainty_known": false,
+      "epoch_evidence": "fixture assumption only, no real sensor",
+      "sensor_evidence_independently_verified": false,
+      "close_reason": "abandoned",
+      "audit_passed": true,
+      "issues": [],
+      "confirmatory_ready": false,
+      "notice": "Input provenance is declared, not independently authenticated. Synthetic values are not sensor measurements."
+    },
+    {
+      "schema_version": 2,
+      "session_id": "synthetic-session-Eco-2",
+      "participant_id": "synthetic-person-Eco-2",
+      "assigned_arm": "Eco",
+      "frozen_backend_hash": "4ed846149d50d9fd786123f7af0373f59035e7de90edc44c58bc0e4b754688d0",
+      "measurement_boundary": {
+        "source": "fixture",
+        "device": "synthetic-device",
+        "scope": "gpu",
+        "unit": "mJ"
+      },
+      "measurement_kind": "synthetic",
+      "assigned_task_ids": [
+        "T01",
+        "T02"
+      ],
+      "raw_first_submitted_mode": "low",
+      "reported_outcomes": {
+        "T01": "success",
+        "T02": "abandoned"
+      },
+      "protocol_observation_valid": true,
+      "first_choice": "low",
+      "outcomes": {
+        "T01": "success",
+        "T02": "abandoned"
+      },
+      "attempts": 2,
+      "requests": 2,
+      "additional_requests": 1,
+      "mode_switches": 1,
+      "event_log_complete": true,
+      "energy_valid": true,
+      "measured_total_energy_j": null,
+      "synthetic_total_energy_j": 24.0,
+      "raw_session_counter_delta_j": 24.0,
+      "secondary_active_energy_j": 17.0,
+      "secondary_residual_energy_j": 7.0,
+      "known_floor_j": 17.0,
+      "missing_energy_upper_j": null,
+      "timing_uncertainty_known": false,
+      "epoch_evidence": "fixture assumption only, no real sensor",
+      "sensor_evidence_independently_verified": false,
+      "close_reason": "abandoned",
+      "audit_passed": true,
+      "issues": [],
+      "confirmatory_ready": false,
+      "notice": "Input provenance is declared, not independently authenticated. Synthetic values are not sensor measurements."
+    },
+    {
+      "schema_version": 2,
+      "session_id": "synthetic-session-Eco-3",
+      "participant_id": "synthetic-person-Eco-3",
+      "assigned_arm": "Eco",
+      "frozen_backend_hash": "4ed846149d50d9fd786123f7af0373f59035e7de90edc44c58bc0e4b754688d0",
+      "measurement_boundary": {
+        "source": "fixture",
+        "device": "synthetic-device",
+        "scope": "gpu",
+        "unit": "mJ"
+      },
+      "measurement_kind": "synthetic",
+      "assigned_task_ids": [
+        "T01",
+        "T02"
+      ],
+      "raw_first_submitted_mode": "low",
+      "reported_outcomes": {
+        "T01": "success",
+        "T02": "abandoned"
+      },
+      "protocol_observation_valid": true,
+      "first_choice": "low",
+      "outcomes": {
+        "T01": "success",
+        "T02": "abandoned"
+      },
+      "attempts": 2,
+      "requests": 2,
+      "additional_requests": 1,
+      "mode_switches": 1,
+      "event_log_complete": true,
+      "energy_valid": true,
+      "measured_total_energy_j": null,
+      "synthetic_total_energy_j": 25.0,
+      "raw_session_counter_delta_j": 25.0,
+      "secondary_active_energy_j": 17.0,
+      "secondary_residual_energy_j": 8.0,
+      "known_floor_j": 17.0,
+      "missing_energy_upper_j": null,
+      "timing_uncertainty_known": false,
+      "epoch_evidence": "fixture assumption only, no real sensor",
+      "sensor_evidence_independently_verified": false,
+      "close_reason": "abandoned",
+      "audit_passed": true,
+      "issues": [],
+      "confirmatory_ready": false,
+      "notice": "Input provenance is declared, not independently authenticated. Synthetic values are not sensor measurements."
+    }
+  ],
+  "strata": {
+    "overall": [
+      "T01",
+      "T02"
+    ]
+  },
+  "assignment_manifest": [
+    {
+      "participant_id": "synthetic-person-Low-0",
+      "assigned_arm": "Low",
+      "assigned_task_ids": [
+        "T01",
+        "T02"
+      ]
+    },
+    {
+      "participant_id": "synthetic-person-Low-1",
+      "assigned_arm": "Low",
+      "assigned_task_ids": [
+        "T01",
+        "T02"
+      ]
+    },
+    {
+      "participant_id": "synthetic-person-Low-2",
+      "assigned_arm": "Low",
+      "assigned_task_ids": [
+        "T01",
+        "T02"
+      ]
+    },
+    {
+      "participant_id": "synthetic-person-Low-3",
+      "assigned_arm": "Low",
+      "assigned_task_ids": [
+        "T01",
+        "T02"
+      ]
+    },
+    {
+      "participant_id": "synthetic-person-Fast-0",
+      "assigned_arm": "Fast",
+      "assigned_task_ids": [
+        "T01",
+        "T02"
+      ]
+    },
+    {
+      "participant_id": "synthetic-person-Fast-1",
+      "assigned_arm": "Fast",
+      "assigned_task_ids": [
+        "T01",
+        "T02"
+      ]
+    },
+    {
+      "participant_id": "synthetic-person-Fast-2",
+      "assigned_arm": "Fast",
+      "assigned_task_ids": [
+        "T01",
+        "T02"
+      ]
+    },
+    {
+      "participant_id": "synthetic-person-Fast-3",
+      "assigned_arm": "Fast",
+      "assigned_task_ids": [
+        "T01",
+        "T02"
+      ]
+    },
+    {
+      "participant_id": "synthetic-person-Eco-0",
+      "assigned_arm": "Eco",
+      "assigned_task_ids": [
+        "T01",
+        "T02"
+      ]
+    },
+    {
+      "participant_id": "synthetic-person-Eco-1",
+      "assigned_arm": "Eco",
+      "assigned_task_ids": [
+        "T01",
+        "T02"
+      ]
+    },
+    {
+      "participant_id": "synthetic-person-Eco-2",
+      "assigned_arm": "Eco",
+      "assigned_task_ids": [
+        "T01",
+        "T02"
+      ]
+    },
+    {
+      "participant_id": "synthetic-person-Eco-3",
+      "assigned_arm": "Eco",
+      "assigned_task_ids": [
+        "T01",
+        "T02"
+      ]
+    }
+  ],
+  "delta_by_stratum": null
+}

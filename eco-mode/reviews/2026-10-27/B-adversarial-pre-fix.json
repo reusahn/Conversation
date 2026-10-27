@@ -1,0 +1,36 @@
+{
+  "kind": "synthetic_adversarial_review_only",
+  "reviewer": "fictional B",
+  "reviewed_analysis_sha256": "14d4361ef25d5896f2bdc1089ad484afea5d09728def3cacfb71f5ca61c190cf",
+  "empty_strata": {
+    "numeric_quality_rule": true,
+    "numeric_joint_rule": true,
+    "confirmatory_allowed": false
+  },
+  "omitted_failing_task": {
+    "quality_rule": true,
+    "joint_rule": true,
+    "omitted_T02_true_failure_difference": 1.0,
+    "confirmatory_allowed": false
+  },
+  "duplicate_participant": {
+    "accepted_n": {
+      "Low": 4,
+      "Fast": 4,
+      "Eco": 4
+    },
+    "unique_participant_id": 1
+  },
+  "between_session_scope_and_model_mix": {
+    "every_replay_passed": true,
+    "analysis_accepted": {
+      "Low": 4,
+      "Fast": 4,
+      "Eco": 4
+    },
+    "scope_and_config_identity_present_in_summary": [
+      false,
+      false
+    ]
+  }
+}

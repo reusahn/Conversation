@@ -7,14 +7,15 @@
   "native_account_export": false,
   "complete_raw_transcript": false,
   "chat": {
-    "records": 33,
+    "records": 41,
     "format": "보존된 대화 내용의 전사·복원 기록",
     "normalizations": [
       "Markdown 강조·표·인용 위젯의 일부 정규화",
       "현재 접근 가능한 내용으로 문장 및 요지 복원"
     ],
     "original_message_timestamps_available": false,
-    "sequence_note": "archive sequence, not official ChatGPT message IDs"
+    "sequence_note": "archive sequence, not official ChatGPT message IDs",
+    "exact_visible_append_from_sequence": 34
   },
   "personas": {
     "roles": [
@@ -50,5 +51,8 @@
     "within_this_task": "접근 가능한 새 사용자·도우미·페르소나 기록을 각 응답 종료 전에 커밋",
     "cross_chat_automatic_trigger_configured": false,
     "limits": "다른 대화 감지 이벤트가 현재 연결에 없으며, 연결·내용이 제공되지 않으면 자동 기록 불가"
-  }
+  },
+  "last_updated_date": "2026-10-27",
+  "persona_round4_files": "../reviews/2026-10-27/",
+  "persona_round4_notes": "공개교차메시지·보고·반례·독립실행·완료점수 보존. 업무배정/비공개추론 제외. B최종미완료."
 }

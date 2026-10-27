@@ -1,0 +1,118 @@
+{
+  "dataset_kind": "synthetic",
+  "participant_n": {
+    "Low": 4,
+    "Fast": 4,
+    "Eco": 4
+  },
+  "supplied_manifest_matched": true,
+  "manifest_independently_authenticated": false,
+  "first_choice_states": {
+    "Low": {
+      "low": 4,
+      "high": 0,
+      "none": 0,
+      "unknown": 0
+    },
+    "Fast": {
+      "low": 4,
+      "high": 0,
+      "none": 0,
+      "unknown": 0
+    },
+    "Eco": {
+      "low": 4,
+      "high": 0,
+      "none": 0,
+      "unknown": 0
+    }
+  },
+  "family_alpha": 0.05,
+  "claims": 4,
+  "per_claim_alpha": 0.0125,
+  "delta_by_stratum": null,
+  "comparisons": {
+    "Eco-Low": {
+      "choice": {
+        "identification_lower": 0.0,
+        "identification_upper": 0.0,
+        "confidence_lower": -1.0,
+        "confidence_upper": 1.0,
+        "radius": 1.1264073214465788,
+        "alpha": 0.0125,
+        "method": "bounded_hoeffding_all_assigned_participants",
+        "simultaneous_intervals": false
+      },
+      "energy": {
+        "status": "approximate_only",
+        "difference_j": 0.0,
+        "standard_error_j": 0.9128709291752769,
+        "df": 6.0,
+        "upper_j": 2.7100277717934653,
+        "p_less": 0.5,
+        "alpha": 0.0125,
+        "notice": "Finite-sample skew/variance robustness requires independent pilot checks."
+      },
+      "failure": {
+        "overall": {
+          "identification_lower": 0.0,
+          "identification_upper": 0.0,
+          "confidence_lower": null,
+          "confidence_upper": 1.0,
+          "radius": 1.0466645397014605,
+          "alpha": 0.0125,
+          "method": "bounded_hoeffding_all_assigned_participants",
+          "simultaneous_intervals": false
+        }
+      },
+      "numeric_quality_rule": null,
+      "numeric_energy_rule": false,
+      "numeric_joint_rule": false,
+      "confirmatory_allowed": false
+    },
+    "Eco-Fast": {
+      "choice": {
+        "identification_lower": 0.0,
+        "identification_upper": 0.0,
+        "confidence_lower": -1.0,
+        "confidence_upper": 1.0,
+        "radius": 1.1264073214465788,
+        "alpha": 0.0125,
+        "method": "bounded_hoeffding_all_assigned_participants",
+        "simultaneous_intervals": false
+      },
+      "energy": {
+        "status": "approximate_only",
+        "difference_j": 0.0,
+        "standard_error_j": 0.9128709291752769,
+        "df": 6.0,
+        "upper_j": 2.7100277717934653,
+        "p_less": 0.5,
+        "alpha": 0.0125,
+        "notice": "Finite-sample skew/variance robustness requires independent pilot checks."
+      },
+      "failure": {
+        "overall": {
+          "identification_lower": 0.0,
+          "identification_upper": 0.0,
+          "confidence_lower": null,
+          "confidence_upper": 1.0,
+          "radius": 1.0466645397014605,
+          "alpha": 0.0125,
+          "method": "bounded_hoeffding_all_assigned_participants",
+          "simultaneous_intervals": false
+        }
+      },
+      "numeric_quality_rule": null,
+      "numeric_energy_rule": false,
+      "numeric_joint_rule": false,
+      "confirmatory_allowed": false
+    }
+  },
+  "confirmatory_allowed": false,
+  "blocks": [
+    "Preparation only: actual resources, margin justification, pilot, N and preregistration remain unverified.",
+    "Welch energy inference is approximate; bounded-outcome bounds do not validate it.",
+    "Input provenance and randomization/participant independence are not authenticated by this script."
+  ]
+}

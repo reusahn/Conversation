@@ -1,0 +1,202 @@
+{
+  "measurement_kind": "synthetic",
+  "backend_config": {
+    "common": {
+      "model": "Qwen/Qwen3-4B-CANDIDATE-NOT-RUN",
+      "revision": "UNPINNED",
+      "runtime_version": "UNPINNED",
+      "parser": "UNVERIFIED",
+      "response_schema_version": "UNVERIFIED",
+      "max_tokens": 8192,
+      "temperature": 0.6,
+      "top_p": 0.95,
+      "precision": "UNVERIFIED",
+      "cache_policy": "synthetic_off",
+      "tokenizer_revision": "UNPINNED",
+      "prompt_sha256": "synthetic_only"
+    },
+    "modes": {
+      "low": {
+        "thinking_token_budget": 256
+      },
+      "high": {
+        "thinking_token_budget": 2048
+      }
+    }
+  },
+  "events": [
+    {
+      "type": "session_start",
+      "t_ns": 1,
+      "counter": {
+        "source": "fixture",
+        "device": "synthetic-device",
+        "scope": "gpu",
+        "epoch": "synthetic-epoch-1",
+        "unit": "mJ",
+        "value_raw": 100000,
+        "read_start_ns": 0,
+        "read_end_ns": 1
+      },
+      "assigned_arm": "Eco",
+      "participant_id": "synthetic-participant-1",
+      "assigned_task_ids": [
+        "T01",
+        "T02"
+      ],
+      "backend_hash": "4ed846149d50d9fd786123f7af0373f59035e7de90edc44c58bc0e4b754688d0",
+      "event_id": "e1",
+      "server_seq": 1,
+      "session_id": "synthetic-session-1"
+    },
+    {
+      "type": "request_submitted",
+      "t_ns": 3,
+      "request_id": "r1",
+      "task_id": "T01",
+      "mode": "low",
+      "effective_config_hash": "16fb5e919d148f31894ae6c8c8c69b75fe29f466cb3b7b590618aa0640e678d0",
+      "event_id": "e2",
+      "server_seq": 2,
+      "session_id": "synthetic-session-1"
+    },
+    {
+      "type": "attempt_start",
+      "t_ns": 5,
+      "request_id": "r1",
+      "attempt_id": "a1",
+      "counter": {
+        "source": "fixture",
+        "device": "synthetic-device",
+        "scope": "gpu",
+        "epoch": "synthetic-epoch-1",
+        "unit": "mJ",
+        "value_raw": 101000,
+        "read_start_ns": 4,
+        "read_end_ns": 5
+      },
+      "effective_config_hash": "16fb5e919d148f31894ae6c8c8c69b75fe29f466cb3b7b590618aa0640e678d0",
+      "event_id": "e3",
+      "server_seq": 3,
+      "session_id": "synthetic-session-1"
+    },
+    {
+      "type": "attempt_end",
+      "t_ns": 10,
+      "attempt_id": "a1",
+      "status": "success",
+      "counter": {
+        "source": "fixture",
+        "device": "synthetic-device",
+        "scope": "gpu",
+        "epoch": "synthetic-epoch-1",
+        "unit": "mJ",
+        "value_raw": 106000,
+        "read_start_ns": 9,
+        "read_end_ns": 10
+      },
+      "event_id": "e4",
+      "server_seq": 4,
+      "session_id": "synthetic-session-1"
+    },
+    {
+      "type": "request_submitted",
+      "t_ns": 15,
+      "request_id": "r2",
+      "task_id": "T02",
+      "mode": "high",
+      "effective_config_hash": "90264c03087be20e4e9cdbe10759729e9bb9620d9e6b383ac988b8b0641cd721",
+      "event_id": "e5",
+      "server_seq": 5,
+      "session_id": "synthetic-session-1"
+    },
+    {
+      "type": "attempt_start",
+      "t_ns": 17,
+      "request_id": "r2",
+      "attempt_id": "a2",
+      "counter": {
+        "source": "fixture",
+        "device": "synthetic-device",
+        "scope": "gpu",
+        "epoch": "synthetic-epoch-1",
+        "unit": "mJ",
+        "value_raw": 109000,
+        "read_start_ns": 16,
+        "read_end_ns": 17
+      },
+      "effective_config_hash": "90264c03087be20e4e9cdbe10759729e9bb9620d9e6b383ac988b8b0641cd721",
+      "event_id": "e6",
+      "server_seq": 6,
+      "session_id": "synthetic-session-1"
+    },
+    {
+      "type": "cancel_requested",
+      "t_ns": 20,
+      "attempt_id": "a2",
+      "event_id": "e7",
+      "server_seq": 7,
+      "session_id": "synthetic-session-1"
+    },
+    {
+      "type": "close_requested",
+      "t_ns": 21,
+      "reason": "abandoned",
+      "event_id": "e8",
+      "server_seq": 8,
+      "session_id": "synthetic-session-1"
+    },
+    {
+      "type": "attempt_end",
+      "t_ns": 25,
+      "attempt_id": "a2",
+      "status": "cancelled",
+      "counter": {
+        "source": "fixture",
+        "device": "synthetic-device",
+        "scope": "gpu",
+        "epoch": "synthetic-epoch-1",
+        "unit": "mJ",
+        "value_raw": 121000,
+        "read_start_ns": 24,
+        "read_end_ns": 25
+      },
+      "event_id": "e9",
+      "server_seq": 9,
+      "session_id": "synthetic-session-1"
+    },
+    {
+      "type": "backend_drained",
+      "t_ns": 26,
+      "event_id": "e10",
+      "server_seq": 10,
+      "session_id": "synthetic-session-1"
+    },
+    {
+      "type": "session_end",
+      "t_ns": 28,
+      "counter": {
+        "source": "fixture",
+        "device": "synthetic-device",
+        "scope": "gpu",
+        "epoch": "synthetic-epoch-1",
+        "unit": "mJ",
+        "value_raw": 122000,
+        "read_start_ns": 27,
+        "read_end_ns": 28
+      },
+      "logging_complete": true,
+      "outcomes": {
+        "T01": "success",
+        "T02": "abandoned"
+      },
+      "event_id": "e11",
+      "server_seq": 11,
+      "session_id": "synthetic-session-1"
+    }
+  ],
+  "sensor_evidence": {
+    "timing_uncertainty_known": false,
+    "epoch_evidence": "fixture assumption only, no real sensor"
+  }
+}

@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "updated_date": "2026-10-26",
-  "research_protocol": "v2.1",
+  "updated_date": "2026-10-27",
+  "research_protocol": "v3",
   "all_personas_100": false,
   "score_type": "fictional_advisory_review_not_external_peer_review",
   "scores": [
     {
       "persona": "A",
       "role": "HCI 교수",
-      "latest_completed_protocol": "v2",
-      "score": 90,
+      "latest_completed_protocol": "v3",
+      "score": 92,
       "max": 100,
       "history": [
         {
@@ -19,6 +19,16 @@
         {
           "protocol": "v2",
           "score": 90
+        },
+        {
+          "protocol": "v2.1",
+          "score": 90,
+          "date": "2026-10-27"
+        },
+        {
+          "protocol": "v3",
+          "score": 92,
+          "date": "2026-10-27"
         }
       ],
       "remaining": [
@@ -26,12 +36,24 @@
         "과제 분류 기준",
         "지표별 분석 규칙",
         "자원·모집·최종 표본 계획"
+      ],
+      "review_source": "2026-10-27/A-round2.md",
+      "latest_attempt": {
+        "protocol": "v3",
+        "status": "completed"
+      },
+      "item_scores": [
+        20,
+        25,
+        16,
+        20,
+        11
       ]
     },
     {
       "persona": "B",
       "role": "HCI 논문 포닥",
-      "latest_completed_protocol": "v2",
+      "latest_completed_protocol": "v2.1",
       "score": 62.5,
       "max": 100,
       "history": [
@@ -42,6 +64,11 @@
         {
           "protocol": "v2",
           "score": 62.5
+        },
+        {
+          "protocol": "v2.1",
+          "score": 62.5,
+          "date": "2026-10-27"
         }
       ],
       "remaining": [
@@ -50,13 +77,26 @@
         "실제 UI와 로그",
         "독립 예비자료·검정력"
       ],
-      "readiness_blocker": true
+      "readiness_blocker": true,
+      "review_source": "2026-10-27/B-dialogue.md",
+      "latest_attempt": {
+        "protocol": "v3",
+        "status": "usage_limit_no_new_score",
+        "details": "adversarial checks completed; final rescoring not completed"
+      },
+      "item_scores": [
+        22.5,
+        18.75,
+        10,
+        11.25,
+        0
+      ]
     },
     {
       "persona": "C",
       "role": "AI 교수",
-      "latest_completed_protocol": "v2",
-      "score": 95,
+      "latest_completed_protocol": "v3",
+      "score": 100,
       "max": 100,
       "history": [
         {
@@ -66,21 +106,46 @@
         {
           "protocol": "v2",
           "score": 95
+        },
+        {
+          "protocol": "v2.1",
+          "score": 100,
+          "date": "2026-10-27"
+        },
+        {
+          "protocol": "v3",
+          "score": 100,
+          "date": "2026-10-27"
         }
       ],
       "remaining": [
-        "v2.1 자원 상한·중단 관문의 재심사"
+        "고정 C 설계 기준 통과. 실제 모델·센서·사람·δ/N 확정 또는 효과 증명은 아님."
+      ],
+      "review_source": "2026-10-27/C-round2.md",
+      "prior_attempts": [
+        {
+          "protocol": "v2.1",
+          "status": "usage_limit_no_new_score"
+        }
       ],
       "latest_attempt": {
-        "protocol": "v2.1",
-        "status": "usage_limit_no_new_score"
-      }
+        "protocol": "v3",
+        "status": "completed"
+      },
+      "item_scores": [
+        25,
+        20,
+        25,
+        20,
+        10
+      ],
+      "score_scope": "design_only"
     },
     {
       "persona": "D",
       "role": "AI 데이터센터 CEO",
-      "latest_completed_protocol": "v2",
-      "score": 70,
+      "latest_completed_protocol": "v3",
+      "score": 73,
       "max": 100,
       "history": [
         {
@@ -90,6 +155,16 @@
         {
           "protocol": "v2",
           "score": 70
+        },
+        {
+          "protocol": "v2.1",
+          "score": 71,
+          "date": "2026-10-27"
+        },
+        {
+          "protocol": "v3",
+          "score": 73,
+          "date": "2026-10-27"
         }
       ],
       "remaining": [
@@ -97,28 +172,77 @@
         "실측 원시값과 오차·변동",
         "실제 두 예산 작동",
         "자원·δ·표본 계획"
+      ],
+      "review_source": "2026-10-27/D-round2.md",
+      "latest_attempt": {
+        "protocol": "v3",
+        "status": "completed"
+      },
+      "item_scores": [
+        12,
+        19,
+        14,
+        15,
+        13
       ]
     },
     {
       "persona": "E",
       "role": "AI 데이터센터 개발자",
-      "latest_completed_protocol": "v1",
-      "design_score": 86,
-      "execution_evidence_score": 0,
+      "latest_completed_protocol": "v3",
+      "design_score": 97,
+      "execution_evidence_score": 50,
       "max_each": 100,
       "history": [
         {
           "protocol": "v1",
           "design_score": 86,
           "execution_evidence_score": 0
+        },
+        {
+          "protocol": "v2.1",
+          "design_score": 90,
+          "execution_evidence_score": 23,
+          "date": "2026-10-27"
+        },
+        {
+          "protocol": "v3",
+          "design_score": 97,
+          "execution_evidence_score": 50,
+          "date": "2026-10-27"
+        }
+      ],
+      "note": "v3 최종57검사 독립재실행 및 반례수정확인 후 완료평가. 실제장비·센서·UI·실제adapter 검증은 남음.",
+      "review_source": "2026-10-27/E-round2.md",
+      "prior_attempts": [
+        {
+          "protocol": "v2",
+          "status": "usage_limit_no_new_score",
+          "independent_file_access": "failed"
         }
       ],
       "latest_attempt": {
-        "protocol": "v2",
-        "status": "usage_limit_no_new_score",
-        "independent_file_access": "failed"
+        "protocol": "v3",
+        "status": "completed"
       },
-      "note": "v1의 실행 0점을 v2의 최신 재평가로 해석하지 않는다."
+      "design_item_scores": [
+        25,
+        25,
+        19,
+        19,
+        9
+      ],
+      "execution_item_scores": [
+        8,
+        10,
+        15,
+        15,
+        2
+      ],
+      "remaining": [
+        "실제 응답 adapter·UI→서버→채점 연결",
+        "연구자 장비·두 예산 적용·센서·오차·시각 근거"
+      ]
     }
   ],
   "completed_validation": {
@@ -137,5 +261,32 @@
     "효과를 보기 전 정할 실용적 δ",
     "독립 예비자료로 정할 표본 수"
   ],
-  "policy": "고정 기준을 낮추거나 미완료 재심사 점수를 추정해서 만점으로 만들지 않는다."
+  "policy": "고정 기준을 낮추거나 미완료 재심사 점수를 추정해서 만점으로 만들지 않는다.",
+  "additional_validation": {
+    "kind": "synthetic_engineering_only",
+    "tests_run": 57,
+    "failures": 0,
+    "errors": 0,
+    "all_passed": true,
+    "python": "3.12.14",
+    "scipy": "1.17.0",
+    "device_energy_measurement": false,
+    "actual_model_inference": false,
+    "human_participants": false,
+    "source_sha256": {
+      "analysis_prepare.py": "8cece9126f9e57654c402bc08fe3783939bb307974f4494ed2ea5ea958392c0e",
+      "run_checks.py": "3829e61cad43e4e308b81dda27ce095b2db4c313318e1c37699963fad65aa996",
+      "session_replay.py": "759d1bc351498603c2d5136e2ae776d627e2f78d83207758b9226e95b386dfb9",
+      "synthetic_fixture.py": "5237d28cebb5890f4ac1c0bdc3b2e93c84b9d5fb37a37e94ed2fe5d3573798d1",
+      "test_research_tools.py": "a40e85a0d840285c8239887c92bf951f1d15819ad4fc6cac6e4b8feb503badf7"
+    },
+    "notice": "Tests validate synthetic cases and selected invariants, not complete system correctness or research effects.",
+    "independent_final_reproducers": [
+      "A",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  "round4_note": "다섯역할 교차토론/반례검토. 부모수정57/57, A/C/D/E 최종57 독립재실행. B 최종재심사 usage limit 중단. 전원100 아님."
 }

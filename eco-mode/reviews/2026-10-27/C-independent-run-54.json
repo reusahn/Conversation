@@ -1,0 +1,22 @@
+{
+  "kind": "synthetic_engineering_independent_C_run",
+  "tests": 54,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "passed": 54,
+  "source_hashes_before": {
+    "session_replay.py": "5aef13da49584824bbfa92955a2e0009c22c367362ac940b065d6ff041d348f5",
+    "analysis_prepare.py": "8cece9126f9e57654c402bc08fe3783939bb307974f4494ed2ea5ea958392c0e",
+    "synthetic_fixture.py": "5237d28cebb5890f4ac1c0bdc3b2e93c84b9d5fb37a37e94ed2fe5d3573798d1",
+    "test_research_tools.py": "69f3b486a7595c6dd9178b4bb47c65958688d15a32b2ebf17e03412102df755f"
+  },
+  "source_hashes_after": {
+    "session_replay.py": "5aef13da49584824bbfa92955a2e0009c22c367362ac940b065d6ff041d348f5",
+    "analysis_prepare.py": "8cece9126f9e57654c402bc08fe3783939bb307974f4494ed2ea5ea958392c0e",
+    "synthetic_fixture.py": "5237d28cebb5890f4ac1c0bdc3b2e93c84b9d5fb37a37e94ed2fe5d3573798d1",
+    "test_research_tools.py": "69f3b486a7595c6dd9178b4bb47c65958688d15a32b2ebf17e03412102df755f"
+  },
+  "source_unchanged_during_run": true,
+  "actual_model_or_sensor_run": false
+}

@@ -1,0 +1,22 @@
+{
+  "status": "researcher_resources_not_provided",
+  "user_device": {
+    "os": null,
+    "gpu": null,
+    "memory_gb": null,
+    "sensor_support": null
+  },
+  "available_hours": null,
+  "research_budget_limit": null,
+  "budget_currency": null,
+  "paid_resources_authorized": false,
+  "assistant_host_inventory": {
+    "scope": "assistant_execution_environment_not_user_device",
+    "os": "Linux",
+    "machine": "x86_64",
+    "python": "3.12.14",
+    "nvidia_smi_command_present": false
+  },
+  "model_S0_started": false,
+  "energy_empirical_study_unlocked": false
+}
