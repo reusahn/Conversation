@@ -48,12 +48,17 @@
         16,
         20,
         11
-      ]
+      ],
+      "latest_followup": {
+        "round": "2026-10-27-d-led",
+        "score_changed": false,
+        "scope": "D-led discussion; no model/sensor/human results"
+      }
     },
     {
       "persona": "B",
       "role": "HCI 논문 포닥",
-      "latest_completed_protocol": "v2.1",
+      "latest_completed_protocol": "v3",
       "score": 62.5,
       "max": 100,
       "history": [
@@ -69,6 +74,13 @@
           "protocol": "v2.1",
           "score": 62.5,
           "date": "2026-10-27"
+        },
+        {
+          "protocol": "v3",
+          "score": 62.5,
+          "date": "2026-10-27",
+          "round": "D-led",
+          "note": "previously unfinished review completed"
         }
       ],
       "remaining": [
@@ -78,11 +90,11 @@
         "독립 예비자료·검정력"
       ],
       "readiness_blocker": true,
-      "review_source": "2026-10-27/B-dialogue.md",
+      "review_source": "2026-10-27-d-led/B-final.md",
       "latest_attempt": {
         "protocol": "v3",
-        "status": "usage_limit_no_new_score",
-        "details": "adversarial checks completed; final rescoring not completed"
+        "status": "completed",
+        "basis": "57-test source + later related 8-test check; no score inflation"
       },
       "item_scores": [
         22.5,
@@ -90,6 +102,18 @@
         10,
         11.25,
         0
+      ],
+      "latest_followup": {
+        "round": "2026-10-27-d-led",
+        "score_changed": false,
+        "scope": "D-led discussion; no model/sensor/human results"
+      },
+      "prior_attempts": [
+        {
+          "protocol": "v3",
+          "status": "usage_limit_no_new_score",
+          "details": "adversarial checks completed; final rescoring not completed"
+        }
       ]
     },
     {
@@ -139,7 +163,12 @@
         20,
         10
       ],
-      "score_scope": "design_only"
+      "score_scope": "design_only",
+      "latest_followup": {
+        "round": "2026-10-27-d-led",
+        "score_changed": false,
+        "scope": "D-led discussion; no model/sensor/human results"
+      }
     },
     {
       "persona": "D",
@@ -184,7 +213,12 @@
         14,
         15,
         13
-      ]
+      ],
+      "latest_followup": {
+        "round": "2026-10-27-d-led",
+        "score_changed": false,
+        "scope": "D-led discussion; no model/sensor/human results"
+      }
     },
     {
       "persona": "E",
@@ -242,7 +276,13 @@
       "remaining": [
         "실제 응답 adapter·UI→서버→채점 연결",
         "연구자 장비·두 예산 적용·센서·오차·시각 근거"
-      ]
+      ],
+      "latest_followup": {
+        "round": "2026-10-27-d-led",
+        "score_changed": false,
+        "scope": "D-led discussion; no model/sensor/human results"
+      },
+      "score_basis_note": "97/50 is the pre-metric-change completed v3 review; the later 62-test patch was validated, not rescored."
     }
   ],
   "completed_validation": {
@@ -264,7 +304,7 @@
   "policy": "고정 기준을 낮추거나 미완료 재심사 점수를 추정해서 만점으로 만들지 않는다.",
   "additional_validation": {
     "kind": "synthetic_engineering_only",
-    "tests_run": 57,
+    "tests_run": 62,
     "failures": 0,
     "errors": 0,
     "all_passed": true,
@@ -276,17 +316,49 @@
     "source_sha256": {
       "analysis_prepare.py": "8cece9126f9e57654c402bc08fe3783939bb307974f4494ed2ea5ea958392c0e",
       "run_checks.py": "3829e61cad43e4e308b81dda27ce095b2db4c313318e1c37699963fad65aa996",
-      "session_replay.py": "759d1bc351498603c2d5136e2ae776d627e2f78d83207758b9226e95b386dfb9",
+      "session_replay.py": "cb488f6336d0d0cd9990b118d8c12d64de9c94cc275e19898a60852465395f21",
       "synthetic_fixture.py": "5237d28cebb5890f4ac1c0bdc3b2e93c84b9d5fb37a37e94ed2fe5d3573798d1",
-      "test_research_tools.py": "a40e85a0d840285c8239887c92bf951f1d15819ad4fc6cac6e4b8feb503badf7"
+      "test_research_tools.py": "2c91fec229eca8a412c4d541c1a273f58f112878d999a0803a72961ec548af80"
     },
     "notice": "Tests validate synthetic cases and selected invariants, not complete system correctness or research effects.",
-    "independent_final_reproducers": [
-      "A",
-      "C",
-      "D",
-      "E"
-    ]
+    "full_suite_executor": "E",
+    "independent_related_check": {
+      "reviewer": "B",
+      "tests_run": 8,
+      "all_passed": true,
+      "scope": "new five cases plus first submission, no-call, identical duplicate; NOT all 62"
+    }
   },
-  "round4_note": "다섯역할 교차토론/반례검토. 부모수정57/57, A/C/D/E 최종57 독립재실행. B 최종재심사 usage limit 중단. 전원100 아님."
+  "round4_note": "2026-10-27 first v3 round: 57 tests. D-led followup completed B v3 62.5; later task/request metrics changed, E full 62 and B related 8 verified. Device/model/human effects absent.",
+  "additional_validation_history": [
+    {
+      "kind": "synthetic_engineering_only",
+      "tests_run": 57,
+      "failures": 0,
+      "errors": 0,
+      "all_passed": true,
+      "python": "3.12.14",
+      "scipy": "1.17.0",
+      "device_energy_measurement": false,
+      "actual_model_inference": false,
+      "human_participants": false,
+      "source_sha256": {
+        "analysis_prepare.py": "8cece9126f9e57654c402bc08fe3783939bb307974f4494ed2ea5ea958392c0e",
+        "run_checks.py": "3829e61cad43e4e308b81dda27ce095b2db4c313318e1c37699963fad65aa996",
+        "session_replay.py": "759d1bc351498603c2d5136e2ae776d627e2f78d83207758b9226e95b386dfb9",
+        "synthetic_fixture.py": "5237d28cebb5890f4ac1c0bdc3b2e93c84b9d5fb37a37e94ed2fe5d3573798d1",
+        "test_research_tools.py": "a40e85a0d840285c8239887c92bf951f1d15819ad4fc6cac6e4b8feb503badf7"
+      },
+      "notice": "Tests validate synthetic cases and selected invariants, not complete system correctness or research effects.",
+      "independent_final_reproducers": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    }
+  ],
+  "latest_addendum": "research/d-led-next-steps.md",
+  "latest_discussion": "reviews/2026-10-27-d-led/"
 }

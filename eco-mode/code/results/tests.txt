@@ -29,6 +29,7 @@ test_config_mutation_detected (test_research_tools.ReplayInvariants.test_config_
 test_configuration_is_arm_invariant (test_research_tools.ReplayInvariants.test_configuration_is_arm_invariant) ... ok
 test_conflicting_duplicate_blocks (test_research_tools.ReplayInvariants.test_conflicting_duplicate_blocks) ... ok
 test_counter_decrease_blocks (test_research_tools.ReplayInvariants.test_counter_decrease_blocks) ... ok
+test_cross_task_change_is_not_within_task_escalation (test_research_tools.ReplayInvariants.test_cross_task_change_is_not_within_task_escalation) ... ok
 test_end_before_backend_stop_invalid (test_research_tools.ReplayInvariants.test_end_before_backend_stop_invalid) ... ok
 test_epoch_reset_not_negative_saving (test_research_tools.ReplayInvariants.test_epoch_reset_not_negative_saving) ... ok
 test_explicit_zero_tokens_is_not_missing (test_research_tools.ReplayInvariants.test_explicit_zero_tokens_is_not_missing) ... ok
@@ -52,11 +53,15 @@ test_omitted_outcome_unknown (test_research_tools.ReplayInvariants.test_omitted_
 test_overlap_invalid (test_research_tools.ReplayInvariants.test_overlap_invalid) ... ok
 test_primary_total_not_sum_twice (test_research_tools.ReplayInvariants.test_primary_total_not_sum_twice) ... ok
 test_same_intended_modes_rejected_despite_valid_hashes (test_research_tools.ReplayInvariants.test_same_intended_modes_rejected_despite_valid_hashes) ... ok
+test_same_request_additional_attempt_is_not_submission (test_research_tools.ReplayInvariants.test_same_request_additional_attempt_is_not_submission) ... ok
+test_same_task_low_resubmission_is_not_mode_change (test_research_tools.ReplayInvariants.test_same_task_low_resubmission_is_not_mode_change) ... ok
+test_same_task_low_to_high_ignores_intervening_task (test_research_tools.ReplayInvariants.test_same_task_low_to_high_ignores_intervening_task) ... ok
 test_schema_missing_not_zero_tokens (test_research_tools.ReplayInvariants.test_schema_missing_not_zero_tokens) ... ok
+test_semantic_conflict_quarantines_new_metrics_preserves_raw (test_research_tools.ReplayInvariants.test_semantic_conflict_quarantines_new_metrics_preserves_raw) ... ok
 test_sequence_loss_not_none_or_failure (test_research_tools.ReplayInvariants.test_sequence_loss_not_none_or_failure) ... ok
 test_submission_after_close_not_first_choice (test_research_tools.ReplayInvariants.test_submission_after_close_not_first_choice) ... ok
 
 ----------------------------------------------------------------------
-Ran 57 tests in 0.042s
+Ran 62 tests in 0.037s
 
 OK

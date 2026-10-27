@@ -18,5 +18,14 @@
     "nvidia_smi_command_present": false
   },
   "model_S0_started": false,
-  "energy_empirical_study_unlocked": false
+  "energy_empirical_study_unlocked": false,
+  "target_task_context": null,
+  "actual_access_rights": null,
+  "route": "undetermined",
+  "minimal_input_groups": [
+    "목표 사용자와 과제 한 줄",
+    "실제 기기와 접근권",
+    "시간 및 지출 상한(0/모름 포함)"
+  ],
+  "notes": "장비/권한 확인 전 실제 모델 S0 미시작. 도우미호스트 정보를 사용자 기기 증거로 채우지 않음."
 }

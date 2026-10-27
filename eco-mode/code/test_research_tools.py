@@ -23,10 +23,62 @@ class ReplayInvariants(unittest.TestCase):
         r = replay(fixture())
         self.assertEqual(r["first_choice"],"low")
         self.assertEqual((r["additional_requests"],r["mode_switches"]),(1,1))
+    def test_cross_task_change_is_not_within_task_escalation(self):
+        r = replay(fixture())
+        self.assertTrue(r["protocol_observation_valid"])
+        self.assertEqual((r["mode_switches"],r["session_adjacent_mode_changes"]),(1,1))
+        self.assertEqual((r["within_task_mode_switches"],r["within_task_low_to_high"],
+                          r["within_task_additional_submissions"],
+                          r["within_request_additional_attempts"]),(0,0,0,0))
+    def test_same_task_low_to_high_ignores_intervening_task(self):
+        d = fixture()
+        e = copy.deepcopy(d["events"][4])
+        e.update(event_id="return-to-T01",request_id="r3",task_id="T01",t_ns=19)
+        d["events"].insert(6,e)
+        for i,event in enumerate(d["events"],1): event["server_seq"]=i
+        r = replay(d)
+        self.assertTrue(r["audit_passed"])
+        self.assertEqual((r["session_adjacent_mode_changes"],r["within_task_mode_switches"],
+                          r["within_task_low_to_high"],r["within_task_additional_submissions"]),
+                         (1,1,1,1))
+    def test_same_task_low_resubmission_is_not_mode_change(self):
+        d = fixture()
+        d["events"][4].update(task_id="T01",mode="low",
+                               effective_config_hash=mode_hash(d["backend_config"],"low"))
+        d["events"][5]["effective_config_hash"]=mode_hash(d["backend_config"],"low")
+        r = replay(d)
+        self.assertTrue(r["audit_passed"])
+        self.assertEqual((r["within_task_mode_switches"],r["within_task_low_to_high"],
+                          r["within_task_additional_submissions"],
+                          r["within_request_additional_attempts"]),(0,0,1,0))
+    def test_same_request_additional_attempt_is_not_submission(self):
+        d = fixture()
+        d["events"][3]["status"]="failure"
+        d["events"][5].update(request_id="r1",
+                               effective_config_hash=mode_hash(d["backend_config"],"low"))
+        del d["events"][4]
+        d["events"][-1]["outcomes"]={"T01":"abandoned","T02":"not_started"}
+        for i,event in enumerate(d["events"],1): event["server_seq"]=i
+        r = replay(d)
+        self.assertTrue(r["audit_passed"])
+        self.assertEqual((r["requests"],r["attempts"],r["additional_requests"]),(1,2,0))
+        self.assertEqual((r["within_task_additional_submissions"],
+                          r["within_request_additional_attempts"]),(0,1))
+    def test_semantic_conflict_quarantines_new_metrics_preserves_raw(self):
+        base = replay(fixture())
+        d = fixture(); d["events"][2]["effective_config_hash"]="wrong"
+        r = replay(d)
+        self.assertFalse(r["protocol_observation_valid"])
+        for key in base["raw_event_metrics"]: self.assertIsNone(r[key])
+        self.assertEqual(r["raw_event_metrics"],base["raw_event_metrics"])
+        self.assertEqual((r["additional_requests"],r["mode_switches"]),(1,1))
+        self.assertEqual(r["raw_first_submitted_mode"],"low")
     def test_no_call_still_idle(self):
         r = replay(no_call_fixture())
         self.assertTrue(r["audit_passed"])
         self.assertEqual((r["attempts"],r["first_choice"],r["synthetic_total_energy_j"]),(0,"none",3))
+        self.assertEqual(set(r["raw_event_metrics"].values()),{0})
+        self.assertTrue(all(r[key] == 0 for key in r["raw_event_metrics"]))
     def test_no_call_missing_final_sensor_not_zero(self):
         d = no_call_fixture(); del d["events"][-1]["counter"]
         r = replay(d)

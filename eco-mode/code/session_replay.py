@@ -8,6 +8,42 @@ SCALE = {"J": 1.0, "mJ": 0.001, "uJ": 0.000001}
 ARMS = {"Low", "Fast", "Eco"}
 MODES = {"low", "high"}
 OUTCOMES = {"success", "failure", "abandoned", "timeout", "not_started", "unknown"}
+METRIC_DEFINITIONS = {
+    "mode_switches": "Legacy unaudited session-adjacent mode-change count; not a within-task escalation count.",
+    "additional_requests": "Legacy unaudited count of session submissions after the first; includes first submissions on other tasks.",
+    "session_adjacent_mode_changes": "Mode changes between consecutive submitted requests across the session, irrespective of task.",
+    "within_task_mode_switches": "Sum of mode changes between consecutive submissions on each task, ignoring intervening submissions on other tasks.",
+    "within_task_low_to_high": "Sum of low-to-high changes between consecutive submissions on each task, ignoring other tasks.",
+    "within_task_additional_submissions": "Sum over tasks of max(0, submitted requests on that task minus 1); execution attempts are not submissions.",
+    "within_request_additional_attempts": "Sum over request IDs of max(0, execution attempts for that request minus 1); does not establish the cause of repetition.",
+    "request_id": "One server-accepted logical submission; a new question, regeneration or mode resubmission uses a new request ID.",
+    "task_id": "The assigned task to which a logical submission belongs.",
+    "attempt_id": "One backend execution attempt linked to a request ID; another attempt under that request does not create a submission.",
+    "raw_event_metrics": "Unaudited counts from the parser-preserved request-ID and attempt-ID records after event-ID deduplication; conflicts remain in issues and raw source events must be retained.",
+    "validity": "The five named nonlegacy metrics are null unless protocol_observation_valid is true; raw_event_metrics and legacy counts remain unaudited observations."
+}
+
+def submission_metrics(requests, attempts):
+    """Count parsed structures; the caller separately applies the semantic audit."""
+    modes = [r["mode"] for r in requests.values()]
+    task_modes, request_attempts = {}, {}
+    for request in requests.values():
+        task_modes.setdefault(request["task"], []).append(request["mode"])
+    for attempt in attempts.values():
+        rid = attempt["request_id"]
+        request_attempts[rid] = request_attempts.get(rid, 0) + 1
+    return {
+        "session_adjacent_mode_changes": sum(a != b for a, b in zip(modes, modes[1:])),
+        "within_task_mode_switches": sum(a != b for values in task_modes.values()
+                                         for a, b in zip(values, values[1:])),
+        "within_task_low_to_high": sum(a == "low" and b == "high"
+                                       for values in task_modes.values()
+                                       for a, b in zip(values, values[1:])),
+        "within_task_additional_submissions": sum(max(0, len(values) - 1)
+                                                  for values in task_modes.values()),
+        "within_request_additional_attempts": sum(max(0, count - 1)
+                                                  for count in request_attempts.values())
+    }
 
 def canonical_hash(value):
     encoded = json.dumps(value, sort_keys=True, separators=(",", ":"), allow_nan=False)
@@ -291,7 +327,9 @@ def replay(doc):
         "overlapping_attempts", "overlapping_attempt_brackets", "active_energy_exceeds_session"}
     if floor_unsafe.intersection(issues) or not trustworthy_events:
         active_j = None
-    modes = [r["mode"] for r in requests.values()]
+    raw_metrics = submission_metrics(requests, attempts)
+    valid_metrics = {key: value if trustworthy_events else None
+                     for key, value in raw_metrics.items()}
     sensor = doc.get("sensor_evidence", {})
     return {
         "schema_version": 2, "session_id": sid, "participant_id": participant_id,
@@ -305,7 +343,9 @@ def replay(doc):
         "first_choice": first_choice, "outcomes": quality,
         "attempts": len(attempts), "requests": len(requests),
         "additional_requests": max(0, len(requests) - 1),
-        "mode_switches": sum(a != b for a, b in zip(modes, modes[1:])),
+        "mode_switches": raw_metrics["session_adjacent_mode_changes"],
+        **valid_metrics,
+        "raw_event_metrics": raw_metrics, "metric_definitions": dict(METRIC_DEFINITIONS),
         "event_log_complete": complete, "energy_valid": valid,
         "measured_total_energy_j": total if doc["measurement_kind"] == "device_counter" else None,
         "synthetic_total_energy_j": total if doc["measurement_kind"] == "synthetic" else None,

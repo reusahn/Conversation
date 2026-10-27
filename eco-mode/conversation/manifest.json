@@ -7,7 +7,7 @@
   "native_account_export": false,
   "complete_raw_transcript": false,
   "chat": {
-    "records": 41,
+    "records": 46,
     "format": "보존된 대화 내용의 전사·복원 기록",
     "normalizations": [
       "Markdown 강조·표·인용 위젯의 일부 정규화",
@@ -54,5 +54,12 @@
   },
   "last_updated_date": "2026-10-27",
   "persona_round4_files": "../reviews/2026-10-27/",
-  "persona_round4_notes": "공개교차메시지·보고·반례·독립실행·완료점수 보존. 업무배정/비공개추론 제외. B최종미완료."
+  "persona_round4_notes": "공개교차메시지·보고·반례·독립실행·완료점수 보존. 업무배정/비공개추론 제외. B최종미완료.",
+  "D_led_followup": {
+    "path": "../reviews/2026-10-27-d-led/",
+    "D_dialogue_format": "author-labelled public-discussion summary, not native verbatim export",
+    "D_first_message": "D-first-message.md retains the substantive first report received by moderator",
+    "exclude": "private reasoning, assignment prompts, environment control messages",
+    "validation_scope": "E full62; B related8 after patch and full57 before patch"
+  }
 }
