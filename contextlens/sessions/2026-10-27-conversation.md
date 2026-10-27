@@ -87,3 +87,39 @@ Keep the same source match; show earlier publication evidence when it exists. Do
 **“촬영일을 추측하지 않는다”**는 2023년에 게시됐다는 사실만으로 정확한 촬영 날짜까지 알 수는 없다는 뜻이고.
 
 이건 전체 기능 중 **‘오래된 영상이 오늘 찍힌 것처럼 소개되는 경우’**를 보여주려던 예시였어.
+
+## Follow up discussing proposed demo wow moments
+
+### User
+
+와우포인트는 뭐가있을까
+
+### Assistant progress
+
+심사위원이 보는 순간 차이를 느낄 수 있는 데모 장면을 골라볼게. 현재 기획과 연결되는 후보들로 정리하겠어.
+
+### Assistant final
+
+**가장 강한 와우는 ‘짧은 영상 바깥의 맥락이 눈앞에서 펼쳐지는 순간’이야.** 원본 링크와 날짜를 표시하는 것만으로는 데모의 힘이 약해.
+
+**1. 잘린 10초가 원본 속 자기 자리로 들어가는 화면**
+
+바이럴 클립을 올리면, 원본 타임라인의 정확한 위치에 붙고 앞뒤 장면이 펼쳐져. 화면을 잘라낸 영상이라면 매칭된 원본의 더 넓은 화면으로 전환해.
+
+예를 들어, 우리가 촬영한 영화 장면을 실제 상황처럼 소개한 클립을 넣었는데, 원본을 펼치자 감독의 “컷”과 촬영 현장이 보이는 거야. **시청자가 직접 근거를 보고 해석을 바꾸는 순간**이 생겨. 펼쳐지는 장면은 확보한 실제 원본에서 가져와야 해.
+
+**2. 댓글의 질문을 누르면 답이 되는 근거가 재생됨**
+
+제공받은 댓글에서 “이거 실제야?”, “오늘 일이야?”, “어느 영화야?” 같은 질문을 모아 보여줘. 사용자가 질문을 누르면 관련 원본 장면이나 제작·공개 기록이 열려. 기록이 부족하면 무엇이 미확인인지 보여줘.
+
+**프롬프트를 길게 쓰지 않아도, 내가 궁금했던 질문에서 바로 근거로 이동하는 경험**이야. 댓글로 사람들의 속마음을 판정할 필요도 없어.
+
+**3. 친구가 방금 잘라낸 클립으로도 작동함**
+
+데모 전에 원본 목록을 고정하고, 친구가 그 안의 영상에서 새 구간을 잘라 입력해. 시스템이 실제로 대응 구간을 찾고, 결과 링크를 다른 휴대전화에서 열어 같은 근거를 재생해.
+
+이 장면은 **미리 준비한 정답을 보여주는 데모인지, 실제로 작동하는 도구인지**를 드러내 줘.
+
+나는 **1번을 메인 와우로 잡고, 3번으로 기술을 증명하고, 2번은 핵심 기능이 완성되면 추가**하겠어. 특히 네 영화·편집 경험을 가장 잘 살릴 수 있는 건 1번이야.
+
+Record note: These are proposed demo and interaction candidates, not implemented features or a newly scored v4. Wider crop matching must be tested within supported transformations; the public conversation does not amend the frozen final test after results. No new independent persona round was run.
