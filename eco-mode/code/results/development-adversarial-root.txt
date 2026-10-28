@@ -1,0 +1,26 @@
+{
+  "kind": "independent_development_numeric_and_fault_checks",
+  "node": "v24.22.1",
+  "passed": 1087,
+  "by_group": {
+    "independent_oracle": 1030,
+    "score_semantics": 24,
+    "invalid_fixture": 18,
+    "bank_health": 5,
+    "candidate_mutation": 3,
+    "output_contract": 7
+  },
+  "source_sha256": {
+    "development_scorer.cjs": "1184f8971c449b2853fe9b2e9d8a6c5243dad998c7b9baae8b84f783b50a763f",
+    "adversarial_scorer.cjs": "0dedf48632d27c9bc7977c3e24f02ce7569816f23c050f03a99b0153d88b4117"
+  },
+  "actual_model_inference": false,
+  "human_participants": false,
+  "device_energy_measurement": false,
+  "confirmatory_allowed": false,
+  "limits": [
+    "Finite deterministic comparisons are not complete correctness proof.",
+    "Trusted synchronous local functions only; no sandbox or timeouts.",
+    "All banks and checks are public developer fixtures, not hidden study tests."
+  ]
+}

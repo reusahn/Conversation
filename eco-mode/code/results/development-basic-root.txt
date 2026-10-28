@@ -1,0 +1,244 @@
+TAP version 13
+# Subtest: T01: reference passes the public development bank
+ok 1 - T01: reference passes the public development bank
+  ---
+  duration_ms: 9.775493
+  type: 'test'
+  ...
+# Subtest: T01: bank rejects coerce
+ok 2 - T01: bank rejects coerce
+  ---
+  duration_ms: 1.258091
+  type: 'test'
+  ...
+# Subtest: T01: bank rejects truthy_only
+ok 3 - T01: bank rejects truthy_only
+  ---
+  duration_ms: 0.649296
+  type: 'test'
+  ...
+# Subtest: T01: bank rejects nonnegative
+ok 4 - T01: bank rejects nonnegative
+  ---
+  duration_ms: 1.788317
+  type: 'test'
+  ...
+# Subtest: T01: bank rejects mutates
+ok 5 - T01: bank rejects mutates
+  ---
+  duration_ms: 0.327152
+  type: 'test'
+  ...
+# Subtest: T02: reference passes the public development bank
+ok 6 - T02: reference passes the public development bank
+  ---
+  duration_ms: 0.797739
+  type: 'test'
+  ...
+# Subtest: T02: bank rejects no_dedup
+ok 7 - T02: bank rejects no_dedup
+  ---
+  duration_ms: 1.052692
+  type: 'test'
+  ...
+# Subtest: T02: bank rejects sort_order
+ok 8 - T02: bank rejects sort_order
+  ---
+  duration_ms: 0.528965
+  type: 'test'
+  ...
+# Subtest: T02: bank rejects trim_interior
+ok 9 - T02: bank rejects trim_interior
+  ---
+  duration_ms: 0.671158
+  type: 'test'
+  ...
+# Subtest: T02: bank rejects object_dictionary
+ok 10 - T02: bank rejects object_dictionary
+  ---
+  duration_ms: 0.944579
+  type: 'test'
+  ...
+# Subtest: T03: reference passes the public development bank
+ok 11 - T03: reference passes the public development bank
+  ---
+  duration_ms: 1.359193
+  type: 'test'
+  ...
+# Subtest: T03: bank rejects strict_touch
+ok 12 - T03: bank rejects strict_touch
+  ---
+  duration_ms: 1.285772
+  type: 'test'
+  ...
+# Subtest: T03: bank rejects lexicographic
+ok 13 - T03: bank rejects lexicographic
+  ---
+  duration_ms: 2.286486
+  type: 'test'
+  ...
+# Subtest: T03: bank rejects adjacent_integers
+ok 14 - T03: bank rejects adjacent_integers
+  ---
+  duration_ms: 0.490848
+  type: 'test'
+  ...
+# Subtest: T03: bank rejects mutates
+ok 15 - T03: bank rejects mutates
+  ---
+  duration_ms: 0.497207
+  type: 'test'
+  ...
+# Subtest: T04: reference passes the public development bank
+ok 16 - T04: reference passes the public development bank
+  ---
+  duration_ms: 4.223957
+  type: 'test'
+  ...
+# Subtest: T04: bank rejects greedy
+ok 17 - T04: bank rejects greedy
+  ---
+  duration_ms: 1.798402
+  type: 'test'
+  ...
+# Subtest: T04: bank rejects strict_touch
+ok 18 - T04: bank rejects strict_touch
+  ---
+  duration_ms: 3.227529
+  type: 'test'
+  ...
+# Subtest: T04: bank rejects sum_all
+ok 19 - T04: bank rejects sum_all
+  ---
+  duration_ms: 1.326123
+  type: 'test'
+  ...
+# Subtest: T04: bank rejects mutates
+ok 20 - T04: bank rejects mutates
+  ---
+  duration_ms: 1.69657
+  type: 'test'
+  ...
+# Subtest: invalid or empty banks remain unknown, never vacuous success
+ok 21 - invalid or empty banks remain unknown, never vacuous success
+  ---
+  duration_ms: 0.631249
+  type: 'test'
+  ...
+# Subtest: validate entire bank before running any candidate
+ok 22 - validate entire bank before running any candidate
+  ---
+  duration_ms: 0.20593
+  type: 'test'
+  ...
+# Subtest: unknown task and absent callable are infrastructure unknown
+ok 23 - unknown task and absent callable are infrastructure unknown
+  ---
+  duration_ms: 0.110006
+  type: 'test'
+  ...
+# Subtest: oracle throw, mutation, invalid shape and asynchronous oracle stay unknown
+ok 24 - oracle throw, mutation, invalid shape and asynchronous oracle stay unknown
+  ---
+  duration_ms: 13.597822
+  type: 'test'
+  ...
+# Subtest: bad options cannot invoke an accessor or escape classification
+ok 25 - bad options cannot invoke an accessor or escape classification
+  ---
+  duration_ms: 0.187221
+  type: 'test'
+  ...
+# Subtest: candidate throw, wrong primitive and invalid shape are observed failures
+ok 26 - candidate throw, wrong primitive and invalid shape are observed failures
+  ---
+  duration_ms: 0.333612
+  type: 'test'
+  ...
+# Subtest: candidate Promise rejection, thenables and throwing then getter do not crash the suite
+ok 27 - candidate Promise rejection, thenables and throwing then getter do not crash the suite
+  ---
+  duration_ms: 8.318539
+  type: 'test'
+  ...
+# Subtest: candidate input mutation that returns correct output is still failure
+ok 28 - candidate input mutation that returns correct output is still failure
+  ---
+  duration_ms: 0.453652
+  type: 'test'
+  ...
+# Subtest: input accessor/prototype/property changes are mutation without getter execution
+ok 29 - input accessor/prototype/property changes are mutation without getter execution
+  ---
+  duration_ms: 0.40576
+  type: 'test'
+  ...
+# Subtest: candidate receives clones, preserving source fixtures between runs
+ok 30 - candidate receives clones, preserving source fixtures between runs
+  ---
+  duration_ms: 0.551849
+  type: 'test'
+  ...
+# Subtest: zero output treats signed zero as equivalent, while input signed-zero mutation is observable
+ok 31 - zero output treats signed zero as equivalent, while input signed-zero mutation is observable
+  ---
+  duration_ms: 0.200201
+  type: 'test'
+  ...
+# Subtest: bounds, sparse arrays, accessors, symbols and exotic inputs reject before scoring
+ok 32 - bounds, sparse arrays, accessors, symbols and exotic inputs reject before scoring
+  ---
+  duration_ms: 0.608995
+  type: 'test'
+  ...
+# Subtest: ASCII normalization preserves interior whitespace and first appearance
+ok 33 - ASCII normalization preserves interior whitespace and first appearance
+  ---
+  duration_ms: 0.215383
+  type: 'test'
+  ...
+# Subtest: closed interval graph agrees with sorted merge on all 1000 ordered triples over small domain
+ok 34 - closed interval graph agrees with sorted merge on all 1000 ordered triples over small domain
+  ---
+  duration_ms: 15.484928
+  type: 'test'
+  ...
+# Subtest: exhaustive scheduler agrees with dynamic programming on 1728 ordered triples
+ok 35 - exhaustive scheduler agrees with dynamic programming on 1728 ordered triples
+  ---
+  duration_ms: 21.749382
+  type: 'test'
+  ...
+# Subtest: endpoint contact, duplicate jobs, empty and maximum-length values have explicit semantics
+ok 36 - endpoint contact, duplicate jobs, empty and maximum-length values have explicit semantics
+  ---
+  duration_ms: 1.796098
+  type: 'test'
+  ...
+# Subtest: development cases are not claims about humans, model performance or measured energy
+ok 37 - development cases are not claims about humans, model performance or measured energy
+  ---
+  duration_ms: 0.368443
+  type: 'test'
+  ...
+# Subtest: correct read-only outputs pass: output writability is not part of task correctness
+ok 38 - correct read-only outputs pass: output writability is not part of task correctness
+  ---
+  duration_ms: 1.128756
+  type: 'test'
+  ...
+# Subtest: correct output data does not require enumerable index properties
+ok 39 - correct output data does not require enumerable index properties
+  ---
+  duration_ms: 0.994585
+  type: 'test'
+  ...
+1..39
+# tests 39
+# suites 0
+# pass 39
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 313.287786

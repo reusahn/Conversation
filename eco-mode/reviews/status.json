@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_date": "2026-10-27",
+  "updated_date": "2026-10-28",
   "research_protocol": "v3",
   "all_personas_100": false,
   "score_type": "fictional_advisory_review_not_external_peer_review",
@@ -37,7 +37,7 @@
         "지표별 분석 규칙",
         "자원·모집·최종 표본 계획"
       ],
-      "review_source": "2026-10-27/A-round2.md",
+      "review_source": "2026-10-28-task-scoring/A-dialogue.md",
       "latest_attempt": {
         "protocol": "v3",
         "status": "completed"
@@ -50,9 +50,12 @@
         11
       ],
       "latest_followup": {
-        "round": "2026-10-27-d-led",
-        "score_changed": false,
-        "scope": "D-led discussion; no model/sensor/human results"
+        "round": "2026-10-28-task-scoring",
+        "status": "saved_review_completed_no_score_change",
+        "new_score_assigned": false,
+        "actual_model_inference": false,
+        "device_energy_measurement": false,
+        "human_participants": false
       }
     },
     {
@@ -90,7 +93,7 @@
         "독립 예비자료·검정력"
       ],
       "readiness_blocker": true,
-      "review_source": "2026-10-27-d-led/B-final.md",
+      "review_source": "2026-10-28-task-scoring/B-review.md",
       "latest_attempt": {
         "protocol": "v3",
         "status": "completed",
@@ -104,9 +107,12 @@
         0
       ],
       "latest_followup": {
-        "round": "2026-10-27-d-led",
-        "score_changed": false,
-        "scope": "D-led discussion; no model/sensor/human results"
+        "round": "2026-10-28-task-scoring",
+        "status": "saved_review_completed_no_score_change",
+        "new_score_assigned": false,
+        "actual_model_inference": false,
+        "device_energy_measurement": false,
+        "human_participants": false
       },
       "prior_attempts": [
         {
@@ -145,7 +151,7 @@
       "remaining": [
         "고정 C 설계 기준 통과. 실제 모델·센서·사람·δ/N 확정 또는 효과 증명은 아님."
       ],
-      "review_source": "2026-10-27/C-round2.md",
+      "review_source": "2026-10-28-task-scoring/C-review.md",
       "prior_attempts": [
         {
           "protocol": "v2.1",
@@ -165,9 +171,12 @@
       ],
       "score_scope": "design_only",
       "latest_followup": {
-        "round": "2026-10-27-d-led",
-        "score_changed": false,
-        "scope": "D-led discussion; no model/sensor/human results"
+        "round": "2026-10-28-task-scoring",
+        "status": "saved_review_completed_no_score_change",
+        "new_score_assigned": false,
+        "actual_model_inference": false,
+        "device_energy_measurement": false,
+        "human_participants": false
       }
     },
     {
@@ -202,7 +211,7 @@
         "실제 두 예산 작동",
         "자원·δ·표본 계획"
       ],
-      "review_source": "2026-10-27/D-round2.md",
+      "review_source": "2026-10-28-task-scoring/D-review.md",
       "latest_attempt": {
         "protocol": "v3",
         "status": "completed"
@@ -215,9 +224,12 @@
         13
       ],
       "latest_followup": {
-        "round": "2026-10-27-d-led",
-        "score_changed": false,
-        "scope": "D-led discussion; no model/sensor/human results"
+        "round": "2026-10-28-task-scoring",
+        "status": "saved_review_completed_no_score_change",
+        "new_score_assigned": false,
+        "actual_model_inference": false,
+        "device_energy_measurement": false,
+        "human_participants": false
       }
     },
     {
@@ -278,9 +290,14 @@
         "연구자 장비·두 예산 적용·센서·오차·시각 근거"
       ],
       "latest_followup": {
-        "round": "2026-10-27-d-led",
-        "score_changed": false,
-        "scope": "D-led discussion; no model/sensor/human results"
+        "round": "2026-10-28-task-scoring",
+        "status": "implementation_started_by_E_final_call_capacity_interrupted_root_integrated_prior_score_retained",
+        "new_score_assigned": false,
+        "actual_model_inference": false,
+        "device_energy_measurement": false,
+        "human_participants": false,
+        "review_source": "2026-10-28-task-scoring/E-integration-note.md",
+        "new_final_persona_score": null
       },
       "score_basis_note": "97/50 is the pre-metric-change completed v3 review; the later 62-test patch was validated, not rescored."
     }
@@ -359,6 +376,45 @@
       ]
     }
   ],
-  "latest_addendum": "research/d-led-next-steps.md",
-  "latest_discussion": "reviews/2026-10-27-d-led/"
+  "latest_addendum": "research/requirements-for-next-evidence.md",
+  "latest_discussion": "reviews/2026-10-28-task-scoring/",
+  "next_user_question": "짧은 코드 수정 작업을 첫 연구 대상으로 삼을지",
+  "current_user_constraints": {
+    "device_question_deferred": true,
+    "solo_preparation": true,
+    "human_participants_later_if_needed": true
+  },
+  "development_scoring_validation": {
+    "kind": "trusted_local_development_fixtures_only",
+    "source": "code/results/development-scorer-validation.json",
+    "basic": {
+      "executor": "root",
+      "node_tests": 39,
+      "passed": 39
+    },
+    "independent": {
+      "executor": "C_saved_review",
+      "checks": 1087,
+      "passed": 1087,
+      "oracle_comparisons": 1030,
+      "state_contract_fault_checks": 57,
+      "root_recheck_same_results": true
+    },
+    "B": {
+      "scope": "same_two_frozen_output_tasks_final_source",
+      "T02_cases": 8,
+      "T03_cases": 9,
+      "failures": 0,
+      "full_suite_run": false
+    },
+    "counts_not_to_sum": true,
+    "actual_model_inference": false,
+    "device_energy_measurement": false,
+    "human_participants": false,
+    "untrusted_code_isolation": false,
+    "confirmatory_allowed": false,
+    "source_sha256": "1184f8971c449b2853fe9b2e9d8a6c5243dad998c7b9baae8b84f783b50a763f",
+    "note": "Existing completed scores retained; E final new review incomplete. B/C saved records exist before later response usage-limit termination."
+  },
+  "current_task_strata_correction": "research/task-strata-correction-v0.1.md"
 }
