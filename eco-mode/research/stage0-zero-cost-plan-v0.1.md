@@ -1,3 +1,5 @@
+> **Scope correction (2026-10-28):** The intended research targets commercially hosted LLM services (ChatGPT/Gemini/Claude) and their data-center resource/environmental impacts. This local GPU plan is OPTIONAL tooling validation, not the primary study or required first step. Consult [hosted-llm-datacenter-study-v0.2.md](hosted-llm-datacenter-study-v0.2.md). No local GPU measurement may be represented as hosted-provider energy or emissions evidence.
+
 # Stage 0 — zero-API-cost local feasibility plan (2026-10-28)
 
 Status: method/instrumentation only; no empirical energy or human-subject results.
