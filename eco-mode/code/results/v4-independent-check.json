@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "review_role": "fictional_C_separate_contract_audit_not_external_replication",
+  "fixture_origin": "independently_authored_synthetic_values",
+  "actual_model_inference": false,
+  "device_energy_measurement": false,
+  "human_participants": false,
+  "provenance_verified": false,
+  "confirmatory_allowed": false,
+  "passed": 14,
+  "total": 14,
+  "all_passed": true,
+  "files_sha256": {
+    "analysis_v4.py": "34d6bc91b085b8cd143cbf9da749a63b5ea309eb6960edbe579a0e8113c99e01",
+    "usage_adapter_v4.py": "b99186545f700fd0417a88904b8e30a173d0269db4b5445e3d6a50d3d142f88e",
+    "adversarial_v4.py": "e82d809a7e5b04ad9f28831e8ffb438b29414de41ba904eac079b9b2246a337a"
+  },
+  "checks": [
+    {
+      "name": "independent_welch_and_holm_oracle",
+      "passed": true
+    },
+    {
+      "name": "severe_performance_loss_does_not_gate_resources",
+      "passed": true
+    },
+    {
+      "name": "unknown_performance_does_not_gate_resources",
+      "passed": true
+    },
+    {
+      "name": "missing_energy_does_not_gate_tokens_or_shrink_holm_family",
+      "passed": true
+    },
+    {
+      "name": "missing_tokens_does_not_gate_energy",
+      "passed": true
+    },
+    {
+      "name": "fast_missing_row_does_not_gate_primary_contrast",
+      "passed": true
+    },
+    {
+      "name": "missing_assigned_row_is_not_complete_case_analysis",
+      "passed": true
+    },
+    {
+      "name": "participant_identity_conflicts_are_rejected",
+      "passed": true
+    },
+    {
+      "name": "invalid_resource_scalars_are_rejected",
+      "passed": true
+    },
+    {
+      "name": "endpoint_definition_unknown_or_conflict_blocks_only_its_endpoint",
+      "passed": true
+    },
+    {
+      "name": "all_constant_resources_do_not_produce_fake_inference",
+      "passed": true
+    },
+    {
+      "name": "one_constant_arm_is_allowed_when_standard_error_is_positive",
+      "passed": true
+    },
+    {
+      "name": "too_few_independent_people_do_not_become_task_replicates",
+      "passed": true
+    },
+    {
+      "name": "mismatched_assigned_task_set_is_rejected",
+      "passed": true
+    }
+  ]
+}

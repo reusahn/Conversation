@@ -155,7 +155,7 @@
   "actual_model_inference": false,
   "device_energy_measurement": false,
   "human_participants": false,
-  "new_code_tests_run": false,
+  "new_code_tests_run": true,
   "confirmatory_allowed": false,
   "current_user_constraints": {
     "solo_preparation": true,
@@ -165,7 +165,7 @@
     "task_domain_not_final": true
   },
   "old_v3_IUT_success_rule_active_for_v4": false,
-  "new_v4_analysis_implemented": false,
+  "new_v4_analysis_implemented": true,
   "blocking_facts": [
     "Final task/user scope and valid performance outcome contract",
     "Actual two-budget implementation and authoritative token schema/provenance",
@@ -176,9 +176,27 @@
   ],
   "quality_NI_delta_required_for_v4": false,
   "p_min_required_only_if_optional_task_classification_adopted": true,
-  "latest_discussion": "reviews/2026-10-28-voluntary-tradeoff/",
-  "latest_addendum": "research/requirements-v4.md",
+  "latest_discussion": "reviews/2026-10-28-readiness90/",
+  "latest_addendum": "research/v4-analysis-contract.md",
   "environmental_claim_scope": "Measured J within boundary; conditional carbon/water estimates only with necessary data; broader ecological harm prevention unproven.",
   "F_is_not_actual_user_or_participant": true,
-  "latest_conversation": "conversation/2026-10-28-voluntary-tradeoff.json"
+  "latest_conversation": "conversation/2026-10-28-readiness90.json",
+  "latest_protocol_sha256": "37d3be52f7740428c18164cf7a36f211a8c078e472d8870835cf9e9f8f7234d8",
+  "all_personas_above_90": false,
+  "current_review_attempt": {
+    "date": "2026-10-28",
+    "completed_final_rescores": false,
+    "interruption": "A–E followups ended with usage limits",
+    "last_completed_scores_remain_current": true,
+    "development_tests": {
+      "analysis": 13,
+      "usage": 14,
+      "boundary": 14,
+      "total": 41,
+      "synthetic_only": true
+    },
+    "actual_model_inference": false,
+    "device_energy_measurement": false,
+    "human_participants": false
+  }
 }

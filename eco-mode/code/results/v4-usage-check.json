@@ -1,0 +1,15 @@
+{
+  "evidence_type": "synthetic_development_unit_tests",
+  "test_methods_run": 14,
+  "passed": true,
+  "source_sha256": {
+    "usage_adapter_v4.py": "b99186545f700fd0417a88904b8e30a173d0269db4b5445e3d6a50d3d142f88e",
+    "test_usage_adapter_v4.py": "73b6aab69ebbce69b8426f64161a460879a3ed82279d9a19055600c6284adf8b"
+  },
+  "actual_provider_conformance_validated": false,
+  "actual_model_inference": false,
+  "device_energy_measurement": false,
+  "human_participants": false,
+  "confirmatory_allowed": false,
+  "note": "root directly ran python -m unittest -q test_analysis_v4 test_usage_adapter_v4 (27/27) and python test_usage_adapter_v4.py (14/14); output check is not a provider trace"
+}
