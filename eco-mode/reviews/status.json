@@ -1,420 +1,184 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "updated_date": "2026-10-28",
-  "research_protocol": "v3",
+  "research_protocol": "v4",
+  "protocol_file": "research/protocol-v4.md",
+  "review_round": "2026-10-28-voluntary-tradeoff",
   "all_personas_100": false,
   "score_type": "fictional_advisory_review_not_external_peer_review",
+  "score_scopes_not_to_average": true,
+  "not_comparable_with_v3_scores": true,
+  "prior_protocol_snapshot": "status-v3-before-v4.json",
+  "user_authorized_goal_change": {
+    "quality_noninferiority_required": false,
+    "quality_measured_as_tradeoff_outcome": true,
+    "actual_token_and_energy_change": true,
+    "environmental_impact_as_empirical_or_conditional_question": true,
+    "unexpected_results_reportable": true,
+    "new_persona_F": true
+  },
+  "rubric_file": "2026-10-28-voluntary-tradeoff/rubric-v4.md",
+  "rubric_sha256": "25d1158955d75ac151ad6fbdf90e9120e7f32769d1875e266169b7ec92a66350",
+  "reviewed_protocol_sha256": "474d33697e46ff636e7021b481b617b0f8d67f65cb7a95e7d923e3267da65892",
   "scores": [
     {
       "persona": "A",
-      "role": "HCI 교수",
-      "latest_completed_protocol": "v3",
-      "score": 92,
+      "role": "HCI",
+      "score": 78.75,
       "max": 100,
-      "history": [
-        {
-          "protocol": "v1",
-          "score": 76
-        },
-        {
-          "protocol": "v2",
-          "score": 90
-        },
-        {
-          "protocol": "v2.1",
-          "score": 90,
-          "date": "2026-10-27"
-        },
-        {
-          "protocol": "v3",
-          "score": 92,
-          "date": "2026-10-27"
-        }
-      ],
-      "remaining": [
-        "실제 품질 허용폭 δ",
-        "과제 분류 기준",
-        "지표별 분석 규칙",
-        "자원·모집·최종 표본 계획"
-      ],
-      "review_source": "2026-10-28-task-scoring/A-dialogue.md",
-      "latest_attempt": {
-        "protocol": "v3",
-        "status": "completed"
-      },
       "item_scores": [
-        20,
         25,
-        16,
+        18.75,
         20,
-        11
+        7.5,
+        7.5
       ],
-      "latest_followup": {
-        "round": "2026-10-28-task-scoring",
-        "status": "saved_review_completed_no_score_change",
-        "new_score_assigned": false,
-        "actual_model_inference": false,
-        "device_energy_measurement": false,
-        "human_participants": false
-      }
+      "score_scope": "HCI_design_and_execution_readiness",
+      "status": "completed_final_version_read",
+      "review_source": "2026-10-28-voluntary-tradeoff/A-review.md",
+      "actual_model_inference": false,
+      "device_energy_measurement": false,
+      "human_participants": false,
+      "actual_user_approval": null
     },
     {
       "persona": "B",
-      "role": "HCI 논문 포닥",
-      "latest_completed_protocol": "v3",
-      "score": 62.5,
+      "role": "paper",
+      "score": 56.25,
       "max": 100,
-      "history": [
-        {
-          "protocol": "v1",
-          "score": 51.25
-        },
-        {
-          "protocol": "v2",
-          "score": 62.5
-        },
-        {
-          "protocol": "v2.1",
-          "score": 62.5,
-          "date": "2026-10-27"
-        },
-        {
-          "protocol": "v3",
-          "score": 62.5,
-          "date": "2026-10-27",
-          "round": "D-led",
-          "note": "previously unfinished review completed"
-        }
-      ],
-      "remaining": [
-        "실제 모델·장비·비용·계측 경로",
-        "최종 과제·δ",
-        "실제 UI와 로그",
-        "독립 예비자료·검정력"
-      ],
-      "readiness_blocker": true,
-      "review_source": "2026-10-28-task-scoring/B-review.md",
-      "latest_attempt": {
-        "protocol": "v3",
-        "status": "completed",
-        "basis": "57-test source + later related 8-test check; no score inflation"
-      },
       "item_scores": [
-        22.5,
         18.75,
-        10,
-        11.25,
-        0
+        12.5,
+        20,
+        0,
+        5
       ],
-      "latest_followup": {
-        "round": "2026-10-28-task-scoring",
-        "status": "saved_review_completed_no_score_change",
-        "new_score_assigned": false,
-        "actual_model_inference": false,
-        "device_energy_measurement": false,
-        "human_participants": false
-      },
-      "prior_attempts": [
-        {
-          "protocol": "v3",
-          "status": "usage_limit_no_new_score",
-          "details": "adversarial checks completed; final rescoring not completed"
-        }
-      ]
+      "score_scope": "paper_design_and_empirical_readiness",
+      "status": "completed_final_version_read",
+      "review_source": "2026-10-28-voluntary-tradeoff/B-review.md",
+      "actual_model_inference": false,
+      "device_energy_measurement": false,
+      "human_participants": false,
+      "actual_user_approval": null
     },
     {
       "persona": "C",
-      "role": "AI 교수",
-      "latest_completed_protocol": "v3",
-      "score": 100,
+      "role": "AI",
+      "score": 51.25,
       "max": 100,
-      "history": [
-        {
-          "protocol": "v1",
-          "score": 70
-        },
-        {
-          "protocol": "v2",
-          "score": 95
-        },
-        {
-          "protocol": "v2.1",
-          "score": 100,
-          "date": "2026-10-27"
-        },
-        {
-          "protocol": "v3",
-          "score": 100,
-          "date": "2026-10-27"
-        }
-      ],
-      "remaining": [
-        "고정 C 설계 기준 통과. 실제 모델·센서·사람·δ/N 확정 또는 효과 증명은 아님."
-      ],
-      "review_source": "2026-10-28-task-scoring/C-review.md",
-      "prior_attempts": [
-        {
-          "protocol": "v2.1",
-          "status": "usage_limit_no_new_score"
-        }
-      ],
-      "latest_attempt": {
-        "protocol": "v3",
-        "status": "completed"
-      },
       "item_scores": [
-        25,
-        20,
-        25,
-        20,
-        10
+        12.5,
+        12.5,
+        15,
+        11.25,
+        0
       ],
-      "score_scope": "design_only",
-      "latest_followup": {
-        "round": "2026-10-28-task-scoring",
-        "status": "saved_review_completed_no_score_change",
-        "new_score_assigned": false,
-        "actual_model_inference": false,
-        "device_energy_measurement": false,
-        "human_participants": false
-      }
+      "score_scope": "technical_readiness",
+      "status": "completed_final_version_read",
+      "review_source": "2026-10-28-voluntary-tradeoff/C-review.md",
+      "actual_model_inference": false,
+      "device_energy_measurement": false,
+      "human_participants": false,
+      "actual_user_approval": null
     },
     {
       "persona": "D",
-      "role": "AI 데이터센터 CEO",
-      "latest_completed_protocol": "v3",
-      "score": 73,
+      "role": "environment_operations",
+      "score": 77.5,
       "max": 100,
-      "history": [
-        {
-          "protocol": "v1",
-          "score": 64
-        },
-        {
-          "protocol": "v2",
-          "score": 70
-        },
-        {
-          "protocol": "v2.1",
-          "score": 71,
-          "date": "2026-10-27"
-        },
-        {
-          "protocol": "v3",
-          "score": 73,
-          "date": "2026-10-27"
-        }
-      ],
-      "remaining": [
-        "확인된 장비와 센서 지원",
-        "실측 원시값과 오차·변동",
-        "실제 두 예산 작동",
-        "자원·δ·표본 계획"
-      ],
-      "review_source": "2026-10-28-task-scoring/D-review.md",
-      "latest_attempt": {
-        "protocol": "v3",
-        "status": "completed"
-      },
       "item_scores": [
-        12,
-        19,
-        14,
-        15,
-        13
+        12.5,
+        20,
+        25,
+        20,
+        0
       ],
-      "latest_followup": {
-        "round": "2026-10-28-task-scoring",
-        "status": "saved_review_completed_no_score_change",
-        "new_score_assigned": false,
-        "actual_model_inference": false,
-        "device_energy_measurement": false,
-        "human_participants": false
-      }
+      "score_scope": "environment_and_operations_readiness",
+      "status": "completed_final_version_read",
+      "review_source": "2026-10-28-voluntary-tradeoff/D-review.md",
+      "actual_model_inference": false,
+      "device_energy_measurement": false,
+      "human_participants": false,
+      "actual_user_approval": null
     },
     {
       "persona": "E",
-      "role": "AI 데이터센터 개발자",
-      "latest_completed_protocol": "v3",
-      "design_score": 97,
-      "execution_evidence_score": 50,
-      "max_each": 100,
-      "history": [
-        {
-          "protocol": "v1",
-          "design_score": 86,
-          "execution_evidence_score": 0
-        },
-        {
-          "protocol": "v2.1",
-          "design_score": 90,
-          "execution_evidence_score": 23,
-          "date": "2026-10-27"
-        },
-        {
-          "protocol": "v3",
-          "design_score": 97,
-          "execution_evidence_score": 50,
-          "date": "2026-10-27"
-        }
+      "role": "implementation",
+      "score": 50,
+      "max": 100,
+      "item_scores": [
+        18.75,
+        7.5,
+        12.5,
+        11.25,
+        0
       ],
-      "note": "v3 최종57검사 독립재실행 및 반례수정확인 후 완료평가. 실제장비·센서·UI·실제adapter 검증은 남음.",
-      "review_source": "2026-10-27/E-round2.md",
-      "prior_attempts": [
-        {
-          "protocol": "v2",
-          "status": "usage_limit_no_new_score",
-          "independent_file_access": "failed"
-        }
-      ],
-      "latest_attempt": {
-        "protocol": "v3",
-        "status": "completed"
-      },
-      "design_item_scores": [
-        25,
-        25,
-        19,
-        19,
-        9
-      ],
-      "execution_item_scores": [
-        8,
-        10,
-        15,
-        15,
-        2
-      ],
-      "remaining": [
-        "실제 응답 adapter·UI→서버→채점 연결",
-        "연구자 장비·두 예산 적용·센서·오차·시각 근거"
-      ],
-      "latest_followup": {
-        "round": "2026-10-28-task-scoring",
-        "status": "implementation_started_by_E_final_call_capacity_interrupted_root_integrated_prior_score_retained",
-        "new_score_assigned": false,
-        "actual_model_inference": false,
-        "device_energy_measurement": false,
-        "human_participants": false,
-        "review_source": "2026-10-28-task-scoring/E-integration-note.md",
-        "new_final_persona_score": null
-      },
-      "score_basis_note": "97/50 is the pre-metric-change completed v3 review; the later 62-test patch was validated, not rescored."
-    }
-  ],
-  "completed_validation": {
-    "kind": "synthetic_engineering_only",
-    "checks": 42,
-    "passed": 42,
-    "device_energy_measurement": false,
-    "actual_llm_inference": false,
-    "human_participants": false,
-    "external_peer_review": false
-  },
-  "blocking_facts": [
-    "연구자 사용 장비의 OS·GPU·메모리·센서 지원",
-    "시간·지출 상한",
-    "실제 모델 예산 제어와 계측 오차",
-    "효과를 보기 전 정할 실용적 δ",
-    "독립 예비자료로 정할 표본 수"
-  ],
-  "policy": "고정 기준을 낮추거나 미완료 재심사 점수를 추정해서 만점으로 만들지 않는다.",
-  "additional_validation": {
-    "kind": "synthetic_engineering_only",
-    "tests_run": 62,
-    "failures": 0,
-    "errors": 0,
-    "all_passed": true,
-    "python": "3.12.14",
-    "scipy": "1.17.0",
-    "device_energy_measurement": false,
-    "actual_model_inference": false,
-    "human_participants": false,
-    "source_sha256": {
-      "analysis_prepare.py": "8cece9126f9e57654c402bc08fe3783939bb307974f4494ed2ea5ea958392c0e",
-      "run_checks.py": "3829e61cad43e4e308b81dda27ce095b2db4c313318e1c37699963fad65aa996",
-      "session_replay.py": "cb488f6336d0d0cd9990b118d8c12d64de9c94cc275e19898a60852465395f21",
-      "synthetic_fixture.py": "5237d28cebb5890f4ac1c0bdc3b2e93c84b9d5fb37a37e94ed2fe5d3573798d1",
-      "test_research_tools.py": "2c91fec229eca8a412c4d541c1a273f58f112878d999a0803a72961ec548af80"
-    },
-    "notice": "Tests validate synthetic cases and selected invariants, not complete system correctness or research effects.",
-    "full_suite_executor": "E",
-    "independent_related_check": {
-      "reviewer": "B",
-      "tests_run": 8,
-      "all_passed": true,
-      "scope": "new five cases plus first submission, no-call, identical duplicate; NOT all 62"
-    }
-  },
-  "round4_note": "2026-10-27 first v3 round: 57 tests. D-led followup completed B v3 62.5; later task/request metrics changed, E full 62 and B related 8 verified. Device/model/human effects absent.",
-  "additional_validation_history": [
-    {
-      "kind": "synthetic_engineering_only",
-      "tests_run": 57,
-      "failures": 0,
-      "errors": 0,
-      "all_passed": true,
-      "python": "3.12.14",
-      "scipy": "1.17.0",
-      "device_energy_measurement": false,
+      "score_scope": "implementation_readiness",
+      "status": "completed_final_version_read",
+      "review_source": "2026-10-28-voluntary-tradeoff/E-review.md",
       "actual_model_inference": false,
+      "device_energy_measurement": false,
       "human_participants": false,
-      "source_sha256": {
-        "analysis_prepare.py": "8cece9126f9e57654c402bc08fe3783939bb307974f4494ed2ea5ea958392c0e",
-        "run_checks.py": "3829e61cad43e4e308b81dda27ce095b2db4c313318e1c37699963fad65aa996",
-        "session_replay.py": "759d1bc351498603c2d5136e2ae776d627e2f78d83207758b9226e95b386dfb9",
-        "synthetic_fixture.py": "5237d28cebb5890f4ac1c0bdc3b2e93c84b9d5fb37a37e94ed2fe5d3573798d1",
-        "test_research_tools.py": "a40e85a0d840285c8239887c92bf951f1d15819ad4fc6cac6e4b8feb503badf7"
-      },
-      "notice": "Tests validate synthetic cases and selected invariants, not complete system correctness or research effects.",
-      "independent_final_reproducers": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ]
+      "actual_user_approval": null
+    },
+    {
+      "persona": "F",
+      "role": "Ahn_Jonghoon_fictional_user_view",
+      "score": 100,
+      "max": 100,
+      "item_scores": [
+        25,
+        25,
+        20,
+        15,
+        15
+      ],
+      "score_scope": "document_fidelity_to_expressed_user_view_only",
+      "status": "completed_final_version_read",
+      "review_source": "2026-10-28-voluntary-tradeoff/F-review.md",
+      "actual_model_inference": false,
+      "device_energy_measurement": false,
+      "human_participants": false,
+      "actual_user_approval": false
     }
   ],
-  "latest_addendum": "research/requirements-for-next-evidence.md",
-  "latest_discussion": "reviews/2026-10-28-task-scoring/",
-  "next_user_question": "짧은 코드 수정 작업을 첫 연구 대상으로 삼을지",
+  "initial_draft_review_history": {
+    "A": 72.5,
+    "B": 56.25,
+    "C": 51.25,
+    "D": 72.5,
+    "E": 50,
+    "F": 95,
+    "note": "Preserved in individual review files; initial and integrated versions distinguished."
+  },
+  "policy": "User-authorized goal change has its own fixed rubric; no carryover of v3 scores or fictional completion of missing evidence.",
+  "actual_model_inference": false,
+  "device_energy_measurement": false,
+  "human_participants": false,
+  "new_code_tests_run": false,
+  "confirmatory_allowed": false,
   "current_user_constraints": {
-    "device_question_deferred": true,
     "solo_preparation": true,
-    "human_participants_later_if_needed": true
+    "human_participants_later_if_needed": true,
+    "device_question_deferred": true,
+    "paid_actions_not_started": true,
+    "task_domain_not_final": true
   },
-  "development_scoring_validation": {
-    "kind": "trusted_local_development_fixtures_only",
-    "source": "code/results/development-scorer-validation.json",
-    "basic": {
-      "executor": "root",
-      "node_tests": 39,
-      "passed": 39
-    },
-    "independent": {
-      "executor": "C_saved_review",
-      "checks": 1087,
-      "passed": 1087,
-      "oracle_comparisons": 1030,
-      "state_contract_fault_checks": 57,
-      "root_recheck_same_results": true
-    },
-    "B": {
-      "scope": "same_two_frozen_output_tasks_final_source",
-      "T02_cases": 8,
-      "T03_cases": 9,
-      "failures": 0,
-      "full_suite_run": false
-    },
-    "counts_not_to_sum": true,
-    "actual_model_inference": false,
-    "device_energy_measurement": false,
-    "human_participants": false,
-    "untrusted_code_isolation": false,
-    "confirmatory_allowed": false,
-    "source_sha256": "1184f8971c449b2853fe9b2e9d8a6c5243dad998c7b9baae8b84f783b50a763f",
-    "note": "Existing completed scores retained; E final new review incomplete. B/C saved records exist before later response usage-limit termination."
-  },
-  "current_task_strata_correction": "research/task-strata-correction-v0.1.md"
+  "old_v3_IUT_success_rule_active_for_v4": false,
+  "new_v4_analysis_implemented": false,
+  "blocking_facts": [
+    "Final task/user scope and valid performance outcome contract",
+    "Actual two-budget implementation and authoritative token schema/provenance",
+    "Accessible energy measurement path with raw measurements and uncertainty",
+    "Common disclosure/interface understanding and independent pilot",
+    "V4 primary outcomes/contrasts, multiplicity, sample/precision and stopping rules",
+    "Applicable human-study procedures before recruitment"
+  ],
+  "quality_NI_delta_required_for_v4": false,
+  "p_min_required_only_if_optional_task_classification_adopted": true,
+  "latest_discussion": "reviews/2026-10-28-voluntary-tradeoff/",
+  "latest_addendum": "research/requirements-v4.md",
+  "environmental_claim_scope": "Measured J within boundary; conditional carbon/water estimates only with necessary data; broader ecological harm prevention unproven.",
+  "F_is_not_actual_user_or_participant": true,
+  "latest_conversation": "conversation/2026-10-28-voluntary-tradeoff.json"
 }
