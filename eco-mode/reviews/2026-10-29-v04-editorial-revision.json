@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-29",
+  "source_manuscript": "research/eco-evidence-gap-ko-v0.3.md",
+  "revised_manuscript": "eco-mode/research/eco-evidence-gap-ko-v0.4.md",
+  "sha256": "f280135dc6ef07fd879a7440672ad1d4e30f24e1feaeab2ef08bcad170ce8160",
+  "review_type": "completed_fictional_A_and_B_editorial_followups_not_rescores",
+  "actual_external_experts": false,
+  "completed_agents": [
+    "A",
+    "B"
+  ],
+  "A": {
+    "record_type": "summary_not_verbatim",
+    "recommendations": [
+      "사례 전에 보호할 조건과 양보 가능한 요소를 묻고 초기 기대부터 다음 행동까지 연결",
+      "세 과제×두 중요도 맥락의 완전 교차는 과도한 확장 위험. 중요도는 마지막 짧은 탐색",
+      "동형 과제의 정보량과 누락 발견 난이도를 점검하고 과제-응답 대응 순환",
+      "개인 참고용/타인 추천의 중요도를 참가자가 실제로 다르게 느끼는지 확인"
+    ]
+  },
+  "B": {
+    "record_type": "summary_not_verbatim",
+    "recommendations": [
+      "개인별 기대→제시 기능·근거→인지 손실→선택을 핵심 산출물로 명시",
+      "보호 핵심·양보 가능 요소·선택이 바뀌는 작업 맥락을 조건별 기술",
+      "참가자 자료→해석→기능 요구사항 후보→후속 검증 질문 추적표",
+      "표는 분석 틀이며 발견한 유형/검증한 원칙으로 제시하지 않음"
+    ]
+  },
+  "integrated_changes": [
+    "중심 제목 유지, 부제 범위를 기대·조건부 성능양보로 축소",
+    "세 산출물로 기여를 명시하고 본문 반복적 범위제한을 줄임",
+    "기대의 대상·시점을 구분해 모사 설정 자체가 만든 인위적 Gap을 발견으로 부르지 않음",
+    "세 가상 상품표와 R/Q/X 응답, 여섯 순서 추가",
+    "계산표·순환표는 작성한 자극의 일관성만 확인; 실제 실험자료 아님",
+    "보호기준 및 맥락 탐색 질문과 빈 분석서식 추가",
+    "Patkar et al. arXiv2606.10861의 저자 초록에 근거한 관련연구 추가. 전체본문 비교 미완료를 명시"
+  ],
+  "prior_scores": {
+    "manuscript": "v0.3",
+    "A": 81,
+    "B": 78
+  },
+  "new_scores": false,
+  "actual_participants": false,
+  "actual_model_experiment": false,
+  "environmental_measurement": false,
+  "protocol_status": "proposed, not preregistered or approved"
+}
