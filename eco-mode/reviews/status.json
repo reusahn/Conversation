@@ -178,9 +178,9 @@
   "p_min_required_only_if_optional_task_classification_adopted": true,
   "latest_discussion": "reviews/2026-10-28-readiness90/",
   "latest_addendum": "research/v4-analysis-contract.md",
-  "environmental_claim_scope": "Measured J within boundary; conditional carbon/water estimates only with necessary data; broader ecological harm prevention unproven.",
+  "environmental_claim_scope": "Current v0.5: environmental expectations and scenario choices only; actual electricity, carbon, water, ecological harm prevention and industry development effects unmeasured. Earlier measurement protocols remain historical.",
   "F_is_not_actual_user_or_participant": true,
-  "latest_conversation": "conversation/2026-10-29-demand-innovation-reference-search.json",
+  "latest_conversation": "conversation/2026-10-29-write-manuscript-v05.json",
   "latest_protocol_sha256": "37d3be52f7740428c18164cf7a36f211a8c078e472d8870835cf9e9f8f7234d8",
   "all_personas_above_90": false,
   "current_review_attempt": {
@@ -200,20 +200,22 @@
     "human_participants": false
   },
   "latest_evidence_classification": "research/hosted-evidence-boundaries-v0.1.md",
-  "active_manuscript": "research/eco-evidence-gap-ko-v0.4.md",
+  "active_manuscript": "research/eco-evidence-gap-ko-v0.5.md",
   "current_scope_override": {
-    "source": "Latest user correction on 2026-10-29",
-    "focus": "Eco Mode expectations, conditional performance trade-offs and traceable design requirements",
+    "source": "2026-10-29 user writing request, incorporating prior explicit Eco Mode focus and completed discussions",
+    "focus": "Eco Mode expectations and conditional performance trade-offs; within-person criteria, understanding and scenario-choice traces",
     "factorial_2x2_required": false,
     "inference_setting_manipulation_required": false,
-    "implementation_and_comparison": "exploratory proposal in manuscript; not recruited, approved or implemented",
+    "implementation_and_comparison": "Study proposal and authored materials only; actual prototype/human pilot not executed",
     "receipt_intervention_active": false,
     "token_usage": "secondary",
-    "physical_environment_effect": "long-term question, unverified",
+    "physical_environment_effect": "Unverified long-term question, not a gate for the first HCI study",
     "prior_protocol_and_scores": "historical; not a review of v0.3",
-    "new_review_or_experiment": "completed A/B editorial ideation and manuscript revision; no empirical execution",
-    "first_study_proposal": "Transparent scenario-based prototype interviews to identify conditional performance trade-offs",
-    "actual_eco_function": "later implementation and validation; not replaced by scenario findings"
+    "new_review_or_experiment": "Root v0.5 manuscript revision and deterministic stimulus checks only",
+    "first_study_proposal": "Disclosed authored-response prototype interviews; 12 to 16 participants and approximately 50 minutes are planning examples, not finalized empirical facts.",
+    "actual_eco_function": "Later implementation/validation; not replaced by scenario findings",
+    "current_manuscript": "research/eco-evidence-gap-ko-v0.5.md",
+    "development_slowdown": "Background hypothesis informed by economic theory; direct Eco/chat-usage causal evidence not identified"
   },
   "latest_collaborative_edit": {
     "date": "2026-10-29",
@@ -264,20 +266,17 @@
   },
   "latest_editorial_revision": {
     "date": "2026-10-29",
-    "version": "v0.4",
-    "record": "reviews/2026-10-29-v04-editorial-revision.json",
-    "sha256": "f280135dc6ef07fd879a7440672ad1d4e30f24e1feaeab2ef08bcad170ce8160",
-    "completed_ideation_jobs": [
-      "A",
-      "B"
-    ],
-    "changes": [
-      "individual expectation-to-choice traces",
-      "protected and negotiable criteria",
-      "evidence-to-design requirement table",
-      "parallel authored tasks and order rotation",
-      "bounded subtitle and expanded prior work"
-    ],
+    "version": "v0.5",
+    "record": "reviews/2026-10-29-v05-manuscript-revision.json",
+    "sha256": "b14e05da8a8ab9c2c7f67eae5332c09b91e98a7577732eaa2b88ec40e3520370",
+    "library_file_id": "libfile_e60af37374e08191b63ed6827a108661",
+    "saved_file_id": "file_0000000006ec81f5a894e86204102e59",
+    "library_expected_previous_version": 3,
+    "authorship": "Root rewrite using prior completed discussions; no new persona rescore.",
+    "main_focus": "Expectations, protected/negotiable requirements, understood shortcomings and subsequent scenario choices.",
+    "bibliography_items": 11,
+    "optional_followup": "Randomized label-only comparison, not mandatory for the first exploratory study.",
+    "long_term_context": "Collective resource demand and demand/innovation incentives; no causal environmental/development claims.",
     "new_scores": false,
     "prior_scores_apply_to": "v0.3 only",
     "actual_experiment": false
@@ -405,5 +404,30 @@
     "manuscript_changed": false,
     "new_scores": false,
     "actual_experiment": false
-  }
+  },
+  "editorial_revision_history": [
+    {
+      "date": "2026-10-29",
+      "version": "v0.4",
+      "record": "reviews/2026-10-29-v04-editorial-revision.json",
+      "sha256": "f280135dc6ef07fd879a7440672ad1d4e30f24e1feaeab2ef08bcad170ce8160",
+      "completed_ideation_jobs": [
+        "A",
+        "B"
+      ],
+      "changes": [
+        "individual expectation-to-choice traces",
+        "protected and negotiable criteria",
+        "evidence-to-design requirement table",
+        "parallel authored tasks and order rotation",
+        "bounded subtitle and expanded prior work"
+      ],
+      "new_scores": false,
+      "prior_scores_apply_to": "v0.3 only",
+      "actual_experiment": false
+    }
+  ],
+  "environmental_claim_scope_history": [
+    "Measured J within boundary; conditional carbon/water estimates only with necessary data; broader ecological harm prevention unproven."
+  ]
 }
