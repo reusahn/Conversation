@@ -129,3 +129,53 @@ Research consulted: Pennycook et al., Nature (2021), DOI 10.1038/s41586-021-0334
 Proposal only. No feed filter was implemented or deployed, no Instagram exposure-control permission established, no novelty or impact result claimed. English UI remains requested. Same-scene variants proposed as initial scope, with configurable per-user repetition limit and reversible controls. Prior response draft above was not sent as a final response before this user message arrived.
 
 Source: Meta, 12 May 2026, https://about.fb.com/news/2026/05/new-supervision-tools-parents-insights-teens-algorithm/ . Existing Your Algorithm topic controls differ from proposed same-scene repetition limit; this is not proof no competing feature exists.
+
+
+## Development beyond a fixed repetition cap
+
+### User (verbatim)
+
+응응 이미있던 그 알고리즘에 뭔가 더 발전시키거나 더 와우포인트를 만들어야해 그런게 와우포인트인거야
+
+### Assistant commentary (verbatim)
+
+그럼 ‘세 번 보면 접기’에서 한 단계 더 가보자. 이미 본 내용과 새로 추가된 내용을 구분해서, 반복은 줄이면서 새로운 정보는 놓치지 않게 하는 방향을 생각해볼게.
+
+### Assistant response
+
+**응. 그러면 ‘세 번 보면 숨기기’를 발전시켜서, ‘이미 본 부분과 새로 추가된 부분을 구분하는 피드’로 가보자.**
+
+예를 들어 같은 장면을 여러 계정이 재사용해도, 어떤 영상은 자막만 바뀌고 어떤 영상은 새로운 설명이나 다른 시점을 추가하잖아. **그 차이를 보여주면서 반복 노출을 조절하는 것**이 핵심이야.
+
+| 다음에 등장한 영상 | 제안하는 동작 |
+|---|---|
+| 이미 본 장면에 음악·크롭만 변경 | 같은 묶음으로 세고, 설정한 횟수부터 접기 |
+| 같은 장면에 새로운 해설 추가 | ‘새 해설 있음’ 표시하고 유지 |
+| 이전 영상에 없던 후속 장면 추가 | 새 구간을 표시하고, 눌러서 바로 보기 |
+| 새로운 내용인지 판단이 불확실 | 유지하고 사용자가 묶음을 수정하도록 하기 |
+
+화면에는 이렇게 나오는 거야.
+
+> **You’ve seen this scene 3 times.**  
+> **This version adds a different viewpoint.**  
+> **Watch the addition · Watch full video**
+
+**와우 포인트는 반복을 없애면서도, 놓칠 만한 차이를 찾아준다는 거야.** 사용자가 좋아하는 주제는 계속 보되 같은 장면을 계속 소비할 필요는 줄이는 방향이지. ‘새 해설’이 정확하거나 유익하다는 뜻은 아니고, 무엇이 달라졌는지를 보여주는 거야.
+
+기존 기능과의 차이는 분명해야 해. Meta는 이미 동일 콘텐츠 대신 원본을 추천하는 정책을 발표했어. 그래서 단순 중복 탐지만으로 차별화하기는 어려워. **우리의 발전 방향은 ‘앱에 기록된 개인의 시청 이력을 기준으로, 이번 버전에서 달라진 부분까지 비교한다’는 것**이야. 이 조합의 최초성은 아직 확인하지 않았어. genui{"citation":{"ref":"turn111search1"}}
+
+해커톤 데모는 **직접 구성한 피드에서** 이렇게 보여주면 돼.
+
+1. 같은 장면의 재업로드·크롭·해설·후속 장면 버전이 차례로 등장해.
+2. 필터를 켜면 반복 버전이 접히고, 추가된 해설과 장면은 남아.
+3. 접힌 이유와 새 구간을 클릭해서 직접 확인하고, 잘못 묶였으면 풀어.
+
+영상 매칭은 반복 구간을 찾고, Meta 모델은 자막·해설의 차이를 설명하도록 설계할 수 있어. **현재 프로토타입에는 이 피드 기능이 아직 없어.**
+
+사회적 효과도 구체적으로 검증할 수 있어. **반복 시청 시간은 줄었는가, 새로운 관점까지 잘못 가리지는 않았는가.** 이 두 가지를 함께 확인하면, 네가 말한 ‘알고리즘을 더 발전시키는 프로젝트’가 돼.
+
+### Status and source
+
+Product proposal only: per-user viewed-history comparison, repeated footage folding, added commentary/segments highlighted, uncertain cases retained, reversible user grouping. Novelty and social impact unverified; no Site code change, API call, new persona evaluation or deployment. Demo sequence is proposed and team-curated, not a live Instagram feed or observed result.
+
+Primary source: Meta, 2 May 2024, https://about.fb.com/ltam/news/2024/05/ayudando-a-los-creadores-a-encontrar-nuevas-audiencias/ . Identical-content replacement already announced; source also distinguishes materially transformed works. This is background, not an exhaustive 2026 competition review.
