@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-29",
+  "kind": "clarification_not_manuscript_revision",
+  "current_manuscript": "research/eco-evidence-gap-ko-v0.4.md",
+  "current_library_version": "3",
+  "manuscript_changed": false,
+  "new_scores": false,
+  "new_experiments": false,
+  "clarifications": {
+    "environmental_protection_proof": "not required for a study limited to expectations, choices and performance trade-offs",
+    "current_v04": "exploratory scenario-based interviews, not an identification of label causality",
+    "label_effect_option": "two randomized groups with identical function/answers and Eco versus neutral wording",
+    "factorial_required": false,
+    "physical_measurement_required": false,
+    "adoption_of_new_design": "not finalized; option explained, manuscript unchanged"
+  },
+  "messages": [
+    {
+      "role": "user",
+      "content": "여기서 그니까 굳이 자연보호를 하는걸 증명하진않을거지? 그냥 에코모드라고 써졌을때 효과를 보는건가"
+    },
+    {
+      "role": "assistant",
+      "channel": "commentary",
+      "content": "이번 논문에서 확인할 대상과 주장할 수 있는 범위를 짧게 구분할게. 특히 ‘Eco라는 이름의 효과’와 현재 초안의 인터뷰 방식 사이에 차이가 있어."
+    },
+    {
+      "role": "assistant",
+      "channel": "final",
+      "content": "응. **이번 논문에서 실제 자연보호 효과까지 증명할 필요는 없어.** 네가 말한 초점은 이거야.\n\n> **‘Eco Mode’라고 표시하면, 사람들의 환경적 기대·모드 선택·성능 저하 수용이 달라지는가?**\n\n다만 **현재 v0.4는 인터뷰로 기대와 수용 조건을 탐색하는 안**이라, “Eco라는 이름 때문에 달라졌다”는 인과효과까지 입증하지는 못해.\n\n**이름의 효과 자체를 확인하려면**, 기능과 답변은 같게 두고 이름만 **Eco Mode / 중립 명칭**으로 무작위 배정해 비교하면 돼. 2×2나 전력 실측이 필수인 건 아니야.\n\n그 연구의 결론은 **“Eco 명칭이 사용자의 판단과 선택에 미친 영향”**까지야. 실제 환경에 도움이 되었는지는 별도 검증 대상으로 남기는 거고."
+    }
+  ]
+}
