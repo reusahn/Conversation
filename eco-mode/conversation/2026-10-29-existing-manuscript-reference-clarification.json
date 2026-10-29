@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-29",
+  "type": "visible_conversation",
+  "user_message": "기존논문이뭔데",
+  "assistant_reply": "내가 말한 **‘기존 논문’은 우리가 함께 쓰던 [The Eco–Evidence Gap v0.4](https://chatgpt.com/library?file_id=libfile_e60af37374e08191b63ed6827a108661&account_id=personal) 초안**이야. 표현이 모호했어.\n\n그 초안의 중심 질문은:\n\n> 사용자는 Eco 모드를 어떻게 이해하며, 환경에 도움이 된다는 기대 아래 어떤 성능을 어떤 조건에서 양보하려 하는가?\n\n방금 토론한 **‘같은 답변에 Eco라는 이름을 붙이면 수용 선택이 달라지는가?’**는 그보다 좁은 실험 후보야.\n\n아직 참가자 실험 결과는 없고, 둘 다 연구 계획 단계야.",
+  "reference_clarified": {
+    "meaning": "Our own pre-empirical manuscript, not an external published study",
+    "filename": "The_Eco_Evidence_Gap_KO_v0_4.md",
+    "library_file_id": "libfile_e60af37374e08191b63ed6827a108661",
+    "version_id": "3",
+    "read_lines": [
+      1,
+      120
+    ]
+  },
+  "manuscript_changed": false,
+  "new_scores": false,
+  "actual_experiment": false
+}
