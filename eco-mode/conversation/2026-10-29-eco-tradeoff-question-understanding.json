@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-29",
+  "type": "visible_conversation",
+  "user_message": "응 그러면 eco 모드이면은 어떤걸 양보하거나 성능이 나와지도 안하도 이해하는가 이런내용인가",
+  "assistant_reply": "응, 맞아. **‘Eco 모드라면 어떤 부분을 양보할 수 있고, 답변의 부족함을 어디까지 받아들이는가?’**가 중심이야.\n\n- 설명이나 예시가 줄어도 괜찮은가?\n- 필요한 조건이 빠지거나 답이 틀리면 수정하거나 일반 모드로 바꾸는가?\n- 사용 전에 생각한 양보 범위가 실제 답변을 본 뒤에도 유지되는가?\n\n여기에 **같은 답변도 ‘Eco’라고 표시하면 받아들이는 정도가 달라지는지**를 비교하면 이름의 효과까지 살펴볼 수 있어. 다만 설명이 짧아지는 것을 자동으로 성능 저하라고 정하지는 않아.",
+  "scope_notes": [
+    "Clarifies the broad question of negotiable performance aspects and conditional acceptance.",
+    "An optional randomized label comparison can isolate effects of the specified labels under equal stimuli.",
+    "Concise correct answers are not automatically performance losses."
+  ],
+  "manuscript_changed": false,
+  "new_scores": false,
+  "actual_experiment": false
+}
