@@ -180,7 +180,7 @@
   "latest_addendum": "research/v4-analysis-contract.md",
   "environmental_claim_scope": "Measured J within boundary; conditional carbon/water estimates only with necessary data; broader ecological harm prevention unproven.",
   "F_is_not_actual_user_or_participant": true,
-  "latest_conversation": "conversation/2026-10-29-recommended-first-study-direction.json",
+  "latest_conversation": "conversation/2026-10-29-collective-demand-energy-development-hypothesis.json",
   "latest_protocol_sha256": "37d3be52f7740428c18164cf7a36f211a8c078e472d8870835cf9e9f8f7234d8",
   "all_personas_above_90": false,
   "current_review_attempt": {
@@ -371,6 +371,20 @@
     "next_concrete_work": "Refine existing tasks, authored responses and interview wording into a pilot-ready prototype; not executed",
     "novelty": "Unresolved; compare detailed contribution and empirical findings against prior mode-choice and quality-perception research",
     "environmental_measurement_required": false,
+    "manuscript_changed": false,
+    "new_scores": false,
+    "actual_experiment": false
+  },
+  "latest_collective_demand_motivation": {
+    "date": "2026-10-29",
+    "record": "conversation/2026-10-29-collective-demand-energy-development-hypothesis.json",
+    "user_question": "Can tens of millions choosing less demanding AI reduce aggregate electricity/environmental impact and slow performance escalation?",
+    "grounded_answer": "Lower-energy serving choices can reduce electricity; weaker capability or smaller parameter count alone does not guarantee savings. Aggregate effects depend on demand, retries and operations.",
+    "broader_motivation": "Potential moderation of collective resource-demand growth",
+    "frontier_development_slowdown": "Unverified market hypothesis, not established effect of Eco use",
+    "example": "30 million people * 10 requests/day * assumed actual 0.1 Wh saving = 30 MWh/day; not measured or predicted",
+    "high_capability_vs_efficiency": "Not mutually exclusive; newer systems can improve both",
+    "current_HCI_scope": "User expectations, conditional trade-offs and scenario choices; does not establish system-level environmental or industrial effects.",
     "manuscript_changed": false,
     "new_scores": false,
     "actual_experiment": false
