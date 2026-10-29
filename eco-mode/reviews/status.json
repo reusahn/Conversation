@@ -180,7 +180,7 @@
   "latest_addendum": "research/v4-analysis-contract.md",
   "environmental_claim_scope": "Current v0.5: environmental expectations and scenario choices only; actual electricity, carbon, water, ecological harm prevention and industry development effects unmeasured. Earlier measurement protocols remain historical.",
   "F_is_not_actual_user_or_participant": true,
-  "latest_conversation": "conversation/2026-10-29-write-manuscript-v05.json",
+  "latest_conversation": "conversation/2026-10-29-af-v05-scoring.json",
   "latest_protocol_sha256": "37d3be52f7740428c18164cf7a36f211a8c078e472d8870835cf9e9f8f7234d8",
   "all_personas_above_90": false,
   "current_review_attempt": {
@@ -239,17 +239,24 @@
   },
   "latest_manuscript_review": {
     "date": "2026-10-29",
-    "manuscript": "research/eco-evidence-gap-ko-v0.3.md",
-    "manuscript_sha256": "3b145b471cd6c52d5e6d59bb5bec2fe46948710b858d3477e720257b7eaedbcd",
-    "score_scope": "pre-empirical research proposal and manuscript quality",
+    "manuscript": "research/eco-evidence-gap-ko-v0.5.md",
+    "manuscript_sha256": "b14e05da8a8ab9c2c7f67eae5332c09b91e98a7577732eaa2b88ec40e3520370",
+    "library_version_id": "4",
+    "score_scope": "Pre-empirical research proposal and manuscript quality, not publication probability or completed empirical evidence",
     "fictional_advisory_not_external_review": true,
-    "independent_jobs_completed": [
-      "A",
-      "B"
+    "role_pair_jobs_completed": [
+      "A/B",
+      "C/D",
+      "E/F"
     ],
+    "actual_LLM_review_jobs": 3,
     "scores": {
-      "A": 81,
-      "B": 78
+      "A": 84,
+      "B": 82,
+      "C": 85,
+      "D": 86,
+      "E": 85,
+      "F": 86
     },
     "max": 100,
     "rubric_maxima": [
@@ -259,8 +266,16 @@
       15,
       15
     ],
-    "record": "reviews/2026-10-29-ab-v03-scores.json",
+    "record": "reviews/2026-10-29-af-v05-scores.json",
     "not_comparable_to_earlier_readiness_rubrics": true,
+    "calibrated_comparison_to_v03": false,
+    "priorities": [
+      "Clarify contribution against closest original studies",
+      "Separate task-imposed criteria from participant-defined protected requirements",
+      "Specify handling of interviewer prompts, comprehension uncertainty and session burden"
+    ],
+    "all_above_90": false,
+    "all_100": false,
     "manuscript_changed": false,
     "actual_experiment": false
   },
@@ -429,5 +444,34 @@
   ],
   "environmental_claim_scope_history": [
     "Measured J within boundary; conditional carbon/water estimates only with necessary data; broader ecological harm prevention unproven."
+  ],
+  "manuscript_review_history": [
+    {
+      "date": "2026-10-29",
+      "manuscript": "research/eco-evidence-gap-ko-v0.3.md",
+      "manuscript_sha256": "3b145b471cd6c52d5e6d59bb5bec2fe46948710b858d3477e720257b7eaedbcd",
+      "score_scope": "pre-empirical research proposal and manuscript quality",
+      "fictional_advisory_not_external_review": true,
+      "independent_jobs_completed": [
+        "A",
+        "B"
+      ],
+      "scores": {
+        "A": 81,
+        "B": 78
+      },
+      "max": 100,
+      "rubric_maxima": [
+        20,
+        25,
+        25,
+        15,
+        15
+      ],
+      "record": "reviews/2026-10-29-ab-v03-scores.json",
+      "not_comparable_to_earlier_readiness_rubrics": true,
+      "manuscript_changed": false,
+      "actual_experiment": false
+    }
   ]
 }
