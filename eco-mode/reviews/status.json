@@ -180,7 +180,7 @@
   "latest_addendum": "research/v4-analysis-contract.md",
   "environmental_claim_scope": "Measured J within boundary; conditional carbon/water estimates only with necessary data; broader ecological harm prevention unproven.",
   "F_is_not_actual_user_or_participant": true,
-  "latest_conversation": "conversation/2026-10-29-eco-name-nature-cues-scope.json",
+  "latest_conversation": "conversation/2026-10-29-embedded-eco-mode-three-cycle-panel.json",
   "latest_protocol_sha256": "37d3be52f7740428c18164cf7a36f211a8c078e472d8870835cf9e9f8f7234d8",
   "all_personas_above_90": false,
   "current_review_attempt": {
@@ -333,5 +333,33 @@
     "absence_claim": "do not say no such prior study exists",
     "new_scores": false,
     "manuscript_changed": false
+  },
+  "latest_embedded_eco_mode_discussion": {
+    "date": "2026-10-29",
+    "record": "reviews/2026-10-29-embedded-eco-mode-three-cycles.json",
+    "completed_cycles": 3,
+    "completed_jobs_per_cycle": 3,
+    "role_pairs": [
+      "A/B",
+      "C/D",
+      "E/F"
+    ],
+    "scope": "Candidate small label-effect experiment; not a replacement or rescore of current v0.4 exploratory manuscript.",
+    "candidate_question": "Does the Eco label change final acceptance under identical explanation, authored response and defect disclosure?",
+    "primary_denominator": "All randomized participants; comprehension and initial choice do not filter causal analysis.",
+    "unresolved": [
+      "Sufficient novelty",
+      "Choice of neutral name, task and acceptance definition",
+      "Task-specific scenario effects do not establish personal trade-off boundaries",
+      "Real functionality and voluntary long-term use remain untested"
+    ],
+    "stated_reservations": {
+      "B": "Novelty judgment withheld; no automatic manuscript replacement.",
+      "F": "Small first experiment only; retain original functionality and boundary questions."
+    },
+    "physical_savings_verified": false,
+    "new_scores": false,
+    "manuscript_changed": false,
+    "actual_experiment": false
   }
 }
