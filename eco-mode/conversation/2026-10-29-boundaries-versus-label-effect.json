@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-29",
+  "kind": "root_qualitative_comparison_not_new_persona_scores",
+  "sources": {
+    "earlier": "Library libfile_e60af37374e08191b63ed6827a108661 version3; research/eco-evidence-gap-ko-v0.4.md",
+    "recent": "reviews/2026-10-29-label-effect-three-cycles.json"
+  },
+  "manuscript_changed": false,
+  "new_scores": false,
+  "new_agents": false,
+  "new_experiments": false,
+  "recommendation": {
+    "source": "root assistant judgment, not a new panel consensus",
+    "main_direction": "conditional performance trade-off boundaries",
+    "label_effect": "potential later controlled study, not mandatory extra work",
+    "actual_environmental_proof_required": false,
+    "novelty": "provisional, not established; comparison reflects distinct knowledge goals",
+    "score_comparison": "not made because v0.4 has no rescore and prior targets/rubrics differ"
+  },
+  "messages": [
+    {
+      "role": "user",
+      "content": "이전  '사용자마다 다른 성능 양보의 경계\" 와 비교하면 어떤거같아 비교해봐"
+    },
+    {
+      "role": "assistant",
+      "channel": "commentary",
+      "content": "이전의 ‘사용자마다 다른 성능 양보의 경계’와 방금 토론한 ‘Eco 명칭의 효과’를 비교해볼게. 각각 무엇을 밝힐 수 있고, 어디에 기여와 한계가 있는지 짧게 정리하겠어."
+    },
+    {
+      "role": "assistant",
+      "channel": "final",
+      "content": "**내 판단으로는 논문의 중심으로는 이전의 ‘사용자마다 다른 성능 양보의 경계’가 더 발전시킬 여지가 있어.** 최근 안은 명칭의 효과를 더 명확하게 검증할 수 있다는 장점이 있고.\n\n| 비교 | 성능 양보의 경계 | Eco 명칭의 효과 |\n|---|---|---|\n| 핵심 질문 | 무엇을, 어떤 조건에서 양보하는가? | 같은 부족한 답도 Eco라고 쓰면 더 받아들이는가? |\n| 방법 | 사전 기준·응답 검토·인터뷰 | 같은 자극에 이름만 무작위로 다르게 표시 |\n| 얻을 지식 | 보호할 성능, 수용·전환 조건과 이유 | 정해진 두 명칭이 제출 선택에 미치는 차이 |\n| 강점 | **Eco 기능 설계로 연결할 여지** | **명칭의 인과효과를 비교하기 명확함** |\n| 한계 | 이름 때문에 달라졌다고 단정하기 어려움 | 개인별 양보 범위와 환경 동기를 충분히 설명하기 어려움 |\n\n독창성은 둘 다 보완해야 해. 친환경 정보에 따른 선택과 작업 중요도에 따른 Eco 모드 사용은 이미 연구됐어. genui{\"citation\":{\"refs\":[\"turn29academia25\",\"turn29academia24\"]}}\n\n그래서 이전 안에서는 **“처음 지키겠다고 한 조건을, 실제 부족함을 이해한 뒤에도 유지하는가?”**라는 연결이 중요해. 여기서 얻는 자료를 기능 요구사항으로 이어가는 게 차별화할 여지야.\n\n**내 추천은 이전 안을 중심으로 유지하고, 명칭 효과는 후속 검증 질문으로 두는 것**이야. 두 방향 모두 자연보호 효과의 직접 입증은 필수가 아니야. 이전 안 v0.4는 재채점하지 않았으므로 지난 점수끼리 우열을 비교하지는 않을게."
+    }
+  ]
+}
