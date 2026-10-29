@@ -1,0 +1,139 @@
+{
+  "date": "2026-10-29",
+  "manuscript": "research/eco-evidence-gap-ko-v0.3.md",
+  "library_file_id": "libfile_e60af37374e08191b63ed6827a108661",
+  "library_version_id": "2",
+  "manuscript_sha256": "3b145b471cd6c52d5e6d59bb5bec2fe46948710b858d3477e720257b7eaedbcd",
+  "score_type": "fictional_independent_LLM_advisory_review",
+  "actual_external_peer_review": false,
+  "scope": "pre-empirical research proposal and manuscript quality",
+  "rubric": {
+    "scope": "pre-empirical research proposal and manuscript quality",
+    "criteria": [
+      {
+        "id": "clarity",
+        "name": "질문 명료성",
+        "max": 20
+      },
+      {
+        "id": "contribution",
+        "name": "독창성과 기여",
+        "max": 25
+      },
+      {
+        "id": "alignment",
+        "name": "질문-방법 정합성",
+        "max": 25
+      },
+      {
+        "id": "feasibility",
+        "name": "실행 가능성",
+        "max": 15
+      },
+      {
+        "id": "writing",
+        "name": "논문 구성·서술",
+        "max": 15
+      }
+    ],
+    "max": 100,
+    "not_equivalent_to": "acceptance probability or empirical completion",
+    "fixed_before_reviews": true
+  },
+  "independent_jobs_completed": [
+    "A",
+    "B"
+  ],
+  "scores": [
+    {
+      "persona": "A",
+      "role": "HCI professor",
+      "item_scores": [
+        18,
+        18,
+        19,
+        13,
+        13
+      ],
+      "total": 81,
+      "max": 100,
+      "strength_ko": "기대·이해·다음 행동·이유를 구별하고 간결함을 성능 저하와 동일시하지 않음",
+      "deductions": [
+        {
+          "sections": [
+            "2",
+            "7.2"
+          ],
+          "reason": "기존 이해를 바꿀 새 기여와 설계 지식의 형태가 불명확"
+        },
+        {
+          "sections": [
+            "4.3",
+            "4.4",
+            "Appendix A",
+            "Appendix B"
+          ],
+          "reason": "한 상품 과제와 고정 응답의 범위, 반복 학습, 환경 프레이밍이 핵심 질문에 답하는 정도 불확실"
+        },
+        {
+          "sections": [
+            "Title",
+            "4.2",
+            "Appendix B"
+          ],
+          "reason": "제목의 약속이 기대·모사 판단 중심 방법보다 크며 표집·상황 질문 구체화 필요"
+        }
+      ],
+      "first_fix": "실제 자극·공통 안내문·중요도 상황 질문을 고정하고 각 자료를 RQ에 연결",
+      "finished_empirical_paper": false,
+      "review_status": "completed"
+    },
+    {
+      "persona": "B",
+      "role": "paper contribution and reviewing",
+      "item_scores": [
+        18,
+        16,
+        19,
+        13,
+        12
+      ],
+      "total": 78,
+      "max": 100,
+      "strength": "간결함과 요구 미충족, 수용 의사와 이해를 구별하는 흐름",
+      "deductions": [
+        {
+          "sections": [
+            "2"
+          ],
+          "reason": "선행연구 대비 새 분석 개념·최종 산출물의 독창성 구체화 부족"
+        },
+        {
+          "sections": [
+            "3",
+            "4",
+            "5",
+            "Appendix A"
+          ],
+          "reason": "초기 기대와 제시된 기능·근거를 대조하여 Gap 유형을 분석하는 절차가 약함"
+        },
+        {
+          "sections": [
+            "4.1",
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "reason": "예방·범위 제한 문구 반복이 기여의 선명도를 약화"
+        }
+      ],
+      "first_fix": "초기 기대→제시된 기능·근거→인지한 손실→다음 선택의 분석표와 기여 형식 명시",
+      "finished_empirical_paper": false,
+      "review_status": "completed"
+    }
+  ],
+  "not_comparable_to": "earlier v3/v4 empirical readiness scores or different question-only rubrics",
+  "actual_experiments": false,
+  "manuscript_changed": false
+}
