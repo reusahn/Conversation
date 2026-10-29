@@ -1,0 +1,162 @@
+{
+  "date": "2026-10-29",
+  "kind": "three_cycle_paired_role_LLM_panel",
+  "requested_cycles": 3,
+  "completed_cycles": 3,
+  "role_jobs": 3,
+  "role_pairs": [
+    "A/B",
+    "C/D",
+    "E/F"
+  ],
+  "all_nine_role_job_turns_completed": true,
+  "actual_external_experts": false,
+  "rounds": [
+    {
+      "cycle": 1,
+      "record_type": "summary_not_verbatim",
+      "A": "실제 자연보호 대신 명칭이 만드는 기대·선택·수용 의향을 연구하는 범위는 타당하며 행동을 먼저 측정하자.",
+      "B": "순수 명칭의 총효과와 환경 기대의 인과 기제는 다르며 중립 명칭의 친숙도·기본값을 점검해야 한다.",
+      "C": "같은 손실 정보와 이해 확인이 필요하고 사후 인지자만 비교하지 말자.",
+      "D": "같은 출력은 같은 전력의 증거가 아니며 절감 약속을 추가하지 말자.",
+      "E": "UI·답·속도를 통제하고 모사 고지, 실제 수정 입력과 버튼 선택을 구분하자. 처음에는 기대 우선 측정을 제안했다.",
+      "F": "환경을 위한 자발적 양보가 관심이지만 귀찮음·중요도와 자기보고 동기를 구별해야 한다."
+    },
+    {
+      "cycle": 2,
+      "record_type": "summary_not_verbatim",
+      "A": "E의 기대 우선안 대신 행동을 먼저 측정하고 이후 환경 평가를 묻자.",
+      "B": "C의 전체 배정 분모와 D의 절감 약속 금지에 동의하며 주지표를 결함 공개 후 현재 답 제출 선택으로 좁히자.",
+      "C": "계속 사용과 답 수용을 구분하고 이해도 별도·이해+제출 공동사건을 전체 분모에서 보고하자.",
+      "D": "중립명칭·기본값·복수 동기를 점검하며 모사 선택을 실서비스 행동으로 확대하지 말자.",
+      "E": "A/C의 제안을 받아 명칭→고정 미완성답→공통 오류정보→제출 선택으로 순서를 바꾸자.",
+      "F": "기본 선택을 없애고 환경 동기는 마지막 자유응답에서 묻되 행동 원인으로 확정하지 말자."
+    },
+    {
+      "cycle": 3,
+      "record_type": "summary_not_verbatim",
+      "A": "오류정보 노출만으로 이해한 양보라고 해석할 수 없고 독창성과 표본·절차를 보완해야 한다.",
+      "B": "결함 공개 뒤 제출 선택으로 좁히는 데 동의하지만 기존 연구에 더하는 설명이 부족하다.",
+      "C": "명칭 전체의 총효과는 가능하나 환경 의미와 친숙도 효과의 분리는 아니다.",
+      "D": "단일 가상 선택에서 실제 서비스의 반복 양보나 환경 편익으로 일반화할 수 없다.",
+      "E": "과제·결함심각도·표본·중단·결측 규칙을 구체화해야 한다.",
+      "F": "명칭이 제출 선택을 바꿔도 환경을 위한 자발적 양보는 별도 근거가 필요하다."
+    }
+  ],
+  "rubric": {
+    "clarity": 20,
+    "novelty_contribution": 25,
+    "label_effect_identification_and_measurement": 25,
+    "feasibility": 15,
+    "claim_evidence_boundary": 15,
+    "max": 100,
+    "scope": "post-discussion label-effect proposal, not v0.4 manuscript or empirical readiness",
+    "fixed_before_discussion": true
+  },
+  "scores": [
+    {
+      "persona": "A",
+      "role": "HCI 교수",
+      "items": [
+        18,
+        15,
+        21,
+        11,
+        14
+      ],
+      "total": 79,
+      "concern": "결함 안내가 실제 이해를 보장하지 않으며 추가 기여·표본 근거가 미정"
+    },
+    {
+      "persona": "B",
+      "role": "논문 기여·심사",
+      "items": [
+        18,
+        12,
+        21,
+        11,
+        14
+      ],
+      "total": 76,
+      "concern": "기존 Eco 명칭·선택 연구 대비 독창성과 이론적 기여가 약함"
+    },
+    {
+      "persona": "C",
+      "role": "AI 방법",
+      "items": [
+        18,
+        12,
+        21,
+        13,
+        14
+      ],
+      "total": 78,
+      "concern": "Eco/중립 명칭의 총효과이며 환경 의미와 친숙도 기제를 분리하지 못함"
+    },
+    {
+      "persona": "D",
+      "role": "환경·운영",
+      "items": [
+        18,
+        11,
+        20,
+        13,
+        15
+      ],
+      "total": 77,
+      "concern": "가상 제출 선택은 실제 환경 편익이나 반복적인 성능 양보의 증거가 아님"
+    },
+    {
+      "persona": "E",
+      "role": "구현",
+      "items": [
+        19,
+        15,
+        21,
+        11,
+        15
+      ],
+      "total": 81,
+      "concern": "과제·결함 수준·표본·중단·결측 처리의 운영 정의 미완료"
+    },
+    {
+      "persona": "F",
+      "role": "안종훈 관점의 해석",
+      "items": [
+        19,
+        13,
+        20,
+        11,
+        15
+      ],
+      "total": 78,
+      "concern": "명칭에 따른 제출률 차이만으로 환경을 위한 자발적 양보를 확인할 수 없음"
+    }
+  ],
+  "score_scope": "current label-effect research proposal; not v0.4 manuscript re-review; not comparable to earlier readiness scores",
+  "proposal": {
+    "question": "Does the Eco label change submission of the same deficient answer after common defect disclosure?",
+    "conditions": "Eco versus neutral name, randomized; same UI, answer, instructions and defect feedback; no default choice",
+    "primary": "current-answer submission choice, denominator all assigned participants",
+    "secondary": "understanding separately and joint understanding/submission event with full denominator; post-choice beliefs/quality/intentions; final open-ended motives",
+    "inferences": "label total effect under the protocol; no environmental-benefit, motive-mediation or long-term-service inference",
+    "environmental_measurement_required": false,
+    "factorial_required": false,
+    "first_measurement": "behavior before post-choice environmental belief questions",
+    "unresolved": [
+      "original contribution beyond related research",
+      "neutral label familiarity",
+      "task and defect severity",
+      "sample size and precision",
+      "ethics/disclosure procedure",
+      "missingness/stopping rules"
+    ]
+  },
+  "manuscript_changed": false,
+  "actual_experiments": false,
+  "source_urls": [
+    "https://arxiv.org/abs/2603.23075",
+    "https://arxiv.org/abs/2606.10861"
+  ],
+  "source_access_scope": "retrieved primary-source abstracts; no claim of exhaustive novelty verification"
+}
