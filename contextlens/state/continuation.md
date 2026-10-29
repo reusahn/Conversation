@@ -45,3 +45,7 @@ No Spark / Meta API request, internet original search or Instagram access is imp
 - ../sessions/2026-10-27-conversation.md
 
 Record later visible messages and actual deliverables in this project folder when repository access is available. The repository does not automatically capture unrelated chats. Keep historical public persona turns and scores unchanged unless a new actual review occurs.
+
+## 29 October 2026 — latest user steering
+
+User requested direct file uploads or link imports, then specified an English interface. Before implementation, user asked to step back and simplify the concept. Work is currently paused at product clarification. Proposed core: input a clip; inspect available matching source and bounded contextual evidence; share with source and explanation. Comment questions remain secondary. Upload/link import improvements, custom reference input and English translation have not been implemented or deployed in this turn. Existing prototype still has the one-reference collection and no internet source search. See ../sessions/2026-10-29-product-recap.md for visible conversation.
