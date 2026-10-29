@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-29",
+  "kind": "single_assistant_fictional_professor_manuscript",
+  "independent_agents_run": false,
+  "proposal_only": true,
+  "actual_experiment": false,
+  "new_scores": false,
+  "manuscript": "eco-mode/research/usage-receipt-paper-ko-v0.1.md",
+  "library_file_id": "libfile_e60af37374e08191b63ed6827a108661",
+  "status": "Pre-empirical draft; existing protocol not replaced; no results invented",
+  "messages": [
+    {
+      "role": "user",
+      "content": "한번 그렇게 논문을 써봐 교수가"
+    },
+    {
+      "role": "assistant",
+      "channel": "commentary",
+      "content": "A 교수 관점으로 논문 초안을 써볼게. 아직 실험 전이니 결과는 만들지 않고, 연구 질문·실험 방법·결과 해석까지 갖춘 형태로 정리할게."
+    },
+    {
+      "role": "assistant",
+      "channel": "commentary",
+      "content": "논문의 중심은 “사용량이 줄었을 때 사람들이 어떤 상태에서 멈췄는가”로 잡고 있어. 관련 연구를 확인해 기여 범위를 정리하고, 전체 초안은 파일로 읽을 수 있게 Library 스킬로 저장할게."
+    },
+    {
+      "role": "assistant",
+      "channel": "commentary",
+      "content": "초안을 작성했어. 사용량 감소와 완료·미완성 제출·포기를 함께 보고하도록 분석 계획을 넣었고, 실제 결과가 없는 부분은 ‘자료 수집 후 보고 계획’으로 명확히 표시했어."
+    },
+    {
+      "role": "assistant",
+      "channel": "final",
+      "content": "A 교수 관점으로 **실험 전 논문 초안**을 작성했어. 서론, 관련 연구, 연구 질문, 실험 방법, 분석 계획, 논의와 참고문헌까지 담았어.\n\n[논문 초안 읽기](https://chatgpt.com/library?file_id=libfile_e60af37374e08191b63ed6827a108661&account_id=personal)\n\n**덜 요청하는 이유: 생성형 AI의 사용량 영수증과 작업 종료 선택**\n\n논문의 중심은 이거야.\n\n> 사용량 영수증을 보고 요청을 줄인 사람은 충분한 답을 얻었을까, 부족한 답을 받아들였을까, 아니면 작업을 포기했을까?\n\n같은 모델을 사용하는 두 집단에 영수증 표시 여부만 다르게 적용하고, **작업 전체 토큰과 완료·미완성 제출·포기를 함께 비교**하도록 설계했어. 환경을 위해 멈췄는지는 별도로 물어보고, 행동 기록과 구분해 해석해.\n\n네 생각대로 **품질 유지를 연구 성공의 필수 조건으로 두지 않았어.** 대신 사용량이 줄면서 어떤 손실이 생겼는지까지 보고하도록 했어.\n\n아직 실험 결과는 없어서 결과 절은 **‘자료 수집 후 보고 계획’**으로 작성했어. 실제 환경 절감을 입증했다는 주장도 넣지 않았어."
+    }
+  ]
+}
