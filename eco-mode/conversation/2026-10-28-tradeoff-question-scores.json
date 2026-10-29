@@ -1,0 +1,92 @@
+{
+  "kind": "single_assistant_fictional_question_scores",
+  "date": "2026-10-28",
+  "scope": "question_only_not_execution_readiness_or_acceptance_probability",
+  "independent_agents_run": false,
+  "rubric": {
+    "clarity": 30,
+    "novelty": 25,
+    "measurability": 25,
+    "scope": 20
+  },
+  "scores": [
+    {
+      "persona": "A",
+      "score": 90,
+      "item_scores": [
+        27,
+        20,
+        24,
+        19
+      ]
+    },
+    {
+      "persona": "B",
+      "score": 85,
+      "item_scores": [
+        27,
+        17,
+        23,
+        18
+      ]
+    },
+    {
+      "persona": "C",
+      "score": 89,
+      "item_scores": [
+        26,
+        21,
+        24,
+        18
+      ]
+    },
+    {
+      "persona": "D",
+      "score": 92,
+      "item_scores": [
+        28,
+        21,
+        24,
+        19
+      ]
+    },
+    {
+      "persona": "E",
+      "score": 90,
+      "item_scores": [
+        28,
+        20,
+        24,
+        18
+      ]
+    },
+    {
+      "persona": "F",
+      "score": 93,
+      "item_scores": [
+        29,
+        22,
+        24,
+        18
+      ]
+    }
+  ],
+  "F_is_fictional_projection_of_expressed_view": true,
+  "prior_readiness_scores_unchanged": true,
+  "messages": [
+    {
+      "role": "user",
+      "content": "점수도"
+    },
+    {
+      "role": "assistant",
+      "channel": "commentary",
+      "content": "방금 제안한 중심질문 자체를 기준으로, 점수와 이유만 짧게 붙일게."
+    },
+    {
+      "role": "assistant",
+      "channel": "final",
+      "content": "방금 질문인 **“사람들은 Eco 표시 아래 어떤 성능 손해를 받아들이며, 전체 사용량과 성과는 어떻게 나타나는가?”**에 대한 점수야.\n\n| 페르소나 | 점수 | 한 줄 평가 |\n|---|---:|---|\n| **A · HCI** | **90/100** | 사람의 수용과 행동이 중심이라 좋다. 수용 의향과 실제 성능 손해는 구분해야 한다. |\n| **B · 논문** | **85/100** | 질문은 명확하지만, 기존의 **Eco 표시 × 실제 추론 설정**이라는 차별점이 문장에서 약해졌다. |\n| **C · AI** | **89/100** | 토큰·성과로 검증 가능하다. ‘사용량’의 정의와 설정 확인 수준을 명시해야 한다. |\n| **D · 환경** | **92/100** | 환경 효과를 과장하지 않으면서 친환경 믿음을 연구할 수 있다. |\n| **E · 구현** | **90/100** | 행동 기록·설문·과제 평가를 연결하면 구현 가능한 범위다. |\n| **F · 가상 안종훈** | **93/100** | **환경을 위해 성능을 양보한다는 원래 관심**이 중심으로 돌아왔다. |\n\n가상 관점의 질문 평가이며 실제 심사·게재 확률은 아니야. **가장 보완할 부분은 B의 독창성 지적**이야."
+    }
+  ]
+}
