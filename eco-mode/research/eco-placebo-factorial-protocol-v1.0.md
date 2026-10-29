@@ -129,3 +129,15 @@ G5: write actual Findings/Discussion; submit to CHI or other appropriate HCI ven
 - https://www.research.ucsb.edu/human-subjects/for-researchers
 - https://www.research.ucsb.edu/human-subjects-faqs
 - https://www.law.cornell.edu/cfr/text/45/46.104
+
+## 9. Research readiness review rubric (100-point planning aid; not a CHI prediction)
+
+| Criterion | Points | Evidence needed |
+|---|---:|---|
+| Distinct contribution beyond CHI 2026 | 20 | comparison matrix, grounded new question and outcomes, broadened literature review |
+| Causal identification and treatment fidelity | 20 | independently randomized 2×2 cells, untouched label-only contrast, verified backend configuration, preregistered comparisons |
+| Measurement and task quality | 20 | full-session attempt-level actual provider usage, subset semantics, objective outcomes, missingness/retry rules, NO conflation with joules |
+| Human-subject protection | 20 | faculty researcher/HSC determination, prospective authorization as required, exact consent/debrief, privacy/withdrawal protections |
+| Statistics and reproducibility | 20 | feasible sample/power from independent pilot, fixed analysis family, uncertainty intervals, releaseable scripts and nonidentifying outputs |
+
+A high design-review score never certifies actual conservation or publication. **No numerical score is assigned yet**; readiness requires real evidence of the relevant gate. This is a project self-audit, not a claim of independent reviewer evaluation.
