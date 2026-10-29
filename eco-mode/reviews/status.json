@@ -180,7 +180,7 @@
   "latest_addendum": "research/v4-analysis-contract.md",
   "environmental_claim_scope": "Measured J within boundary; conditional carbon/water estimates only with necessary data; broader ecological harm prevention unproven.",
   "F_is_not_actual_user_or_participant": true,
-  "latest_conversation": "conversation/2026-10-28-readiness90.json",
+  "latest_conversation": "conversation/2026-10-28-evidence-boundaries.json",
   "latest_protocol_sha256": "37d3be52f7740428c18164cf7a36f211a8c078e472d8870835cf9e9f8f7234d8",
   "all_personas_above_90": false,
   "current_review_attempt": {
@@ -198,5 +198,6 @@
     "actual_model_inference": false,
     "device_energy_measurement": false,
     "human_participants": false
-  }
+  },
+  "latest_evidence_classification": "research/hosted-evidence-boundaries-v0.1.md"
 }
