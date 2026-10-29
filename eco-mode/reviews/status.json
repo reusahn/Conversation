@@ -180,7 +180,7 @@
   "latest_addendum": "research/v4-analysis-contract.md",
   "environmental_claim_scope": "Measured J within boundary; conditional carbon/water estimates only with necessary data; broader ecological harm prevention unproven.",
   "F_is_not_actual_user_or_participant": true,
-  "latest_conversation": "conversation/2026-10-29-persona-collaborative-manuscript.json",
+  "latest_conversation": "conversation/2026-10-29-ab-v03-scoring.json",
   "latest_protocol_sha256": "37d3be52f7740428c18164cf7a36f211a8c078e472d8870835cf9e9f8f7234d8",
   "all_personas_above_90": false,
   "current_review_attempt": {
@@ -233,6 +233,33 @@
     "notes": "reviews/2026-10-29-coauthored-draft/notes.md",
     "new_scores": false,
     "all_final_approved": false,
+    "actual_experiment": false
+  },
+  "latest_manuscript_review": {
+    "date": "2026-10-29",
+    "manuscript": "research/eco-evidence-gap-ko-v0.3.md",
+    "manuscript_sha256": "3b145b471cd6c52d5e6d59bb5bec2fe46948710b858d3477e720257b7eaedbcd",
+    "score_scope": "pre-empirical research proposal and manuscript quality",
+    "fictional_advisory_not_external_review": true,
+    "independent_jobs_completed": [
+      "A",
+      "B"
+    ],
+    "scores": {
+      "A": 81,
+      "B": 78
+    },
+    "max": 100,
+    "rubric_maxima": [
+      20,
+      25,
+      25,
+      15,
+      15
+    ],
+    "record": "reviews/2026-10-29-ab-v03-scores.json",
+    "not_comparable_to_earlier_readiness_rubrics": true,
+    "manuscript_changed": false,
     "actual_experiment": false
   }
 }
