@@ -179,3 +179,49 @@ Source: Meta, 12 May 2026, https://about.fb.com/news/2026/05/new-supervision-too
 Product proposal only: per-user viewed-history comparison, repeated footage folding, added commentary/segments highlighted, uncertain cases retained, reversible user grouping. Novelty and social impact unverified; no Site code change, API call, new persona evaluation or deployment. Demo sequence is proposed and team-curated, not a live Instagram feed or observed result.
 
 Primary source: Meta, 2 May 2024, https://about.fb.com/ltam/news/2024/05/ayudando-a-los-creadores-a-encontrar-nuevas-audiencias/ . Identical-content replacement already announced; source also distinguishes materially transformed works. This is background, not an exhaustive 2026 competition review.
+
+
+## Repetition blur and exposure counters
+
+### User (verbatim)
+
+응응 그리고 이 영상은 사람들에게 몇번이나 반복적으로 노출중이라는것도 알려주면좋을려나 아니면 폭력그런위험물처럼 블러되어 보이는게시물처럼 3번이상이면 그렇게 해야할까 그것도 웃기긴할듯
+
+### Assistant commentary (verbatim)
+
+반복된 영상을 블러 처리하고 횟수를 보여주면, 필터가 작동하는 이유도 바로 이해할 수 있겠어. ‘나에게 몇 번 나타났는지’와 ‘전체 이용자에게 몇 번 노출됐는지’는 구분해서 설계할게.
+
+### Assistant response
+
+**응. ‘반복 횟수 표시 + 세 번째부터 블러’를 합치면 더 직관적이야.** 필터가 무엇을 막았는지 눈으로 보이니까.
+
+예를 들어 다른 계정이 올린 같은 장면이 세 번째로 나타나면, 썸네일이 살짝 흐려지고 자동재생이 멈춰.
+
+> 🔁 **You’ve seen this scene 3 times.**  
+> Same scene. Different account.  
+> **Show video · Adjust limit**
+
+폭력물 경고 화면에서 **‘가리고, 원하면 열어보는 방식’**을 가져오는 거지. 색상과 문구는 가볍게 해서 **반복 때문에 접혔다**는 이유가 분명하게 보이면 돼. 3회 기준은 사용자가 바꾸거나 끌 수 있게 하고.
+
+다만 횟수는 이렇게 구분해야 해.
+
+| 표시할 정보 | 필요한 근거 |
+|---|---|
+| **내 피드에 몇 번 나타났는지** | 우리 도구가 관찰한 내 노출 기록 |
+| **내가 몇 번 시청했는지** | 별도로 기록한 시청 기준 |
+| **전체 사람들에게 몇 번 노출됐는지** | 플랫폼의 집계 데이터. 현재 우리는 확보하지 못했어 |
+
+그래서 첫 버전은 **‘나에게 얼마나 반복되는가’**에 집중하는 게 좋아. 수집한 게시물 수를 전체 노출 횟수처럼 보여주면 안 되고.
+
+여기에 앞서 얘기한 기능을 연결하면 더 좋아져. 같은 장면이어도 새 해설이나 후속 장면이 있으면:
+
+> **Familiar footage. New commentary.**  
+> **See what’s different**
+
+**데모에서 보여줄 변화는 명확해.** 계정과 자막이 달라 보이던 영상들이 필터를 켜는 순간 같은 묶음으로 드러나고, 반복 버전은 흐려지지만 새로운 내용은 남는 거야.
+
+이러면 사용자가 **‘내가 다양한 영상을 보는 줄 알았는데 같은 장면을 계속 보고 있었구나’**를 직접 알아차릴 수 있어. 단순 차단보다 우리가 만들려는 경험이 훨씬 선명해져.
+
+### Status
+
+UX proposal, not implemented or tested. Proposed mild thumbnail blur and paused autoplay at a configurable personal repetition limit with reveal/adjust controls. New commentary or follow-up footage should be retained. Personal impressions, qualifying views, collected matching posts and global platform exposure are different quantities; no global exposure dataset exists in the current prototype. The example English UI is proposed copy. No Site deployment or empirical social-effect claim.
