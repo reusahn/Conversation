@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-29",
+  "type": "visible_conversation",
+  "user_message": "예전에 샘올트만이 챗지피티한테 감사하다고 답장하지말라는거 뭐때문인거야",
+  "assistant_commentary": "그 발언의 원문과 맥락을 확인해볼게. 실제로 “감사하지 말라”고 했는지도 같이 볼게.",
+  "assistant_reply": "그 일화는 **추가 대화에 드는 연산·전기 비용**에 관한 이야기야. 당시 그가 **‘감사하지 말라’고 지시한 것은 아니었어.**\n\n2025년 4월, 한 이용자가 AI에 ‘please’나 ‘thank you’를 쓰면서 발생하는 전기요금이 얼마나 되는지 묻자, 올트먼은 이렇게 답했어.\n\n> “수천만 달러지만, 잘 쓴 돈이죠. 앞일은 모르니까요.”\n\n당시 보도에 전해진 답변은 이 내용이야. genui{\"citation\":{\"ref\":\"turn50search0\"}}\n\n원리는 **감사만 담은 새 메시지를 보내고 AI의 답을 한 번 더 받으면, 그 요청과 응답을 처리하는 추가 연산이 발생한다**는 거야. 질문 문장에 ‘고마워’를 함께 넣는 것과, 감사만 따로 보내 대화를 한 차례 더 하는 것은 구분해야 해. genui{\"citation\":{\"ref\":\"turn48view3\"}}\n\n다만 그 ‘수천만 달러’ 답글에는 계산 기간이나 산정 방법이 제시되지 않았어. **정확히 검증된 전기요금 통계로 받아들이기는 어려워.**",
+  "sources": [
+    {
+      "url": "https://x.com/sama/status/1912646035979239430",
+      "role": "Original post link",
+      "direct_access": "403; exact wording corroborated in contemporaneous reports, not represented as directly retrieved"
+    },
+    {
+      "url": "https://tech.yahoo.com/ai/articles/saying-please-thank-chatgpt-costs-124258737.html",
+      "role": "Contemporaneous report quoting the reply"
+    },
+    {
+      "url": "https://techcrunch.com/2025/04/20/your-politeness-could-be-costly-for-openai/",
+      "role": "Contemporaneous report confirming wording and context"
+    },
+    {
+      "url": "https://www.microsoft.com/en-us/research/publication/energy-use-of-ai-inference-efficiency-pathways-and-test-time-scaling/",
+      "role": "Primary inference-energy research; no exact energy attribution to polite words"
+    }
+  ],
+  "scope_notes": [
+    "The reported exchange contains no instruction to stop saying thank you.",
+    "The social-media cost remark supplies no calculation period or method; not an audited electricity estimate.",
+    "Adding polite words within a request and sending an additional message/receiving a new response are distinct.",
+    "No numerical electricity or ecological impact of an individual thank-you inferred."
+  ],
+  "manuscript_changed": false,
+  "new_scores": false,
+  "actual_experiment": false
+}
