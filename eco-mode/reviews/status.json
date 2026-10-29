@@ -180,7 +180,7 @@
   "latest_addendum": "research/v4-analysis-contract.md",
   "environmental_claim_scope": "Measured J within boundary; conditional carbon/water estimates only with necessary data; broader ecological harm prevention unproven.",
   "F_is_not_actual_user_or_participant": true,
-  "latest_conversation": "conversation/2026-10-29-ab-v03-scoring.json",
+  "latest_conversation": "conversation/2026-10-29-v04-revision-ideas.json",
   "latest_protocol_sha256": "37d3be52f7740428c18164cf7a36f211a8c078e472d8870835cf9e9f8f7234d8",
   "all_personas_above_90": false,
   "current_review_attempt": {
@@ -200,10 +200,10 @@
     "human_participants": false
   },
   "latest_evidence_classification": "research/hosted-evidence-boundaries-v0.1.md",
-  "active_manuscript": "research/eco-evidence-gap-ko-v0.3.md",
+  "active_manuscript": "research/eco-evidence-gap-ko-v0.4.md",
   "current_scope_override": {
     "source": "Latest user correction on 2026-10-29",
-    "focus": "Eco Mode meaning, functionality, user expectations, choice, performance trade-offs",
+    "focus": "Eco Mode expectations, conditional performance trade-offs and traceable design requirements",
     "factorial_2x2_required": false,
     "inference_setting_manipulation_required": false,
     "implementation_and_comparison": "exploratory proposal in manuscript; not recruited, approved or implemented",
@@ -211,7 +211,7 @@
     "token_usage": "secondary",
     "physical_environment_effect": "long-term question, unverified",
     "prior_protocol_and_scores": "historical; not a review of v0.3",
-    "new_review_or_experiment": "partial and completed editorial contributions only; no empirical execution",
+    "new_review_or_experiment": "completed A/B editorial ideation and manuscript revision; no empirical execution",
     "first_study_proposal": "Transparent scenario-based prototype interviews to identify conditional performance trade-offs",
     "actual_eco_function": "later implementation and validation; not replaced by scenario findings"
   },
@@ -260,6 +260,26 @@
     "record": "reviews/2026-10-29-ab-v03-scores.json",
     "not_comparable_to_earlier_readiness_rubrics": true,
     "manuscript_changed": false,
+    "actual_experiment": false
+  },
+  "latest_editorial_revision": {
+    "date": "2026-10-29",
+    "version": "v0.4",
+    "record": "reviews/2026-10-29-v04-editorial-revision.json",
+    "sha256": "f280135dc6ef07fd879a7440672ad1d4e30f24e1feaeab2ef08bcad170ce8160",
+    "completed_ideation_jobs": [
+      "A",
+      "B"
+    ],
+    "changes": [
+      "individual expectation-to-choice traces",
+      "protected and negotiable criteria",
+      "evidence-to-design requirement table",
+      "parallel authored tasks and order rotation",
+      "bounded subtitle and expanded prior work"
+    ],
+    "new_scores": false,
+    "prior_scores_apply_to": "v0.3 only",
     "actual_experiment": false
   }
 }
