@@ -1,5 +1,23 @@
 # ContextLens continuation
 
+Updated 29 October 2026 in California time.
+
+## Current deployed experience — English messenger prototype
+
+https://contextlens-workbench.reusahn.chatgpt.site
+
+Existing Site ID: appgprj_6ae12b3d03a08191b644d841b8a542c7. Audience preserved owner-private. Successful deployment appgdep_6ae3b5ffa1d48191bd16e9af899138a9, saved version appgprj_6ae12b3d03a08191b644d841b8a542c7~appgver_63f6e7f9c9fc8191b98f8d49014cada0; source commit d81d9ad9ac8adad70e44658b54fd3e11d3490e1e. Current checkout /workspace/scratch/3dfc4989fa36/.sites-checkout; if removed by maintenance, recover through Sites source workflow for the same project. Do not create a duplicate Site.
+
+Home page is an English messenger-style local repetition test. Five sample source windows from Sintel's official trailer have 20 original/cropped/captioned/extended actual video variants. Guided sequence: original/crop/caption/extended; actual browser observation at default cap: 4 appearances, 1 folded, extended cut retained with about 3 extra seconds. Random next clip, filter on/off, adjustable 2–5 cap, reveal, interval proof/jump, session history, file import and compatible direct-video URLs work. Local uploads and direct same-origin MP4 URL were browser-tested. Native Instagram/YouTube/Vimeo page links are not imported. Old source workbench retained at workbench.html.
+
+Counts describe one tab's observed appearances (60% message visibility for 800ms), not completed views or global reach. Matching is actual decoded-frame comparison plus five predefined source-start windows, not general semantic clustering. Added source intervals are geometric footage additions; no automatic commentary/viewpoint interpretation. No Meta model, real messenger account, native feed modification, global exposures or efficacy study. History resets on reload. Current image proof: /workspace/scratch/contextlens-messenger-20261029.jpg.
+
+Details: ../prototype/2026-10-29-messenger-implementation.md and ../sessions/2026-10-29-messenger-build.md.
+
+## Earlier planning and prototype history (superseded where above differs)
+
+# ContextLens continuation
+
 Updated 27 October 2026 in California time.
 
 ## Current working prototype
@@ -57,3 +75,4 @@ User challenged source verification's social value and proposed lowering exposur
 ## Further proposal: preserve additions while folding repetition
 
 User wants meaningful algorithmic development and a stronger wow point. Proposed refinement: compare each item with this app's per-user viewed history, fold repeated same-scene variants at a configurable cap, highlight added segments/commentary, retain different viewpoints and uncertain cases, and let users undo grouping. A new commentary indicator does not certify truth or informational value. Demo in a curated owned English feed, not native Instagram control. Evaluate reduction of redundant viewing alongside false suppression of new material. This is a proposal, not built/tested; novelty unverified. Existing matching can be reused; actual Meta-model integration remains absent.
+

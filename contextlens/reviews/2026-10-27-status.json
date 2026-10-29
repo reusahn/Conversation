@@ -2,7 +2,7 @@
   "project": "ContextLens",
   "date": "2026-10-27",
   "timezone": "America/Los_Angeles",
-  "product_stage": "deployed_browser_prototype",
+  "product_stage": "deployed_browser_messenger_prototype",
   "latest_product_proposal": "plans/2026-10-27-product-proposal-v3.md",
   "collaboration_plan": "plans/2026-10-27-collaboration-plan.md",
   "discussion": {
@@ -227,5 +227,25 @@
     ],
     "formal_acceptance_suite_run": false,
     "new_persona_score_run": false
+  },
+  "messenger_prototype": {
+    "project_id": "appgprj_6ae12b3d03a08191b644d841b8a542c7",
+    "source_commit": "d81d9ad9ac8adad70e44658b54fd3e11d3490e1e",
+    "version_id": "appgprj_6ae12b3d03a08191b644d841b8a542c7~appgver_63f6e7f9c9fc8191b98f8d49014cada0",
+    "deployment_id": "appgdep_6ae3b5ffa1d48191bd16e9af899138a9",
+    "status": "succeeded",
+    "url": "https://contextlens-workbench.reusahn.chatgpt.site",
+    "audience": "owner-private, preserved",
+    "checkout": "/workspace/scratch/3dfc4989fa36/.sites-checkout",
+    "interface_language": "English",
+    "sample_source_count": 5,
+    "source_work": "Sintel official trailer (five excerpts, not five films)",
+    "sample_variant_count": 20,
+    "fixture_check": "20/20 generated variants matched within 0.7 seconds; not held-out accuracy",
+    "browser_observation": "4 appearances, 1 folded at cap 3, extended cut about 3s addition",
+    "meta_model_connected": false,
+    "native_platform_connected": false,
+    "formal_social_effect_validation": false,
+    "record": "../prototype/2026-10-29-messenger-implementation.md"
   }
 }
