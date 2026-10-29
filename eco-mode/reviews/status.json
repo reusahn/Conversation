@@ -178,9 +178,9 @@
   "p_min_required_only_if_optional_task_classification_adopted": true,
   "latest_discussion": "reviews/2026-10-28-readiness90/",
   "latest_addendum": "research/v4-analysis-contract.md",
-  "environmental_claim_scope": "Current v0.5: environmental expectations and scenario choices only; actual electricity, carbon, water, ecological harm prevention and industry development effects unmeasured. Earlier measurement protocols remain historical.",
+  "environmental_claim_scope": "Current v0.6: expectations, stated requirements, understood shortcomings and scenario choices/plans only. Actual electricity, carbon, water, ecological harm prevention and industry-development effects unmeasured.",
   "F_is_not_actual_user_or_participant": true,
-  "latest_conversation": "conversation/2026-10-29-af-v05-scoring.json",
+  "latest_conversation": "conversation/2026-10-29-abf-v06-development.json",
   "latest_protocol_sha256": "37d3be52f7740428c18164cf7a36f211a8c078e472d8870835cf9e9f8f7234d8",
   "all_personas_above_90": false,
   "current_review_attempt": {
@@ -200,41 +200,41 @@
     "human_participants": false
   },
   "latest_evidence_classification": "research/hosted-evidence-boundaries-v0.1.md",
-  "active_manuscript": "research/eco-evidence-gap-ko-v0.5.md",
+  "active_manuscript": "research/eco-evidence-gap-ko-v0.6.md",
   "current_scope_override": {
     "source": "2026-10-29 user writing request, incorporating prior explicit Eco Mode focus and completed discussions",
-    "focus": "Eco Mode expectations and conditional performance trade-offs; within-person criteria, understanding and scenario-choice traces",
+    "focus": "Eco Mode name/function expectations; personal protected/negotiable requirements, sufficiency and planned checking/repair in scenario judgments",
     "factorial_2x2_required": false,
     "inference_setting_manipulation_required": false,
     "implementation_and_comparison": "Study proposal and authored materials only; actual prototype/human pilot not executed",
     "receipt_intervention_active": false,
     "token_usage": "secondary",
     "physical_environment_effect": "Unverified long-term question, not a gate for the first HCI study",
-    "prior_protocol_and_scores": "historical; not a review of v0.3",
-    "new_review_or_experiment": "Root v0.5 manuscript revision and deterministic stimulus checks only",
-    "first_study_proposal": "Disclosed authored-response prototype interviews; 12 to 16 participants and approximately 50 minutes are planning examples, not finalized empirical facts.",
+    "prior_protocol_and_scores": "Historical; latest scored manuscript is v0.5 and v0.6 has no new scores.",
+    "new_review_or_experiment": "Three fictional role agents A/B/F completed two dialogue turns each; root integrated v0.6 and checked document/stimulus consistency. No empirical experiment.",
+    "first_study_proposal": "Disclosed authored-response interviews with one recent-experience recall, three common tasks, follow-up choices and planned checking/repair. 12 to 16 people and a 50-minute operation plan remain planning examples pending pilot.",
     "actual_eco_function": "Later implementation/validation; not replaced by scenario findings",
-    "current_manuscript": "research/eco-evidence-gap-ko-v0.5.md",
-    "development_slowdown": "Background hypothesis informed by economic theory; direct Eco/chat-usage causal evidence not identified"
+    "current_manuscript": "research/eco-evidence-gap-ko-v0.6.md",
+    "development_slowdown": "Background hypothesis informed by economic theory; direct Eco/chat-usage causal evidence not identified",
+    "evidence_types": "Retrospective report, recorded scenario judgment, and hypothetical/future plan distinguished."
   },
   "latest_collaborative_edit": {
     "date": "2026-10-29",
-    "role_pairs": [
-      "A/B",
-      "C/D",
-      "E/F"
+    "version": "v0.6",
+    "roles": [
+      "A",
+      "B",
+      "F"
     ],
-    "completed_final_jobs": [
-      "E/F"
-    ],
-    "partial_jobs_usage_limited": [
-      "A/B",
-      "C/D"
-    ],
+    "actual_LLM_agents": 3,
+    "completed_cycles": 2,
+    "completed_agent_turns": 6,
     "integrated_by": "root assistant",
-    "notes": "reviews/2026-10-29-coauthored-draft/notes.md",
+    "notes": "reviews/2026-10-29-abf-v06-two-cycle-dialogue.json",
+    "fictional_advisory_not_external_review": true,
+    "F_is_actual_user": false,
     "new_scores": false,
-    "all_final_approved": false,
+    "final_manuscript_approved_by_all": false,
     "actual_experiment": false
   },
   "latest_manuscript_review": {
@@ -281,19 +281,27 @@
   },
   "latest_editorial_revision": {
     "date": "2026-10-29",
-    "version": "v0.5",
-    "record": "reviews/2026-10-29-v05-manuscript-revision.json",
-    "sha256": "b14e05da8a8ab9c2c7f67eae5332c09b91e98a7577732eaa2b88ec40e3520370",
+    "version": "v0.6",
+    "record": "reviews/2026-10-29-abf-v06-two-cycle-dialogue.json",
+    "sha256": "ba79aede15b5496552287eb59f0e6a49f6215af19c7a0d5ab7d8341787dd6777",
     "library_file_id": "libfile_e60af37374e08191b63ed6827a108661",
-    "saved_file_id": "file_0000000006ec81f5a894e86204102e59",
-    "library_expected_previous_version": 3,
-    "authorship": "Root rewrite using prior completed discussions; no new persona rescore.",
-    "main_focus": "Expectations, protected/negotiable requirements, understood shortcomings and subsequent scenario choices.",
+    "saved_file_id": "file_00000000642c82308e22251a2d4c9f5c",
+    "library_expected_previous_version": 4,
+    "library_version_number": 5,
+    "filename": "The_Eco_Evidence_Gap_KO_v0_6.md",
+    "authorship": "Root integration following completed two-cycle fictional A/B/F discussion; final manuscript not rereviewed or rescored by personas.",
+    "main_focus": "Personal requirements vs assigned rules; meanings of the same acceptance choice; sufficient answers, understood shortcomings and planned checking/repair.",
     "bibliography_items": 11,
-    "optional_followup": "Randomized label-only comparison, not mandatory for the first exploratory study.",
-    "long_term_context": "Collective resource demand and demand/innovation incentives; no causal environmental/development claims.",
+    "original_stimuli_and_reference_list_preserved": true,
+    "time_and_prompt_rules": "Draft 50-minute allocation, neutral clarification limits and missing-data recording, pending human pilot.",
+    "remaining_questions": [
+      "가까운 선행연구 전체 분석 대비 추가 설명 지식의 가치; EcoChat과 Kim의 상세 원문 대조 미완료",
+      "개인 요구와 과제 규칙의 구분이 실제 인터뷰에서 가능한지",
+      "50분 운영, 확인·보완 질문이 만드는 숙고와 계획의 영향",
+      "상품 비교 밖의 적용 가능성, 실제 기능·장기 사용·전체 자원 효과"
+    ],
     "new_scores": false,
-    "prior_scores_apply_to": "v0.3 only",
+    "prior_scores_apply_to": "v0.5 only",
     "actual_experiment": false
   },
   "latest_label_effect_discussion": {
@@ -440,6 +448,23 @@
       "new_scores": false,
       "prior_scores_apply_to": "v0.3 only",
       "actual_experiment": false
+    },
+    {
+      "date": "2026-10-29",
+      "version": "v0.5",
+      "record": "reviews/2026-10-29-v05-manuscript-revision.json",
+      "sha256": "b14e05da8a8ab9c2c7f67eae5332c09b91e98a7577732eaa2b88ec40e3520370",
+      "library_file_id": "libfile_e60af37374e08191b63ed6827a108661",
+      "saved_file_id": "file_0000000006ec81f5a894e86204102e59",
+      "library_expected_previous_version": 3,
+      "authorship": "Root rewrite using prior completed discussions; no new persona rescore.",
+      "main_focus": "Expectations, protected/negotiable requirements, understood shortcomings and subsequent scenario choices.",
+      "bibliography_items": 11,
+      "optional_followup": "Randomized label-only comparison, not mandatory for the first exploratory study.",
+      "long_term_context": "Collective resource demand and demand/innovation incentives; no causal environmental/development claims.",
+      "new_scores": false,
+      "prior_scores_apply_to": "v0.3 only",
+      "actual_experiment": false
     }
   ],
   "environmental_claim_scope_history": [
@@ -473,5 +498,29 @@
       "manuscript_changed": false,
       "actual_experiment": false
     }
-  ]
+  ],
+  "collaborative_edit_history": [
+    {
+      "date": "2026-10-29",
+      "role_pairs": [
+        "A/B",
+        "C/D",
+        "E/F"
+      ],
+      "completed_final_jobs": [
+        "E/F"
+      ],
+      "partial_jobs_usage_limited": [
+        "A/B",
+        "C/D"
+      ],
+      "integrated_by": "root assistant",
+      "notes": "reviews/2026-10-29-coauthored-draft/notes.md",
+      "new_scores": false,
+      "all_final_approved": false,
+      "actual_experiment": false
+    }
+  ],
+  "latest_manuscript_review_is_current": false,
+  "current_manuscript_has_separate_score": false
 }
