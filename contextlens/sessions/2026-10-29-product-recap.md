@@ -51,7 +51,7 @@ This turn paused implementation to clarify the product at the user's latest requ
 
 출처를 찾는 기능이 실제로 어떤 문제를 줄이는지, 해결하지 못하는 건 무엇인지 나눠서 볼게.
 
-### Assistant response
+### Assistant draft (prepared but not delivered before user steering)
 
 **일부는 다룰 수 있어. 하지만 지금의 ‘원본 찾아주기’만으로는 네가 말한 사회문제를 해결한다고 하기엔 부족해.** 내가 기능을 정리하면서 사회적 목표를 너무 좁혔어.
 
@@ -83,3 +83,49 @@ This turn paused implementation to clarify the product at the user's latest requ
 ### Evidence and status
 
 Research consulted: Pennycook et al., Nature (2021), DOI 10.1038/s41586-021-03344-2; abstract https://pubmed.ncbi.nlm.nih.gov/33731933/ . News accuracy-attention experiments do not validate ContextLens video intervention. This response proposes a narrower social objective; no implementation change, user test, causal effect or new persona score was produced.
+
+
+## User steering: repeated exposure control
+
+### User (verbatim)
+
+그게 영상 바이얼의 사회적문제를 잡아주나?? 나같으면은 비슷한 영상이 사람에게 3번이상보여지면은 노출도를 줄이는걸 하겠다 이생각이 더 괜찮지않나? 누가 바이럴인지 아닌지 확인하는게 그렇게 중요한가
+
+### Assistant commentary (verbatim)
+
+네 제안은 사람들이 이미 본 콘텐츠에 계속 노출되는 문제를 직접 다루고 있어. 출처 확인보다 이 방향을 중심에 두고, 무엇을 ‘비슷한 영상’으로 묶을지 살펴볼게.
+
+### Assistant response
+
+**응. 네가 말한 문제에는 네 제안이 더 직접적으로 맞아.** 내가 출처 확인에 집중하면서, 네가 관심 있는 **‘비슷한 콘텐츠가 계속 밀려오는 경험’**을 놓쳤어. 바이럴인지 분류하는 것 자체는 사용자에게 큰 도움이 안 될 수 있어.
+
+네 아이디어의 중심은 이거야.
+
+**“이미 충분히 본 콘텐츠는 덜 보이게 하고, 얼마나 반복해서 볼지는 내가 정한다.”**
+
+예를 들어 같은 장면을 계정 A에서 보고, B의 자막 버전으로 보고, C의 크롭 버전으로 또 보면:
+
+> **You’ve seen this scene 3 times today.**  
+> **Show less · Keep showing**
+
+이렇게 세 번째부터 접어주고, 원하면 다시 볼 수 있게 하는 거지. 계정이 달라도 같은 장면이라는 걸 알아내는 기술이 여기서 의미를 가져.
+
+다만 **‘비슷하다’의 기준이 핵심이야.**
+
+- **같은 장면의 재업로드·자막·크롭 버전**부터 묶기.
+- 같은 주제라도 새로운 설명이나 다른 관점이 있으면 별개로 두기.
+- **3회는 시작 설정**으로 두고, 사용자가 횟수와 적용 기간을 바꾸거나 해제할 수 있게 하기.
+
+이 방향의 사회적 목표는 **원치 않는 반복 노출을 줄이고, 피드를 조절할 선택권을 주는 것**이야. 허위정보나 중독까지 해결했다고 말할 수는 없어. 실제로 반복이 줄었는지, 보고 싶은 영상까지 가려지지는 않는지 확인해야 하고.
+
+이미 Instagram에는 주제별로 더 보거나 덜 보도록 조절하는 **Your Algorithm**이 있어. 그래서 우리 차별점은 **‘같은 콘텐츠의 여러 변형을 묶어서, 개인이 정한 반복 횟수를 적용한다’**로 구체화해야 해. 이 기능의 최초성은 별도 조사가 필요해. genui{"citation":{"ref":"turn110search1"}}
+
+해커톤에서는 **직접 만든 영어 영상 피드에서 필터를 켜기 전후를 보여주는 데모**가 명확해. Instagram 앱의 노출을 외부 도구로 직접 조절할 권한은 아직 확인되지 않았으니, 그 부분은 구현됐다고 약속하면 안 돼.
+
+**나는 이 방향을 중심으로 다시 잡는 게 좋겠어. 기존의 영상 매칭 기술도 ‘반복 콘텐츠를 알아채는 기능’으로 이어서 쓸 수 있어.**
+
+### Status
+
+Proposal only. No feed filter was implemented or deployed, no Instagram exposure-control permission established, no novelty or impact result claimed. English UI remains requested. Same-scene variants proposed as initial scope, with configurable per-user repetition limit and reversible controls. Prior response draft above was not sent as a final response before this user message arrived.
+
+Source: Meta, 12 May 2026, https://about.fb.com/news/2026/05/new-supervision-tools-parents-insights-teens-algorithm/ . Existing Your Algorithm topic controls differ from proposed same-scene repetition limit; this is not proof no competing feature exists.
