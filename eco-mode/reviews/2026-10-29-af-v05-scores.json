@@ -1,0 +1,156 @@
+{
+  "date": "2026-10-29",
+  "manuscript": "research/eco-evidence-gap-ko-v0.5.md",
+  "canonical_artifact_sha256": "b14e05da8a8ab9c2c7f67eae5332c09b91e98a7577732eaa2b88ec40e3520370",
+  "source": {
+    "library_file_id": "libfile_e60af37374e08191b63ed6827a108661",
+    "file_id": "file_0000000006ec81f5a894e86204102e59",
+    "version_id": "4",
+    "filename": "The_Eco_Evidence_Gap_KO_v0_5.md",
+    "read_complete": true,
+    "review_snapshot_sha256": "0975f388112720993e90dd79f7074fb688b5dd0711355b21f1d8c4bdb89c9a6f",
+    "difference_from_saved_artifact": "Trailing-newline normalization only, checked against local canonical manuscript"
+  },
+  "score_scope": "Pre-empirical research proposal and manuscript quality, not publication probability or completed empirical evidence",
+  "fictional_advisory_not_external_review": true,
+  "F_is_not_actual_user_score_or_consent": true,
+  "actual_LLM_review_jobs": 3,
+  "role_pair_jobs_completed": [
+    {
+      "roles": [
+        "A",
+        "B"
+      ],
+      "agent": "v05_score_ab"
+    },
+    {
+      "roles": [
+        "C",
+        "D"
+      ],
+      "agent": "v05_score_cd"
+    },
+    {
+      "roles": [
+        "E",
+        "F"
+      ],
+      "agent": "v05_score_ef"
+    }
+  ],
+  "independent_real_human_reviewers": 0,
+  "review_procedure": "Each role-pair job read the complete current manuscript, received fixed rubric and scope constraints, and did not receive the previous scores or other pairs' new scores.",
+  "rubric": [
+    {
+      "criterion": "Question clarity",
+      "max": 20
+    },
+    {
+      "criterion": "Novelty and contribution",
+      "max": 25
+    },
+    {
+      "criterion": "Question-method alignment",
+      "max": 25
+    },
+    {
+      "criterion": "Feasibility",
+      "max": 15
+    },
+    {
+      "criterion": "Structure and writing",
+      "max": 15
+    }
+  ],
+  "assessments": {
+    "A": {
+      "breakdown": [
+        19,
+        19,
+        20,
+        13,
+        13
+      ],
+      "total": 84,
+      "strength": "사전 기준·부족함의 이해·후속 선택을 같은 사례로 연결하고, 간결함과 오류 수용을 구별해 설계 질문을 관찰 가능한 자료로 바꿨다.",
+      "main_weakness": "4.3절과 부록 A의 모든 과제가 필수 조건을 미리 고정해, 참가자 고유의 보호 요구와 조건부 양보를 충분히 끌어낼지는 불확실하다.",
+      "priority_fix": "파일럿에서 지시된 조건과 참가자가 스스로 중요하게 여긴 요구를 구분해 묻고, 그 차이가 기능 요구사항으로 이어지는지 점검하라."
+    },
+    "B": {
+      "breakdown": [
+        19,
+        17,
+        21,
+        13,
+        12
+      ],
+      "total": 82,
+      "strength": "선행의 Eco 선택 연구를 인정하면서 탐색 연구의 주장 범위를 제한하고, 분석표와 설계 추적표까지 갖춰 연구안의 논리를 제시했다.",
+      "main_weakness": "2.1~2.2절은 일부 선행의 초록에 의존해, 사전 기준–이해–선택의 연결이 기존 인터뷰 분석보다 무엇을 더 설명하는지 대조가 약하다.",
+      "priority_fix": "가까운 선행의 원문에서 질문·자극·분석 단위를 표로 대조하고, 새 연결 분석이 가능하게 할 설계 판단을 구체화하라."
+    },
+    "C": {
+      "breakdown": [
+        19,
+        18,
+        21,
+        13,
+        14
+      ],
+      "total": 85,
+      "strength": "사전 기준·인지한 부족함·선택을 사례 안에서 연결하고, 간결한 정답의 수용과 오류를 이해한 뒤의 양보를 구분한 설계가 명료하다.",
+      "main_weakness": "4.3~4.4절의 반복 과제와 확인표가 만드는 학습·숙고의 영향을 5.4절의 사례 해석에 반영할 구체적인 절차는 부족하다.",
+      "priority_fix": "순서·추가 질문·이해 불명확 사례에 관한 분석 메모 예시와 반례 비교 규칙을 추가해 설명력을 높여라."
+    },
+    "D": {
+      "breakdown": [
+        19,
+        18,
+        22,
+        13,
+        14
+      ],
+      "total": 86,
+      "strength": "사용자 판단과 물리적 절감을 구분하고, 재시도·전체 이용·수익 구조에 따른 반대 경로까지 고려해 환경적 주장 범위를 적절히 제한했다.",
+      "main_weakness": "2.3·7.4절의 집단 수요·산업 가설은 신중하지만, 인터뷰에서 얻을 기능 요구가 후속 운영 검증으로 이어지는 연결은 추상적이다.",
+      "priority_fix": "5.5절 추적표에 기능 후보별 예상 자원 경로와 이용 증가 가능성을 살펴볼 후속 질문을 예시로 보완하라."
+    },
+    "E": {
+      "breakdown": [
+        19,
+        19,
+        22,
+        12,
+        13
+      ],
+      "total": 85,
+      "strength": "과제·정답·확인표·순서표와 사례별 기록 틀이 연결되어 있어, 실제 모델 없이도 인터뷰 프로토타입을 구현할 수 있다.",
+      "main_weakness": "4.4절·부록 B.4에서 이해가 불명확할 때 추가 설명과 단계 종료 기준이 열려 있어, 회기 부담과 진행자 개입 차이가 커질 수 있다.",
+      "priority_fix": "재질문 문구·최대 횟수·단계별 시간과 필수 기록 필드를 정하고, 파일럿에서 50분 회기의 실행 가능성을 확인한다."
+    },
+    "F": {
+      "breakdown": [
+        19,
+        20,
+        21,
+        13,
+        13
+      ],
+      "total": 86,
+      "strength": "Eco의 이름·기능과 환경을 위한 양보라는 동기를 유지하고, 품질 보존이나 실제 절감 입증을 첫 연구의 성공 관문으로 두지 않았다.",
+      "main_weakness": "4.3절의 상품 비교는 양보를 설명 축소와 필수 조건 위반에 집중시켜, 원래 문제의식에 포함된 다양한 성능 교환을 좁게 다룬다.",
+      "priority_fix": "양보할 성능 요소가 다른 일상 과제를 포함하거나, 상품 비교로 답할 수 있는 양보의 범위를 연구 질문과 기여에서 더 선명하게 한정한다."
+    }
+  },
+  "totals_checked": true,
+  "all_above_90": false,
+  "all_100": false,
+  "interpretation": "Fictional advisory scores; shared rubric with older v0.3 review does not establish a calibrated improvement trend; older protocol-readiness scores have different scopes.",
+  "manuscript_changed": false,
+  "actual_experiment": false,
+  "synthesis_priority": [
+    "Clarify contribution against closest original studies",
+    "Separate task-imposed criteria from participant-defined protected requirements",
+    "Specify handling of interviewer prompts, comprehension uncertainty and session burden"
+  ]
+}
