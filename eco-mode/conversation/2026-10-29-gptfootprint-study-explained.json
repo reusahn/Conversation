@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-29",
+  "type": "visible_conversation",
+  "user_message": "**&#x20;GPTFootprint(CHI EA 2025):** 실제 ChatGPT에 **‘Eco Score’와 나무·하천·오염된 환경 이미지**를 표시했고, 9명이 일주일 사용했어. 다만 점수·사용량 정보·이미지를 함께 제공해서, 이름이나 이미지 하나의 독립 효과를 검증한 연구와는 달라.&#x20;\n\n이거는 무슨연구였어",
+  "assistant_reply": "**ChatGPT를 쓰는 동안 환경 부담을 보여주면, 사람들이 사용을 줄이는지 살펴본 탐색 연구야.**\n\n- **보여준 것:** 실제 ChatGPT 화면에 크롬 확장 프로그램을 붙여서, 전력·물 사용 추정치, 0~100점의 **Eco Score**, 점수에 따라 깨끗해지거나 오염되는 자연 그림을 표시했어. 일정 사용량에 도달하면 쉬어가라는 팝업도 띄웠고.\n- **진행 방법:** 대학생 9명이 7일간 사용했어. 연구진은 사용 전후 설문과 질문 횟수 등을 살펴봤어. 별도 대조군은 없었어. genui{\"citation\":{\"ref\":\"turn42view0\"}}\n\n**결과는 ‘환경 부담을 더 의식하게 됐지만, 사용 감소는 뚜렷하지 않았다’야.** 참여자들은 새롭게 알게 됐다고 보고했고 일부는 죄책감도 느꼈어. 하지만 ChatGPT가 필요해서 계속 썼다는 반응이 있었고, 질문 횟수는 4명 감소·4명 증가·1명 동일했어. 전체 질문 수는 약 18.6% 늘었지만, 대조군이 없어 이를 프로그램 때문에 늘었다고 해석할 수는 없어. genui{\"citation\":{\"ref\":\"turn42view0\"}}\n\n여기서 **Eco Score는 질문 횟수와 질문 사이 간격 등에 따라 변하는 행동 점수**였어. 전력·물 수치도 질문당 평균값을 이용한 추정치였고. 따라서 네가 관심 있는 **“같은 AI에 Eco라는 이름이나 자연 아이콘을 붙이면 선택·기대·성능 양보가 달라지는가?”**를 직접 검증한 연구와는 질문이 달라. genui{\"citation\":{\"ref\":\"turn42view0\"}}",
+  "source": {
+    "title": "GPTFootprint: Increasing Consumer Awareness of the Environmental Impacts of LLMs",
+    "url": "https://arxiv.org/html/2505.24107v1",
+    "doi": "10.1145/3706599.3719708",
+    "source_type": "original_paper"
+  },
+  "scope_notes": [
+    "Explains a bundled eco-feedback extension study, not an isolated Eco label or nature icon effect.",
+    "Nine college students for seven days; no separate control group.",
+    "Awareness findings are participant reports; usage differences are not causal estimates.",
+    "Displayed resource usage estimates and gamified Eco Score are not direct physical environmental measurements.",
+    "No manuscript change, persona evaluation, or new research data."
+  ]
+}
