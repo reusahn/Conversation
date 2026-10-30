@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-30",
+  "user_message_exact": "그냥 에코모드가 아니라 Llm 서비스에서 light medium high extra high max 가 아니라 에코모드라는 이름을 가진다면이아닌가 우리",
+  "assistant_commentary_exact": "맞아. 핵심은 **LLM에서 연산 수준을 나타내는 이름을 ‘Eco’로 바꾸면 해석과 선택이 달라지는가**였어. 내가 최근 계획서에서 성능 양보와 확인 부담을 중심으로 넓혀 썼어.",
+  "assistant_final_exact": "맞아. **우리의 핵심은 LLM 서비스의 연산 수준을 ‘Eco’라는 이름으로 제시하면 사용자의 해석과 선택이 달라지는가**야.\n\n예를 들어 **동일한 낮은 연산 설정**을 한 집단에는 **Light**, 다른 집단에는 **Eco**로 표시하는 거지. 다른 선택지·기능 설명·답변은 같게 두고 이름의 효과를 보는 거야.\n\n확인할 것은 다음 세 가지야.\n\n- 환경에 도움이 된다는 **믿음이 달라지는가**\n- 그 모드를 **선택하는 비율이 달라지는가**\n- 동일한 부족함이 있는 답변을 **받아들이는 정도가 달라지는가**\n\n**성능 양보는 Eco 명칭의 효과를 측정할 항목**이야. 내가 최근에 ‘무엇을 양보하고 직접 보완할까’를 중심 질문으로 옮기면서 초점을 넓혔어. 계획서에서도 **명칭 비교를 중심 연구로 되돌려야 해.**",
+  "latest_user_scope": {
+    "center": "Eco naming in LLM effort-level selection and its effect on interpretation, choice and acceptance",
+    "contrast_example": "Same low-effort option presented as Light vs Eco; other options, functionality, explanations and response stimuli held constant",
+    "exact_labels_finalized": false,
+    "primary_outcomes_proposed": [
+      "Environmental-benefit beliefs",
+      "Choice of the relabeled option",
+      "Acceptance of identical shortcomings"
+    ],
+    "performance_tradeoff": "Outcome and possible explanation within label-effect research, not a replacement primary research question"
+  },
+  "correction": "Root had shifted the main proposal toward general acceptability/protected requirements and made name randomization optional; latest user correction restores naming comparison to the center.",
+  "current_document": {
+    "library_file_id": "libfile_d9bf5519847081919d4359991648ae01",
+    "filename": "Eco_Mode_Research_Proposal_KO_v1.docx",
+    "read_current": true,
+    "version_id": null,
+    "requires_reframing": true
+  },
+  "manuscript_and_proposal_changed": false,
+  "no_new_persona_jobs": true,
+  "no_new_scores": true,
+  "actual_experiment": false,
+  "preserved_constraints": {
+    "actual_inference_2x2_not_required": true,
+    "environmental_measurement_not_required_for_label_effect": true,
+    "no_quality_noninferiority_gate": true,
+    "no_receipt_focus": true
+  },
+  "note": "Scope clarification in response to a question; document was read but not rewritten in this turn. Example labels are not claims about any current product's exact available effort tiers."
+}
