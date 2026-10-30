@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-30",
+  "record_type": "editorial_revision_and_document_validation_not_persona_review",
+  "user_request": "그게 제안서에 담겨있어야하지않나?",
+  "proposal": "research/eco-mode-research-proposal-ko-v2.md",
+  "title": "LLM 연산 수준의 Eco 명칭 효과 연구계획서",
+  "central_question": "LLM 서비스에서 동일한 낮은 연산 선택지를 Light 대신 Eco라고 명명하면 사용자의 환경적 기대, 모드 선택과 동일 답변의 수용이 어떻게 달라지는가?",
+  "changes": [
+    "Light / Medium / High / Extra High / Max 대 Eco / Medium / High / Extra High / Max의 무작위 1:1 집단 간 비교가 주 설계다. 낮은 옵션의 명칭만 바꾸며 실제 현재 서비스 사양이라고 주장하지 않는다.",
+    "다른 선택지, 순서, 설명, 색상과 답변을 같게 두고 별도의 자연 아이콘이나 환경 수치를 붙이지 않는다.",
+    "첫 연구는 작성 응답을 쓰는 공개된 시뮬레이션이다. 실제 추론 실행이나 에너지 절감을 암시하지 않는다.",
+    "처음 모드 선택과 응답 평가 단계를 분리한다. 처음 어떤 모드를 골라도 모든 배정 참가자는 같은 낮은 옵션 응답을 평가한다. 해당 전환을 안내하고 Eco를 고른 사람만 비교하지 않는다.",
+    "주 결과는 낮은 Light/Eco 옵션 최초 선택 비율 차이다. 공통 확인 후 조건 미충족 답을 그대로 최종 사용하려는 선택과 과제 후 환경 기대는 부 결과다.",
+    "환경 기대는 행동 후 측정하므로 최초 믿음이나 선택의 인과 매개로 해석하지 않는다. 이해도와 결측은 별도 기록하며 사후 이해한 사람만 분석하지 않는다.",
+    "기존 탐색 인터뷰 12~16명 표본 및 50분/20달러 예시를 실험의 표본·예산 근거로 재사용하지 않는다. 파일럿 후 본 조사의 의미 있는 효과/정밀도에 맞춰 표본과 분석 규칙을 사전 고정한다.",
+    "실제 환경 효과와 AI 개발 둔화는 독립된 후속 가설로 유지한다. 기존 상품 과제, R/Q/X 응답과 확인표는 보존했다."
+  ],
+  "validation": {
+    "docx": {
+      "path": "/workspace/scratch/c758c396043e/eco_research_proposal_label_v2/Eco_Mode_Research_Proposal_KO_v2.docx",
+      "size": 50362,
+      "sha256": "8351c5a1e428bda8ccbca6d22de85ea0d747c8129d488cea7dfb543910acdf8e"
+    },
+    "markdown": {
+      "path": "/workspace/scratch/c758c396043e/eco_research_proposal_label_v2/Eco_Mode_Research_Proposal_KO_v2.md",
+      "size": 22674,
+      "sha256": "a39e3679ed3e13944d3e52d4b5e46ac8f9db1a6e6da0d146ff67288191c74f4b"
+    },
+    "pages": 12,
+    "docx_tables": 13,
+    "docx_paragraphs": 143,
+    "all_pages_visually_checked": true,
+    "rendered_pages": 12,
+    "all_rendered_pages_visually_checked": true,
+    "no_blank_or_spill_pages": true,
+    "task_answers_and_check_tables_preserved": true
+  },
+  "library": {
+    "previous_version_number": 0,
+    "operation": "replace_library_file",
+    "status": "succeeded",
+    "path": "/박사연구/Eco_Mode_Research_Proposal_KO_v2.docx",
+    "file_id": "file_000000008f4481fda347c15409442417",
+    "library_file_id": "libfile_d9bf5519847081919d4359991648ae01",
+    "file_name": "Eco_Mode_Research_Proposal_KO_v2.docx",
+    "current_version_number": 1,
+    "restored_from_version_number": null,
+    "directory_id": "6addbc1f44ec8191a3fca9d576a047a6",
+    "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "library_artifact_type": "report",
+    "file_size_bytes": 50362
+  },
+  "source_proposal_v1_preserved": true,
+  "main_manuscript_v06_rewritten": false,
+  "new_persona_jobs": false,
+  "new_scores": false,
+  "actual_experiment": false,
+  "human_participants": false,
+  "actual_model_inference": false,
+  "environmental_measurement": false,
+  "remaining_precollection_work": [
+    "상세 선행연구 원문과 기여 대조",
+    "적용 사람 연구 절차와 자료관리",
+    "파일럿 및 최종 자극/운영 점검",
+    "주 결과에 맞춘 표본·결측·다중비교 규칙의 사전 고정"
+  ],
+  "score_policy": "이전 원고·방법 점수는 이전 범위 그대로 보존하며 새 v2 제안서 점수로 사용하지 않는다."
+}
