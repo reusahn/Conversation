@@ -180,7 +180,7 @@
   "latest_addendum": "research/v4-analysis-contract.md",
   "environmental_claim_scope": "Current v0.6: expectations, stated requirements, understood shortcomings and scenario choices/plans only. Actual electricity, carbon, water, ecological harm prevention and industry-development effects unmeasured.",
   "F_is_not_actual_user_or_participant": true,
-  "latest_conversation": "conversation/2026-10-30-research-proposal-preproduction-book.json",
+  "latest_conversation": "conversation/2026-10-30-korean-research-proposal.json",
   "latest_protocol_sha256": "37d3be52f7740428c18164cf7a36f211a8c078e472d8870835cf9e9f8f7234d8",
   "all_personas_above_90": false,
   "current_review_attempt": {
@@ -605,5 +605,31 @@
     "document_created": false,
     "manuscript_changed": false,
     "new_scores": false
+  },
+  "active_research_proposal": "research/eco-mode-research-proposal-ko-v1.md",
+  "latest_research_proposal": {
+    "date": "2026-10-30",
+    "title": "Eco 모드 연구계획서",
+    "version": "1.0",
+    "language": "Korean",
+    "path": "research/eco-mode-research-proposal-ko-v1.md",
+    "record": "reviews/2026-10-30-korean-research-proposal-created.json",
+    "library_file_id": "libfile_d9bf5519847081919d4359991648ae01",
+    "file_id": "file_00000000f89c82308c5c3b25c0023279",
+    "filename": "Eco_Mode_Research_Proposal_KO_v1.docx",
+    "library_version_number": 0,
+    "pages": 12,
+    "docx_sha256": "511e635789ce42262ef8673c0e5b2dfa19cf48bc8b636534996f3cab007e8312",
+    "source_manuscript": "research/eco-evidence-gap-ko-v0.6.md",
+    "separate_from_manuscript": true,
+    "existing_manuscript_replaced": false,
+    "sample_and_timing": "12 to 16 main participants, 2 to 3 pilots, approximately 50 minutes; planning examples, not executed or powered.",
+    "budget": "20 USD per participant assumed; 280 to 380 USD total main plus pilot, before other costs; no spending authorized or executed.",
+    "scope": "Exploratory acceptability of authored responses under an Eco framing, with expectations, protected requirements and checking/repair plans.",
+    "optional_followups": "Randomized name comparison and independent physical resource/development studies.",
+    "document_QA": "All 12 rendered pages visually checked; task/check-table, time and budget consistency checked.",
+    "new_scores": false,
+    "new_persona_jobs": false,
+    "actual_experiment": false
   }
 }
