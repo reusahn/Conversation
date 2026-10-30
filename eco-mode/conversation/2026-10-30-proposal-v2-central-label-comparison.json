@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-30",
+  "record_type": "verbatim_visible_current_turn",
+  "user": {
+    "text": "그게 제안서에 담겨있어야하지않나?"
+  },
+  "assistant_commentary": [
+    "맞아. 제안서의 중심에 담겨 있어야 했어. **LLM의 연산 수준 이름을 ‘Eco’로 바꿨을 때 생기는 효과**를 주된 연구 질문과 비교 설계로 옮기고, 성능 양보는 그 효과를 측정하는 항목으로 정리해서 바로 수정할게.",
+    "비교 설계도 함께 고치고 있어. 다른 모드 목록·설명·답변을 같게 두고 낮은 설정의 이름만 **Light/Eco**로 바꿀 거야. 또 모드 선택 뒤의 답변 평가는 모든 참가자가 하도록 해서, Eco를 고른 사람만 비교하는 문제를 피하도록 정리할게.",
+    "첫 페이지의 연구 질문부터 비교 조건·측정·분석까지 명칭 효과에 맞게 고쳤어. 표본 수도 기존 인터뷰 인원을 그대로 쓰지 않고, 주된 결과인 모드 선택 비율 차이에 맞춰 산정하도록 바꿨어. 마지막으로 문서 배치를 확인할게."
+  ],
+  "assistant_final": "맞아. **그 내용을 제안서의 중심 질문과 비교 설계에 반영했어.**\n\n> LLM 서비스에서 같은 낮은 연산 옵션을 **Light 대신 Eco**라고 부르면, 모드 선택·환경적 기대·동일 답변의 수용이 어떻게 달라지는가?\n\n이름 외의 설명·선택지·답변은 같게 두도록 수정했어. 실제 환경 보호 효과는 별도 후속 연구로 구분했어.\n\n[수정된 제안서](https://chatgpt.com/library?file_id=libfile_d9bf5519847081919d4359991648ae01&account_id=personal) · [변경 기록](https://github.com/reusahn/Conversation/blob/main/eco-mode/reviews/2026-10-30-proposal-v2-llm-eco-label-revision.json)",
+  "outcome_summary": "계획서의 명칭 비교를 후속에서 중심 연구로 옮긴 v2 DOCX를 같은 Library 항목의 새 버전으로 저장했다. 원고 v0.6은 이번에 수정하지 않았다.",
+  "revision_record": "reviews/2026-10-30-proposal-v2-llm-eco-label-revision.json",
+  "new_persona_dialogue": false,
+  "new_scores": false,
+  "actual_experiment": false
+}
