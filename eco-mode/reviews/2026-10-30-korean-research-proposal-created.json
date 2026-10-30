@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-30",
+  "user_request_exact": "연구계약서 일단 한국어로",
+  "interpretation_disclosed": "Based on the preceding exchange, treated 연구계약서 as 연구계획서; no legal contract drafted.",
+  "output": {
+    "title": "Eco 모드 연구계획서",
+    "type": "Korean research proposal with study-materials appendices",
+    "pages": 12,
+    "filename": "Eco_Mode_Research_Proposal_KO_v1.docx",
+    "library_file_id": "libfile_d9bf5519847081919d4359991648ae01",
+    "file_id": "file_00000000f89c82308c5c3b25c0023279",
+    "library_version_number": 0,
+    "path": "/workspace/scratch/c758c396043e/eco_research_proposal_ko/Eco_Mode_Research_Proposal_KO_v1.docx",
+    "bytes": 51804,
+    "sha256": "511e635789ce42262ef8673c0e5b2dfa19cf48bc8b636534996f3cab007e8312"
+  },
+  "source": {
+    "manuscript_library_file_id": "libfile_e60af37374e08191b63ed6827a108661",
+    "manuscript_version_id": "5",
+    "manuscript_filename": "The_Eco_Evidence_Gap_KO_v0_6.md",
+    "prior_discussions": "2026-10-30 methods/impact panel and contribution-wording clarification"
+  },
+  "text_archive": {
+    "path": "/workspace/scratch/c758c396043e/eco_research_proposal_ko/Eco_Mode_Research_Proposal_KO_v1.md",
+    "bytes": 24605,
+    "sha256": "5bb97d6378fa5c077fef2a0bd665174e73dd0fe634df28e2f59b2c84f99903f6"
+  },
+  "content": [
+    "Eco-framed authored-answer acceptability; expectations, protected/negotiable requirements and checking/repair plans",
+    "Related work and contribution goals; same choice contrasted by requirements and residual work",
+    "Exploratory 12 to 16 participant and 50-minute planning examples, not power-derived sample or executed study",
+    "Draft data handling, purposive sampling, prompt limits and missing-stage recording",
+    "Illustrative 6-week workflow after applicable human-study procedures are ready",
+    "Illustrative compensation 20 USD each; 12 to 16 main and 2 to 3 pilot gives 280 to 380 USD before other costs",
+    "Consent description, function card, interview prompts, 6 rotations and preassigned context order",
+    "All 3 source task tables and R Q X authored responses, with common condition check tables",
+    "7 references; optional randomized name effect and separate resource/development hypotheses"
+  ],
+  "validation": {
+    "rendered_with_packaged_renderer": true,
+    "latest_render_pages": 12,
+    "all_12_pages_visually_inspected": true,
+    "no_blank_or_overflow_pages": true,
+    "stimulus_answers_and_condition_tables_checked": true,
+    "timing_and_budget_arithmetic_checked": true,
+    "metadata_applied": true,
+    "actual_model_experiment": false,
+    "human_pilot": false,
+    "human_participants": false,
+    "environment_measurement": false
+  },
+  "previous_manuscript_replaced": false,
+  "new_persona_jobs": false,
+  "new_scores": false,
+  "user_visible_final": "한국어 **연구계획서 12쪽**으로 작성했어. 연구 질문·선행연구·방법·분석·일정·예산과 인터뷰·답변 사례를 담았어. 인원·보상·일정은 조정 가능한 계획용 가정이야.\n\n[Eco_Mode_Research_Proposal_KO_v1.docx](https://chatgpt.com/library?file_id=libfile_d9bf5519847081919d4359991648ae01&account_id=personal)"
+}
