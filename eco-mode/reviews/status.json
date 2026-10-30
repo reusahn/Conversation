@@ -180,7 +180,7 @@
   "latest_addendum": "research/v4-analysis-contract.md",
   "environmental_claim_scope": "Current v0.6: expectations, stated requirements, understood shortcomings and scenario choices/plans only. Actual electricity, carbon, water, ecological harm prevention and industry-development effects unmeasured.",
   "F_is_not_actual_user_or_participant": true,
-  "latest_conversation": "conversation/2026-10-30-korean-research-proposal.json",
+  "latest_conversation": "conversation/2026-10-30-reanchor-llm-effort-label-eco.json",
   "latest_protocol_sha256": "37d3be52f7740428c18164cf7a36f211a8c078e472d8870835cf9e9f8f7234d8",
   "all_personas_above_90": false,
   "current_review_attempt": {
@@ -203,7 +203,7 @@
   "active_manuscript": "research/eco-evidence-gap-ko-v0.6.md",
   "current_scope_override": {
     "source": "2026-10-29 user writing request, incorporating prior explicit Eco Mode focus and completed discussions",
-    "focus": "Eco Mode name/function expectations; personal protected/negotiable requirements, sufficiency and planned checking/repair in scenario judgments",
+    "focus": "In LLM service effort-level choices, what changes when an option is named Eco instead of an effort-level name?",
     "factorial_2x2_required": false,
     "inference_setting_manipulation_required": false,
     "implementation_and_comparison": "Study proposal and authored materials only; actual prototype/human pilot not executed",
@@ -211,12 +211,14 @@
     "token_usage": "secondary",
     "physical_environment_effect": "Unverified long-term question, not a gate for the first HCI study",
     "prior_protocol_and_scores": "Historical; latest scored manuscript is v0.5 and v0.6 has no new scores.",
-    "new_review_or_experiment": "Three fictional role agents A/B/F completed two dialogue turns each; root integrated v0.6 and checked document/stimulus consistency. No empirical experiment.",
-    "first_study_proposal": "Disclosed authored-response interviews with one recent-experience recall, three common tasks, follow-up choices and planned checking/repair. 12 to 16 people and a 50-minute operation plan remain planning examples pending pilot.",
+    "new_review_or_experiment": "Scope clarification only; no new review, score, artifact edit or experiment.",
+    "first_study_proposal": "Written v1 is still exploratory; latest user correction calls for moving name comparison into the center. Revised protocol not yet written.",
     "actual_eco_function": "Later implementation/validation; not replaced by scenario findings",
     "current_manuscript": "research/eco-evidence-gap-ko-v0.6.md",
     "development_slowdown": "Background hypothesis informed by economic theory; direct Eco/chat-usage causal evidence not identified",
-    "evidence_types": "Retrospective report, recorded scenario judgment, and hypothetical/future plan distinguished."
+    "evidence_types": "Retrospective report, recorded scenario judgment, and hypothetical/future plan distinguished.",
+    "primary_research_direction": "Label comparison central; protected requirements and checking/repair secondary to naming effects.",
+    "current_documents_alignment": "Existing v0.6 and proposal v1 require reframing; do not present them as already revised."
   },
   "latest_collaborative_edit": {
     "date": "2026-10-29",
@@ -630,6 +632,22 @@
     "document_QA": "All 12 rendered pages visually checked; task/check-table, time and budget consistency checked.",
     "new_scores": false,
     "new_persona_jobs": false,
+    "actual_experiment": false,
+    "alignment_with_latest_user_intent": "Needs reframing after 2026-10-30 correction: Eco naming of LLM effort-level options is central; document has not yet been updated."
+  },
+  "latest_user_scope_correction": {
+    "date": "2026-10-30",
+    "record": "conversation/2026-10-30-reanchor-llm-effort-label-eco.json",
+    "focus": "In LLM service effort-level choices, what changes when an option is named Eco instead of an effort-level name?",
+    "comparison_example": "Same low-effort setting as Light vs Eco, with the other choices, explanations and response stimuli held constant. Exact names are examples, not finalized.",
+    "outcomes": [
+      "Environmental-benefit beliefs",
+      "Relabeled-option choice",
+      "Acceptance of identical response shortcomings"
+    ],
+    "status": "User intent correction accepted; current documents not rewritten this turn.",
+    "requires_reframing_current_proposal": true,
+    "persona_rescore": false,
     "actual_experiment": false
   }
 }
