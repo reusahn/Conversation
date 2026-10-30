@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-30",
+  "user_message_exact": "새롭게 얻을 지식이 아직 충분히 입증되지 않은 점 뭔말이야",
+  "assistant_commentary_exact": "내가 요약한 표현이 부정확했어. 정확히는 **“기존 연구에 무엇을 더 보태는지 더 분명하게 설명하자”**는 뜻이야. 연구 전에 결과부터 증명하라는 말로 읽히게 썼어.",
+  "assistant_final_exact": "내가 쓴 **‘아직 입증되지 않았다’는 표현이 부정확했어.** 정확히는 **“기존 연구에 무엇을 더 보태는지 명확히 하자”**는 뜻이야.\n\n예를 들어 두 사람이 모두 Eco 답변을 받아들여도 이유는 다를 수 있잖아.\n\n- **A:** “짧지만 필요한 건 다 있어서 충분해.”\n- **B:** “부족하지만 빠진 부분은 내가 확인하면 돼.”\n\n우리는 이 차이를 살펴서 **어떤 요구는 AI가 지켜야 하고, 어떤 확인·보완은 사용자가 맡으려 하는지** 설명하려는 거야. 이것이 기존 연구에 더하는 내용인지 비교하고, 어떤 Eco 기능 설계로 이어지는지 구체화하자는 의견이었어.\n\n**연구계획 단계에서 결과가 없다는 사실 자체를 감점 이유로 삼는 건 적절하지 않아.** 앞선 감점 설명은 ‘차별점과 기여를 더 선명하게 써야 한다’고 정리하는 게 맞아.",
+  "scope": "Clarification and correction of root summary wording from the prior persona panel.",
+  "correction": {
+    "previous_wording": "새롭게 얻을 지식이 아직 충분히 입증되지 않은 점",
+    "clarified_meaning": "Articulate the proposed contribution against closest prior work and the design decisions it can inform.",
+    "absence_of_results_not_itself_a_valid_proposal_deduction": true,
+    "example_is_hypothetical": true,
+    "novelty_confirmed": false,
+    "scores_changed": false,
+    "manuscript_changed": false
+  },
+  "source_panel": "reviews/2026-10-30-method-impact-one-cycle-scores.json",
+  "new_persona_jobs": false,
+  "actual_experiment": false
+}
