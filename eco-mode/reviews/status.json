@@ -180,7 +180,7 @@
   "latest_addendum": "research/v4-analysis-contract.md",
   "environmental_claim_scope": "Current v0.6: expectations, stated requirements, understood shortcomings and scenario choices/plans only. Actual electricity, carbon, water, ecological harm prevention and industry-development effects unmeasured.",
   "F_is_not_actual_user_or_participant": true,
-  "latest_conversation": "conversation/2026-10-30-contribution-wording-clarification.json",
+  "latest_conversation": "conversation/2026-10-30-research-proposal-preproduction-book.json",
   "latest_protocol_sha256": "37d3be52f7740428c18164cf7a36f211a8c078e472d8870835cf9e9f8f7234d8",
   "all_personas_above_90": false,
   "current_review_attempt": {
@@ -596,5 +596,14 @@
     "scores_changed": false,
     "manuscript_changed": false,
     "new_persona_jobs": false
+  },
+  "latest_proposal_format_discussion": {
+    "date": "2026-10-30",
+    "record": "conversation/2026-10-30-research-proposal-preproduction-book.json",
+    "user_analogy": "Film preproduction book",
+    "suggested_format": "Research proposal plus study-materials appendix",
+    "document_created": false,
+    "manuscript_changed": false,
+    "new_scores": false
   }
 }
