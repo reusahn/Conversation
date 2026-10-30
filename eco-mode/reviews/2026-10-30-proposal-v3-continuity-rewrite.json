@@ -1,0 +1,111 @@
+{
+  "date": "2026-10-30",
+  "record_type": "research_proposal_rewrite_and_document_validation",
+  "user_request": "제안서 다시써봐",
+  "trigger": "Previous turn user challenged whether the proposal faithfully represented accumulated discussion.",
+  "proposal": "research/eco-mode-research-proposal-ko-v3.md",
+  "title": "LLM 서비스의 Eco 명칭과 성능 양보 수용에 관한 연구계획서",
+  "central_question": "LLM 서비스에서 같은 낮은 연산 옵션을 Light 대신 Eco라고 부르면, 환경적 의미의 해석과 모드 선택, 성능 양보의 수용은 어떻게 달라지는가?",
+  "authoring": "Root-authored proposal; no new persona dialogue, review or score. User approval of final wording/design not assumed.",
+  "major_changes": [
+    "Opening restores motivation: willingness to give up some AI performance for expected environmental benefit, then asks what the Eco name changes in an LLM effort menu.",
+    "Prior work is connected to the move from usage/nature feedback toward naming the option chosen before use, while acknowledging existing mode-choice and quality-perception research.",
+    "Light versus Eco randomized label comparison remains a proposed first study with identical descriptions, other menu choices and authored response examples.",
+    "Old product-selection correctness and R/Q/X stimuli are removed from v3 and replaced by writing, information organization and ideation examples.",
+    "Both output examples retain factual correctness; variations concern structure, elaboration and diversity. Conciseness or acceptance alone is not automatically classified as performance sacrifice.",
+    "Independent pilot evaluates unlabeled output utility. Final choice, reported insufficiency and comparative usefulness are recorded separately without conditioning the causal comparison on a post-treatment subgroup.",
+    "Every assigned participant evaluates common examples after an explicit transition regardless of initial mode choice. A High-labeled alternative is identical between naming groups.",
+    "First-task low-option selection is primary; task order balanced between groups; repeated judgments secondary. Environmental beliefs and reasons are post-experience reports, not proven causal mediators.",
+    "Execution includes a proposed 6–10 person pilot and a transparent illustrative main-sample calculation. Per-group 163 under assumed .30/.45 proportions, two-sided .05 alpha and .80 power is not a measured baseline or approved final N.",
+    "Physical environmental benefit and development slowdown remain separate follow-up questions. No real inference-setting 2×2 or quality-noninferiority success requirement."
+  ],
+  "validation": {
+    "docx": {
+      "path": "/workspace/scratch/c758c396043e/eco_research_proposal_v3/Eco_Mode_Research_Proposal_KO_v3.docx",
+      "size": 48505,
+      "sha256": "1c1783e2e7e3a1e0417f8d8b81b01f6bc3ff364505d4d8176ed881b9c9cb74f1"
+    },
+    "markdown": {
+      "path": "/workspace/scratch/c758c396043e/eco_research_proposal_v3/Eco_Mode_Research_Proposal_KO_v3.md",
+      "size": 21759,
+      "sha256": "af0abe98e2f62069031b1b213f4ce2aa7a0021dc8eb055c20446f4a09d66af0e"
+    },
+    "pages": 10,
+    "paragraphs": 119,
+    "tables": 4,
+    "all_pages_visually_checked": true,
+    "sample_example_n_per_group": 163,
+    "sample_example_not_final_N": true,
+    "fictional_tasks_not_model_outputs": true,
+    "empirical_study_executed": false,
+    "visual_check": "All 10 pages of the latest render inspected; no clipping, blank pages, broken tables or missing glyphs found.",
+    "sample_example_recalculation": 162.33438206370823
+  },
+  "library": {
+    "previous_version_number": 1,
+    "operation": "replace_library_file",
+    "status": "succeeded",
+    "path": "/박사연구/Eco_Mode_Research_Proposal_KO_v3.docx",
+    "file_id": "file_00000000ab6c8230b5857f2f70ae566f",
+    "library_file_id": "libfile_d9bf5519847081919d4359991648ae01",
+    "file_name": "Eco_Mode_Research_Proposal_KO_v3.docx",
+    "current_version_number": 2,
+    "restored_from_version_number": null,
+    "directory_id": "6addbc1f44ec8191a3fca9d576a047a6",
+    "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "library_artifact_type": "report",
+    "file_size_bytes": 48505
+  },
+  "prior_versions_preserved": true,
+  "main_manuscript_v06_rewritten": false,
+  "current_proposal_user_approved": false,
+  "new_persona_jobs": false,
+  "new_scores": false,
+  "human_pilot_executed": false,
+  "actual_model_inference": false,
+  "environmental_measurement": false,
+  "verified_primary_sources": [
+    {
+      "work": "GPTFootprint",
+      "url": "https://arxiv.org/html/2505.24107v1",
+      "scope": "Full author manuscript sections on UI and nine participants over seven days."
+    },
+    {
+      "work": "EcoChat",
+      "url": "https://kclpure.kcl.ac.uk/portal/en/publications/ecochat-probe-how-energy-feedback-shapes-end-users-interpretation/",
+      "scope": "Official publication abstract and metadata; 52 participants, four weeks, no significant usage-pattern change."
+    },
+    {
+      "work": "Klesel and Messer",
+      "url": "https://arxiv.org/html/2603.23075v1",
+      "scope": "Author manuscript methodology: energy disclosure factor, same GPT-4o mini backend, N365."
+    },
+    {
+      "work": "Patkar et al.",
+      "url": "https://arxiv.org/abs/2606.10861",
+      "scope": "Primary abstract retrieved via search; combined modes and feedback. Detailed original UI still needs comparison."
+    },
+    {
+      "work": "Kim et al.",
+      "url": "https://conf.researchr.org/details/ict4s-2026/ict4s-2026-papers/23/When-LLMs-Slow-Down-How-Environmental-Impacts-Mediate-University-Students-LLM-Usage",
+      "scope": "Official conference abstract; latency/carbon trade-off, not an isolated naming finding."
+    },
+    {
+      "work": "IEA",
+      "url": "https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary",
+      "scope": "Demand, efficiency and model/use-case changes jointly affect energy demand."
+    },
+    {
+      "work": "BIS",
+      "url": "https://www.bis.org/publications/working-paper-1381-transformative-ai-and-demand-bottlenecks",
+      "scope": "Consumer-demand/innovation economic model; no direct Eco-use intervention evidence."
+    }
+  ],
+  "remaining_before_human_collection": [
+    "Detailed prior-study stimulus and analysis comparison",
+    "Prototype implementation and procedure verification",
+    "Applicable human-research procedures and data plan",
+    "Unlabeled utility checks and pilot",
+    "Finalize stimuli, meaningful effect, sample, missing-data rules and convergence fallback before main collection"
+  ]
+}
