@@ -180,7 +180,7 @@
   "latest_addendum": "research/v4-analysis-contract.md",
   "environmental_claim_scope": "Current proposal v2: randomized label effects in a disclosed authored-response simulation on initial mode choice and identical-answer decisions, plus post-task beliefs. No real inference, use reduction, electricity/carbon/water/ecological savings, or development slowdown measured.",
   "F_is_not_actual_user_or_participant": true,
-  "latest_conversation": "conversation/2026-10-30-proposal-v2-central-label-comparison.json",
+  "latest_conversation": "conversation/2026-10-30-proposal-continuity-accountability.json",
   "latest_protocol_sha256": "37d3be52f7740428c18164cf7a36f211a8c078e472d8870835cf9e9f8f7234d8",
   "all_personas_above_90": false,
   "current_review_attempt": {
@@ -211,14 +211,14 @@
     "token_usage": "secondary",
     "physical_environment_effect": "Independent follow-up; not a success gate or measured outcome of the first naming study.",
     "prior_protocol_and_scores": "Historical; latest scored manuscript is v0.5 and v0.6 has no new scores.",
-    "new_review_or_experiment": "Proposal v2 edited and document-validated; no new persona review, score, experiment, or environmental measurement.",
+    "new_review_or_experiment": "Current turn: proposal read and continuity/accountability clarified; no document edit, new persona review, score, experiment or environmental measurement.",
     "first_study_proposal": "Randomized 1:1 between-participant Light versus Eco label comparison; other options, explanations and authored response stimuli held constant.",
     "actual_eco_function": "Later implementation/validation; not replaced by scenario findings",
     "current_manuscript": "research/eco-evidence-gap-ko-v0.6.md",
     "development_slowdown": "Background hypothesis informed by economic theory; direct Eco/chat-usage causal evidence not identified",
     "evidence_types": "Retrospective report, recorded scenario judgment, and hypothetical/future plan distinguished.",
-    "primary_research_direction": "Label comparison central; mode choice primary, identical-answer acceptance and post-task environmental beliefs secondary.",
-    "current_documents_alignment": "Proposal v2 now centers the name comparison. Main manuscript v0.6 remains unchanged and still requires reframing."
+    "primary_research_direction": "Eco naming of an LLM effort option and effects on environmental interpretation, mode choice and acceptance of performance sacrifice. Product-task error acceptance is a proposed operationalization, not the whole question.",
+    "current_documents_alignment": "Proposal v2 exists with label comparison but still needs coherent representation of accumulated motivation and method justification. User challenged alignment; do not present v2 as fully accepted. Main manuscript v0.6 remains unchanged."
   },
   "latest_collaborative_edit": {
     "date": "2026-10-29",
@@ -637,7 +637,7 @@
     "sample_and_timing": "Pilot for comprehension and procedure; main N set from primary effect/precision before collection. 20–30 minute operation plan pending pilot.",
     "budget": "Compute after main N, time, compensation and platform decisions; no spending executed.",
     "document_QA": "All 12 latest rendered pages visually checked; no blank/spill pages; authored tasks/responses/check tables retained.",
-    "alignment_with_latest_user_intent": "Updated: Eco naming of the same low-effort LLM option is now the central question and main comparison.",
+    "alignment_with_latest_user_intent": "Contains the label comparison, but user raised continuity concerns after delivery. Root acknowledges motivation-to-question-to-method explanation is insufficient and product-error acceptance should not define the whole performance-sacrifice question. Not user-approved or complete in semantic alignment.",
     "new_scores": false,
     "new_persona_jobs": false,
     "actual_experiment": false
@@ -693,6 +693,18 @@
     "manuscript_changed": false,
     "new_scores": false,
     "new_persona_jobs": false,
+    "actual_experiment": false
+  },
+  "latest_proposal_continuity_clarification": {
+    "date": "2026-10-30",
+    "record": "conversation/2026-10-30-proposal-continuity-accountability.json",
+    "user_concern": "Proposal did not faithfully carry forward the long discussion; user asks why its direction changed.",
+    "acknowledgment": "Root shifted emphasis toward product-answer error acceptance and overstated that adding a naming comparison sufficiently resolved alignment.",
+    "original_scope": "Eco naming of an LLM effort option, environmental interpretation, choice, and acceptance of performance sacrifice.",
+    "method_status": "Light/Eco comparison and product-task stimuli are proposed methods; their role and justification must be tied to the user objective. No user final approval assumed.",
+    "proposal_changed": false,
+    "new_persona_jobs": false,
+    "new_scores": false,
     "actual_experiment": false
   }
 }
