@@ -180,7 +180,7 @@
   "latest_addendum": "research/v4-analysis-contract.md",
   "environmental_claim_scope": "Current v0.6: expectations, stated requirements, understood shortcomings and scenario choices/plans only. Actual electricity, carbon, water, ecological harm prevention and industry-development effects unmeasured.",
   "F_is_not_actual_user_or_participant": true,
-  "latest_conversation": "conversation/2026-10-30-method-impact-one-cycle-panel.json",
+  "latest_conversation": "conversation/2026-10-30-contribution-wording-clarification.json",
   "latest_protocol_sha256": "37d3be52f7740428c18164cf7a36f211a8c078e472d8870835cf9e9f8f7234d8",
   "all_personas_above_90": false,
   "current_review_attempt": {
@@ -584,6 +584,17 @@
     ],
     "environment_and_development_effects": "Separate open hypotheses; not established by scenario interviews",
     "manuscript_changed": false,
-    "actual_experiment": false
+    "actual_experiment": false,
+    "interpretation_clarification": "Root's 'new knowledge not sufficiently proven' wording was imprecise; contribution needs clearer articulation against prior work. Absence of study results alone is not a valid proposal deduction. See conversation/2026-10-30-contribution-wording-clarification.json. Original scores preserved; no rescore."
+  },
+  "latest_contribution_wording_clarification": {
+    "date": "2026-10-30",
+    "record": "conversation/2026-10-30-contribution-wording-clarification.json",
+    "corrected_root_summary": true,
+    "meaning": "Specify contribution against prior work and design implications; missing empirical results alone is not a valid deduction for a proposal.",
+    "novelty_confirmed": false,
+    "scores_changed": false,
+    "manuscript_changed": false,
+    "new_persona_jobs": false
   }
 }
