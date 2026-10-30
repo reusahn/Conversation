@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-30",
+  "user_message_exact": "논문을 쓰기전에 쓰는 그런게 있나 프리프로덕션북처럼",
+  "assistant_commentary_exact": "있어. 가장 가까운 건 **연구계획서(Research Proposal, 프로포절)**야. 프리프로덕션북에 빗대서, 연구 전에 무엇을 정리하는 문서인지 짧게 설명해줄게.",
+  "assistant_final_exact": "응. **연구계획서(Research Proposal, 프로포절)**가 가장 가까워. 연구 전에 **왜 이 질문이 중요한지, 기존 연구에 무엇을 더할지, 어떻게 조사·분석할지** 정리하는 문서야. genui{\"citation\":{\"ref\":\"turn66view0\"}}\n\n네가 말한 프리프로덕션북처럼 구성하면 이렇게 대응돼.\n\n| 영화 제작 | 연구 준비 |\n|---|---|\n| 기획·연출 의도 | 연구 동기와 핵심 질문 |\n| 레퍼런스 | 선행연구와 우리의 차별점 |\n| 시나리오·콘티 | 참가자에게 보여줄 화면·답변·질문 |\n| 촬영 계획 | 모집 대상·진행 순서·기록 방법 |\n| 편집 방향 | 자료 분석 방법과 주장할 범위 |\n| 제작 일정·예산 | 구현·파일럿·본 조사 일정과 비용 |\n\n**우리에게는 ‘Eco Mode 연구계획서 + 진행 자료집’ 형태가 잘 맞아.** 본문에는 질문·기여·방법을 쓰고, 부록에는 화면 시안, 답변 사례, 인터뷰 질문과 분석표를 붙이는 거야.\n\n이 단계에서는 **앞으로 무엇을 확인하고, 그걸 어떻게 확인할 것인지**가 설득력 있게 정리되어 있으면 돼.",
+  "content_type": "Explanation and suggested structure, not an authored new proposal document",
+  "recommendation": "Research proposal with study materials appendix; working descriptive label Eco Mode 연구계획서 + 진행 자료집",
+  "sources": [
+    {
+      "url": "https://web.stanford.edu/class/polisci243c/ResearchProposalTemplate.html",
+      "scope": "Primary university teaching template: question, literature, operationalization, methods/analysis, contribution, feasibility."
+    }
+  ],
+  "manuscript_changed": false,
+  "new_artifact_created": false,
+  "new_persona_jobs": false,
+  "new_scores": false,
+  "actual_experiment": false
+}
