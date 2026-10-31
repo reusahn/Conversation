@@ -1,0 +1,206 @@
+{
+  "date": "2026-10-30",
+  "timezone": "America/Los_Angeles",
+  "record_type": "completed_fictional_advisory_dialogue_and_scores",
+  "reviewed_document": "research/eco-mode-research-proposal-ko-v3.md",
+  "reviewed_markdown_sha256": "af0abe98e2f62069031b1b213f4ce2aa7a0021dc8eb055c20446f4a09d66af0e",
+  "reviewed_library_version": 2,
+  "completed_cycles": 2,
+  "actual_LLM_role_agents": 6,
+  "completed_role_turns": 12,
+  "interaction": "Round 1 completed for all six roles; root relayed clearly labeled peer summaries to all roles for round 2. Scores were finalized before the separate source-verification work.",
+  "rubric": [
+    {
+      "item": "의도 정합성과 연구 질문",
+      "max": 20
+    },
+    {
+      "item": "선행연구 대비 기여",
+      "max": 25
+    },
+    {
+      "item": "설계와 측정",
+      "max": 25
+    },
+    {
+      "item": "실행계획",
+      "max": 15
+    },
+    {
+      "item": "주장 범위와 윤리",
+      "max": 15
+    }
+  ],
+  "rubric_korean": [
+    "의도 정합성과 연구 질문 20",
+    "선행연구 대비 기여 25",
+    "설계와 측정 25",
+    "실행계획 15",
+    "주장 범위와 윤리 15"
+  ],
+  "score_scope": "Pre-empirical proposal v3 quality; not external peer review, publication probability, empirical effect or v3.1 rescore.",
+  "fictional_not_external_review": true,
+  "F_is_actual_user": false,
+  "user_approval_not_assumed": true,
+  "cycles": [
+    {
+      "cycle": 1,
+      "public_prose_verbatim": {
+        "A": "**A · HCI 교수, 1차 발언**\n\n- **강점:** 명칭만 바꾸고 최초 선택과 답변 경험 뒤 판단을 구분해, Eco가 해석과 선택에 더하는 효과를 명확하게 조사합니다. 실제 환경 절감까지 주장하지 않는 범위도 적절합니다.\n- **가장 중요한 우려:** 현재 자극에서는 ‘성능 양보’와 ‘간결한 답의 선호’가 충분히 구분되지 않을 수 있습니다. 특히 정보 정리 사례는 구성만 달라, 현재 답 사용을 성능 양보의 수용으로 읽기 어렵습니다. 선택 효과와 양보 수용의 증거를 구분해야 합니다.\n- **다른 역할에 던질 논점:** 자극·방법론 담당은 길이와 문체 선호를 고려하면서도 과제 유용성의 부족을 확인할 파일럿 기준을 어떻게 사전에 고정할지 제안해 주십시오. 기준을 충족하지 못한 사례도 최초 모드 선택 분석에는 활용할 수 있다고 봅니다.",
+        "B": "**B · HCI 논문 작성·심사 관점**\n\n- **강점:** 이름만 바꾸고 최초 선택과 답변 경험 이후의 판단을 분리한 설계가 중심 질문에 잘 맞습니다. 실제 환경 절감을 입증하지 않아도 명명이 만드는 사용자 해석과 선택의 차이를 연구할 수 있습니다.\n- **핵심 우려:** 가까운 선행연구와 비교할 때, ‘명칭만 통제했다’는 방법적 차이가 어떤 새로운 HCI 지식으로 이어지는지 더 선명해야 합니다. 환경 기대만 증가하거나 선택과 수용이 서로 다르게 움직이는 결과가 인터페이스 설계에 각각 무엇을 알려주는지 논리로 연결해야 합니다.\n- **다른 역할에 제시할 논점:** 선행연구 담당은 명칭 자체의 효과가 이미 분리되어 연구되었는지, 설계 담당은 현재 지표로 그 추가 기여를 구별할 수 있는지 함께 검토해 주세요. 문헌의 실재와 내용은 아직 확인하지 않았습니다.",
+        "C": "강점: 실제 연산을 바꾸지 않고 명칭만 무작위 배정하는 설계는 첫 질문에 적합합니다. 준비된 답변임을 공개하고 전체 배정 집단을 분석하는 점도 명칭 효과의 해석을 돕습니다.\n\n핵심 우려: 현재 자극에서는 낮은 답변도 요청을 충분히 충족할 수 있습니다. 파일럿에서 대안의 유용성이 높게 평가되더라도, 개인의 현재 답 선택이 곧 성능 양보는 아닙니다. ‘현재 답 사용’과 ‘부족함을 인식하면서 사용’을 구분하고, 각각 허용할 결론을 사전에 명확히 해야 합니다.\n\n토론 논점: 실험·측정 역할에 묻습니다. 첫 모드 선택을 주된 결과로 유지하면서, 성능 양보는 전체 배정 집단에서 ‘대안의 유용성 우위 인식·현재 답의 부족함 인식·현재 답 사용’이 함께 관찰된 비율로 제한해 해석하는 데 동의하십니까?",
+        "D": "강점은 명칭의 효과와 실제 환경 절감을 명확히 분리한 점입니다. 동일한 답변과 공통 안내를 사용하므로, 첫 연구에서 전력·탄소 절감을 입증하지 않아도 Eco의 해석과 선택 효과를 검토할 수 있습니다.\n\n주요 우려는 사전의 “자원 소비 차이는 측정하지 않았다”는 고지가 Eco의 환경적 의미를 약화하거나 의심을 유발할 가능성입니다. 고지를 삭제하기보다는, 결과가 이러한 투명한 안내를 동반한 명명 상황에 해당함을 밝혀야 합니다. 파일럿에서는 고지와 ‘낮은 처리 예산’의 이해를 확인하면 좋겠습니다.\n\n설계·윤리 역할에 제시할 논점은 **최초 선택을 환경 쪽으로 유도하지 않으면서 공통 고지의 이해도를 어떻게 점검할지**입니다. 본 조사에서는 선택 이후에 확인하고, 사전 이해 점검은 별도 파일럿에서 수행하는 방안이 적절해 보입니다.",
+        "E": "**강점:** 준비된 답변을 쓰는 모형 화면은 혼자서도 구현할 수 있고, 명칭 외 요소를 통제하기 쉽습니다. 최초 선택과 공통 사례 평가를 분리한 안내도 선택하지 않은 모드의 답변을 보여주는 절차를 정직하게 설명합니다.\n\n**핵심 우려:** 구현 전에 ‘최종 사용 비율’의 코딩을 확정해야 합니다. 그대로 사용과 직접 보완 후 사용을 합치느냐에 따라 결과의 의미가 달라집니다. 화면의 다섯 선택지, 저장값, 분석 지표가 같은 정의를 따르도록 고정해야 합니다.\n\n**다른 역할에 제시할 논점:** 측정 담당에게, 직접 보완은 성능 양보 수용인 동시에 추가 노력의 부담일 수 있습니다. ‘그대로 사용’을 중심으로 보고 보완 후 사용을 별도로 제시하는 방식이 연구 질문을 더 명확히 보존하는지 논의하고 싶습니다.",
+        "F": "가상 자문 F로서 표현된 연구 의도를 검토합니다. 실제 안종훈의 새 발언·승인·동의를 대신하지 않습니다.\n\n- **강점:** v3는 Eco라는 이름이 환경적 해석, 낮은 옵션 선택, 성능 양보 수용에 미치는 영향을 중심에 둡니다. 실제 환경 절감의 입증을 첫 연구의 필수조건으로 삼지 않은 범위도 의도에 부합합니다.\n- **핵심 우려:** 현재 자극은 낮은 답변도 충분히 유용해서, 성능 양보보다 간결함의 선호를 주로 관찰할 가능성이 있습니다. 파일럿에서 차이가 확인되지 않으면 명칭과 선택의 결과는 유지하되, 성능 양보에 관한 결론은 제한해야 합니다.\n- **타 역할 논점:** 측정·설계 담당은 ‘부족하지만 수용’과 ‘충분해서 사용’을 실제 응답에서 구별할 수 있는지 검토해 주십시오. 이를 해결하면서 질문을 사실 오류 수용이나 실제 에너지 절감 연구로 바꾸어서는 안 됩니다."
+      }
+    },
+    {
+      "cycle": 2,
+      "public_prose_verbatim": {
+        "A": "**A · HCI 교수, 2차 발언**\n\nC의 결합지표에 동의합니다. 전체 배정자를 기준으로 ‘대안이 더 유용함을 인식하고, 현재 답의 부족함도 느끼지만, 그대로 사용한 경우’를 비교하면 양보 수용을 제한적으로 다룰 수 있습니다. 다만 환경적 동기라는 인과 경로까지 설명하지는 못합니다.\n\nE의 제안처럼 ‘그대로 사용’을 중심에 두고 ‘직접 보완 후 사용’을 별도로 보고해야 합니다. 직접 보완에는 사용자의 추가 노력이 들어가므로 두 선택을 합치면 수용의 의미가 흐려집니다.\n\n명칭을 가린 파일럿은 사실성·과제 충족을 확인하고 유용성 차이가 단순한 길이·문체 선호에 기대는지 점검해야 합니다. 파일럿 평가가 본 조사 참가자의 충분함 판단을 대신해서는 안 됩니다.\n\n현재 v3는 사용자 의도와 연구 범위를 잘 지킵니다. 다만 자극 채택 기준과 양보 지표의 산식, 가까운 선행연구 대비 구체적인 설계 기여는 더 명료해야 합니다. 참고문헌 검증은 아직 남아 있습니다.",
+        "B": "**B · 2차 발언**\n\nA/C의 제한적 양보 지표는 충분해서 쓰는 선택과 부족함을 감수하는 선택을 구분하므로, 논문의 기여를 선명하게 하는 데 도움이 됩니다. E의 ‘그대로 사용’과 ‘직접 보완’ 분리도 중요합니다. 직접 보완에는 사용자의 추가 노력이 들어가므로 두 선택을 합치면 수용의 의미가 흐려집니다.\n\n다만 이 조합은 제한적 양보의 관찰 지표입니다. 환경적 동기나 선택의 매개 경로를 입증하지는 않습니다. 논문의 기여는 동일한 설명 아래에서 환경적 해석, 최초 선택, 답변 사용 판단이 함께 움직이는지 또는 어긋나는지를 밝히는 데 둘 수 있습니다.\n\nv3에는 전체 배정 기준과 충분함·부족함의 구분이 이미 있습니다. 다만 결합 지표의 정확한 판정 규칙과 최종 사용 범주의 집계 방식은 더 구체화해야 합니다. 토론에서 나온 개선을 반영했다고 가정하지 않고 평가했습니다. 가까운 선행연구 대비 독자성은 문헌 검증 이후에도 확인해야 합니다.",
+        "C": "A의 파일럿 제안에 동의합니다. v3가 계획한 명칭을 가린 유용성 평가는 필요하지만, 집단 평균에서 대안이 우수하다는 결과만으로 개인의 선택을 성능 양보로 분류할 수는 없습니다. 과제별 유용성 차이의 판단 기준과 개인의 부족함 인식 문항을 수집 전에 고정해야 합니다.\n\nE의 행동 코딩에서는 ‘그대로 사용’과 ‘직접 보완 후 사용’을 분리하는 것이 타당합니다. 후자는 추가 노력을 포함하므로 두 선택을 합치면 무엇을 받아들였는지 불명확해집니다. 대안의 유용성 우위 인식, 현재 답의 부족함 인식, 그대로 사용이 결합된 결과는 제한적인 ‘지각된 성능 양보’ 지표로 다룰 수 있습니다.\n\n무작위 배정은 공통 안내 아래 명칭이 선택과 사후보고에 미치는 효과를 추정하게 합니다. 다만 환경적 이유의 자기보고로 선택의 매개경로를 입증할 수는 없습니다. v3는 이 한계를 잘 인정하지만, 결합지표의 판정 기준과 최종 사용의 코딩 규칙은 아직 구체화가 필요합니다. 아래 점수는 보완을 가정하지 않은 v3 평가이며 문헌 실재 여부는 미확인입니다.",
+        "D": "B의 기여 우려에 대해, 환경 정보를 추가하지 않고 **이름만 바꿨을 때 최초 선택과 동일 답변의 수용이 각각 달라지는지** 구분하는 것은 유효한 기여 후보입니다. 다만 가까운 연구와 자극·측정을 대조하기 전에는 독창성의 크기를 확정하기 어렵습니다. 문헌의 실재와 출판 권위도 아직 미확인입니다.\n\nF의 범위 요구에 동의합니다. 실제 절감 입증은 첫 연구의 필수조건이 아니며, 충분한 답을 선택한 것을 성능 양보로 해석해서도 안 됩니다. v3는 이를 명시했지만, 부족함·대안의 유용성·사용 선택을 결합하는 최종 분류 규칙은 더 구체화할 필요가 있습니다.\n\n공통 고지는 허위 절감 주장을 방지하는 장치이자 결과의 적용조건입니다. 두 조건의 고지가 같으므로 명칭 비교는 가능하지만, 고지 자체가 명칭 효과의 크기를 바꿀 수 있습니다. 따라서 결과는 **자원 소비를 측정하지 않았다고 안내한 모형 화면**의 효과로 해석해야 합니다. 아래 점수는 제안된 개선을 반영하지 않은 v3 자체의 평가입니다.",
+        "E": "C의 제안에 동의합니다. ‘대안이 더 유용함·현재 답의 부족함·그대로 사용’의 결합은 전체 배정자를 분모로 한 제한적 수용 지표로 보고할 수 있습니다. 해당 응답자만 추린 인과비교는 피하고, 직접 보완 후 사용은 별도로 집계해야 합니다.\n\nD의 지적대로 결과는 실제 자원 소비를 측정하지 않았다는 고지를 받은 상황의 명칭 효과입니다. 두 조건에서 고지의 문구와 위치를 고정하고, 이해점검은 별도 파일럿과 본조사 최초 선택 뒤에 배치하는 것이 타당합니다.\n\n최소 기록계약으로 익명 ID, 명칭 배정, 과제 순서와 자극 버전, 최초 모드 선택과 보류, 과제별 대안 전 판단, 유용성·부족함·판단 유보, 최종 다섯 선택지, 단계 완료와 결측 사유를 제안합니다. 다섯 선택지의 저장값과 분석상 수용 정의를 연결해 수집 전에 고정해야 합니다. 이는 아직 반영되지 않은 보완이며, 문헌 검증도 남아 있습니다.",
+        "F": "가상 자문 F로서 평가하며, 실제 안종훈의 새 발언·승인·동의를 대신하지 않습니다.\n\nB의 명칭 통제가 더하는 지식과 설계 판단을 구체화하자는 제안은 연구 의도를 지킵니다. 다만 그 기여는 가까운 선행연구와 대조해야 하며, 문헌 검증은 아직 완료되지 않았습니다.\n\nC의 ‘대안이 더 유용함·현재 답의 부족함·그대로 사용’ 결합은 성능 양보의 제한적인 관찰 지표로 적절합니다. 이를 환경 때문에 양보했다는 인과 증거로 확대해서는 안 됩니다. E의 그대로 사용과 직접 보완 후 사용의 구분도 사용자가 감수하는 추가 작업을 드러내므로 필요합니다.\n\n가장 큰 잔여 문제는 자극이 단순한 간결함 선호를 넘어 성능 양보를 관찰하게 하는지입니다. v3의 파일럿 계획은 이를 인식하지만, 판정 기준과 지표 코딩은 더 구체화해야 합니다. 아래 점수는 제안된 개선이 완료됐다고 가정하지 않은 v3 자체의 평가입니다."
+      }
+    }
+  ],
+  "transcription_note": "Public prose preserved as delivered. Score code blocks are transcribed structurally below, with their item order and values preserved; code-fence formatting is not represented.",
+  "scores": [
+    {
+      "persona": "A",
+      "role": "HCI",
+      "item_scores": [
+        20,
+        18,
+        20,
+        12,
+        14
+      ],
+      "total": 84,
+      "max": 100,
+      "version": "proposal v3",
+      "main_remaining_issue": "간결함 선호와 성능 양보를 구분할 자극 채택 기준 및 양보 지표의 사전 정의"
+    },
+    {
+      "persona": "B",
+      "role": "논문 작성과 심사",
+      "item_scores": [
+        19,
+        18,
+        20,
+        12,
+        14
+      ],
+      "total": 83,
+      "max": 100,
+      "version": "proposal v3",
+      "main_remaining_issue": "명칭 비교가 더하는 HCI 지식과 가까운 선행연구 대비 독자성을 구체화하고, 제한적 양보 지표와 사용 범주의 집계 규칙을 확정해야 함."
+    },
+    {
+      "persona": "C",
+      "role": "AI 방법론",
+      "item_scores": [
+        19,
+        19,
+        20,
+        12,
+        14
+      ],
+      "total": 84,
+      "max": 100,
+      "version": "proposal v3",
+      "main_remaining_issue": "충분한 답의 선호와 지각된 성능 양보를 구분할 판정 기준 및 그대로 사용·직접 보완 후 사용의 분석 코딩이 미확정이다."
+    },
+    {
+      "persona": "D",
+      "role": "환경과 운영",
+      "item_scores": [
+        19,
+        18,
+        20,
+        13,
+        14
+      ],
+      "total": 84,
+      "max": 100,
+      "version": "proposal v3",
+      "main_remaining_issue": "충분한 답의 선택과 성능 양보를 구분할 최종 분류 규칙이 아직 구체적이지 않음"
+    },
+    {
+      "persona": "E",
+      "role": "구현과 실행",
+      "item_scores": [
+        19,
+        19,
+        21,
+        12,
+        14
+      ],
+      "total": 85,
+      "max": 100,
+      "version": "proposal v3",
+      "main_remaining_issue": "최종 수용의 분석 정의와 화면 선택지·저장값의 연결, 파일럿 판정 기준이 아직 확정되지 않았다."
+    },
+    {
+      "persona": "F",
+      "role": "표현된 연구 의도 검토",
+      "item_scores": [
+        19,
+        19,
+        20,
+        12,
+        14
+      ],
+      "total": 84,
+      "max": 100,
+      "version": "proposal v3",
+      "main_remaining_issue": "간결함 선호와 성능 양보를 구별할 자극 검증 기준 및 지표 코딩의 구체화"
+    }
+  ],
+  "all_above_90": false,
+  "all_100": false,
+  "missing_empirical_results_not_a_penalty_by_itself": true,
+  "post_review_edit": "Proposal v3.1 clarifies unchanged-use coding and perceived-sacrifice reports, corrects references and separates evidence types. It was not rereviewed or rescored by all personas.",
+  "actual_human_study": false,
+  "actual_study_model_inference": false,
+  "environmental_measurement": false,
+  "reference_audit": "research/2026-10-30-reference-audit.json",
+  "revised_proposal": "research/eco-mode-research-proposal-ko-v3.1.md",
+  "revision": {
+    "version": "3.1",
+    "library_file_id": "libfile_d9bf5519847081919d4359991648ae01",
+    "file_id": "file_000000007998823089a2747c07d06613",
+    "filename": "Eco_Mode_Research_Proposal_KO_v3_1.docx",
+    "library_version_number": 3,
+    "validation": {
+      "docx": {
+        "path": "/workspace/scratch/c758c396043e/eco_research_proposal_v3_1/Eco_Mode_Research_Proposal_KO_v3_1.docx",
+        "size": 50081,
+        "sha256": "de64c65197e2f5885f4f3fcd851f113ba9b7dc160004255d7275d54d6802bb66"
+      },
+      "markdown": {
+        "path": "/workspace/scratch/c758c396043e/eco_research_proposal_v3_1/Eco_Mode_Research_Proposal_KO_v3_1.md",
+        "size": 24976,
+        "sha256": "503cfe378ca3e26091a58d30ebaf257e33d88ba16ca6263da2bef44125ce34f3"
+      },
+      "pages": 11,
+      "references": 7,
+      "tables": 4,
+      "all_pages_visually_checked": true,
+      "actual_human_or_model_experiment": false
+    },
+    "prior_versions_preserved": true,
+    "main_manuscript_v06_unchanged": true,
+    "changes": [
+      "Corrected and classified all seven references",
+      "Kim arXiv-only entry replaced with verified conference DOI",
+      "Patkar supplementary, IEA institutional background, BIS long-term theoretical background",
+      "Explicit unchanged-use coding, self-editing separate",
+      "Limited perceived-sacrifice event and closed response choices clarified"
+    ],
+    "no_new_scope_or_actual_inference_requirement": true,
+    "all_persona_rescore_after_revision": false
+  }
+}
