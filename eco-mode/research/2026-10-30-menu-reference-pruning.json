@@ -1,0 +1,198 @@
+{
+  "date": "2026-10-30",
+  "timezone": "America/Los_Angeles",
+  "record_type": "reference_removal_and_verified_replacement",
+  "removed_from_active_proposal": [
+    {
+      "work": "Patkar et al. From Perception to Action",
+      "reason": "Final publication status and publication DOI not established; prior author metadata/title discrepancies. Removed rather than retained as an auxiliary preprint under the user's stricter instruction.",
+      "not_claimed_nonexistent": true
+    },
+    {
+      "work": "Rungcharoenkitkul BIS Working Paper1381",
+      "reason": "Official source exists, but working-paper status and macroeconomic demand/innovation scope are peripheral to the current menu-design study. Removed from current text and bibliography, not described as a fake source.",
+      "not_claimed_nonexistent": true
+    }
+  ],
+  "retained": [
+    "GPTFootprint: registered CHI Extended Abstracts exploratory study",
+    "EcoChat: registered ACM FAccT proceedings paper; content summary remains official-abstract scope",
+    "Klesel and Messer: registered CHI proceedings paper",
+    "Kim et al.: registered ICT4S proceedings article with formal DOI",
+    "IEA2026: explicitly labeled official institutional energy report, background only"
+  ],
+  "added": {
+    "authors": [
+      "Amos Tversky",
+      "Itamar Simonson"
+    ],
+    "year": 1993,
+    "title": "Context-Dependent Preferences",
+    "journal": "Management Science",
+    "volume": 39,
+    "issue": 10,
+    "pages": "1179–1189",
+    "doi": "10.1287/mnsc.39.10.1179",
+    "publisher_primary_url": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.39.10.1179",
+    "publisher_abstract_scope": "General context-dependent preference theory; not an empirical LLM Eco-menu effect.",
+    "registry_verified": true
+  },
+  "publisher_registry_metadata": [
+    {
+      "DOI": "10.1145/3706599.3719708",
+      "title": [
+        "GPTFootprint: Increasing Consumer Awareness of the Environmental Impacts of LLMs"
+      ],
+      "authors": [
+        "Nora Graves",
+        "Vitus Larrieu",
+        "Yingyue Trace Zhang",
+        "Joanne Peng",
+        "Varun Nagaraj Rao",
+        "Yuhan Liu",
+        "Andrés Monroy-Hernández"
+      ],
+      "publisher": "ACM",
+      "type": "proceedings-article",
+      "container_title": [
+        "Proceedings of the Extended Abstracts of the CHI Conference on Human Factors in Computing Systems"
+      ],
+      "page": "1-16",
+      "volume": null,
+      "issue": null,
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            25
+          ]
+        ]
+      },
+      "registry_url": "https://api.crossref.org/works/10.1145/3706599.3719708"
+    },
+    {
+      "DOI": "10.1145/3805689.3812368",
+      "title": [
+        "EcoChat Probe: How Energy Feedback Shapes End Users' Interpretations of Everyday Generative AI Use"
+      ],
+      "authors": [
+        "Yuheng Ren",
+        "Luiz Augusto Morais",
+        "Filipe Calegario",
+        "Frédérique Krupa",
+        "Francisco Paulo Magalhães Simões",
+        "Nivan Ferreira",
+        "Georgia Panagiotidou"
+      ],
+      "publisher": "ACM",
+      "type": "proceedings-article",
+      "container_title": [
+        "Proceedings of the 2026 ACM Conference on Fairness, Accountability, and Transparency"
+      ],
+      "page": "5194-5218",
+      "volume": null,
+      "issue": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            25
+          ]
+        ]
+      },
+      "registry_url": "https://api.crossref.org/works/10.1145/3805689.3812368"
+    },
+    {
+      "DOI": "10.1145/3772318.3791015",
+      "title": [
+        "Good for the Planet, Bad for Me? Intended and Unintended Consequences of AI Energy Consumption Disclosure"
+      ],
+      "authors": [
+        "Michael Klesel",
+        "Uwe Messer"
+      ],
+      "publisher": "ACM",
+      "type": "proceedings-article",
+      "container_title": [
+        "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems"
+      ],
+      "page": "1-14",
+      "volume": null,
+      "issue": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            13
+          ]
+        ]
+      },
+      "registry_url": "https://api.crossref.org/works/10.1145/3772318.3791015"
+    },
+    {
+      "DOI": "10.23919/ict4scps00102.2026.00038",
+      "title": [
+        "When LLMs Slow Down: How Environmental Impacts Mediate University Students LLM Usage"
+      ],
+      "authors": [
+        "Hyeonwook Kim",
+        "Xuesi Chen",
+        "Alex Cabral",
+        "Cindy Kaiying Lin",
+        "Udit Gupta",
+        "Josiah Hester"
+      ],
+      "publisher": "IEEE",
+      "type": "proceedings-article",
+      "container_title": [
+        "2026 12th International Conference on ICT for Sustainability (ICT4S)"
+      ],
+      "page": "322-334",
+      "volume": null,
+      "issue": null,
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            6
+          ]
+        ]
+      },
+      "registry_url": "https://api.crossref.org/works/10.23919/ICT4SCPS00102.2026.00038"
+    },
+    {
+      "DOI": "10.1287/mnsc.39.10.1179",
+      "title": [
+        "Context-Dependent Preferences"
+      ],
+      "authors": [
+        "Amos Tversky",
+        "Itamar Simonson"
+      ],
+      "publisher": "Institute for Operations Research and the Management Sciences (INFORMS)",
+      "type": "journal-article",
+      "container_title": [
+        "Management Science"
+      ],
+      "page": "1179-1189",
+      "volume": "39",
+      "issue": "10",
+      "published": {
+        "date-parts": [
+          [
+            1993,
+            10
+          ]
+        ]
+      },
+      "registry_url": "https://api.crossref.org/works/10.1287/mnsc.39.10.1179"
+    }
+  ],
+  "institutional_report_primary_url": "https://www.iea.org/reports/key-questions-on-energy-and-ai",
+  "final_reference_count": 6,
+  "no_claim_of_exhaustive_novelty_verification": true,
+  "no_new_external_peer_review": true
+}
