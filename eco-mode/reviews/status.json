@@ -176,11 +176,11 @@
   ],
   "quality_NI_delta_required_for_v4": false,
   "p_min_required_only_if_optional_task_classification_adopted": true,
-  "latest_discussion": "reviews/2026-10-28-readiness90/",
+  "latest_discussion": "reviews/2026-10-30-v3-two-cycle-review.json",
   "latest_addendum": "research/v4-analysis-contract.md",
   "environmental_claim_scope": "Active proposal v3 estimates naming effects in a disclosed authored-response simulation on mode choices and answer-use decisions, with post-experience environmental reports. It does not establish actual adoption, token/electricity/carbon/water/ecological savings or AI-development slowdown.",
   "F_is_not_actual_user_or_participant": true,
-  "latest_conversation": "conversation/2026-10-30-proposal-v3-rewrite.json",
+  "latest_conversation": "conversation/2026-10-30-v3-two-cycle-reference-audit.json",
   "latest_protocol_sha256": "37d3be52f7740428c18164cf7a36f211a8c078e472d8870835cf9e9f8f7234d8",
   "all_personas_above_90": false,
   "current_review_attempt": {
@@ -211,15 +211,15 @@
     "token_usage": "secondary",
     "physical_environment_effect": "Independent follow-up; not a success gate or measured outcome of the first naming study.",
     "prior_protocol_and_scores": "Historical; latest scored manuscript is v0.5 and v0.6 has no new scores.",
-    "new_review_or_experiment": "Proposal rewrite, source checks and document QA only. No new persona review, score, human/model experiment or resource measurement.",
+    "new_review_or_experiment": "Completed A–F two-cycle review of v3 with six agents/12 role turns; then two separate source-audit turns. Seven references verified and proposal v3.1 edited. No human/model study or environmental measurement.",
     "first_study_proposal": "Proposed 1:1 randomized Light versus Eco naming comparison with identical menu descriptions and authored everyday-chat examples.",
     "actual_eco_function": "Later implementation/validation; not replaced by scenario findings",
     "current_manuscript": "research/eco-evidence-gap-ko-v0.6.md",
     "development_slowdown": "Background hypothesis informed by economic theory; direct Eco/chat-usage causal evidence not identified",
     "evidence_types": "Retrospective report, recorded scenario judgment, and hypothetical/future plan distinguished.",
     "primary_research_direction": "Eco naming of an LLM effort option; environmental interpretation, mode choice and acceptance of performance sacrifice. Adequate conciseness and perceived sacrifice separated.",
-    "current_documents_alignment": "Proposal v3 rewritten to connect accumulated motivation and naming question to justified everyday-chat methods. Not user-approved. Main manuscript v0.6 unchanged.",
-    "task_materials": "V3 writing/information-organization/ideation examples replace product R/Q/X in the active proposal; older versions retained."
+    "current_documents_alignment": "Proposal v3.1 keeps Eco naming focus, corrects publication roles and clarifies answer-use coding. Its prior v3 has new fictional review scores; v3.1 not rescored. Main manuscript v0.6 unchanged.",
+    "task_materials": "Writing, information organization and ideation retained; no return to product correctness or a mandatory actual-inference 2×2."
   },
   "latest_collaborative_edit": {
     "date": "2026-10-29",
@@ -609,22 +609,22 @@
     "manuscript_changed": false,
     "new_scores": false
   },
-  "active_research_proposal": "research/eco-mode-research-proposal-ko-v3.md",
+  "active_research_proposal": "research/eco-mode-research-proposal-ko-v3.1.md",
   "latest_research_proposal": {
     "date": "2026-10-30",
     "title": "LLM 서비스의 Eco 명칭과 성능 양보 수용에 관한 연구계획서",
-    "version": "3.0",
+    "version": "3.1",
     "language": "Korean",
-    "path": "research/eco-mode-research-proposal-ko-v3.md",
-    "record": "reviews/2026-10-30-proposal-v3-continuity-rewrite.json",
+    "path": "research/eco-mode-research-proposal-ko-v3.1.md",
+    "record": "reviews/2026-10-30-v3-two-cycle-review.json",
     "library_file_id": "libfile_d9bf5519847081919d4359991648ae01",
-    "file_id": "file_00000000ab6c8230b5857f2f70ae566f",
-    "filename": "Eco_Mode_Research_Proposal_KO_v3.docx",
-    "library_version_number": 2,
-    "pages": 10,
-    "docx_sha256": "1c1783e2e7e3a1e0417f8d8b81b01f6bc3ff364505d4d8176ed881b9c9cb74f1",
-    "markdown_sha256": "af0abe98e2f62069031b1b213f4ce2aa7a0021dc8eb055c20446f4a09d66af0e",
-    "source_previous_proposal": "research/eco-mode-research-proposal-ko-v2.md",
+    "file_id": "file_000000007998823089a2747c07d06613",
+    "filename": "Eco_Mode_Research_Proposal_KO_v3_1.docx",
+    "library_version_number": 3,
+    "pages": 11,
+    "docx_sha256": "de64c65197e2f5885f4f3fcd851f113ba9b7dc160004255d7275d54d6802bb66",
+    "markdown_sha256": "503cfe378ca3e26091a58d30ebaf257e33d88ba16ca6263da2bef44125ce34f3",
+    "source_previous_proposal": "research/eco-mode-research-proposal-ko-v3.md",
     "separate_from_manuscript": true,
     "existing_manuscript_replaced": false,
     "scope": "LLM 서비스에서 같은 낮은 연산 옵션을 Light 대신 Eco라고 부르면, 환경적 의미의 해석과 모드 선택, 성능 양보의 수용은 어떻게 달라지는가?",
@@ -635,7 +635,7 @@
       "Organizing venue-use information",
       "Proposing participatory installation ideas"
     ],
-    "performance_sacrifice": "Separate perceived insufficiency and comparative usefulness from choosing a sufficient concise answer. No factual-error acceptance requirement.",
+    "performance_sacrifice": "Unchanged use distinguished from self-editing. Limited perceived-sacrifice event requires explicit alternative utility, current insufficiency and unchanged use, with withheld/missing separate.",
     "mode_choice_and_response_evaluation": "All assigned participants evaluate shared examples after an explicit transition regardless of initial selected mode, then see the same High-labeled alternative.",
     "primary_outcome": "Initial low-option choice in the first assigned task; proportion difference and 95% CI.",
     "secondary_outcomes": [
@@ -646,11 +646,13 @@
     "sample_and_timing": "Proposed 6–10 person pilot and 20–30 minute sessions pending validation; main N set from meaningful effect and precision before collection.",
     "sample_example": "Assumed .30 versus .45 proportions, two-sided .05 alpha/.80 power yields 162.334, rounded to 163 per group. Planning illustration, not observed baseline or final approved N.",
     "budget": "Calculate after N, session time, compensation and fees; no paid recruitment or API usage executed.",
-    "document_QA": "Latest 10 rendered pages all visually inspected; no blank/overflow pages or clipping. Source, sample arithmetic and content-scope checks completed.",
-    "alignment_with_latest_user_intent": "Rewritten following continuity concern; motivation-to-literature-to-question-to-method connection restored. User has not yet reviewed/approved the final wording or proposed task choices.",
+    "document_QA": "All 11 latest rendered pages visually checked; scope/citation mapping and seven bibliography entries checked.",
+    "alignment_with_latest_user_intent": "Naming focus preserved; reference corrections and limited measurement clarification added. User final approval and complete six-persona review of v3.1 not assumed.",
     "new_scores": false,
-    "new_persona_jobs": false,
-    "actual_experiment": false
+    "new_persona_jobs": true,
+    "actual_experiment": false,
+    "reference_types": "Four main related papers including one CHI EA, supplementary Patkar preprint, IEA institutional background and BIS long-term working paper.",
+    "score_scope_note": "New scores belong to v3 before audit/edit; v3.1 not rescored."
   },
   "latest_user_scope_correction": {
     "date": "2026-10-30",
@@ -727,16 +729,57 @@
       "new_scores": false,
       "new_persona_jobs": false,
       "actual_experiment": false
+    },
+    {
+      "date": "2026-10-30",
+      "title": "LLM 서비스의 Eco 명칭과 성능 양보 수용에 관한 연구계획서",
+      "version": "3.0",
+      "language": "Korean",
+      "path": "research/eco-mode-research-proposal-ko-v3.md",
+      "record": "reviews/2026-10-30-proposal-v3-continuity-rewrite.json",
+      "library_file_id": "libfile_d9bf5519847081919d4359991648ae01",
+      "file_id": "file_00000000ab6c8230b5857f2f70ae566f",
+      "filename": "Eco_Mode_Research_Proposal_KO_v3.docx",
+      "library_version_number": 2,
+      "pages": 10,
+      "docx_sha256": "1c1783e2e7e3a1e0417f8d8b81b01f6bc3ff364505d4d8176ed881b9c9cb74f1",
+      "markdown_sha256": "af0abe98e2f62069031b1b213f4ce2aa7a0021dc8eb055c20446f4a09d66af0e",
+      "source_previous_proposal": "research/eco-mode-research-proposal-ko-v2.md",
+      "separate_from_manuscript": true,
+      "existing_manuscript_replaced": false,
+      "scope": "LLM 서비스에서 같은 낮은 연산 옵션을 Light 대신 Eco라고 부르면, 환경적 의미의 해석과 모드 선택, 성능 양보의 수용은 어떻게 달라지는가?",
+      "motivation": "Voluntary AI-performance sacrifice for expected environmental benefit, connected through prior work to naming an effort option Eco.",
+      "design": "Proposed 1:1 randomized Light versus Eco naming comparison with identical menu descriptions and authored everyday-chat examples.",
+      "tasks": [
+        "Writing a workshop invitation",
+        "Organizing venue-use information",
+        "Proposing participatory installation ideas"
+      ],
+      "performance_sacrifice": "Separate perceived insufficiency and comparative usefulness from choosing a sufficient concise answer. No factual-error acceptance requirement.",
+      "mode_choice_and_response_evaluation": "All assigned participants evaluate shared examples after an explicit transition regardless of initial selected mode, then see the same High-labeled alternative.",
+      "primary_outcome": "Initial low-option choice in the first assigned task; proportion difference and 95% CI.",
+      "secondary_outcomes": [
+        "Final current-answer use after alternative",
+        "Post-experience environmental expectations and quality assessment",
+        "Joint insufficiency report and use choice among all assigned"
+      ],
+      "sample_and_timing": "Proposed 6–10 person pilot and 20–30 minute sessions pending validation; main N set from meaningful effect and precision before collection.",
+      "sample_example": "Assumed .30 versus .45 proportions, two-sided .05 alpha/.80 power yields 162.334, rounded to 163 per group. Planning illustration, not observed baseline or final approved N.",
+      "budget": "Calculate after N, session time, compensation and fees; no paid recruitment or API usage executed.",
+      "document_QA": "Latest 10 rendered pages all visually inspected; no blank/overflow pages or clipping. Source, sample arithmetic and content-scope checks completed.",
+      "alignment_with_latest_user_intent": "Rewritten following continuity concern; motivation-to-literature-to-question-to-method connection restored. User has not yet reviewed/approved the final wording or proposed task choices.",
+      "new_scores": false,
+      "new_persona_jobs": false,
+      "actual_experiment": false
     }
   ],
   "latest_proposal_revision": {
     "date": "2026-10-30",
-    "version": "3.0",
-    "record": "reviews/2026-10-30-proposal-v3-continuity-rewrite.json",
+    "version": "3.1",
+    "record": "reviews/2026-10-30-v3-two-cycle-review.json",
+    "reference_audit": "research/2026-10-30-reference-audit.json",
     "manuscript_changed": false,
-    "proposal_rewritten": true,
-    "new_scores": false,
-    "new_persona_jobs": false,
+    "new_scores_for_revised_version": false,
     "actual_experiment": false
   },
   "latest_proposal_continuity_clarification": {
@@ -751,5 +794,96 @@
     "new_scores": false,
     "actual_experiment": false,
     "followup": "Proposal v3 written following explicit request. Review record reviews/2026-10-30-proposal-v3-continuity-rewrite.json. User final approval not assumed."
-  }
+  },
+  "latest_proposal_review": {
+    "date": "2026-10-30",
+    "record": "reviews/2026-10-30-v3-two-cycle-review.json",
+    "reviewed_proposal": "research/eco-mode-research-proposal-ko-v3.md",
+    "reviewed_sha256": "af0abe98e2f62069031b1b213f4ce2aa7a0021dc8eb055c20446f4a09d66af0e",
+    "reviewed_library_version": 2,
+    "completed_cycles": 2,
+    "actual_LLM_role_agents": 6,
+    "completed_role_turns": 12,
+    "peer_replies": "Root-mediated sharing of all round-1 peer summaries before round-2 replies",
+    "rubric_maxima": [
+      20,
+      25,
+      25,
+      15,
+      15
+    ],
+    "rubric": [
+      {
+        "item": "의도 정합성과 연구 질문",
+        "max": 20
+      },
+      {
+        "item": "선행연구 대비 기여",
+        "max": 25
+      },
+      {
+        "item": "설계와 측정",
+        "max": 25
+      },
+      {
+        "item": "실행계획",
+        "max": 15
+      },
+      {
+        "item": "주장 범위와 윤리",
+        "max": 15
+      }
+    ],
+    "scores": {
+      "A": 84,
+      "B": 83,
+      "C": 84,
+      "D": 84,
+      "E": 85,
+      "F": 84
+    },
+    "score_scope": "Pre-empirical proposal v3 quality; not external peer review, publication probability, empirical effect or v3.1 rescore.",
+    "fictional_not_external_review": true,
+    "F_is_actual_user": false,
+    "all_above_90": false,
+    "all_100": false,
+    "main_remaining_issues": [
+      "Pilot criteria for task utility versus brevity/style preference",
+      "Specific contribution against closest studies",
+      "Full prototype and collection rules before human study"
+    ],
+    "reference_audit_performed_after_scores": true,
+    "applies_to_revised_v31": false
+  },
+  "latest_reference_audit": {
+    "date": "2026-10-30",
+    "record": "research/2026-10-30-reference-audit.json",
+    "entries_checked": 7,
+    "existing": 7,
+    "nonexistent_found": 0,
+    "authority_basis": "Official records, publisher-deposited Crossref DOI metadata, peer-review and publication type, and fit of methods to the cited claim.",
+    "formal_conference_DOI_replacement": "Kim et al. DOI10.23919/ICT4SCPS00102.2026.00038",
+    "core_related_works": [
+      "GPTFootprint as CHI EA exploratory work",
+      "EcoChat as FAccT peer-reviewed feedback research",
+      "Klesel and Messer CHI paper as closest comparator",
+      "Kim et al ICT4S Research Papers"
+    ],
+    "supplementary": [
+      "Patkar arXiv preprint, PROFES Short Papers and Posters accepted but final publication not verified"
+    ],
+    "background": [
+      "IEA institutional report",
+      "BIS working paper for long-term theory only"
+    ],
+    "not_an_exhaustive_novelty_proof": true,
+    "access_limits": [
+      "ACM landing pages and EcoChat final PDF returned403; publication verified via registry and official institutional records.",
+      "Kim final publisher text not compared line-by-line to author preprint.",
+      "Patkar final publication DOI not verified."
+    ],
+    "new_persona_score_after_verification": false
+  },
+  "current_proposal_has_separate_score": false,
+  "current_proposal_score_note": "Latest completed score evaluates proposal v3, not current v3.1."
 }
