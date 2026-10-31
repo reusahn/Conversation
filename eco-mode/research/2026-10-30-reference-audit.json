@@ -1,0 +1,690 @@
+{
+  "date": "2026-10-30",
+  "timezone": "America/Los_Angeles",
+  "record_type": "reference_existence_publication_status_claim_fit_audit",
+  "scope": "Seven references in proposal v3, audited after two-cycle persona review and scoring.",
+  "authority_basis": [
+    "Matching title/authors/year/DOI and official publication or institutional record",
+    "Peer-review and publication type separated from venue recognition",
+    "Study methods and intervention match considered separately from institutional reputation",
+    "A venue award or institutional status does not establish causal correctness or Eco-label novelty"
+  ],
+  "verified_existing_entries": 7,
+  "nonexistent_entries_identified": 0,
+  "crossref_publisher_metadata": [
+    {
+      "DOI": "10.1145/3706599.3719708",
+      "title": [
+        "GPTFootprint: Increasing Consumer Awareness of the Environmental Impacts of LLMs"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0006-5717-0483",
+          "authenticated-orcid": false,
+          "given": "Nora",
+          "family": "Graves",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Princeton University, Princeton, New Jersey, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0005-3139-1539",
+          "authenticated-orcid": false,
+          "given": "Vitus",
+          "family": "Larrieu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Princeton University, Princeton, New Jersey, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0005-5096-0952",
+          "authenticated-orcid": false,
+          "given": "Yingyue Trace",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Princeton University, Princeton, New Jersey, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0005-7931-5164",
+          "authenticated-orcid": false,
+          "given": "Joanne",
+          "family": "Peng",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Computer Science, Princeton University, Princeton, New Jersey, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4692-2196",
+          "authenticated-orcid": false,
+          "given": "Varun",
+          "family": "Nagaraj Rao",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Computer Science, Princeton University, Princeton, New Jersey, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6852-6218",
+          "authenticated-orcid": false,
+          "given": "Yuhan",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Princeton University, Princeton, New Jersey, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4889-9484",
+          "authenticated-orcid": false,
+          "given": "Andrés",
+          "family": "Monroy-Hernández",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Computer Science, Princeton University, Princeton, New Jersey, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "type": "proceedings-article",
+      "publisher": "ACM",
+      "container-title": [
+        "Proceedings of the Extended Abstracts of the CHI Conference on Human Factors in Computing Systems"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            25
+          ]
+        ]
+      },
+      "page": "1-16",
+      "article-number": null,
+      "URL": "https://doi.org/10.1145/3706599.3719708",
+      "link": [
+        {
+          "URL": "https://dl.acm.org/doi/10.1145/3706599.3719708",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://dl.acm.org/doi/pdf/10.1145/3706599.3719708",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ]
+    },
+    {
+      "DOI": "10.1145/3805689.3812368",
+      "title": [
+        "EcoChat Probe: How Energy Feedback Shapes End Users' Interpretations of Everyday Generative AI Use"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0006-7228-3996",
+          "authenticated-orcid": false,
+          "given": "Yuheng",
+          "family": "Ren",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "King's College London, London, United Kingdom"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5506-9473",
+          "authenticated-orcid": false,
+          "given": "Luiz Augusto",
+          "family": "Morais",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Universidade Federal de Pernambuco, Recife, Brazil"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8364-0887",
+          "authenticated-orcid": false,
+          "given": "Filipe",
+          "family": "Calegario",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Universidade Federal de Pernambuco, Recife, Brazil"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0005-3065-2987",
+          "authenticated-orcid": false,
+          "given": "Frédérique",
+          "family": "Krupa",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "L'Ecole de Design Nantes Atlantique, Nantes, France"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9368-2298",
+          "authenticated-orcid": false,
+          "given": "Francisco Paulo Magalhães",
+          "family": "Simões",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Universidade Federal de Pernambuco, Recife, Brazil"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6631-4609",
+          "authenticated-orcid": false,
+          "given": "Nivan",
+          "family": "Ferreira",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Universidade Federal de Pernambuco, Recife, Brazil"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4408-6371",
+          "authenticated-orcid": false,
+          "given": "Georgia",
+          "family": "Panagiotidou",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "King's College London, London, United Kingdom"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "type": "proceedings-article",
+      "publisher": "ACM",
+      "container-title": [
+        "Proceedings of the 2026 ACM Conference on Fairness, Accountability, and Transparency"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            25
+          ]
+        ]
+      },
+      "page": "5194-5218",
+      "article-number": null,
+      "URL": "https://doi.org/10.1145/3805689.3812368",
+      "link": [
+        {
+          "URL": "https://dl.acm.org/doi/pdf/10.1145/3805689.3812368",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ]
+    },
+    {
+      "DOI": "10.1145/3772318.3791015",
+      "title": [
+        "Good for the Planet, Bad for Me? Intended and Unintended Consequences of AI Energy Consumption Disclosure"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-2884-1819",
+          "authenticated-orcid": false,
+          "given": "Michael",
+          "family": "Klesel",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Frankfurt University of Applied Sciences, Frankfurt, Germany and Hessian.AI, Darmstadt, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0473-5066",
+          "authenticated-orcid": false,
+          "given": "Uwe",
+          "family": "Messer",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Betriebswirtschaft, Universität der Bundeswehr München, Neubiberg, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "type": "proceedings-article",
+      "publisher": "ACM",
+      "container-title": [
+        "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            13
+          ]
+        ]
+      },
+      "page": "1-14",
+      "article-number": null,
+      "URL": "https://doi.org/10.1145/3772318.3791015",
+      "link": [
+        {
+          "URL": "https://dl.acm.org/doi/pdf/10.1145/3772318.3791015",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ]
+    },
+    {
+      "DOI": "10.23919/ict4scps00102.2026.00038",
+      "title": [
+        "When LLMs Slow Down: How Environmental Impacts Mediate University Students LLM Usage"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0002-1017-594X",
+          "authenticated-orcid": false,
+          "given": "Hyeonwook",
+          "family": "Kim",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0005-5012-7522",
+          "authenticated-orcid": false,
+          "given": "Xuesi",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6882-6701",
+          "authenticated-orcid": false,
+          "given": "Alex",
+          "family": "Cabral",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9273-4970",
+          "authenticated-orcid": false,
+          "given": "Cindy Kaiying",
+          "family": "Lin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9118-0961",
+          "authenticated-orcid": false,
+          "given": "Udit",
+          "family": "Gupta",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1680-085X",
+          "authenticated-orcid": false,
+          "given": "Josiah",
+          "family": "Hester",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "type": "proceedings-article",
+      "publisher": "IEEE",
+      "container-title": [
+        "2026 12th International Conference on ICT for Sustainability (ICT4S)"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            6
+          ]
+        ]
+      },
+      "page": "322-334",
+      "article-number": null,
+      "URL": "https://doi.org/10.23919/ict4scps00102.2026.00038",
+      "link": [
+        {
+          "URL": "http://xplorestaging.ieee.org/ielx8/11713074/11713075/11713236.pdf?arnumber=11713236",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "original_number": 1,
+      "revised_number": 1,
+      "name": "GPTFootprint",
+      "exists": true,
+      "doi": "10.1145/3706599.3719708",
+      "year": 2025,
+      "type": "ACM CHI Extended Abstracts conference contribution",
+      "review_status": "Formal EA publication confirmed; do not equate with CHI Papers full-review track. Track-specific review depth not independently established.",
+      "authority_assessment": "Established HCI publication context; exploratory evidential weight, especially given nine participants and one week.",
+      "claim_fit": "Eco Score, nature images and estimated usage feedback in actual ChatGPT; not an isolated word/icon causal test.",
+      "decision": "Retain as exploratory related work with type and limits stated.",
+      "primary_urls": [
+        "https://api.crossref.org/works/10.1145/3706599.3719708",
+        "https://collaborate.princeton.edu/en/publications/gptfootprint-increasing-consumer-awareness-of-the-environmental-i/",
+        "https://arxiv.org/html/2505.24107v1"
+      ],
+      "content_access": "Author manuscript read; publisher DOI landing page returned 403, so Crossref and Princeton official record used to corroborate publication."
+    },
+    {
+      "original_number": 2,
+      "revised_number": 2,
+      "name": "EcoChat Probe",
+      "exists": true,
+      "doi": "10.1145/3805689.3812368",
+      "year": 2026,
+      "type": "ACM FAccT proceedings paper",
+      "review_status": "King's official repository explicitly marks peer-review; publisher-deposited Crossref metadata confirms proceedings article, 5194–5218, published 2026-06-25.",
+      "authority_assessment": "Suitable peer-reviewed core adjacent research on sustainable AI interaction; results not a label-only estimate.",
+      "claim_fit": "Official abstract supports ChatGPT extension, 52 participants over four weeks, reported awareness/reflection and no significant usage-pattern change.",
+      "decision": "Retain as core adjacent feedback research; keep claims within available official abstract.",
+      "primary_urls": [
+        "https://api.crossref.org/works/10.1145/3805689.3812368",
+        "https://kclpure.kcl.ac.uk/portal/en/publications/ecochat-probe-how-energy-feedback-shapes-end-users-interpretation/"
+      ],
+      "content_access": "Official metadata and abstract confirmed. Publisher and final PDF fetches returned 403. Detailed original stimulus and analysis comparison remains incomplete."
+    },
+    {
+      "original_number": 3,
+      "revised_number": 3,
+      "name": "Good for the Planet, Bad for Me?",
+      "exists": true,
+      "doi": "10.1145/3772318.3791015",
+      "year": 2026,
+      "type": "ACM CHI Papers proceedings paper",
+      "review_status": "Official CHI Papers review process and published proceedings registration confirmed; official SIGCHI awards search lists Honorable Mention.",
+      "authority_assessment": "Strongest directly adjacent HCI core reference in this set; award does not independently validate every causal interpretation.",
+      "claim_fit": "365 participants, energy disclosure added to performance ratings, both choices GPT-4o mini. Different intervention from Light/Eco-only naming; self-selected model groups should not be treated as randomized causal quality comparisons.",
+      "decision": "Retain as central comparator.",
+      "primary_urls": [
+        "https://api.crossref.org/works/10.1145/3772318.3791015",
+        "https://athene-forschung.unibw.de/131389?change_language=en&searchmode=extended&show_id=156190",
+        "https://arxiv.org/html/2603.23075v1",
+        "https://chi2026.acm.org/papers-review-process/",
+        "https://programs.sigchi.org/chi/2026/awards/honorable-mentions"
+      ],
+      "content_access": "Author full text and institutional record read. Official awards search excerpt matches title/authors; award page itself is JavaScript-only in text fetch."
+    },
+    {
+      "original_number": 4,
+      "revised_number": 5,
+      "name": "From Perception to Action",
+      "exists": true,
+      "doi": "10.48550/arXiv.2606.10861",
+      "year": 2026,
+      "type": "arXiv preprint; related PROFES 2026 Short Papers and Posters accepted listing",
+      "review_status": "Official accepted track confirmed; final Springer/publisher version and publication DOI not verified. Do not mark formally published. Exact short-vs-poster category not resolved.",
+      "authority_assessment": "Useful supplementary study, weaker publication status for this audit than verified published conference papers.",
+      "claim_fit": "Author manuscript combines modes, per-response/pre-send feedback, dashboard and energy analogies; no isolated Eco-name causal estimate.",
+      "decision": "Move to supplementary related work. Retain preprint title and state acceptance separately.",
+      "bibliographic_cautions": [
+        "Author PDF and official conference list use Jack Gläser; arXiv metadata uses Glässer.",
+        "Conference title adds 'Use?' compared with the arXiv title.",
+        "LIPIcs CVIT2016/10.4230/LIPIcs.CVIT.2016.23 in the manuscript is sample template residue, not a verified publication DOI."
+      ],
+      "primary_urls": [
+        "https://arxiv.org/abs/2606.10861",
+        "https://arxiv.org/pdf/2606.10861",
+        "https://conf.researchr.org/track/profes-2026/profes-2026-short-papers-and-posters"
+      ],
+      "content_access": "Audit worker downloaded and inspected author PDF; root independently opened official conference accepted-program evidence. No final-publication equivalence asserted."
+    },
+    {
+      "original_number": 5,
+      "revised_number": 4,
+      "name": "When LLMs Slow Down",
+      "exists": true,
+      "doi": "10.23919/ICT4SCPS00102.2026.00038",
+      "year": 2026,
+      "type": "ICT4S 2026 Research Papers proceedings article, IEEE publisher, 322–334",
+      "review_status": "Official track specifies review by three experts, double-blind. Crossref record matches title, six authors, publication 2026-06 and IEEE publisher.",
+      "authority_assessment": "Relevant peer-reviewed specialist-conference evidence; IEEE publication should not be described as IEEE conference sponsorship.",
+      "claim_fit": "Live response latency and model-estimated carbon information, official abstract N89; not a label-only comparison or measured proof of ecological protection.",
+      "decision": "Replace arXiv-only bibliography entry with formal proceedings DOI; retain related-work role.",
+      "primary_urls": [
+        "https://api.crossref.org/works/10.23919/ICT4SCPS00102.2026.00038",
+        "https://conf.researchr.org/details/ict4s-2026/ict4s-2026-papers/23/When-LLMs-Slow-Down-How-Environmental-Impacts-Mediate-University-Students-LLM-Usage",
+        "https://conf.researchr.org/track/ict4s-2026/ict4s-2026-papers",
+        "https://arxiv.org/pdf/2608.23968"
+      ],
+      "content_access": "Official conference and root Crossref metadata checked; audit worker inspected author PDF. Final publisher PDF not compared line-by-line against preprint."
+    },
+    {
+      "original_number": 6,
+      "revised_number": 6,
+      "name": "Key Questions on Energy and AI",
+      "exists": true,
+      "year": 2026,
+      "type": "IEA institutional report, published 2026-04-16",
+      "doi": null,
+      "review_status": "Expert review acknowledgments in report, distinct from journal/conference article peer-review publication. No DOI verified.",
+      "authority_assessment": "Authoritative institutional energy-analysis background, not an empirical HCI paper.",
+      "claim_fit": "Model/task/hardware/serving conditions and uncertain aggregate demand are background context; not direct experimental proof about named Eco settings.",
+      "decision": "Retain only in explicitly labeled institutional background section.",
+      "primary_urls": [
+        "https://www.iea.org/reports/key-questions-on-energy-and-ai",
+        "https://www.iea.org/files/3179f7f8-01f6-4dd6-bffa-c9f7b73f1dc9/KeyQuestionsonEnergyandAI.pdf"
+      ],
+      "content_access": "Root official publication page read; environment auditor inspected PDF including review acknowledgments and printed pages28–30."
+    },
+    {
+      "original_number": 7,
+      "revised_number": 7,
+      "name": "Transformative AI and Demand Bottlenecks",
+      "exists": true,
+      "year": 2026,
+      "type": "BIS Working Papers No1381",
+      "doi": null,
+      "review_status": "Working-paper version, published2026-10-12; manuscript date2026-10-10. Journal peer-review publication not verified.",
+      "authority_assessment": "Recognized institution's technical working paper, with author-view disclaimer; not equivalent to established peer-reviewed empirical evidence.",
+      "claim_fit": "Calibrated endogenous-growth model links consumer-product rents to innovation; does not test Eco labels, ChatGPT usage cuts or real release delays.",
+      "decision": "Remove from core naming-study bibliography and separate as long-term theoretical background; not deleted as nonexistent.",
+      "primary_urls": [
+        "https://www.bis.org/publications/working-paper-1381-transformative-ai-and-demand-bottlenecks",
+        "https://www.bis.org/publications/working-paper-1381-transformative-ai-and-demand-bottlenecks.pdf"
+      ],
+      "content_access": "Official publication record and PDF inspected; exact Eco-use causal evidence not established."
+    }
+  ],
+  "revision": {
+    "version": "3.1",
+    "main_related_papers": 4,
+    "supplementary_preprint": 1,
+    "institutional_background_report": 1,
+    "long_term_working_paper": 1,
+    "all_seven_retained_with_restricted_roles": true,
+    "new_reference_added": false,
+    "nonexistent_papers_deleted": 0,
+    "formal_DOI_replacement": 1,
+    "reference_number_swap": {
+      "old4": "new5 Patkar",
+      "old5": "new4 Kim"
+    }
+  },
+  "nonliterature_clarifications": [
+    "Unchanged use is separate from self-editing",
+    "A limited perceived-sacrifice event requires explicit comparative usefulness, insufficiency and unchanged use; withheld/missing responses distinct"
+  ],
+  "not_established": [
+    "No exhaustive proof that no isolated naming study exists",
+    "No physical savings or AI-development slowdown established",
+    "No empirical pilot or human experiment executed",
+    "No persona rescore after bibliography/edit changes"
+  ]
+}
