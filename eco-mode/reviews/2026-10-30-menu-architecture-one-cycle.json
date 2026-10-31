@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-30",
+  "timezone": "America/Los_Angeles",
+  "record_type": "one_cycle_fictional_role_pair_dialogue",
+  "source_proposal": "research/eco-mode-research-proposal-ko-v3.1.md",
+  "source_docx_sha256": "de64c65197e2f5885f4f3fcd851f113ba9b7dc160004255d7275d54d6802bb66",
+  "source_library_version": 3,
+  "actual_LLM_pair_jobs": 3,
+  "fictional_roles": 6,
+  "completed_cycles": 1,
+  "public_role_turns": 6,
+  "interaction": "Three independent within-job exchanges A→B, C→D and E→F, each followed by a joint proposal. Root integrated the alternatives; no six-way consensus is claimed.",
+  "public_replies_verbatim": [
+    {
+      "pair": "A/B",
+      "text": "아래는 가상 페르소나의 한 사이클 논의이며 실제 전문가 심사나 평가는 아니다.\n\n**A — HCI 교수:** 현재 계획은 Eco를 Light의 대체 단어로만 취급해서 사용자가 실제로 마주할 설계 문제를 놓치고 있다. Eco와 Light가 함께 있는 메뉴, Eco·High·Max만 있는 메뉴도 연구 대상으로 삼자. 다만 공존 메뉴에서 두 옵션의 기능이 같으면 사용자는 “같은 걸 왜 두 개로 나눴지?”라고 느낄 수 있다. 그 경우 연구하는 것은 유용한 기능 구성이 아니라 중복 선택지의 의미와 혼란이다. 실질적인 공존을 제안하려면 Eco를 ‘과제에 맞춰 처리 예산을 조정하는 절약 지향 정책’, Light를 ‘고정된 낮은 처리 수준’으로 구분하는 편이 낫다.\n\n**B — 논문 설계 연구자:** 동의한다. 그러면 연구 질문도 명칭 효과에서 **환경을 고려한 모드를 선택 메뉴에 어떻게 구성할 것인가**로 바뀐다. Eco는 조정 정책이고 Light는 처리 수준이므로, 사용자가 둘의 차이를 이해하는지도 중요한 결과다. 첫 연구에서는 준비된 사례로 이 구성을 평가할 수 있지만 실제 절약이나 자동 조정 성능까지 입증하지는 않는다. 또 Eco를 선택했다고 모두 낮은 연산을 선택한 사람으로 계산하면 안 된다. 자동 정책은 과제에 따라 더 높은 수준을 사용할 수도 있기 때문이다.\n\n**공동 제안**\n\n| 역할 | 메뉴 | 확인하려는 문제 |\n| --- | --- | --- |\n| 기준 | Light / Medium / High / Extra High / Max | 처리 수준 중심 메뉴의 이해와 선택 |\n| 공존 | Eco / Light / Medium / High / Extra High / Max | 절약 지향 정책과 고정 수준의 구분, 선택지 증가에 따른 혼란 |\n| Eco 간소형 | Eco / High / Max | 절약 지향 정책을 중심에 둔 간소한 메뉴의 이해와 선택 |\n| 보조대조 | Light / High / Max | 고정 수준 메뉴를 간소화했을 때의 변화 |\n\n**주질문:** “Eco의 공존과 간소화라는 서로 다른 메뉴 구성이 기능 이해, 과제별 모드 선택, 답변 수용과 추가 요청에 어떤 차이를 만드는가?”\n\n메뉴 전체를 무작위 배정하고 기능 이해 정확도, 첫 선택 분포, 공통 답변을 그대로 사용할지 추가 작업을 요청할지를 기록한다. 공존 조건의 Eco·Light 오인과 선택 이유를 함께 분석한다. 같은 기능을 복제하는 공존안은 필요하다면 초기 인터뷰의 진단용 후보로만 다룬다.\n\n**해석 경계:** 조건 사이에서 선택지 수·기능·위치가 함께 달라지므로 결과는 메뉴 전체의 효과다. Light 간소형은 간소화의 보조대조이며, 자동 Eco와 기능이 다르므로 순수한 단어 효과의 대조가 아니다. 실제 환경 절감, 실제 성능 유지, 일반적인 성능 양보 의향으로 확대하지 않는다."
+    },
+    {
+      "pair": "C/D",
+      "text": "**C(AI 방법론, 가상 발언 1):**  \n연구 질문을 “Light를 Eco로 바꾸면 무엇이 달라지는가”에서 “Eco를 포함하는 선택구조가 모드 이해·선택·성능 양보 수용을 어떻게 바꾸는가”로 넓히자. 공존 메뉴와 간소 메뉴는 각각 의미 있는 제품 설계다. 항목 수와 명칭이 함께 달라도 메뉴 전체의 효과를 비교할 수 있다. 다만 이를 Eco라는 단어만의 효과로 설명하면 안 된다. 첫 연구에 실제 추론 설정의 2×2 실험이나 환경 절감 입증을 넣을 필요는 없다.\n\n**D(환경 연구자, 가상 응답 1):**  \n동의한다. 특히 공존 메뉴에서는 Eco 선택 증가가 Light 이용자의 이동인지, 기존 고처리 선택자의 이동인지를 구분해야 한다. Eco가 무엇을 하는지도 정직하게 정해야 한다. 같은 설정이라면 같다고 밝혀야 하고, 별도 절약 정책이라면 그 차이를 설명해야 한다. 연구용 모형에서 준비된 답변을 제시하면서 실제 에너지 절약이 구현되었다고 말해서는 안 된다. 짧은 사용자 탐색으로 Eco를 “가장 낮은 단계”, “자동 조절”, “환경 인증” 중 무엇으로 이해하는지 먼저 확인하자.\n\n**공동제안 — 권장 메뉴와 해석 범위**\n\n| 역할 | 메뉴 |\n|---|---|\n| 주비교 A: 기존 기준 | Light / Medium / High / Extra High / Max |\n| 주비교 B: 공존 | Eco / Light / Medium / High / Extra High / Max |\n| 주비교 C: 간소 | Eco / High / Max |\n| 보조 D: 간소 중립 | Light / High / Max |\n\n가장 현실적인 본조사는 **A·B·C의 세 집단 비교**다. 기존 메뉴에서 Eco를 추가하거나 간소화했을 때의 제품 수준 변화를 직접 다룬다. D는 자원이 허용되면 추가하여 C와의 명칭 비교를 보완한다. 규모를 줄여야 한다면 B를 Eco / Light / High / Max로 바꿀 수 있지만, 이때 A와의 차이는 추가와 간소화가 결합된 효과다. 이 한계를 이유로 공존 메뉴를 버리고 치환 실험으로 되돌아갈 필요는 없다.\n\n최초 선택은 다음을 분리해 보고한다.\n\n- **Eco 선택률:** 전체 배정 참가자 중 Eco 선택 비율.\n- **저처리 선택률:** A·D에서는 Light, B에서는 Eco+Light, C에서는 Eco 선택 비율.\n- **선택 분포:** 고처리·선택 보류까지 포함한 전체 분포.\n\nB에서 Eco 선택이 많아도 Eco+Light 합계가 A의 Light와 비슷하면, 저처리 선택 확대보다 **저처리 범주 안의 분배 변화**로 해석한다. 집단 간 실험만으로 개인이 Light에서 Eco로 갈아탔다고 단정하지 않는다.\n\n공존군의 기본안은 Eco와 Light가 **같은 가상 저처리 설정에 연결됨을 명시**하는 것이다. 사전 탐색에서 이러한 중복이 실제 설계 의도와 맞지 않으면 정책 차이를 구체화하고, 이후 결과를 기능·설명·메뉴 구조가 결합된 효과로 해석한다. 어느 경우든 실제 연산 차이가 구현되었다고 주장하지 않는다.\n\n모든 집단에 공통 답변과 대안을 제시해 충분한 답의 선택과 부족함을 인정하면서 사용하는 판단을 구분한다. 검증되지 않거나 서지가 모호한 문헌은 삭제하고, 확인된 자료도 직접 뒷받침하는 주장에만 남긴다."
+    },
+    {
+      "pair": "E/F",
+      "text": "**E 발언 1 — 실행·인터페이스 구현**\n\n현재 제안서는 메뉴 설계를 이름 하나의 교체로 좁혔습니다. 중심 질문을 “LLM 서비스에서 Eco를 어떤 선택지와 함께, 어떤 방식으로 제시할 때 사용자의 의미 해석·선택·성능 양보 수용이 달라지는가?”로 넓히겠습니다. 다음 네 안을 프로토타입 후보로 제안합니다.\n\n| 안 | 메뉴 구성 | 확인할 문제 |\n| --- | --- | --- |\n| A | Light / Medium / High / Extra High / Max | 기술적 수준명으로 구성된 기준 메뉴 |\n| B | Eco / Medium / High / Extra High / Max | A와 비교하는 명칭 효과 |\n| C | Eco 작업방식 토글 + Light / High / Max | Eco와 Light의 공존 및 두 선택의 관계 |\n| D | Eco / High / Max | B와 비교하는 메뉴 간소화 효과 |\n\nC에서는 Eco를 처리 수준으로 중복 배치하지 않고, **“기본 답을 먼저 보고 필요한 경우 확장을 선택하는 작업방식”**으로 정의합니다. Light는 **“간결한 답변 수준”**입니다. Eco를 켰다고 무조건 Light로 고정하지 않으며, 두 선택의 관계를 화면에서 설명합니다. 이는 연구용 동작 정의이고, 환경 절감 실적을 뜻하지 않습니다.\n\n**F 응답 1 — 연구 의도 검토**\n\nF는 제안서에 표현된 안종훈의 연구 의도를 검토하는 **가상 역할이며, 실제 사용자 안종훈의 새 발언·승인·동의가 아닙니다.**\n\n이렇게 하면 Light를 Eco로 치환하는 실험만 남기는 문제를 풀 수 있습니다. 다만 A–B만 명칭 효과이고, B–D는 선택지 수와 구성이 바뀌는 메뉴 효과입니다. C는 작업방식과 수준 선택을 분리한 인터페이스 전체의 탐색입니다. 세 비교를 모두 “Eco 단어의 효과”로 합치면 안 됩니다. Eco가 충분한 답을 고르게 하는지, 부족함을 알면서도 받아들이게 하는지를 구분하는 원래 문제의식은 유지해야 합니다.\n\n**공동 제안**\n\n혼자 준비하는 단계에서는 네 화면, 선택지별 동작표, 글쓰기·정보 정리·아이디어 과제와 공통 답변 사례를 만듭니다. A·B·D의 공통 선택지는 설명과 답변 연결을 동일하게 고정합니다. 환경 절감 수치는 제시하지 않습니다.\n\n이후 6~10명 이해도 파일럿에서 특히 C의 Eco–Light 관계와 D의 선택 부담을 확인합니다. 파일럿의 목적은 효과 입증보다 오해와 진행 문제 발견입니다. 본조사는 그 결과로 핵심 비교를 하나 정합니다. 메뉴 간소화가 중심이면 B–D를 우선하고, 명칭의 독립 효과는 A–B의 별도 비교로 남깁니다. 기존 집단당 163명 예시는 전체 설계에 옮기지 않고, 확정 비교와 필요한 정밀도에 맞춰 새로 산정합니다.\n\n최소 기록은 최초 선택·보류, Eco 의미의 자유 응답, 선택 이유, 환경 기대, 답변의 충분함, 대안 확인 뒤 최종 사용·보완·확장 선택입니다. 공통 사례 평가임을 명시하고, 실제 환경 절감 입증이나 실시간 추론 실험을 첫 연구의 필수조건으로 두지 않습니다."
+    }
+  ],
+  "root_integration_summary_not_verbatim": [
+    "Adopt A baseline, B coexistence and C compact menus; primary B–C comparison concerns menu packages.",
+    "Choose A/B's adaptive, resource-oriented Eco concept versus fixed Light as the proposed starting function definition. It remains a design proposal to be checked in a separate comprehension pilot, not user-approved implementation or measured optimization.",
+    "C/D's same-low-budget mapping remains a diagnostic alternative, not the adopted main concept. Its Eco+Light low-budget aggregation does not apply to adaptive Eco and is explicitly not used.",
+    "E/F's separate Eco workflow toggle and Light/High/Max auxiliary menu are retained as later design candidates, not all added to the first main study.",
+    "Common-response evaluation is kept distinct from the participant's selected mode; no actual model execution is implied.",
+    "Delete prior two-group163 sample illustration and respecify sample around B–C primary contrast."
+  ],
+  "scores_requested_this_turn": false,
+  "new_scores": false,
+  "previous_scores_not_applied_to_v4": true,
+  "fictional_not_external_review": true,
+  "F_is_actual_user": false,
+  "user_approval_not_assumed": true,
+  "human_experiment": false,
+  "study_model_inference": false,
+  "environment_measurement": false,
+  "revised_proposal": "research/eco-mode-research-proposal-ko-v4.md",
+  "reference_record": "research/2026-10-30-menu-reference-pruning.json",
+  "revision": {
+    "title": "LLM 서비스의 Eco 메뉴 구성과 사용자 선택에 관한 연구계획서",
+    "version": "4.0",
+    "library": {
+      "operation": "replace_library_file",
+      "status": "succeeded",
+      "path": "/박사연구/Eco_Mode_Research_Proposal_KO_v4.docx",
+      "file_id": "file_0000000098a081fd8a996b637cc05aeb",
+      "library_file_id": "libfile_d9bf5519847081919d4359991648ae01",
+      "file_name": "Eco_Mode_Research_Proposal_KO_v4.docx",
+      "current_version_number": 4,
+      "restored_from_version_number": null,
+      "directory_id": "6addbc1f44ec8191a3fca9d576a047a6",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "library_artifact_type": "report",
+      "file_size_bytes": 48225
+    },
+    "validation": {
+      "docx": {
+        "path": "/workspace/scratch/c758c396043e/eco_research_proposal_v4/Eco_Mode_Research_Proposal_KO_v4.docx",
+        "size": 48225,
+        "sha256": "ef57a9dbaef1593c776cbc08150addd724ba5d3cd803d15380a339f61856f697"
+      },
+      "markdown": {
+        "path": "/workspace/scratch/c758c396043e/eco_research_proposal_v4/Eco_Mode_Research_Proposal_KO_v4.md",
+        "size": 21532,
+        "sha256": "1ca328be47989bfe9debe36adc9d6ff4505f8d4a4f0510c569784c478a4bdc94"
+      },
+      "pages": 10,
+      "references": 6,
+      "tables": 4,
+      "all_pages_visually_checked": true,
+      "actual_study_executed": false
+    },
+    "main_comparison": "B coexistence versus C compact, whole-menu effect",
+    "baseline": "A existing technical-effort menu",
+    "prior_versions_preserved": true,
+    "main_manuscript_v06_unchanged": true,
+    "final_version_not_rereviewed_or_scored": true
+  }
+}
