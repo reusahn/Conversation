@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-05",
+  "document": "Eco Mode Menu Design and User Choice in LLM Services",
+  "version": "English 1.0",
+  "record_type": "editorial_preparation_not_empirical_review",
+  "source": {
+    "library_file_id": "libfile_d9bf5519847081919d4359991648ae01",
+    "version_id": "4",
+    "filename": "Eco_Mode_Research_Proposal_KO_v4.docx",
+    "source_read": "Fresh complete Library read, 347 lines, 10 pages, no remaining text",
+    "archive": "research/eco-mode-research-proposal-ko-v4.md"
+  },
+  "output": {
+    "operation": "create_library_file",
+    "status": "succeeded",
+    "path": "/박사연구/Eco_Mode_Research_Proposal_EN_v1.docx",
+    "file_id": "file_00000000e04c81fda0a6bf8e660d89b9",
+    "library_file_id": "libfile_cfa729f288fc8191a7264e98bb994cec",
+    "file_name": "Eco_Mode_Research_Proposal_EN_v1.docx",
+    "current_version_number": 0,
+    "restored_from_version_number": null,
+    "xattrs": [
+      {
+        "name": "user.library-file-version",
+        "value": "0"
+      }
+    ],
+    "directory_id": "6addbc1f44ec8191a3fca9d576a047a6",
+    "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "library_artifact_type": "report",
+    "file_size_bytes": 46952,
+    "external_connectors_accessed": false,
+    "docx_sha256": "88daea661fbed417848b0ecd88e9f0240a25b8ce4be3e1c1f1f058004fc978bb",
+    "size_bytes": 46952,
+    "markdown_sha256": "790f074e48a6e95f3c1fcd88c3da959d43632ede84b993ed076c18ef549257d5",
+    "pages": 8,
+    "archive": "research/eco-mode-research-proposal-en-v1.md"
+  },
+  "adaptation": [
+    "Rewritten in English for outside academic readers, with research overview, rationale, questions, menu conditions, procedure, outcomes, analysis, feasibility, ethics, contribution and scope.",
+    "Retains Korean-speaking adult LLM users as initial study population; English examples are illustrative translations. English-language replication requires linguistic validation.",
+    "Three authored task-response pairs and participant guidance retained in appendices. Common response evaluation explicitly independent of mode execution.",
+    "Korean v4 preserved as a separate Library item and GitHub source; manuscript v0.6 unchanged."
+  ],
+  "scope": {
+    "menus": {
+      "A": "Light / Medium / High / Extra High / Max",
+      "B": "Eco / Light / Medium / High / Extra High / Max",
+      "C": "Eco / High / Max"
+    },
+    "primary": "First-task Eco selection proportion difference, compact minus coexistence, with 95% CI",
+    "interpretation": "Whole-menu package effect; not independent Eco-word effect",
+    "function": "Adaptive conservation-oriented Eco policy versus fixed low Light; proposed concept only",
+    "acceptance": "Unchanged use separated from personal editing; adequate brevity separated from explicit perceived shortcoming acceptance",
+    "sample": "6–10 formative participants and 20–30 minute sessions proposed; main N and costs to be fixed before recruitment",
+    "environment": "No measured resource or environmental savings, no evidence of development slowdown; quality preservation and physical savings are not first-study success gates"
+  },
+  "reference_check": {
+    "retained_entries": 6,
+    "primary_current_reads": [
+      "Princeton publication record and GPTFootprint author manuscript arXiv2505.24107v1",
+      "King's College London EcoChat official publication record and abstract",
+      "Klesel and Messer author manuscript arXiv2603.23075v1",
+      "Official ICT4S2026 research paper listing and abstract for Kim et al.",
+      "INFORMS Context-Dependent Preferences article page and abstract",
+      "IEA Key Questions on Energy and AI official report page"
+    ],
+    "not_claimed": "A new systematic review, complete publisher-full-text audit of every paper, or proof of first-of-kind novelty",
+    "previously_removed_sources_restored": false
+  },
+  "validation": {
+    "pages": 8,
+    "visual_review": "Every final page checked; final change affected page2 only, which was reinspected, while other seven final PNGs were byte-identical to already inspected images.",
+    "tables": 3,
+    "references": 6,
+    "menu_and_citation_scope_checks": "passed",
+    "blank_or_spill_pages": false,
+    "internal_citation_tokens": false
+  },
+  "new_persona_jobs": false,
+  "new_scores": false,
+  "human_participants_run": false,
+  "actual_model_experiment": false,
+  "physical_resource_measurement": false,
+  "recruitment_started": false,
+  "spending_started": false,
+  "messages_sent_to_others": false,
+  "user_final_approval_assumed": false
+}
