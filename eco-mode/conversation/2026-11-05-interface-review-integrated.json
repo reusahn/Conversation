@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-11-05",
+  "record_type": "visible_conversation_verbatim",
+  "scope": "New visible user and assistant messages for this revision turn only; no hidden reasoning or inaccessible historical text.",
+  "messages": [
+    {
+      "role": "user",
+      "content": "다시 계획서에 반영해"
+    },
+    {
+      "role": "assistant",
+      "channel": "commentary",
+      "content": "영문 계획서에 실제 서비스 UI 비교를 사전조사로 넣을게. Gemini·ChatGPT Work·Claude의 선택 구조를 Eco의 위치와 설명을 정하는 근거로 연결하고, 본실험에서 확인할 질문과 지표도 그에 맞춰 다듬겠어."
+    },
+    {
+      "role": "assistant",
+      "channel": "commentary",
+      "content": "서비스 비교를 논문 선행연구와 구분해 넣고 있어. 비교 결과는 Eco를 어디에 배치하고 어떻게 설명할지 정하는 근거로 쓰고, 본실험은 공통 화면으로 진행하도록 정리할게. 그래야 브랜드나 답변 성능 차이가 Eco 인터페이스의 효과와 섞이지 않아."
+    },
+    {
+      "role": "assistant",
+      "channel": "commentary",
+      "content": "계획서에 서비스 비교표와 사전조사 절차를 추가했어. 기존 6개 옵션은 비교 조사와 파일럿에서 적절성을 확인할 후보안으로 명시했고, Eco의 기능 설명이 바뀌면 이해도 문항도 함께 수정하도록 연결했어. 지금은 문서의 흐름과 페이지 배치를 확인 중이야."
+    },
+    {
+      "role": "assistant",
+      "channel": "commentary",
+      "content": "9쪽 전체 검토를 마쳤어. 공식 제품 문서는 서비스 UI의 설계 근거로, 학술 논문은 선행연구로 구분했어. 중심 질문도 “기존 모델·추론 선택 구조에 Eco라는 환경 목표를 더하면 사용자는 무엇을 이해하고 양보하는가”로 맞췄고, 수정본과 변경 기록을 정리하고 있어."
+    },
+    {
+      "role": "assistant",
+      "channel": "final",
+      "content": "반영했어. **영문 연구계획서 v3**로 수정했어.\n\n- Gemini·ChatGPT Work·Claude의 UI 비교표와 사전조사 절차 추가\n- 비교 결과로 Eco의 위치·설명을 정하고 파일럿을 거쳐 본실험을 확정하도록 수정\n- Eco 이해도·선택·성능 양보와 실제 환경 절감의 측정 범위 구분\n\n중심은 **“기존 모델·추론 선택 구조에 Eco라는 환경 목표를 더하면 사용자는 무엇을 이해하고 양보하는가”**야.\n\n[Eco_Mode_Research_Proposal_EN_v3.docx](https://chatgpt.com/library?file_id=libfile_cfa729f288fc8191a7264e98bb994cec&account_id=personal) · [변경 기록](https://github.com/reusahn/Conversation/blob/main/eco-mode/reviews/2026-11-05-english-proposal-v3-interface-grounding.json)"
+    }
+  ],
+  "revision_record": "reviews/2026-11-05-english-proposal-v3-interface-grounding.json",
+  "proposal": "research/eco-mode-research-proposal-en-v3.md",
+  "library_file_id": "libfile_cfa729f288fc8191a7264e98bb994cec"
+}
