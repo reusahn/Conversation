@@ -1,5 +1,12 @@
 # 이어가기
 
+## Current entry point as of November 5 2026
+
+The current proposal is **English v3**, research/eco-mode-research-proposal-en-v3.md. Read this entry and reviews/status.json before historical notes below. The user most recently requested that the cross-service interface comparison be integrated. Earlier hardware/energy protocol requirements and persona-score goals are historical and must not override the current proposal or trigger unrequested agents, scoring or hardware questions.
+
+Current scope is Eco meaning, understood choice and accepted compromises within LLM model/effort/automatic-selection controls. A comparative review of Gemini Apps, ChatGPT Work and Claude precedes the formative pilot. Official documentation supplies preliminary design context; the standardized signed-in interface audit has not yet been completed. The flat/grouped six-option design is a concrete candidate to validate after the review, with function descriptions and comprehension scoring frozen before preregistration. Main human work uses an unbranded common prototype and prepared responses, not live provider performance or energy comparisons.
+
+
 ## 사용자의 현재 요청
 
 이 연구의 사용자–도우미 대화와 가상 페르소나 대화를 reusahn/Conversation에 저장하고 각 턴마다 갱신한다.
@@ -417,3 +424,19 @@ Official documentation comparison confirms existing product patterns: Gemini App
 This refines the originality framing: separate setting categories and adaptive selection already exist and must not be presented as novelty alone. The research question should address what users infer when an environmental Eco goal is added to existing model/effort/automatic-choice controls, and what compromises they will accept. Recommended Stage0 is a comparative interface review that records axes, hierarchy, speed/quality/usage/environment wording, defaults, surface, plan, language and date; use it to justify Eco placement and recheck the six-option concept. The controlled human experiment should retain shared tasks/authored responses to reduce brand/backend-quality confounding. Do not silently launch multi-provider performance or energy experiments.
 
 Current English v2 proposal was freshly read, Library libfile_cfa729f288fc8191a7264e98bb994cec version1. It remains unchanged this turn; comparative review integration is recommended, not falsely claimed applied. No new personas/scores, recruitment, live model benchmarks or physical measurements. Evidence and recommendation: research/2026-11-05-cross-service-interface-comparison.json. Visible transcript: conversation/2026-11-05-gemini-cross-llm-ui.json.
+
+## 2026-11-05 English proposal v3 integrates comparative service interfaces
+
+User instruction verbatim: 다시 계획서에 반영해. The English v2 source was freshly read and materialized from Library libfile_cfa729f288fc8191a7264e98bb994cec version1; source SHA2562ee1aef8af9b8062ffc2bc477271aa70060afdfd31b2dae25a606f3370360b36. The same item is now Eco_Mode_Research_Proposal_EN_v3.docx, Library version3, file_id file_00000000750481fd8d56238af257e8b9. Final DOCX50063bytes and9pages, SHA256b8c44b54d87c270bc84a7da09e979b7c9fa259cabfbfebef7fbca718a012d2b5. Markdown SHA256632f02f40d6f7d61c4f6283af6afd1b44b5792a9474a3c77a33432992e5d5b8b. An intermediate version2 was followed by a minor inherited heading correction; final version3 passed all checks.
+
+The new Section2 adds preliminary documented patterns, a comparison table and a planned repeatable walkthrough. Records will identify service surface/client, plan, language, date, defaults, exact labels, nesting, descriptions and disabled/unavailable controls. Direct observations and official documentation are distinguished. Gemini model/thinking/Auto, ChatGPT Work Power/Advanced controls, and Claude model/effort/thinking are design precedents; ordinary Chat is not inferred from Work documentation. Three product-document sources P1–P3 are separate from the retained seven scholarly/background references. Existing grouping and adaptive selection alone are not claimed as original, and no exhaustive first-study or Eco-absence claim is made.
+
+The review will justify Eco placement and check whether the current flat/grouped six-option structure is appropriate. Eco currently proposes an adaptive conservation policy, Light fixed low effort and Medium through Max progressively higher fixed profiles. The pilot will investigate confusion with both Light and ordinary Auto. Substantial mapping/menu changes require revised comparison, items, scoring and sample planning before recruitment. Both candidate menus include Eco, so the contrast estimates a presentation package rather than a pure Eco-name effect. The compact Eco/High/Max alternative remains a possible follow-up.
+
+The candidate primary event remains first-task Eco choice plus all three correct post-choice function items, with a grouped-minus-flat proportion difference and two-sided95% CI. Correctness follows the final disclosed concept, not real-provider assumptions; all assigned groups remain in analysis. Common X/Y evaluation, first action versus later branches, editing versus unchanged use, sufficiency versus acknowledged inadequacy, and separate stopping/deferral reasons are retained. Environmental expectations and confidence remain reports, not actual savings, causal mediation, adoption or proof of a motive.
+
+All nine page PNGs were visually reviewed. After the heading correction, page8 was reinspected and the remaining eight page images verified byte-identical. Four tables, ten source labels (seven scholarly/background and three product docs), nine prompt/response blocks, headings and three anchored revision comments passed structural checks. Same Library identity/version history preserved. Korean v4 and manuscript v0.6 remain unchanged older artifacts.
+
+No new personas/scores, participant recruitment, human/model experiment, backend benchmark, physical measurement, spending or messages to others occurred. No final wording approval or empirical validation is assumed. Next: complete the review, validate Eco concept/placement in the separate6–10-person formative pilot after applicable procedures, then finalize Korean materials, Z branches/logging, main sample/precision, missing-data rules and preregistration. Actual environmental savings and AI-development slowdown remain separate research questions.
+
+Full proposal: research/eco-mode-research-proposal-en-v3.md. Revision and source evidence: reviews/2026-11-05-english-proposal-v3-interface-grounding.json. Visible conversation: conversation/2026-11-05-interface-review-integrated.json.
