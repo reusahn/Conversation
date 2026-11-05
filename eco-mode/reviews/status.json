@@ -180,7 +180,7 @@
   "latest_addendum": "research/v4-analysis-contract.md",
   "environmental_claim_scope": "Current English v2 estimates flat-versus-function-grouped presentation effects on joint Eco selection/post-choice functional understanding and on common authored-response judgments/prototype actions. No isolated Eco-word effect, implemented adaptive engine, live-service use, resource savings, ecological protection or AI-development slowdown is established.",
   "F_is_not_actual_user_or_participant": true,
-  "latest_conversation": "conversation/2026-11-05-interface-review-integrated.json",
+  "latest_conversation": "conversation/2026-11-05-eco-expectations-and-environment-scope.json",
   "latest_protocol_sha256": "37d3be52f7740428c18164cf7a36f211a8c078e472d8870835cf9e9f8f7234d8",
   "all_personas_above_90": false,
   "current_review_attempt": {
@@ -228,7 +228,8 @@
       "Determine main N/effect or precision target, missingness, compensation and stopping rules",
       "Preregister main contrast and analyses and complete applicable human-study procedures"
     ],
-    "interface_grounding": "Official documentation and prior user-provided Gemini screenshots. Not a completed standardized signed-in audit or proof that no Eco feature exists elsewhere."
+    "interface_grounding": "Official documentation and prior user-provided Gemini screenshots. Not a completed standardized signed-in audit or proof that no Eco feature exists elsewhere.",
+    "expectation_environment_clarification": "Current English v3 studies Eco expectations, understanding, benefit-belief confidence and prototype choices/compromises. Actual environmental effects remain important separate questions, not measured outcomes or success gates. Both menus include Eco; presentation contrast is not isolated Eco-word causation."
   },
   "latest_collaborative_edit": {
     "date": "2026-10-29",
@@ -1230,5 +1231,13 @@
     "integrated_proposal": "research/eco-mode-research-proposal-en-v3.md",
     "integration_record": "reviews/2026-11-05-english-proposal-v3-interface-grounding.json"
   },
-  "current_product_documentation_sources": 3
+  "current_product_documentation_sources": 3,
+  "latest_scope_clarification": {
+    "date": "2026-11-05",
+    "record": "conversation/2026-11-05-eco-expectations-and-environment-scope.json",
+    "scope": "Current English v3 studies Eco expectations, understanding, benefit-belief confidence and prototype choices/compromises. Actual environmental effects remain important separate questions, not measured outcomes or success gates. Both menus include Eco; presentation contrast is not isolated Eco-word causation.",
+    "proposal_changed": false,
+    "new_scores": false,
+    "actual_experiment": false
+  }
 }
