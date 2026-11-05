@@ -180,7 +180,7 @@
   "latest_addendum": "research/v4-analysis-contract.md",
   "environmental_claim_scope": "Current Korean v4 and English v1 proposals examine Eco coexistence and compact menu configurations in a disclosed prototype with authored response examples. They estimate menu-package effects on choices and judgments; they do not establish pure naming effects, actual adoption, token/electricity/carbon/water/ecological savings, or AI-development slowdown.",
   "F_is_not_actual_user_or_participant": true,
-  "latest_conversation": "conversation/2026-11-05-english-research-proposal.json",
+  "latest_conversation": "conversation/2026-11-05-eco-menu-prior-work.json",
   "latest_protocol_sha256": "37d3be52f7740428c18164cf7a36f211a8c078e472d8870835cf9e9f8f7234d8",
   "all_personas_above_90": false,
   "current_review_attempt": {
@@ -219,7 +219,8 @@
     "evidence_types": "Retrospective report, recorded scenario judgment, and hypothetical/future plan distinguished.",
     "primary_research_direction": "Eco coexistence with existing technical levels versus Eco/High/Max compact menu, assessing function understanding, environmental interpretation, mode choice and perceived performance-sacrifice acceptance.",
     "current_documents_alignment": "Korean proposal v4 and separate shareable English proposal v1 retain coexistence and compact menu comparisons. Main manuscript v0.6 is unchanged; old v3 scores do not apply to either proposal.",
-    "task_materials": "Prepared writing, information-organization and ideation pairs; common evaluation separated from mode execution."
+    "task_materials": "Prepared writing, information-organization and ideation pairs; common evaluation separated from mode execution.",
+    "novelty_claim": "Specific menu comparison is a novelty candidate; exact prior design not located in bounded2026-11-05 search. Related mode-choice/eco-feedback work exists; no first-of-kind claim established."
   },
   "latest_collaborative_edit": {
     "date": "2026-10-29",
@@ -1000,5 +1001,19 @@
     "recruitment_started": false,
     "physical_measurement": false,
     "user_final_approval_assumed": false
+  },
+  "latest_proposal_menu_novelty_check": {
+    "date": "2026-11-05",
+    "record": "research/2026-11-05-menu-novelty-check.json",
+    "proposal": "research/eco-mode-research-proposal-en-v1.md",
+    "conclusion": "Related Eco chatbot UI, mode-choice and tradeoff work exists. Exact coexistence-versus-compact menu comparison not identified in a bounded two-engine search; not a no-prior-work or first-study certification.",
+    "novelty_candidate": "Menu effects on comprehension of adaptive Eco versus fixed effort levels, choices and perceived sacrifice; different menu items alone do not establish contribution.",
+    "closest_confirmed": "Klesel/Messer CHI2026 author manuscript; Kim et al ICT4S2026 official abstract; Patkar et al public arXiv abstract.",
+    "access_limits": "Kim/Patkar arXiv full HTML/PDF opens failed; no new complete full-text comparison.",
+    "patkar": "Public preprint remains relevant to novelty even though it was removed from the active proposal bibliography under prior source-pruning requirements. Not restored in this turn.",
+    "proposal_changed": false,
+    "new_scores": false,
+    "new_persona_jobs": false,
+    "actual_experiment": false
   }
 }
