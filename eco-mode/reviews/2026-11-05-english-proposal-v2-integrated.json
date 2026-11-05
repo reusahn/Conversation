@@ -1,0 +1,118 @@
+{
+  "date": "2026-11-05",
+  "operation": "English research proposal revision",
+  "user_request": "연구계획서에 반영해봐",
+  "authorization": "Integrate the immediately preceding flat-versus-grouped menu and understanding-based choice recommendation; no final wording approval assumed.",
+  "source": {
+    "library_file_id": "libfile_cfa729f288fc8191a7264e98bb994cec",
+    "filename": "Eco_Mode_Research_Proposal_EN_v1.docx",
+    "file_id": "file_00000000e04c81fda0a6bf8e660d89b9",
+    "library_version": 0,
+    "docx_sha256": "88daea661fbed417848b0ecd88e9f0240a25b8ce4be3e1c1f1f058004fc978bb",
+    "fresh_read": true,
+    "fresh_materialization": true,
+    "prior_archive": "research/eco-mode-research-proposal-en-v1.md"
+  },
+  "result": {
+    "operation": "replace_library_file",
+    "status": "succeeded",
+    "path": "/박사연구/Eco_Mode_Research_Proposal_EN_v2.docx",
+    "file_id": "file_00000000c0b481fd98b7c58375115fc8",
+    "library_file_id": "libfile_cfa729f288fc8191a7264e98bb994cec",
+    "file_name": "Eco_Mode_Research_Proposal_EN_v2.docx",
+    "current_version_number": 1,
+    "restored_from_version_number": null,
+    "xattrs": [
+      {
+        "name": "user.library-file-version",
+        "value": "1"
+      }
+    ],
+    "directory_id": "6addbc1f44ec8191a3fca9d576a047a6",
+    "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "library_artifact_type": "report",
+    "file_size_bytes": 47217,
+    "external_connectors_accessed": false,
+    "filename": "Eco_Mode_Research_Proposal_EN_v2.docx",
+    "docx_path": "/workspace/scratch/c758c396043e/eco_proposal_en_revision2_20261105/Eco_Mode_Research_Proposal_EN_v2.docx",
+    "docx_sha256": "2ee1aef8af9b8062ffc2bc477271aa70060afdfd31b2dae25a606f3370360b36",
+    "markdown_sha256": "297281f34bf3900c3a082298b0659f54c6c48001f86abfbae87b79aa37d24c5d",
+    "size_bytes": 47217,
+    "pages": 8,
+    "page_words": [
+      392,
+      304,
+      361,
+      425,
+      337,
+      283,
+      379,
+      556
+    ],
+    "tables": 3,
+    "references": 7,
+    "structural_checks": "passed",
+    "unchanged_since_verified_render": [
+      1,
+      2,
+      5,
+      6,
+      7,
+      8
+    ],
+    "version": "English revision 2",
+    "archive": "research/eco-mode-research-proposal-en-v2.md"
+  },
+  "changes": [
+    "Main design changed from three A/B/C menus and B–C Eco choice to two 1:1 flat/function-grouped presentations with the same six options and proposed functions.",
+    "Grouped presentation separates adaptive conservation-policy Eco from fixed Light/Medium/High/ExtraHigh/Max. Shared item wording, option order, controls and responses held constant; group headings/spacing are intended presentation package, not pure naming effect.",
+    "Primary event is first-task Eco selection AND all three correct post-choice functional comprehension items, compared grouped-minus-flat with95% CI. Raw choice and comprehension remain separate outcomes; all randomized groups retained.",
+    "Three comprehension items, scoring0–3/all-correct criterion and do-not-know versus missing distinctions added to Appendix A.",
+    "Common authored X/Y evaluation independent of selected-mode execution retained. Initial versus post-comparison sufficiency ratings separated; perceived-sacrifice event uses post-comparison judgment and choosing X unchanged.",
+    "Recorded first action after common X/Y exposure precedes optional branches. X/Y unchanged use, editing, opening authored Z, selecting another mode, using neither and deferral distinguished. Later branches exploratory.",
+    "Compact Eco/High/Max menu retained as follow-up, not third main arm.",
+    "Pilot, sample/precision planning and analysis updated for joint primary endpoint. Main N, duration/compensation and final materials/logging still require specification before collection.",
+    "Korean-speaking adult LLM-user scope retained; English examples remain illustrative translations.",
+    "Standard Word fonts used for portability; all8 final pages visually verified, including final revised pages3/4 and unchanged-image confirmation for remaining pages."
+  ],
+  "reference_update": {
+    "previous_count": 6,
+    "current_count": 7,
+    "added": {
+      "authors": "Hagai Rabinovitch; Isabel Kashi; Shaul Shalvi",
+      "title": "Informing users about LLMs' environmental costs encourages ethical consumption",
+      "journal": "Computers in Human Behavior",
+      "volume": 187,
+      "article": "109214",
+      "bibliographic_year": 2027,
+      "doi": "10.1016/j.chb.2026.109214",
+      "primary_url": "https://www.sciencedirect.com/science/article/pii/S0747563226003110",
+      "basis": "Indexed publisher metadata and abstract; February2027 issue assigned, online article available as of this proposal. Full direct publisher access returned403; Crossref endpoint inaccessible. No exact first-online date claimed."
+    },
+    "retained": "Five previously verified academic contributions plus IEA institutional background. IEA renumbered7; types distinguished.",
+    "not_restored": [
+      "Patkar preprint",
+      "BIS working paper",
+      "SFU thesis"
+    ],
+    "not_claimed": "New systematic novelty clearance or complete full-text audit of all papers"
+  },
+  "scope_limits": [
+    "Adaptive Eco is a proposed conceptual mapping requiring pilot validation, not implemented resource allocation.",
+    "Post-choice demonstration does not prove understanding preceded the initial choice, ecological motive, consent quality, or causal mediation.",
+    "Comprehension questions may prompt later reflection; later actions interpreted within shared study sequence.",
+    "Prototype branch choices do not establish actual task completion, long-term service use, resource savings or ecological benefit.",
+    "Quality preservation and environmental savings not success gates; no first-of-kind claim."
+  ],
+  "remaining_materials": "Full prototype, optional Z texts and branch instructions to be authored and piloted before collection; proposal not presented as executable preregistration.",
+  "korean_proposal": "KOv4 preserved unchanged as older design; current English v2 supersedes its main-study design for this thread.",
+  "manuscript_v06_changed": false,
+  "new_persona_jobs": false,
+  "new_scores": false,
+  "actual_human_study": false,
+  "actual_model_experiment": false,
+  "physical_measurement": false,
+  "recruitment_started": false,
+  "spending_started": false,
+  "messages_sent_to_others": false
+}
