@@ -180,7 +180,7 @@
   "latest_addendum": "research/v4-analysis-contract.md",
   "environmental_claim_scope": "Current English v2 estimates flat-versus-function-grouped presentation effects on joint Eco selection/post-choice functional understanding and on common authored-response judgments/prototype actions. No isolated Eco-word effect, implemented adaptive engine, live-service use, resource savings, ecological protection or AI-development slowdown is established.",
   "F_is_not_actual_user_or_participant": true,
-  "latest_conversation": "conversation/2026-11-05-english-proposal-v2-revision.json",
+  "latest_conversation": "conversation/2026-11-05-gemini-cross-llm-ui.json",
   "latest_protocol_sha256": "37d3be52f7740428c18164cf7a36f211a8c078e472d8870835cf9e9f8f7234d8",
   "all_personas_above_90": false,
   "current_review_attempt": {
@@ -220,14 +220,15 @@
     "primary_research_direction": "Semantic organization of adaptive Eco and fixed effort settings, choice with demonstrated understanding, perceived sacrifice and prototype continuation.",
     "current_documents_alignment": "English v2 is current main-study design. Korean v4 retains older A/B/C coexistence-versus-compact design. Manuscript v0.6 unchanged.",
     "task_materials": "Authored writing/information/ideation X/Y pairs; common evaluation independent of selected-mode execution. Optional Z and full logging still to be finalized.",
-    "novelty_claim": "Specific design contribution candidate; no first-of-kind certification or new systematic novelty clearance.",
+    "novelty_claim": "Environmental-goal Eco interpretation, choice and compromises remain a contribution candidate. Separating model/effort settings or automatic selection alone is not new; no first-of-kind claim.",
     "required_before_collection": [
       "Validate Eco/Light concept and grouping in separate pilot",
       "Fix Korean materials,3 comprehension items/scoring, Z responses and branches",
       "Set main N/effect or precision target, missingness and stopping rules",
       "Preregister primary/secondary analyses and pilot session burden",
       "Complete applicable human-study procedures"
-    ]
+    ],
+    "interface_grounding": "2026-11-05 user supplied Gemini model/thinking screenshots; comparative review of Gemini Apps, ChatGPT Work and Claude recommended before pilot. Current six-option flat/grouped prototype is a research concept to justify, not a claim about current provider menus."
   },
   "latest_collaborative_edit": {
     "date": "2026-10-29",
@@ -1167,5 +1168,20 @@
     "retained_entries": 6,
     "current_entries": 7,
     "previous_removed_sources_restored": false
+  },
+  "latest_cross_service_interface_review": {
+    "date": "2026-11-05",
+    "record": "research/2026-11-05-cross-service-interface-comparison.json",
+    "basis": "Two user-provided Gemini screenshots viewed directly; official Gemini Apps, ChatGPT Work and Claude documentation searched/opened.",
+    "existing_patterns": "Gemini model plus Low/Medium/High and Auto; ChatGPT Work Power presets plus Advanced model/effort/speed; Claude model/effort/thinking with model-dependent support.",
+    "novelty_clarification": "Control separation and automatic model/effort selection are existing product patterns, not sufficient standalone novelty. Focus on environmental-goal Eco meaning and user-understood compromises.",
+    "recommendation": "Add a standardized comparative UI review before pilot; use it to justify the prototype's axes, option set and Eco placement. Main controlled prototype should use shared tasks/authored answers rather than confound brands/backend quality.",
+    "evidence_type": "Product-interface documentation and screenshots, not empirical prior papers or physical savings measurements.",
+    "scope_limit": "Initial official-doc comparison, not completed signed-in account audit of every provider; exact screenshot version strings are observations, not universal-availability certification.",
+    "proposal_file_changed": false,
+    "document_integration_status": "Recommended for next proposal update; saved English v2 unchanged this turn.",
+    "new_persona_jobs": false,
+    "new_scores": false,
+    "actual_experiment": false
   }
 }
