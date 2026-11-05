@@ -1,0 +1,77 @@
+{
+  "date": "2026-11-05",
+  "record_type": "Preliminary cross-service interface comparison and research recommendation",
+  "user_request": "제미나이는 이렇거든 다른 ㅣlm도 뭔가 비교하면서 하는게 좋지않을까",
+  "screenshots": [
+    {
+      "library_file_id": "libfile_79210a1f6e14819185c4f435c9358300",
+      "filename": "스크린샷 2026-11-05 오후 12.35.10.png",
+      "basis": "Viewed attached local image, not Library read",
+      "visible_text": [
+        "낮음 — 빠르고 효율적",
+        "보통 — 균형 잡힌 깊이",
+        "높음 — 매우 철저함"
+      ],
+      "observation": "Three thinking-depth options, Low visibly selected."
+    },
+    {
+      "library_file_id": "libfile_cfc5090817c0819199eb0fc340762062",
+      "filename": "스크린샷 2026-11-05 오후 12.35.04.png",
+      "basis": "Viewed attached local image, not Library read",
+      "visible_text": [
+        "3.5 Flash-Lite — 가장 빠른 답변 제공",
+        "3.8 Flash — 무엇이든 도움을 받으세요",
+        "3.1 Pro — 고급 추론",
+        "4 Argon — 복잡한 작업",
+        "사고 수준"
+      ],
+      "observation": "Model list and separate thinking-level submenu; Flash visibly selected.",
+      "scope": "User identifies service as Gemini. Exact screenshot version strings are transcribed observations, not independently certified universal availability."
+    }
+  ],
+  "current_proposal": {
+    "library_file_id": "libfile_cfa729f288fc8191a7264e98bb994cec",
+    "filename": "Eco_Mode_Research_Proposal_EN_v2.docx",
+    "version_id": "1",
+    "basis": "Fresh complete Library read",
+    "changed": false
+  },
+  "official_sources": [
+    {
+      "service": "Gemini Apps",
+      "url": "https://support.google.com/gemini/answer/18648722?hl=en",
+      "retrieval": "Official page opened; it rendered Android tab with web and manual-selection instructions; earlier indexed computer page also retrieved.",
+      "findings": "Model families Flash-Lite/Flash/Pro/Argon; separate Low/Medium/High thinking levels and Auto model/thinking selection; availability varies by plan.",
+      "limits": "No precise equivalence between screenshot version numbers and universal product availability certified."
+    },
+    {
+      "service": "ChatGPT Work",
+      "url": "https://learn.chatgpt.com/docs/models",
+      "retrieval": "Official OpenAI page opened and substantive sections located with find.",
+      "findings": "Power presets and Advanced controls for model/reasoning effort/speed; explicit Work/Codex scope; options vary by client/plan/rollout.",
+      "limits": "Not generalized to ordinary ChatGPT Chat picker, and API documentation not substituted for consumer UI."
+    },
+    {
+      "service": "Claude chat",
+      "url": "https://support.claude.com/en/articles/8664678-change-the-model-effort-and-thinking-settings",
+      "retrieval": "Official help article opened.",
+      "findings": "Model, effort and thinking controls; some models have thinking always on; availability/model support matters."
+    }
+  ],
+  "interpretation": {
+    "existing_design": "Separating or combining model and effort controls, and automatic selection, already exist as product patterns. These product documents are interface evidence, not prior empirical papers.",
+    "correction": "Do not present separate setting categories or adaptive selection alone as the research's novelty. Specific Eco semantic organization and user-understood tradeoffs remain a contribution candidate.",
+    "refined_question": "When an environmental Eco goal is added to services that already expose model/effort/automatic choice, what function do users infer and what compromises will they accept?",
+    "recommended_stage0": "Comparative interface review of Gemini Apps, ChatGPT Work and Claude before the comprehension pilot; record axes, hierarchy, wording of speed/quality/usage/environment, defaults, client, language, plan and observation date.",
+    "experimental_scope": "Use review to justify Eco placement/descriptions and test current six-option concept. Keep common tasks/authored responses in neutral prototype; avoid attributing brand/model-performance differences to Eco framing.",
+    "resources": "UI efficiency or provider descriptions do not independently measure ecological savings; environmental measurement remains outside first prototype study."
+  },
+  "status": "Preliminary official-document comparison plus user-provided screenshots; not a completed standardized signed-in UI audit across all providers.",
+  "proposal_edited": false,
+  "reference_list_changed": false,
+  "new_persona_jobs": false,
+  "new_scores": false,
+  "live_model_benchmark": false,
+  "human_study": false,
+  "physical_measurement": false
+}
