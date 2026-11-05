@@ -440,3 +440,8 @@ All nine page PNGs were visually reviewed. After the heading correction, page8 w
 No new personas/scores, participant recruitment, human/model experiment, backend benchmark, physical measurement, spending or messages to others occurred. No final wording approval or empirical validation is assumed. Next: complete the review, validate Eco concept/placement in the separate6–10-person formative pilot after applicable procedures, then finalize Korean materials, Z branches/logging, main sample/precision, missing-data rules and preregistration. Actual environmental savings and AI-development slowdown remain separate research questions.
 
 Full proposal: research/eco-mode-research-proposal-en-v3.md. Revision and source evidence: reviews/2026-11-05-english-proposal-v3-interface-grounding.json. Visible conversation: conversation/2026-11-05-interface-review-integrated.json.
+
+
+## 2026-11-05 Clarification of perceptions and environmental effects
+
+User asked whether the study focuses on expectations and perceptions rather than whether Eco actually saves nature. The current attached English v3 was read directly. Clarified that the first study investigates expectations, functional understanding, confidence in environmental-benefit beliefs, and recorded prototype choices/accepted compromises. Physical ecological/resource effects remain important separate questions, not a measured outcome or success gate. Belief in benefit cannot establish actual benefit. Current main contrast holds Eco present in both menus and tests presentation, not an isolated Eco-word effect. No proposal edit, persona job, score or human/model experiment. Visible dialogue: conversation/2026-11-05-eco-expectations-and-environment-scope.json. English v3 remains current.
