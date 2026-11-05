@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_date": "2026-10-30",
+  "updated_date": "2026-11-05",
   "research_protocol": "v4",
   "protocol_file": "research/protocol-v4.md",
   "review_round": "2026-10-28-voluntary-tradeoff",
@@ -178,9 +178,9 @@
   "p_min_required_only_if_optional_task_classification_adopted": true,
   "latest_discussion": "reviews/2026-10-30-menu-architecture-one-cycle.json",
   "latest_addendum": "research/v4-analysis-contract.md",
-  "environmental_claim_scope": "Active proposal v3 estimates naming effects in a disclosed authored-response simulation on mode choices and answer-use decisions, with post-experience environmental reports. It does not establish actual adoption, token/electricity/carbon/water/ecological savings or AI-development slowdown.",
+  "environmental_claim_scope": "Current Korean v4 and English v1 proposals examine Eco coexistence and compact menu configurations in a disclosed prototype with authored response examples. They estimate menu-package effects on choices and judgments; they do not establish pure naming effects, actual adoption, token/electricity/carbon/water/ecological savings, or AI-development slowdown.",
   "F_is_not_actual_user_or_participant": true,
-  "latest_conversation": "conversation/2026-10-30-menu-architecture-revision.json",
+  "latest_conversation": "conversation/2026-11-05-english-research-proposal.json",
   "latest_protocol_sha256": "37d3be52f7740428c18164cf7a36f211a8c078e472d8870835cf9e9f8f7234d8",
   "all_personas_above_90": false,
   "current_review_attempt": {
@@ -208,17 +208,17 @@
     "inference_setting_manipulation_required": false,
     "implementation_and_comparison": "Study proposal and authored materials only; actual prototype/human pilot not executed",
     "receipt_intervention_active": false,
-    "token_usage": "secondary",
+    "token_usage": "Not measured in first disclosed-prototype study; potential follow-up.",
     "physical_environment_effect": "Independent follow-up; not a success gate or measured outcome of the first naming study.",
     "prior_protocol_and_scores": "Historical; latest scored manuscript is v0.5 and v0.6 has no new scores.",
-    "new_review_or_experiment": "One fictional dialogue cycle via3 pair jobs, no new scores; proposal v4 edited, references pruned,10 pages QA. No human/model experiment or measurement.",
+    "new_review_or_experiment": "2026-11-05 English editorial adaptation and8-page document QA only; no new persona discussion, scores, human/model experiment or physical measurement.",
     "first_study_proposal": "B versus C first Eco selection proportion; whole-menu package effect, not isolated word effect.",
     "actual_eco_function": "Eco proposes adaptive allocation under a resource-oriented goal; Light fixed low processing. Prototype concept only, not implemented or environmentally verified.",
     "current_manuscript": "research/eco-evidence-gap-ko-v0.6.md",
     "development_slowdown": "Background hypothesis informed by economic theory; direct Eco/chat-usage causal evidence not identified",
     "evidence_types": "Retrospective report, recorded scenario judgment, and hypothetical/future plan distinguished.",
     "primary_research_direction": "Eco coexistence with existing technical levels versus Eco/High/Max compact menu, assessing function understanding, environmental interpretation, mode choice and perceived performance-sacrifice acceptance.",
-    "current_documents_alignment": "Proposal v4 addresses both user menu examples and whole-menu effects. Main manuscript v0.6 unchanged; previous v3 scores do not apply.",
+    "current_documents_alignment": "Korean proposal v4 and separate shareable English proposal v1 retain coexistence and compact menu comparisons. Main manuscript v0.6 is unchanged; old v3 scores do not apply to either proposal.",
     "task_materials": "Prepared writing, information-organization and ideation pairs; common evaluation separated from mode execution."
   },
   "latest_collaborative_edit": {
@@ -914,7 +914,7 @@
     "new_scores": false
   },
   "current_proposal_has_separate_score": false,
-  "current_proposal_score_note": "No v4 score; latest completed scores remain scoped to prior v3.",
+  "current_proposal_score_note": "No scores for Korean v4 or English v1; latest completed proposal scores remain scoped to prior Korean v3.",
   "latest_proposal_menu_discussion": {
     "date": "2026-10-30",
     "record": "reviews/2026-10-30-menu-architecture-one-cycle.json",
@@ -969,5 +969,36 @@
       ],
       "new_persona_score_after_verification": false
     }
-  ]
+  ],
+  "active_english_research_proposal": "research/eco-mode-research-proposal-en-v1.md",
+  "latest_english_research_proposal": {
+    "date": "2026-11-05",
+    "title": "Eco Mode Menu Design and User Choice in LLM Services",
+    "version": "1.0",
+    "language": "English",
+    "path": "research/eco-mode-research-proposal-en-v1.md",
+    "record": "reviews/2026-11-05-english-proposal-prepared.json",
+    "source_korean_proposal": "research/eco-mode-research-proposal-ko-v4.md",
+    "source_library_file_id": "libfile_d9bf5519847081919d4359991648ae01",
+    "source_library_version": 4,
+    "library_file_id": "libfile_cfa729f288fc8191a7264e98bb994cec",
+    "file_id": "file_00000000e04c81fda0a6bf8e660d89b9",
+    "filename": "Eco_Mode_Research_Proposal_EN_v1.docx",
+    "library_version_number": 0,
+    "pages": 8,
+    "docx_sha256": "88daea661fbed417848b0ecd88e9f0240a25b8ce4be3e1c1f1f058004fc978bb",
+    "markdown_sha256": "790f074e48a6e95f3c1fcd88c3da959d43632ede84b993ed076c18ef549257d5",
+    "purpose": "English counterpart for outside academic readers; Korean proposal and manuscript preserved.",
+    "study_language": "Initial Korean-language adult LLM-user study preserved; English stimulus examples are illustrative translations.",
+    "primary_comparison": "B versus C first-task Eco selection difference, compact minus coexistence, with 95% CI; whole-menu package effect.",
+    "function_concept": "Proposed adaptive conservation-oriented Eco versus fixed low Light; no adaptive implementation or savings measured.",
+    "reference_entries": 6,
+    "document_QA": "All8 final pages visually verified; no blank or spill pages,3 tables,6 references.",
+    "new_scores": false,
+    "new_persona_jobs": false,
+    "actual_experiment": false,
+    "recruitment_started": false,
+    "physical_measurement": false,
+    "user_final_approval_assumed": false
+  }
 }
