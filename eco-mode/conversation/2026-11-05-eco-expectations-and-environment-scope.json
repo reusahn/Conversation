@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-11-05",
+  "record_type": "visible_conversation_and_scope_clarification",
+  "messages": [
+    {
+      "role": "user",
+      "content": "이게 그래서 자연을 아끼는지 안아끼는지는 중요하지않고 그들에게 얼마나 기대와 인식과 그런게 있는지 보는거지?"
+    },
+    {
+      "role": "assistant",
+      "channel": "commentary",
+      "content": "지금 계획서의 연구 범위를 확인하고, 인식·기대와 실제 환경 효과를 나눠 설명할게."
+    },
+    {
+      "role": "assistant",
+      "channel": "final",
+      "content": "응. **이번 연구는 Eco에 대한 사람들의 기대·이해·선택을 보는 연구야.**\n\n- **기대:** 환경에 도움이 된다고 생각하는가? 성능이나 속도가 어떻게 달라질 것으로 예상하는가?\n- **이해와 인식:** Eco를 Light나 Auto와 어떻게 구분하고, 설명을 얼마나 신뢰하는가?\n- **선택과 양보:** Eco를 선택하는가? 답변이 부족하다고 느껴도 받아들이는가, 직접 수정하거나 다른 모드를 찾는가?\n\n따라서 인식 설문에 더해 **프로토타입 안에서의 선택 행동**도 기록해.\n\n실제 자연보호 효과는 중요한 별도 질문이고, **이번 연구에서 증명해야 하는 조건으로 두지 않았어.** 사람들이 환경에 도움이 된다고 믿는다는 결과와 실제로 도움이 됐다는 결과는 구분해야 해.\n\n그리고 현재 v3의 실험은 **Eco를 메뉴에 배치·설명하는 방식의 효과**를 비교해. ‘Eco’라는 단어 자체의 독립 효과를 분리하는 설계는 아니야."
+    }
+  ],
+  "source": {
+    "filename": "Eco_Mode_Research_Proposal_EN_v3.docx",
+    "library_file_id": "libfile_cfa729f288fc8191a7264e98bb994cec",
+    "access": "Read attached local DOCX paragraphs directly this turn",
+    "sections": "Research overview, RQ1–3, candidate contrast, measures and scope"
+  },
+  "clarification": {
+    "direct_target": "Eco expectations, functional understanding, environmental-benefit beliefs and prototype choices/accepted compromises.",
+    "physical_effect": "Separate important question; not measured or a required success condition in first prototype study.",
+    "causal_contrast": "Current v3 compares presentation packages with Eco in both menus; not isolated Eco-word effect.",
+    "behavior_scope": "Recorded prototype choices, not observed live-service adoption or physical savings."
+  },
+  "proposal_changed": false,
+  "new_persona_jobs": false,
+  "new_scores": false,
+  "actual_experiment": false,
+  "resource_measurement": false
+}
