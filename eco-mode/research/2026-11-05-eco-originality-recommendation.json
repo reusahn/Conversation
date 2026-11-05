@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-05",
+  "user_request": "독창성이 추가되려면 여기서 어떻게해야할까",
+  "record_type": "Research-design recommendation, not adopted protocol or completed experiment",
+  "source_proposal": {
+    "library_file_id": "libfile_cfa729f288fc8191a7264e98bb994cec",
+    "filename": "Eco_Mode_Research_Proposal_EN_v1.docx",
+    "basis": "Fresh complete Library text read; functional comprehension and response acceptance already present, acknowledged rather than claimed newly invented."
+  },
+  "rationale": "Prior work covers energy-information model selection and environmental-information effects on LLM usage. Proposed contribution shifts emphasis to representing an adaptive conservation policy alongside fixed effort levels, informed selection, and what perceived sacrifices users accept.",
+  "recommended_design": {
+    "status": "Assistant recommendation only; no user acceptance assumed",
+    "conditions": [
+      {
+        "name": "Flat menu",
+        "options": "Eco / Light / Medium / High / Extra High / Max"
+      },
+      {
+        "name": "Function-grouped menu",
+        "options": "Adaptive conservation policy: Eco; fixed effort levels: Light / Medium / High / Extra High / Max"
+      }
+    ],
+    "held_constant": "Same six available options, proposed underlying functions, item descriptions, and common authored responses. Group headings/presentation are the intended intervention; not a pure word-only effect.",
+    "source_function_mapping": "Eco adaptive conservation-oriented policy versus fixed low Light remains a proposed concept needing formative comprehension validation. No adaptive engine implemented.",
+    "relation_to_existing": "Recommend this controlled contrast as main study candidate; retain existing Eco/High/Max compact menu as follow-up. Current A/B/C proposal not silently replaced.",
+    "measures": [
+      "Function interpretation and joint proportion selecting Eco with correct comprehension among all assigned participants; do not exclude non-understanders from randomized causal analysis.",
+      "Acceptable forms of sacrifice, distinguishing adequate brevity from acknowledged inadequacy and personal editing work.",
+      "Recorded research-prototype choices to open further authored responses, switch mode, or finish, with reasons elicited separately; finishing does not itself establish sufficiency, conservation intent, or abandonment."
+    ],
+    "interpretation_limits": [
+      "Comprehension and post-choice reasons are not causal mediators established by this design.",
+      "Prototype clicks do not demonstrate live-service adoption, real task completion, token savings, or environmental savings.",
+      "Additional grouped-versus-flat contrast is an originality candidate, not first-of-kind certification.",
+      "Sample, primary outcomes, multiplicity and session burden would require renewed specification before collection."
+    ]
+  },
+  "evidence": [
+    {
+      "title": "Good for the Planet, Bad for Me? Intended and Unintended Consequences of AI Energy Consumption Disclosure",
+      "authors": "Klesel and Messer",
+      "year": 2026,
+      "url": "https://arxiv.org/html/2603.23075v1",
+      "basis": "Primary author-manuscript text"
+    },
+    {
+      "title": "EcoChat Probe: How Energy Feedback Shapes End Users’ Interpretations of Everyday Generative AI Use",
+      "year": 2026,
+      "url": "https://kclpure.kcl.ac.uk/portal/en/publications/ecochat-probe-how-energy-feedback-shapes-end-users-interpretation/",
+      "basis": "Official institutional abstract; reflection on reasonable use means sufficiency framing alone is not certified new"
+    },
+    {
+      "title": "Informing users about LLMs' environmental costs encourages ethical consumption",
+      "authors": "Hagai Rabinovitch; Isabel Kashi; Shaul Shalvi",
+      "doi": "10.1016/j.chb.2026.109214",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0747563226003110?dgcid=rss_sd_all",
+      "basis": "Indexed publisher abstract and DOI; two preregistered text-editing experiments, total N1200. Direct open returned403; no full-text methods comparison completed.",
+      "action": "New closely related source to examine before revising literature; not silently added to active bibliography"
+    },
+    {
+      "title": "Transparent and Sustainable Generative AI: Conceptual Frameworks, Metrics, and Interface Interventions",
+      "author": "Vanessa Barbara Utz",
+      "year": 2026,
+      "url": "https://theses.lib.sfu.ca/show/9150",
+      "basis": "Official institutional thesis record/abstract, submitted Aug14,2026, technical audit pending per page. Slow AI sufficiency principles and interface/energy studies; not promoted to peer-reviewed article or active bibliography."
+    },
+    {
+      "title": "Sustainability via LLM Right-sizing",
+      "url": "https://arxiv.org/abs/2504.13217",
+      "basis": "Primary indexed abstract; model-output sufficiency evaluation, not the proposed Eco menu representation study"
+    }
+  ],
+  "search_scope": "Bounded searches for Eco/LLM sufficiency, stopping/refinement, mental models, informed choice and framing. Not systematic novelty clearance.",
+  "proposal_changed": false,
+  "reference_list_changed": false,
+  "new_persona_jobs": false,
+  "new_scores": false,
+  "human_study": false,
+  "live_model_experiment": false,
+  "physical_measurement": false
+}
