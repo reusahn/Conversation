@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-11-05",
+  "record_type": "proposal_revision_and_document_validation",
+  "user_instruction_verbatim": "다시 계획서에 반영해",
+  "source": {
+    "library_file_id": "libfile_cfa729f288fc8191a7264e98bb994cec",
+    "file_id": "file_00000000c0b481fd98b7c58375115fc8",
+    "file_name": "Eco_Mode_Research_Proposal_EN_v2.docx",
+    "version_id": "1",
+    "size_bytes": 47217,
+    "library_version_number": 1,
+    "docx_sha256": "2ee1aef8af9b8062ffc2bc477271aa70060afdfd31b2dae25a606f3370360b36",
+    "freshly_read_and_materialized": true
+  },
+  "result": {
+    "filename": "Eco_Mode_Research_Proposal_EN_v3.docx",
+    "docx_sha256": "b8c44b54d87c270bc84a7da09e979b7c9fa259cabfbfebef7fbca718a012d2b5",
+    "markdown_sha256": "632f02f40d6f7d61c4f6283af6afd1b44b5792a9474a3c77a33432992e5d5b8b",
+    "size_bytes": 50063,
+    "pages": 9,
+    "tables": 4,
+    "scholarly_and_background_references": 7,
+    "product_documentation_sources": 3,
+    "revision_comments": 3,
+    "visual_review": "All nine pages reviewed at full resolution. After the final heading correction, page 8 rechecked and other eight page images verified byte-identical. No clipping, overlap, missing glyphs, broken tables, blank pages or spill pages.",
+    "library_file_id": "libfile_cfa729f288fc8191a7264e98bb994cec",
+    "file_id": "file_00000000750481fd8d56238af257e8b9",
+    "library_version_number": 3,
+    "path": "/박사연구/Eco_Mode_Research_Proposal_EN_v3.docx",
+    "archive_path": "research/eco-mode-research-proposal-en-v3.md"
+  },
+  "changes": [
+    "Added comparative interface review of Gemini Apps, ChatGPT Work and Claude chat before formative participant work.",
+    "Separated official product documentation P1–P3 from seven scholarly/background references and direct UI observation from documentation.",
+    "Added preliminary documented control-structure table, standardized walkthrough fields and explicit not-yet-completed signed-in audit status.",
+    "Reframed novelty around environmental Eco meaning, understanding and accepted compromises within existing controls; grouping and adaptive selection alone are not new.",
+    "Made six-option flat/grouped presentation a concrete candidate to validate after review; substantial changes require revised comparison, scoring and sample plan before recruitment.",
+    "Tied functional-comprehension correctness to final disclosed concept; added exploratory explanations distinguishing low effort, Auto, usage savings and environmental expectations.",
+    "Kept unbranded common prototype and authored responses, current joint primary outcome and all-assigned-group analysis; no commercial-provider performance or energy comparison.",
+    "Preserved older Korean v4 and manuscript v0.6 without silently updating them."
+  ],
+  "product_evidence": [
+    {
+      "service": "Gemini Apps",
+      "url": "https://support.google.com/gemini/answer/18648722?hl=en",
+      "access_date": "2026-11-05",
+      "evidence": "Official page opened; manual model and thinking choice plus automatic model/thinking selection. Screenshot observations were supplied in preceding turn."
+    },
+    {
+      "service": "ChatGPT Work",
+      "url": "https://learn.chatgpt.com/docs/models",
+      "access_date": "2026-11-05",
+      "evidence": "Official page searched and opened; Power presets and Advanced model, effort and speed. Work/Codex scope kept separate from ordinary Chat."
+    },
+    {
+      "service": "Claude chat",
+      "url": "https://support.claude.com/en/articles/8664678-change-the-model-effort-and-thinking-settings",
+      "access_date": "2026-11-05",
+      "evidence": "Official chat help opened; model, effort and thinking with model-specific restrictions."
+    }
+  ],
+  "evidence_scope": "Preliminary documentation-grounded comparison, not completed standardized signed-in account audit, exhaustive novelty clearance, or physical resource measurement.",
+  "main_candidate": {
+    "allocation": "1:1 randomized between participants",
+    "flat": "Eco / Light / Medium / High / Extra High / Max",
+    "grouped": "Adaptive conservation policy: Eco; Fixed processing effort: Light / Medium / High / Extra High / Max",
+    "primary": "First-task Eco choice AND all three correct post-choice functional-comprehension responses; grouped-minus-flat proportion difference with two-sided95% CI.",
+    "interpretation": "Presentation package effect. Both menus include Eco, so not pure Eco-label effect; post-choice understanding is not pre-choice knowledge or causal mediation.",
+    "followup": "Compact Eco / High / Max remains outside the two main conditions."
+  },
+  "materials_status": "Review protocol and preliminary table drafted. Signed-in audit, pilot, final Korean stimuli/prototype/Z branches, main N and preregistration remain prospective.",
+  "validation": {
+    "filename": "Eco_Mode_Research_Proposal_EN_v3.docx",
+    "docx_sha256": "b8c44b54d87c270bc84a7da09e979b7c9fa259cabfbfebef7fbca718a012d2b5",
+    "markdown_sha256": "632f02f40d6f7d61c4f6283af6afd1b44b5792a9474a3c77a33432992e5d5b8b",
+    "size_bytes": 50063,
+    "pages": 9,
+    "tables": 4,
+    "scholarly_and_background_references": 7,
+    "product_documentation_sources": 3,
+    "revision_comments": 3,
+    "visual_review": "All nine pages reviewed at full resolution. After the final heading correction, page 8 rechecked and other eight page images verified byte-identical. No clipping, overlap, missing glyphs, broken tables, blank pages or spill pages.",
+    "mechanical_checks": "Four tables with row counts4/3/6/7, ten reference labels (seven scholarly/background plus three product docs), nine prompt/response blocks, three anchored revision comments, headings and all nine pages checked.",
+    "intermediate_write": "Same Library identity received an intermediate v3 revision at version2; an inherited heading punctuation check then prompted correction. Final version3 is the fully validated deliverable. No intermediate success claim was given to user."
+  },
+  "new_persona_jobs": false,
+  "new_scores": false,
+  "actual_experiment": false,
+  "physical_measurement": false,
+  "recruitment": false,
+  "spending": false,
+  "messages_to_others": false,
+  "user_final_wording_approval_assumed": false
+}
