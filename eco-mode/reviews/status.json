@@ -180,7 +180,7 @@
   "latest_addendum": "research/v4-analysis-contract.md",
   "environmental_claim_scope": "Current Korean v4 and English v1 proposals examine Eco coexistence and compact menu configurations in a disclosed prototype with authored response examples. They estimate menu-package effects on choices and judgments; they do not establish pure naming effects, actual adoption, token/electricity/carbon/water/ecological savings, or AI-development slowdown.",
   "F_is_not_actual_user_or_participant": true,
-  "latest_conversation": "conversation/2026-11-05-eco-menu-prior-work.json",
+  "latest_conversation": "conversation/2026-11-05-eco-originality-direction.json",
   "latest_protocol_sha256": "37d3be52f7740428c18164cf7a36f211a8c078e472d8870835cf9e9f8f7234d8",
   "all_personas_above_90": false,
   "current_review_attempt": {
@@ -1014,6 +1014,22 @@
     "proposal_changed": false,
     "new_scores": false,
     "new_persona_jobs": false,
+    "actual_experiment": false
+  },
+  "latest_originality_recommendation": {
+    "date": "2026-11-05",
+    "record": "research/2026-11-05-eco-originality-recommendation.json",
+    "status": "Assistant recommendation only; current proposal not edited, user adoption not assumed",
+    "main_candidate": "Same six policies/options in flat versus function-grouped presentation: adaptive Eco policy separated conceptually from fixed effort levels.",
+    "contribution": "Understanding-based Eco selection, forms of perceived sacrifice, and recorded prototype follow-up choices, with menu cardinality held constant.",
+    "current_proposal_already_contains": "Function comprehension, adequate brevity versus perceived inadequacy, unchanged use versus personal editing; do not claim these were first introduced now.",
+    "current_ABC_design": "Remains current saved proposal; recommend flat/grouped main contrast and compact menu follow-up only if adopted.",
+    "new_close_source": "Rabinovitch/Kashi/Shalvi, Informing users about LLMs' environmental costs encourages ethical consumption, DOI10.1016/j.chb.2026.109214; indexed publisher abstract verified, full text403. Examine before future literature update.",
+    "novelty_status": "Candidate contribution; no first-of-kind guarantee or systematic review.",
+    "proposal_changed": false,
+    "reference_list_changed": false,
+    "new_persona_jobs": false,
+    "new_scores": false,
     "actual_experiment": false
   }
 }
