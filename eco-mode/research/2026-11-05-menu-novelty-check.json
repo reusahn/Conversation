@@ -1,0 +1,77 @@
+{
+  "date": "2026-11-05",
+  "purpose": "Bounded novelty check of current English Eco-menu research proposal",
+  "user_request": "선행연구로 나온적없지 내가하려는거?",
+  "current_proposal": {
+    "library_file_id": "libfile_cfa729f288fc8191a7264e98bb994cec",
+    "filename": "Eco_Mode_Research_Proposal_EN_v1.docx",
+    "basis": "Fresh full Library text read; main content retains A reference, B Eco/Light coexistence, C Eco/High/Max compact comparison. Read service returned version_id null; no version inferred.",
+    "primary": "First-task B–C Eco selection, whole-menu package effect, with function comprehension and response-acceptance outcomes"
+  },
+  "search_scope": {
+    "date": "2026-11-05",
+    "engines": [
+      "system1",
+      "system2"
+    ],
+    "system1_queries": [
+      "\"LLM\" \"Eco\" \"Light\" \"mode\" study",
+      "\"Eco mode\" \"menu\" \"language model\"",
+      "\"2606.10861\"",
+      "\"language model\" \"eco\" \"choice architecture\"",
+      "\"LLM\" \"Eco\" \"Light\" \"menu\" experiment",
+      "\"Eco\" \"High\" \"Max\" chatbot study",
+      "\"sustainable\" \"chatbot\" \"mode\" \"menu\" user study",
+      "\"Eco mode\" LLM naming framing experiment user choice",
+      "\"Eco\" \"Light\" \"menu\" \"user\" \"LLM\" research",
+      "\"eco mode\" \"menu\" experiment chatbot naming"
+    ],
+    "system2_queries": [
+      "\"LLM\" \"menu size\"",
+      "\"chatbot\" \"Eco\" \"Light\"",
+      "\"LLM\" \"eco mode\" \"label\"",
+      "\"LLM\" \"energy\" \"choice set\""
+    ],
+    "not_systematic_review": true
+  },
+  "primary_sources": [
+    {
+      "title": "Good for the Planet, Bad for Me? Intended and Unintended Consequences of AI Energy Consumption Disclosure",
+      "authors": "Klesel and Messer",
+      "year": 2026,
+      "publication": "CHI2026",
+      "url": "https://arxiv.org/html/2603.23075v1",
+      "evidence": "Primary author-manuscript text retrieved. Energy-disclosure model-choice experiment; not proof that every Eco menu variant is new."
+    },
+    {
+      "title": "When LLMs Slow Down: How Environmental Impacts Mediate University Students’ LLM Usage",
+      "authors": "Kim et al.",
+      "year": 2026,
+      "publication": "ICT4S2026 Research Papers",
+      "url": "https://conf.researchr.org/details/ict4s-2026/ict4s-2026-papers/23/When-LLMs-Slow-Down-How-Environmental-Impacts-Mediate-University-Students-LLM-Usage",
+      "evidence": "Official conference abstract retrieved;89 students, latency/carbon-feedback use and perceived tradeoffs."
+    },
+    {
+      "title": "From Perception to Action: Can UI Interventions Foster Sustainable LLM Chatbot",
+      "authors": "Patkar et al.",
+      "year": 2026,
+      "publication": "Public arXiv preprint; final publication status not newly verified",
+      "url": "https://arxiv.org/abs/2606.10861",
+      "evidence": "Indexed primary arXiv abstract retrieved. Energy-efficient/Balanced/Performance switch plus feedback;77 survey participants and11 field-study participants. Full HTML/PDF opens failed DisabledError.",
+      "bibliography_status": "Previously removed from active proposal under stricter final-publication/source pruning. Still relevant public prior work for novelty; not automatically restored."
+    }
+  ],
+  "conclusion": {
+    "exact_comparison": "No identical B versus C Eco/Light-coexistence versus Eco/High/Max-compact comparison identified in this bounded search.",
+    "broader_topic": "Eco-related chatbot interfaces, environmental mode choice and perceived tradeoffs already have prior work.",
+    "novelty_candidate": "How menu configurations affect understanding of adaptive Eco versus fixed effort levels, choices and perceived sacrifice.",
+    "contribution_caution": "Different option names/counts alone do not establish substantial research contribution.",
+    "absence_claim": "Not proof that no prior study exists, not a first-of-kind certification.",
+    "full_text_limits": "Patkar/Kim full arXiv opens failed; official/indexed abstracts support only the summarized methods. No complete full-text exclusion claim."
+  },
+  "proposal_changed": false,
+  "reference_list_changed": false,
+  "new_persona_jobs": false,
+  "new_scores": false,
+  "actual_experiment": false
+}
