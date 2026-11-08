@@ -1,0 +1,443 @@
+% Paste this complete file into main.tex and compile with pdfLaTeX.
+\documentclass[11pt,letterpaper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=0.9in]{geometry}
+\usepackage{microtype}
+\usepackage{array,booktabs,tabularx}
+\usepackage{float}
+\usepackage[hidelinks]{hyperref}
+
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.4em}
+\renewcommand{\arraystretch}{1.16}
+
+\newcommand{\menuoption}[2]{%
+  \textbf{\(\circ\)\enspace #1}\par
+  #2\par\smallskip
+}
+\newcommand{\ecooption}{%
+  \menuoption{Eco}{%
+    Adjusts reasoning effort to the task. A complex task may receive
+    a higher setting than Light.\par
+    \textbf{Design goal}\enspace Lower resource use.\par
+    \textbf{Verification status}\enspace Electricity and carbon savings
+    unmeasured.%
+  }%
+}
+\newcommand{\fixedoptions}{%
+  \menuoption{Light}{Keeps the selected low reasoning effort.}%
+  \menuoption{Medium}{Keeps the selected medium reasoning effort.}%
+  \menuoption{High}{Keeps the selected high reasoning effort.}%
+  \menuoption{Extra High}{Keeps a setting above High.}%
+  \menuoption{Max}{Keeps the highest setting in this menu.}%
+}
+\newcommand{\doi}[1]{\href{https://doi.org/#1}{doi:\,#1}}
+
+\title{Eco Mode Menu Design in Large Language Model Services\\[0.4em]
+\large A Comparative Interface Analysis and Two Static Menu Designs}
+\author{Jonghoon Ahn}
+\date{November 8, 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Large language model (LLM) services present several kinds of control in
+their menus, including model selection, reasoning effort, and automatic
+selection. This study examines how an Eco mode could communicate its
+environmental objective and adjustment rule within those controls. We
+reviewed the official documentation for Gemini Apps, ChatGPT Work, and
+Claude chat, along with two Gemini menu screenshots. The comparison
+distinguished what a control adjusts, how the setting is decided, its
+stated purpose, and the evidence available for its claims. We then
+examined two static menu designs with the same Eco option and five fixed
+effort levels. Both presented the same functional descriptions and
+savings verification status before selection. The grouped menu added
+headings that identified the adjustment methods, while both layouts made
+the shared descriptions available without opening a further menu. Based
+on this comparison, we propose displaying the selected policy and
+planned effort for the current task separately, and placing the
+resource-saving goal beside the status of savings verification.
+\end{abstract}
+
+\textbf{Keywords}\enspace Eco mode, large language models, menu design,
+comparative interface analysis, environmental information
+
+\section{Introduction}
+
+When Light and Eco appear side by side, their placement can suggest that
+they are settings of the same kind. Light can let a user choose a fixed,
+low reasoning effort. Eco can delegate that choice to a policy that
+adjusts effort to each task. Both can lead to the same setting for one
+request, while following different rules for the next. A menu can make
+this distinction explicit by showing both what the user selects and
+how the effort level is determined.
+
+The Eco label also introduces an environmental objective. A description
+of the setting should identify what the system can adjust and what that
+adjustment is intended to achieve. A separate statement can communicate
+whether savings have been measured. We compare documented controls in
+three services and use the comparison to design and inspect two Eco
+menu layouts.
+
+\textbf{RQ1.} Where and how do the three services describe what is
+selected, who determines the setting, and the stated purpose of model
+and reasoning controls?
+
+\textbf{RQ2.} With option labels and descriptions held constant, how do
+two Eco menu layouts present the adjustment rule, environmental
+objective, and savings verification status before selection?
+
+\section{Related Work}
+
+GPTFootprint combined an Eco Score, environmental imagery, and
+estimated usage information in a ChatGPT extension~\cite{graves2025}.
+EcoChat Probe provided estimated energy and carbon feedback to 52
+participants over four weeks. Its abstract reports increased awareness
+and reflection, alongside no statistically significant change in usage
+patterns~\cite{ren2026}. These studies describe how environmental
+information can be presented during LLM use.
+
+Klesel and Messer examined choices between options framed in terms of
+energy use and performance. Both options used the same underlying
+model~\cite{klesel2026}. Kim and colleagues evaluated an LLM interface
+that presented response latency and carbon information to university
+students~\cite{kim2026}. Building on these examples of environmental
+information and model choice, this study examines where an option with
+an environmental objective fits among existing model and effort
+controls.
+
+\section{Materials and Method}
+
+On November 8, 2026, we reviewed the computer help page for Gemini
+Apps, the web documentation for ChatGPT Work, and the model-menu help
+page for Claude chat~\cite{google2026,openai2026,anthropic2026}. We
+selected these documents to compare how services describe manual
+selection, presets, and automatic selection. We also examined two
+Korean-language Gemini menu screenshots provided on November 5. We
+recorded checkmarks as the selections visible in those screenshots.
+Account defaults and rollout conditions require separate evidence.
+
+The unit of analysis was an individual control described in the product
+documentation. We treated Power as one preset control because it
+combines multiple settings. Within Advanced, we recorded model,
+reasoning effort, and speed as separate controls. We adapted the
+walkthrough practice of documenting interface steps and wording
+described by Light and colleagues~\cite{light2018} to the menu level.
+For the service comparison, we inspected public documentation and the
+two screenshots. For the design comparison, we applied the same two
+illustrative tasks to both layouts and examined the information they
+displayed. Table~\ref{tab:criteria} summarizes the recording criteria.
+
+\begin{table}[H]
+\centering
+\caption{Criteria used to examine the controls.}
+\label{tab:criteria}
+\small
+\begin{tabularx}{\linewidth}{@{}L{0.23\linewidth}Y@{}}
+\toprule
+\textbf{Criterion} & \textbf{What we recorded} \\
+\midrule
+Adjustment target &
+The model, reasoning effort, speed, or Thinking toggle the control changes. \\
+Decision mechanism &
+Direct selection, selection of a preset that bundles settings, or
+delegation to automatic selection. \\
+Stated purpose &
+The purpose given in the source, such as response speed, depth, usage
+limits, cost, or resource savings. \\
+Evidence &
+Whether a description comes from documentation or a screenshot,
+and where verification information about environmental effects appears. \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section{Comparison of Service Menus}
+
+We identified ten controls across the reviewed materials
+(Table~\ref{tab:controls}). The purposes in the table reflect how
+providers describe the controls. Comparing realized computation or
+performance across similarly named settings would require execution
+data.
+
+\begin{table}[H]
+\centering
+\caption{Controls identified in the public materials. G, W, and C denote
+Gemini Apps, ChatGPT Work, and Claude chat, respectively.}
+\label{tab:controls}
+\small
+\begin{tabularx}{\linewidth}{@{}L{0.27\linewidth}L{0.32\linewidth}Y@{}}
+\toprule
+\textbf{Control} & \textbf{Target and decision mechanism}
+& \textbf{Documented purpose or description} \\
+\midrule
+G1 Gemini model &
+Direct choice of model &
+Models suited to different response speeds and task complexity. \\
+G2 Gemini thinking level &
+Direct choice of Low, Medium, or High &
+Response speed and reasoning depth. \\
+G3 Gemini Auto &
+Delegates model and thinking-level selection to the system &
+A response suited to the request and management of usage limits. \\
+\addlinespace
+W1 Work Power &
+Choice of a preset combining model and reasoning effort &
+Faster processing or deeper reasoning. \\
+W2 Work Advanced model &
+Direct choice of a supported model &
+Specifies which model to use. \\
+W3 Work Advanced effort &
+Direct choice of a supported reasoning effort &
+Reasoning depth suited to the task. \\
+W4 Work Advanced speed &
+Direct choice of a supported speed setting &
+Specifies processing speed. \\
+\addlinespace
+C1 Claude model &
+Direct choice of model &
+Changes the model for the current chat. \\
+C2 Claude Effort &
+Direct choice of a supported effort level &
+Relates response depth, time, and usage. \\
+C3 Claude Thinking &
+Direct control through a toggle where supported &
+Configures Thinking or Extended. \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+The Gemini screenshots showed a model list and a separate thinking-level
+submenu with descriptions for Low, Medium, and High. In the
+documentation, Gemini Auto delegates the choice of model and thinking
+level for a request. ChatGPT Work's Power lets the user choose a preset
+that combines settings, with individual controls available under
+Advanced. Claude presents model, effort, and thinking controls in a
+shared model menu, with availability depending on the model. These
+examples distinguish the scope of automation from the composition of
+a preset. The selection instructions reviewed here did not specify
+comparators or measurement conditions for electricity or carbon
+savings~\cite{google2026,openai2026,anthropic2026}.
+
+\section{Eco Menu Designs}
+
+The designs assume one model and use the same six options, order, and
+descriptions. Both menus open with all options unselected. A fixed
+level retains the setting chosen by the user. Eco is a policy for
+selecting reasoning effort by task, with lower resource use stated as
+a design goal. Table~\ref{tab:menus} shows the two layouts.
+
+\begin{table}[H]
+\centering
+\caption{Static menu designs with matched options and descriptions.
+The grouped layout adds function headings and spacing.}
+\label{tab:menus}
+\small
+\begin{tabularx}{\linewidth}{@{}Y@{\hspace{1.5em}}Y@{}}
+\toprule
+\textbf{Flat menu} & \textbf{Grouped by function} \\
+\midrule
+\textbf{Response mode}\par\smallskip
+\ecooption
+\fixedoptions
+&
+\textbf{Response mode}\par\smallskip
+\textit{Task-adaptive effort}\par\smallskip
+\ecooption
+\medskip\textit{Fixed effort levels}\par\smallskip
+\fixedoptions
+\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+The flat menu places all options under a common title. The grouped
+menu places Eco under \emph{Task-adaptive effort} and Light through Max
+under \emph{Fixed effort levels}. In both layouts, the goal and
+verification status appear within the Eco entry before selection.
+
+\section{Walkthrough of the Two Designs}
+
+We used two tasks to illustrate the difference between a fixed
+setting and an adaptive policy. The first organizes the date, location,
+and materials from a workshop announcement. The second compares the
+schedules, prices, deadlines, and exceptions for two workshops.
+Table~\ref{tab:tasks} gives the planned levels for these scenarios.
+They are assignments specified for the walkthrough.
+
+\begin{table}[H]
+\centering
+\caption{Illustrative effort assignments used in both layouts.}
+\label{tab:tasks}
+\small
+\begin{tabularx}{\linewidth}{@{}Y L{0.21\linewidth}L{0.20\linewidth}@{}}
+\toprule
+\textbf{Task} & \textbf{Light selected} & \textbf{Eco selected} \\
+\midrule
+Organize the date, location, and materials from a workshop announcement
+& Light & Light \\
+Compare schedules, prices, deadlines, and exceptions for two workshops
+& Light & High \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+For the first task, selecting Light and selecting Eco lead to the same
+planned level. For the second, fixed Light stays at Light and Eco
+assigns High. Recording the selected mode alongside the planned level
+for the current task preserves the distinction between the two rules,
+even when they produce the same setting.
+
+\begin{table}[H]
+\centering
+\caption{Information displayed in the initial menu state. An additional
+step means opening another menu after the initial menu is open.}
+\label{tab:visibility}
+\small
+\begin{tabularx}{\linewidth}{@{}L{0.39\linewidth}YY@{}}
+\toprule
+\textbf{Information} & \textbf{Flat menu} & \textbf{Grouped menu} \\
+\midrule
+Eco adjustment rule and possible higher effort &
+Eco description & Eco description \\
+Fixed Light setting &
+Light description & Light description \\
+Resource-saving goal &
+Goal line in Eco entry & Goal line in Eco entry \\
+Verification status for electricity and carbon savings &
+Status line in Eco entry & Status line in Eco entry \\
+Headings that distinguish the adjustment methods &
+Common menu title & Two function headings \\
+Additional menu openings to read the shared descriptions &
+0 & 0 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+The shared descriptions were visible in both initial menu states
+(Table~\ref{tab:visibility}). The grouped layout added a category cue
+in the headings, which name the two adjustment methods before the
+option descriptions. The number of additional menu openings was the
+same. These observations describe the presence and placement of
+information in the two layouts. Participant evidence would be needed
+to determine what readers notice and how they interpret it.
+
+\section{Discussion}
+
+\subsection{Distinguish What Is Adjusted from Who Sets It}
+
+Gemini Auto delegates the model and thinking level. Work Power lets the
+user select a combination of settings~\cite{google2026,openai2026}.
+This difference motivates stating exactly what an Eco policy can
+adjust. The proposed Eco entry specifies reasoning effort. A design
+that also changes the model can list model selection as a separate
+adjustment target.
+
+\subsection{Show the Selected Mode and the Planned Task Setting}
+
+In the first scenario, both choices lead to a planned level of Light.
+A display that shows only that level leaves the decision rule
+ambiguous. Showing \emph{Selected mode Eco} alongside \emph{Planned
+effort for this task Light} gives the user a basis for knowing whether
+Light was directly selected or assigned by the policy. The distinction
+also explains how the setting can change on the next task.
+
+\subsection{Place the Environmental Goal Beside Its Verification Status}
+
+The reviewed Gemini and Work documents describe efficiency, speed,
+usage limits, and cost in different contexts~\cite{google2026,openai2026}.
+The Eco designs place a resource-saving goal alongside a statement
+that electricity and carbon savings are unmeasured. This separates
+the purpose of the policy from the evidence available for its effects.
+When savings have been measured, the interface can report the
+comparison setting, the measured quantity, and the applicable
+conditions.
+
+\section{Scope and Conclusion}
+
+The service analysis describes the reviewed documents and the supplied
+Gemini screenshots at the time of review. Product controls may vary
+with the model, account plan, and interface. The design walkthrough
+uses static menus and scripted settings to compare information
+placement and access steps. User interpretation, selection, and
+willingness to accept performance tradeoffs require participant
+evidence. Electricity use and carbon emissions require measurements
+under deployment conditions.
+
+In these designs, function headings make the adaptive policy and
+fixed effort levels visible as separate categories. Both layouts
+provide the same descriptions and verification status within the
+initial menu. A design review can use the comparison criteria to
+check what the mode adjusts, who sets it, what goal it pursues, and
+what evidence is available for the stated effects.
+
+\section*{Use of Generative AI}
+
+Generative AI assisted with organizing public materials, reviewing the
+menu designs, drafting the manuscript, and preparing the English text.
+
+\begin{thebibliography}{8}
+
+\bibitem{light2018}
+B. Light, J. Burgess, and S. Duguay.
+The walkthrough method: An approach to the study of apps.
+\emph{New Media \& Society}, 20(3), 881--900, 2018.
+\doi{10.1177/1461444816675438}.
+
+\bibitem{graves2025}
+N. Graves, V. Larrieu, Y. T. Zhang, J. Peng, V. Nagaraj Rao, Y. Liu,
+and A. Monroy-Hern\'andez.
+GPTFootprint: Increasing Consumer Awareness of the Environmental
+Impacts of LLMs.
+\emph{CHI EA 2025}, Article 296. ACM, 2025.
+\doi{10.1145/3706599.3719708}.
+
+\bibitem{ren2026}
+Y. Ren, L. A. Morais, F. Calegario, F. Krupa, F. P. M. Sim\~oes,
+N. Ferreira, and G. Panagiotidou.
+EcoChat Probe: How Energy Feedback Shapes End Users' Interpretations
+of Everyday Generative AI Use.
+\emph{FAccT 2026}, 5194--5218. ACM, 2026.
+\doi{10.1145/3805689.3812368}.
+
+\bibitem{klesel2026}
+M. Klesel and U. Messer.
+Good for the Planet, Bad for Me? Intended and Unintended Consequences
+of AI Energy Consumption Disclosure.
+\emph{CHI 2026}. ACM, 2026.
+\doi{10.1145/3772318.3791015}.
+
+\bibitem{kim2026}
+H. Kim, X. Chen, A. Cabral, C. K. Lin, U. Gupta, and J. Hester.
+When LLMs Slow Down: How Environmental Impacts Mediate University
+Students' LLM Usage.
+\emph{ICT4S 2026}, 322--334. IEEE, 2026.
+\doi{10.23919/ICT4SCPS00102.2026.00038}.
+
+\bibitem{google2026}
+Google.
+\href{https://support.google.com/gemini/answer/18648722?co=GENIE.Platform\%3DDesktop\&hl=en}
+{\emph{About Gemini models}}.
+Gemini Apps Help, Computer. Product documentation.
+Accessed November 8, 2026.
+
+\bibitem{openai2026}
+OpenAI.
+\href{https://learn.chatgpt.com/docs/models?surface=web}{\emph{Models}}.
+ChatGPT Learn, ChatGPT Work web interface. Product documentation.
+Accessed November 8, 2026.
+
+\bibitem{anthropic2026}
+Anthropic.
+\href{https://support.claude.com/en/articles/8664678-change-the-model-effort-and-thinking-settings}
+{\emph{Change the model, effort, and thinking settings}}.
+Claude Help Center. Product documentation. Accessed November 8, 2026.
+
+\end{thebibliography}
+
+\end{document}
