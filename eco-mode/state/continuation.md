@@ -1,5 +1,10 @@
 # 이어가기
 
+## Current English LaTeX manuscript as of November 8 2026
+
+The English counterpart of the Korean solo design manuscript is research/eco-mode-menu-design-manuscript-en-v0.1.tex. It is a self-contained article source for Overleaf main.tex with five tables and eight bibliography entries. Local pdfLaTeX compilation produced six visually checked pages. The Korean manuscript remains the source and the English v3 participant proposal remains a separate plan.
+
+
 ## Current Korean manuscript as of November 8 2026
 
 The user adopted the participant-free direction and requested A–F dialogue over three cycles followed by the Korean manuscript. The active manuscript is **Eco menu design Korean v0.1**, research/eco-mode-menu-design-manuscript-ko-v0.1.md. The English v3 participant-study proposal remains a separate prior plan. See reviews/status.json for the current manuscript and evidence boundaries.
@@ -466,3 +471,10 @@ The paper includes static flat and function-grouped menus with the same six opti
 A–F completed three cycles through three paired role jobs. Other pairs' actual views were relayed between cycles, with all nine pair responses retained as public transcript in reviews/2026-11-08-solo-menu-design-three-cycles.md. The manuscript includes the adopted decisions and evidence limits. New scores were not requested.
 
 Final manuscript Eco_Mode_Menu_Design_Manuscript_KO_v0_1.docx, Library ID libfile_2812005d5b0c819192a01054929ee6fd, file ID file_000000005bb081fd9b5d15d965e2447f, version 0, 7 visually checked pages, five tables. DOCX SHA256 de98867ebf27b8b0236fdfc889dd9956763984b32d47c8554abf04d3ab2b4ef9. Markdown SHA256 c41d38864f020ef42b67bd196103ce322091fd656d9673602a87aa4cc2ba03ed. Conversation record conversation/2026-11-08-solo-menu-design-manuscript-ko.json. The initial Korean design paper is distinct from the earlier Eco Evidence Gap draft and the English v3 participant study proposal.
+
+
+## 2026-11-08 English manuscript for Overleaf
+
+The user requested a full English paper following the attached Korean v0.1, ready to paste into Overleaf. The attached DOCX was read directly and the English text keeps the ten documented controls, matched static designs, both task examples, and evidence scope. All eight linked sources match the Korean document. The single-file article uses an inline bibliography and contains no external source assets. The final source compiled through latexmk with pdfLaTeX to six pages, with all final pages and five tables inspected. Cross-references and citation links resolved. The exact source was committed at 06ceb49041dc58cb42ef6e607ef553c5238a3062 and read back. No new experiment, study result, or submission is recorded.
+
+English file Eco_Mode_Menu_Design_Manuscript_EN.tex, Library ID libfile_2c196166a8888191baca867ec5a8d2c5, file ID file_00000000767081fda44894215b0881e5, version 0, SHA256 0a1070cae3725620d75d32205851ec771131bea8f4c6c171949337064ca58364. Visible dialogue and validation record conversation/2026-11-08-english-overleaf-manuscript.json.
