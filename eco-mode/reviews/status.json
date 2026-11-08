@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_date": "2026-11-05",
+  "updated_date": "2026-11-08",
   "research_protocol": "v4",
   "protocol_file": "research/protocol-v4.md",
   "review_round": "2026-10-28-voluntary-tradeoff",
@@ -180,7 +180,7 @@
   "latest_addendum": "research/v4-analysis-contract.md",
   "environmental_claim_scope": "Current English v2 estimates flat-versus-function-grouped presentation effects on joint Eco selection/post-choice functional understanding and on common authored-response judgments/prototype actions. No isolated Eco-word effect, implemented adaptive engine, live-service use, resource savings, ecological protection or AI-development slowdown is established.",
   "F_is_not_actual_user_or_participant": true,
-  "latest_conversation": "conversation/2026-11-05-eco-expectations-and-environment-scope.json",
+  "latest_conversation": "conversation/2026-11-08-solo-study-without-participants.json",
   "latest_protocol_sha256": "37d3be52f7740428c18164cf7a36f211a8c078e472d8870835cf9e9f8f7234d8",
   "all_personas_above_90": false,
   "current_review_attempt": {
@@ -1239,5 +1239,18 @@
     "proposal_changed": false,
     "new_scores": false,
     "actual_experiment": false
+  },
+  "latest_solo_feasibility_guidance": {
+    "date": "2026-11-08",
+    "record": "conversation/2026-11-08-solo-study-without-participants.json",
+    "reviewed_proposal": "research/eco-mode-research-proposal-en-v3.md",
+    "solo_authorship": "Feasible independently of whether participants take part.",
+    "no_new_participants_candidate": "Structured comparison of service menus, Eco design prototypes and walkthroughs under common criteria. Seek a design contribution grounded in the comparison.",
+    "claim_boundary": "Current v3 user understanding, choice and compromise questions need participant evidence. Researcher self-testing supports prototype operation checks.",
+    "venue_guidance": "https://chi2027.acm.org/contributions-to-chi/",
+    "proposal_changed": false,
+    "user_adopted_new_direction": false,
+    "experiment_run": false,
+    "submitted": false
   }
 }
