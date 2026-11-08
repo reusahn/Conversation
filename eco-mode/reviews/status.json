@@ -180,7 +180,7 @@
   "latest_addendum": "research/v4-analysis-contract.md",
   "environmental_claim_scope": "Current English v2 estimates flat-versus-function-grouped presentation effects on joint Eco selection/post-choice functional understanding and on common authored-response judgments/prototype actions. No isolated Eco-word effect, implemented adaptive engine, live-service use, resource savings, ecological protection or AI-development slowdown is established.",
   "F_is_not_actual_user_or_participant": true,
-  "latest_conversation": "conversation/2026-11-08-solo-menu-design-manuscript-ko.json",
+  "latest_conversation": "conversation/2026-11-08-english-overleaf-manuscript.json",
   "latest_protocol_sha256": "37d3be52f7740428c18164cf7a36f211a8c078e472d8870835cf9e9f8f7234d8",
   "all_personas_above_90": false,
   "current_review_attempt": {
@@ -200,7 +200,7 @@
     "human_participants": false
   },
   "latest_evidence_classification": "research/hosted-evidence-boundaries-v0.1.md",
-  "active_manuscript": "research/eco-mode-menu-design-manuscript-ko-v0.1.md",
+  "active_manuscript": "research/eco-mode-menu-design-manuscript-en-v0.1.tex",
   "current_scope_override": {
     "source": "2026-11-05 user request to reflect prior cross-service UI comparison in current proposal.",
     "focus": "Comparative review of Gemini Apps, ChatGPT Work and Claude informs Eco placement and descriptions; current two-arm flat/grouped candidate tests understood choice and perceived compromises in a common prototype.",
@@ -214,11 +214,11 @@
     "new_review_or_experiment": "English v3 and nine-page layout/structural validation; no new personas/scores or human/model experiment.",
     "first_study_proposal": "Candidate grouped-minus-flat first-task Eco choice AND all three correct post-choice function items, with two-sided95% CI; rubric follows final disclosed mapping.",
     "actual_eco_function": "Eco proposes adaptive allocation under a resource-oriented goal; Light fixed low processing. Prototype concept only, not implemented or environmentally verified.",
-    "current_manuscript": "research/eco-mode-menu-design-manuscript-ko-v0.1.md",
+    "current_manuscript": "research/eco-mode-menu-design-manuscript-en-v0.1.tex",
     "development_slowdown": "Background hypothesis informed by economic theory; direct Eco/chat-usage causal evidence not identified",
     "evidence_types": "Retrospective report, recorded scenario judgment, and hypothetical/future plan distinguished.",
     "primary_research_direction": "Environmental Eco meaning within existing model/effort/automatic-selection controls, understood choice, perceived compromise and prototype actions.",
-    "current_documents_alignment": "English v3 remains the separate participant study proposal; new Korean v0.1 is the active participant-free design manuscript. Earlier Korean proposal and Eco Evidence Gap manuscript remain archived.",
+    "current_documents_alignment": "English LaTeX v0.1 and Korean DOCX v0.1 are counterparts of the participant-free design paper. The English v3 participant-study proposal remains separate.",
     "task_materials": "Authored writing/information/ideation X/Y pairs; common evaluation independent of selected-mode execution. Optional Z and full logging still to be finalized.",
     "novelty_claim": "Environmental-goal Eco interpretation, choice and compromises remain a contribution candidate. Separating model/effort settings or automatic selection alone is not new; no first-of-kind claim.",
     "required_before_collection": [
@@ -232,7 +232,8 @@
     "expectation_environment_clarification": "Current English v3 studies Eco expectations, understanding, benefit-belief confidence and prototype choices/compromises. Actual environmental effects remain important separate questions, not measured outcomes or success gates. Both menus include Eco; presentation contrast is not isolated Eco-word causation.",
     "current_manuscript_scope": "User adopted participant-free direction for the first Korean paper. Completed comparison of official product documents and supplied Gemini screenshots with two static menu designs.",
     "current_manuscript_limit": "Supports descriptive structure and information-availability claims and proposed design principles. Human response and actual resource effects are separate evidence questions.",
-    "current_manuscript_record": "conversation/2026-11-08-solo-menu-design-manuscript-ko.json"
+    "current_manuscript_record": "conversation/2026-11-08-english-overleaf-manuscript.json",
+    "current_english_manuscript": "research/eco-mode-menu-design-manuscript-en-v0.1.tex"
   },
   "latest_collaborative_edit": {
     "date": "2026-10-29",
@@ -1317,5 +1318,31 @@
     "completed_pair_turns": 9,
     "new_scores": false,
     "applied_to": "research/eco-mode-menu-design-manuscript-ko-v0.1.md"
+  },
+  "active_english_solo_design_manuscript": "research/eco-mode-menu-design-manuscript-en-v0.1.tex",
+  "latest_english_solo_design_manuscript": {
+    "date": "2026-11-08",
+    "title": "Eco Mode Menu Design in Large Language Model Services",
+    "subtitle": "A Comparative Interface Analysis and Two Static Menu Designs",
+    "version": "0.1",
+    "language": "English",
+    "format": "Single-file LaTeX article with inline thebibliography",
+    "path": "research/eco-mode-menu-design-manuscript-en-v0.1.tex",
+    "commit": "06ceb49041dc58cb42ef6e607ef553c5238a3062",
+    "filename": "Eco_Mode_Menu_Design_Manuscript_EN.tex",
+    "library_file_id": "libfile_2c196166a8888191baca867ec5a8d2c5",
+    "file_id": "file_00000000767081fda44894215b0881e5",
+    "library_version_number": 0,
+    "source_manuscript": "research/eco-mode-menu-design-manuscript-ko-v0.1.md",
+    "source_docx_library_file_id": "libfile_2812005d5b0c819192a01054929ee6fd",
+    "source_docx_sha256": "de98867ebf27b8b0236fdfc889dd9956763984b32d47c8554abf04d3ab2b4ef9",
+    "sha256": "0a1070cae3725620d75d32205851ec771131bea8f4c6c171949337064ca58364",
+    "pages": 6,
+    "tables": 5,
+    "references": 8,
+    "validation": "Successful local compile, all six pages visually inspected, eight links match attached source, final log free of compilation warnings and box diagnostics.",
+    "compiler": "pdfLaTeX through latexmk",
+    "scope": "English counterpart of the Korean participant-free design manuscript with the same documented comparison, two static layouts, two scenarios, and evidence boundaries.",
+    "conversation_record": "conversation/2026-11-08-english-overleaf-manuscript.json"
   }
 }
