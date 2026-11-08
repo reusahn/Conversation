@@ -1,5 +1,10 @@
 # 이어가기
 
+## Current Korean manuscript as of November 8 2026
+
+The user adopted the participant-free direction and requested A–F dialogue over three cycles followed by the Korean manuscript. The active manuscript is **Eco menu design Korean v0.1**, research/eco-mode-menu-design-manuscript-ko-v0.1.md. The English v3 participant-study proposal remains a separate prior plan. See reviews/status.json for the current manuscript and evidence boundaries.
+
+
 ## Current entry point as of November 5 2026
 
 The current proposal is **English v3**, research/eco-mode-research-proposal-en-v3.md. Read this entry and reviews/status.json before historical notes below. The user most recently requested that the cross-service interface comparison be integrated. Earlier hardware/energy protocol requirements and persona-score goals are historical and must not override the current proposal or trigger unrequested agents, scoring or hardware questions.
@@ -450,3 +455,14 @@ User asked whether the study focuses on expectations and perceptions rather than
 ## 2026-11-08 Solo research without participant recruitment
 
 The user asked whether they can run and submit the work alone without testers. Read the attached English v3 directly. Sole authorship is separate from participant recruitment. The current v3 user understanding, choice and compromise questions require participant evidence. Researcher-only walkthroughs can check prototype operation. A participant-free option is to use the existing comparative service-interface review and Eco menu designs as a structured design study, document what the interfaces communicate under common criteria, and derive transferable design principles supported by the observations and implementation. This would support claims about interfaces and design, while user outcomes would require separate evidence. Consulted the official CHI 2027 Contributions to CHI guidance on evidence appropriate to a systems contribution. This is guidance, with no proposal edit, user adoption of a new design, recruitment, data collection, prototype build, or submission. Visible record: conversation/2026-11-08-solo-study-without-participants.json.
+
+
+## 2026-11-08 Korean Eco menu design manuscript and three persona cycles
+
+The manuscript compares the official Gemini Apps computer, ChatGPT Work web, and Claude chat documentation consulted on November 8 with two previously supplied Korean Gemini screenshots. Ten documented controls are coded by adjustment target, decision method, stated purpose, and evidence. Five academic references and three official product-documentation references are linked. Screen observations and product documentation are distinguished from inferences about live systems.
+
+The paper includes static flat and function-grouped menus with the same six options, order, descriptions, initial state, and unmeasured environmental status. The grouping adds two headings. Common explanations appear in both first menu states and require zero further menu openings in the static designs. Two authored scenarios illustrate different policies reaching the same nominal setting, and Eco shifting from Light to High while fixed Light stays Light. These are design examples. Actual participants, signed-in cross-service testing, inference execution, energy measurements, and submission were outside the completed work.
+
+A–F completed three cycles through three paired role jobs. Other pairs' actual views were relayed between cycles, with all nine pair responses retained as public transcript in reviews/2026-11-08-solo-menu-design-three-cycles.md. The manuscript includes the adopted decisions and evidence limits. New scores were not requested.
+
+Final manuscript Eco_Mode_Menu_Design_Manuscript_KO_v0_1.docx, Library ID libfile_2812005d5b0c819192a01054929ee6fd, file ID file_000000005bb081fd9b5d15d965e2447f, version 0, 7 visually checked pages, five tables. DOCX SHA256 de98867ebf27b8b0236fdfc889dd9956763984b32d47c8554abf04d3ab2b4ef9. Markdown SHA256 c41d38864f020ef42b67bd196103ce322091fd656d9673602a87aa4cc2ba03ed. Conversation record conversation/2026-11-08-solo-menu-design-manuscript-ko.json. The initial Korean design paper is distinct from the earlier Eco Evidence Gap draft and the English v3 participant study proposal.
