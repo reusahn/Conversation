@@ -180,7 +180,7 @@
   "latest_addendum": "research/v4-analysis-contract.md",
   "environmental_claim_scope": "Current English v2 estimates flat-versus-function-grouped presentation effects on joint Eco selection/post-choice functional understanding and on common authored-response judgments/prototype actions. No isolated Eco-word effect, implemented adaptive engine, live-service use, resource savings, ecological protection or AI-development slowdown is established.",
   "F_is_not_actual_user_or_participant": true,
-  "latest_conversation": "conversation/2026-11-08-solo-study-without-participants.json",
+  "latest_conversation": "conversation/2026-11-08-solo-menu-design-manuscript-ko.json",
   "latest_protocol_sha256": "37d3be52f7740428c18164cf7a36f211a8c078e472d8870835cf9e9f8f7234d8",
   "all_personas_above_90": false,
   "current_review_attempt": {
@@ -200,7 +200,7 @@
     "human_participants": false
   },
   "latest_evidence_classification": "research/hosted-evidence-boundaries-v0.1.md",
-  "active_manuscript": "research/eco-evidence-gap-ko-v0.6.md",
+  "active_manuscript": "research/eco-mode-menu-design-manuscript-ko-v0.1.md",
   "current_scope_override": {
     "source": "2026-11-05 user request to reflect prior cross-service UI comparison in current proposal.",
     "focus": "Comparative review of Gemini Apps, ChatGPT Work and Claude informs Eco placement and descriptions; current two-arm flat/grouped candidate tests understood choice and perceived compromises in a common prototype.",
@@ -214,11 +214,11 @@
     "new_review_or_experiment": "English v3 and nine-page layout/structural validation; no new personas/scores or human/model experiment.",
     "first_study_proposal": "Candidate grouped-minus-flat first-task Eco choice AND all three correct post-choice function items, with two-sided95% CI; rubric follows final disclosed mapping.",
     "actual_eco_function": "Eco proposes adaptive allocation under a resource-oriented goal; Light fixed low processing. Prototype concept only, not implemented or environmentally verified.",
-    "current_manuscript": "research/eco-evidence-gap-ko-v0.6.md",
+    "current_manuscript": "research/eco-mode-menu-design-manuscript-ko-v0.1.md",
     "development_slowdown": "Background hypothesis informed by economic theory; direct Eco/chat-usage causal evidence not identified",
     "evidence_types": "Retrospective report, recorded scenario judgment, and hypothetical/future plan distinguished.",
     "primary_research_direction": "Environmental Eco meaning within existing model/effort/automatic-selection controls, understood choice, perceived compromise and prototype actions.",
-    "current_documents_alignment": "English v3 current. Korean v4 and manuscript v0.6 are unchanged older artifacts.",
+    "current_documents_alignment": "English v3 remains the separate participant study proposal; new Korean v0.1 is the active participant-free design manuscript. Earlier Korean proposal and Eco Evidence Gap manuscript remain archived.",
     "task_materials": "Authored writing/information/ideation X/Y pairs; common evaluation independent of selected-mode execution. Optional Z and full logging still to be finalized.",
     "novelty_claim": "Environmental-goal Eco interpretation, choice and compromises remain a contribution candidate. Separating model/effort settings or automatic selection alone is not new; no first-of-kind claim.",
     "required_before_collection": [
@@ -229,7 +229,10 @@
       "Preregister main contrast and analyses and complete applicable human-study procedures"
     ],
     "interface_grounding": "Official documentation and prior user-provided Gemini screenshots. Not a completed standardized signed-in audit or proof that no Eco feature exists elsewhere.",
-    "expectation_environment_clarification": "Current English v3 studies Eco expectations, understanding, benefit-belief confidence and prototype choices/compromises. Actual environmental effects remain important separate questions, not measured outcomes or success gates. Both menus include Eco; presentation contrast is not isolated Eco-word causation."
+    "expectation_environment_clarification": "Current English v3 studies Eco expectations, understanding, benefit-belief confidence and prototype choices/compromises. Actual environmental effects remain important separate questions, not measured outcomes or success gates. Both menus include Eco; presentation contrast is not isolated Eco-word causation.",
+    "current_manuscript_scope": "User adopted participant-free direction for the first Korean paper. Completed comparison of official product documents and supplied Gemini screenshots with two static menu designs.",
+    "current_manuscript_limit": "Supports descriptive structure and information-availability claims and proposed design principles. Human response and actual resource effects are separate evidence questions.",
+    "current_manuscript_record": "conversation/2026-11-08-solo-menu-design-manuscript-ko.json"
   },
   "latest_collaborative_edit": {
     "date": "2026-10-29",
@@ -1252,5 +1255,67 @@
     "user_adopted_new_direction": false,
     "experiment_run": false,
     "submitted": false
+  },
+  "previous_eco_manuscript_before_solo_design": "research/eco-evidence-gap-ko-v0.6.md",
+  "active_solo_design_manuscript": "research/eco-mode-menu-design-manuscript-ko-v0.1.md",
+  "latest_solo_design_manuscript": {
+    "date": "2026-11-08",
+    "title": "대규모 언어 모델 서비스의 Eco 모드 메뉴 설계",
+    "version": "0.1",
+    "language": "Korean",
+    "path": "research/eco-mode-menu-design-manuscript-ko-v0.1.md",
+    "filename": "Eco_Mode_Menu_Design_Manuscript_KO_v0_1.docx",
+    "library_file_id": "libfile_2812005d5b0c819192a01054929ee6fd",
+    "file_id": "file_000000005bb081fd9b5d15d965e2447f",
+    "library_version_number": 0,
+    "docx_sha256": "de98867ebf27b8b0236fdfc889dd9956763984b32d47c8554abf04d3ab2b4ef9",
+    "markdown_sha256": "c41d38864f020ef42b67bd196103ce322091fd656d9673602a87aa4cc2ba03ed",
+    "pages": 7,
+    "tables": 5,
+    "references": 8,
+    "dialogue_record": "reviews/2026-11-08-solo-menu-design-three-cycles.md",
+    "conversation_record": "conversation/2026-11-08-solo-menu-design-manuscript-ko.json",
+    "source_proposal": "research/eco-mode-research-proposal-en-v3.md",
+    "scope": "Participant-free comparative interface documentation and static Eco menu design study. Observed disclosure and structure, not user preference or backend performance.",
+    "evidence": "Three official product documentation pages, two supplied Korean Gemini screenshots, and the two authored static layouts.",
+    "observed_controls": 10,
+    "layouts": [
+      "Flat",
+      "Grouped by function"
+    ],
+    "scenario_rules": {
+      "Light": [
+        "Light",
+        "Light"
+      ],
+      "Eco": [
+        "Light",
+        "High"
+      ]
+    },
+    "manuscript_produced": true,
+    "human_participants": false,
+    "live_provider_audit": false,
+    "model_inference_run": false,
+    "energy_measurement": false,
+    "submitted": false,
+    "new_scores": false,
+    "visual_review": "All 7 final PNGs reviewed at full resolution, no clipping, broken tables or blank pages."
+  },
+  "latest_solo_persona_dialogue": {
+    "date": "2026-11-08",
+    "record": "reviews/2026-11-08-solo-menu-design-three-cycles.md",
+    "rounds": 3,
+    "roles": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ],
+    "completed_pair_turns": 9,
+    "new_scores": false,
+    "applied_to": "research/eco-mode-menu-design-manuscript-ko-v0.1.md"
   }
 }
