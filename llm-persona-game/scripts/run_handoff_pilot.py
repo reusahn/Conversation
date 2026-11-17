@@ -28,6 +28,27 @@ def save(path, content):
     temp.replace(path)
 
 
+def record_pending(pending, records, ledger_path, pending_path):
+    """Commit a locally captured outcome, including after an interrupted commit."""
+    if "outcome" not in pending:
+        raise ValueError("A dispatch is unresolved. Reconcile pending.json against adapter records.")
+    run_id, number, outcome = pending["run_id"], pending["attempt"], pending["outcome"]
+    if type(number) is not int or number not in (1, 2):
+        raise ValueError("Invalid pending attempt number")
+    record = next((row for row in records if row["run_id"] == run_id), None)
+    if record is None:
+        record = {"run_id": run_id, "attempts": []}
+        records.append(record)
+    attempts = record["attempts"]
+    if len(attempts) == number - 1:
+        attempts.append(outcome)
+        audit(records)
+        save(ledger_path, "".join(encode(row) for row in records))
+    elif len(attempts) != number or attempts[-1] != outcome:
+        raise ValueError("Pending outcome conflicts with the execution ledger")
+    pending_path.unlink()
+
+
 def run(config, directory, adapter, limit):
     if (
         not config["model"] or not isinstance(config["settings"], dict)
@@ -54,13 +75,14 @@ def run(config, directory, adapter, limit):
             if ledger_path.exists() or pending_path.exists():
                 raise ValueError("Existing execution data has no manifest")
             save(manifest_path, encode(manifest))
-        if pending_path.exists():
-            raise ValueError("A dispatch is unresolved. Reconcile pending.json against adapter records.")
         records = (
             [json.loads(line) for line in ledger_path.read_text().splitlines()]
             if ledger_path.exists() else []
         )
         audit(records)
+        if pending_path.exists():
+            pending = json.loads(pending_path.read_text())
+            record_pending(pending, records, ledger_path, pending_path)
         by_id = {record["run_id"]: record for record in records}
         dispatched = 0
         for request in plan:
@@ -71,7 +93,8 @@ def run(config, directory, adapter, limit):
                 if dispatched == limit:
                     return audit(records)
                 number = len(attempts) + 1
-                save(pending_path, encode({"run_id": run_id, "attempt": number}))
+                pending = {"run_id": run_id, "attempt": number}
+                save(pending_path, encode(pending))
                 result = subprocess.run(
                     adapter, input=encode({"config": config, "request": request, "attempt": number}),
                     text=True, encoding="utf-8", capture_output=True,
@@ -79,15 +102,15 @@ def run(config, directory, adapter, limit):
                 )
                 if result.returncode not in (0, 75):
                     raise ValueError(f"Adapter exit {result.returncode} for {run_id}; reconcile dispatch")
-                attempts.append(
+                pending["outcome"] = (
                     {"response": result.stdout} if result.returncode == 0
                     else {"transport_error": "adapter_exit_75"}
                 )
+                save(pending_path, encode(pending))
                 if run_id not in by_id:
-                    by_id[run_id] = record
                     records.append(record)
-                save(ledger_path, "".join(encode(row) for row in records))
-                pending_path.unlink()
+                    by_id[run_id] = record
+                record_pending(pending, records, ledger_path, pending_path)
                 dispatched += 1
         return audit(records)
 
