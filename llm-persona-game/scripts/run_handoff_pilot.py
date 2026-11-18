@@ -3,6 +3,8 @@
 Pass a JSON config (model, settings, timeout_seconds, evidence), an output
 directory, and an adapter command after --adapter. Each process gets one
 request as JSON on stdin and emits raw model text on stdout (exit 0).
+Only request.messages should become model input. The run ID and attempt
+number are for local correlation. Experimental labels stay in the plan.
 Exit 75 explicitly signals a retryable transport error. Other failures stop
 for reconciliation. Do not put credentials in command arguments or config.
 """
@@ -60,6 +62,7 @@ def run(config, directory, adapter, limit):
     manifest = {
         "config": config,
         "adapter": adapter,
+        "adapter_input_version": 2,
         "plan_sha256": hashlib.sha256(encode(plan).encode()).hexdigest(),
     }
     directory.mkdir(parents=True, exist_ok=True)
@@ -70,7 +73,7 @@ def run(config, directory, adapter, limit):
         pending_path = directory / "pending.json"
         if manifest_path.exists():
             if json.loads(manifest_path.read_text()) != manifest:
-                raise ValueError("The registered plan, config or adapter differs")
+                raise ValueError("The registered plan, config, adapter or input version differs")
         else:
             if ledger_path.exists() or pending_path.exists():
                 raise ValueError("Existing execution data has no manifest")
@@ -96,7 +99,12 @@ def run(config, directory, adapter, limit):
                 pending = {"run_id": run_id, "attempt": number}
                 save(pending_path, encode(pending))
                 result = subprocess.run(
-                    adapter, input=encode({"config": config, "request": request, "attempt": number}),
+                    adapter,
+                    input=encode({
+                        "config": config,
+                        "request": {"run_id": run_id, "messages": request["messages"]},
+                        "attempt": number,
+                    }),
                     text=True, encoding="utf-8", capture_output=True,
                     timeout=config["timeout_seconds"],
                 )
